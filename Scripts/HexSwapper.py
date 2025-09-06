@@ -69,6 +69,7 @@ def check_for_updates():
 
     return
 
+
 HEX = {
     "Home": {
         True: [],
@@ -128,16 +129,6 @@ HEX = {
         "true" : [],
     },
     "Zenith": {
-        False: [
-            (EXE, 0x27B4D0, b"\x00\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x0C\x00\x00\x00\x01\x00\x00\x00\x1A\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x35\x00\x00\x00\x3A\x00\x00\x00\x3A\x00\x00\x00\x3A\x00\x00\x00"),
-            (EXE, 0x278E20, b"\x01\x00\x00\x00\x3A\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"),
-            (EXE, 0x27e93a, b"\x44\x6B"),
-            (EXE, 0x27e94a, b"\x44\x6B"),
-            (MPD, 0x187F00, b"\x00\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x0C\x00\x00\x00\x01\x00\x00\x00\x1A\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x35\x00\x00\x00\x3A\x00\x00\x00\x3A\x00\x00\x00\x3A\x00\x00\x00"),
-            (EXE, 0x27F15B, b"\x73"),
-            (EXE, 0x28873F, b"\x73"),
-            (EXE, 0x279cd3, b"\x63"),         
-        ],
         True: [
             (EXE, 0x27B4D0, b"\x01\x00\x00\x00\x08\x00\x00\x00\x09\x00\x00\x00\x0C\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x2A\x00\x00\x00\x8D\x00\x00\x00\x8D\x00\x00\x00\x8D\x00\x00\x00"),
             (EXE, 0x278E20, b"\x06\x00\x00\x00\x3A\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x3B\x00\x00\x00\x8D\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"),
@@ -147,6 +138,20 @@ HEX = {
             (EXE, 0x27F15B, b"\x50"),
             (EXE, 0x28873F, b"\x50"),
             (EXE, 0x279cd3, b"\x50"),               
+            (EXE, 0x2817DF, b"\x50"),         
+            (EXE, 0x279D93, b"\x50"),         
+        ],
+        False: [
+            (EXE, 0x27B4D0, b"\x00\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x0C\x00\x00\x00\x01\x00\x00\x00\x1A\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x35\x00\x00\x00\x3A\x00\x00\x00\x3A\x00\x00\x00\x3A\x00\x00\x00"),
+            (EXE, 0x278E20, b"\x01\x00\x00\x00\x3A\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"),
+            (EXE, 0x27e93a, b"\x44\x6B"),
+            (EXE, 0x27e94a, b"\x44\x6B"),
+            (MPD, 0x187F00, b"\x00\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\x0C\x00\x00\x00\x01\x00\x00\x00\x1A\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x35\x00\x00\x00\x3A\x00\x00\x00\x3A\x00\x00\x00\x3A\x00\x00\x00"),
+            (EXE, 0x27F15B, b"\x73"),
+            (EXE, 0x28873F, b"\x73"),
+            (EXE, 0x279cd3, b"\x63"),         
+            (EXE, 0x2817DF, b"\x32"),         
+            (EXE, 0x279D93, b"\x34"),         
         ],
     },
     "Archibald": {
@@ -260,14 +265,6 @@ HEX = {
             (EXE, 0x260518, b"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00")
             ],
     },
-    "UniqueStartingArmies_WIP": {
-        False: [
-            (EXE, 0x27F159, b"\x69")
-            ],
-        True: [
-            (EXE, 0x27F159, b"\x50")
-            ],
-    },    
     "UnpredictableGenies": {
         False: [
             (EXE, 0x047BF1, b"\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x55\x8B\xEC\x51\x8B\x45\x08\x53\x56\x57\x85\xC0\x0F\x8C\xDD\x00\x00\x00\x3D\xBB\x00\x00\x00\x0F\x8D\xD2\x00\x00\x00\x8B\x15\x20\x94\x69\x00\x8D\x0C\xC5\x00\x00\x00\x00\x2B\xC8\xC1\xE1\x04\x8D\x8C\x11\xC4\x01\x00\x00\xE8"),
@@ -286,14 +283,6 @@ HEX = {
         False: [
             (EXE, 0x23EB4C, b'\x00\x00\x00\x00\x00\x00\x80\x3E\x00\x00\x00\x3F\x00\x00\x40\x3F\x00\x00\x80\x3F\x00\x00\x80\x3F\x00\x00\x80\x3F'),
             (EXE, 0x26028A, b"\x6F"),
-        ],
-    },
-    "EarlyGriffin": {
-        True: [
-            (EXE, 0x23ED94, b'\x1E\x00\x00\x00\xFF\xFF\xFF\xFF\x12\x00\x00\x00\x20\x00\x00\x00\xFF\xFF\xFF\xFF\x27\x00\x00\x00\x20\x00\x00\x00'),
-        ],
-        False: [
-            (EXE, 0x23ED94, b'\x21\x00\x00\x00\xFF\xFF\xFF\xFF\x12\x00\x00\x00\x20\x00\x00\x00\xFF\xFF\xFF\xFF\x27\x00\x00\x00\x20\x00\x00\x00'),
         ],
     },
     "FlyingFamiliars": {
@@ -316,11 +305,11 @@ HEX = {
     },
     "ZealotsCast": {
         True: [
-            (EXE, 0x27551B, b'\x50'),
+            (EXE, 0x27551B, b'\x73'),
             (EXE, 0x2707DD, b'\x00')
         ],
         False: [
-            (EXE, 0x27551B, b'\x73'),
+            (EXE, 0x27551B, b'\x50'),
             (EXE, 0x2707DD, b'\x10')
         ],
     },
@@ -1055,6 +1044,124 @@ HEX_EN = {
             (DAT, 0x5E3D, b"\x50\x50"),
         ],
     },
+    "UniqueStartingArmies": {
+        False: [
+            (EXE, 0x27F159, b"\x69")
+#tyris
+            (EXE, 0x27a07c, b"\x02")
+#ingham
+            (EXE, 0x27a248, b"\x02")
+#sorsha
+            (EXE, 0x279Fc4, b"\x02")
+#clancy
+            (EXE, 0x27a5e0, b"\x10")
+#ryland
+            (EXE, 0x27a4cc, b"\x10")
+#aeris
+            (EXE, 0x27a91c, b"\x10")
+#Iona
+            (EXE, 0x27abfc, b"\x1E")
+#thane
+            (EXE, 0x27d550, b"\x1E")
+#fafner
+            (EXE, 0x27ab44, b"\x1E")
+#fafner
+            (EXE, 0x27ab44, b"\x1E")
+#theodorus            
+            (EXE, 0x27adc8, b"\x1E")
+#rashka
+            (EXE, 0x27af94, b"\x2C")
+#nymus
+            (EXE, 0x27B1BC, b"\x2C")
+#marius
+            (EXE, 0x27AFF0, b"\x2C")
+#vokial
+            (EXE, 0x27B554, b"\x3A")
+#moandor
+            (EXE, 0x27B5B0, b"\x3A")
+#tamika
+            (EXE, 0x27B668, b"\x3A")
+#dace
+            (EXE, 0x27BB70, b"\x48")
+#synca
+            (EXE, 0x27BCE0, b"\x48")
+#yog
+            (EXE, 0x27C078, b"\x56")
+#shiva
+            (EXE, 0x27C18C, b"\x56")
+#krellion
+            (EXE, 0x27C244, b"\x56")
+#vey
+            (EXE, 0x27C3B4, b"\x56")
+#alkin
+            (EXE, 0x27C7A8, b"\x64")
+#broghild
+            (EXE, 0x27C8BC, b"\x64")        
+#casmetra false
+            (DAT, 0x3cc1, b"\x9B\x00\x00\x00\x9D\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0F\x00\x00\x00\x19\x00\x00\x00\x06\x00\x00\x00\x09")
+#tancred false
+            (DAT, 0x6c56, b"\xAC\x00\x00\x00\xAE\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0F\x00\x00\x00\x19\x00\x00\x00\x07\x00\x00\x00\x09")   
+#Agar false
+            (DAT, 0x82bd, b"\xAC\x00\x00\x00\xAE\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0F\x00\x00\x00\x19\x00\x00\x00\x07\x00\x00\x00\x09")   
+            ],
+        True: [
+            (EXE, 0x27F159, b"\x50")
+#tyris
+            (EXE, 0x27a07c, b"\x0A")
+#ingham
+            (EXE, 0x27a248, b"\x08")
+#sorsha
+            (EXE, 0x279Fc4, b"\x06")
+#clancy
+            (EXE, 0x27a5e0, b"\x18")
+#ryland
+            (EXE, 0x27a4cc, b"\x16")
+#aeris
+            (EXE, 0x27a91c, b"\x14")
+#Iona
+            (EXE, 0x27abfc, b"\x24")
+#thane
+            (EXE, 0x27d550, b"\x24")
+#fafner
+            (EXE, 0x27ab44, b"\x26")
+#theodorus            
+            (EXE, 0x27adc8, b"\x22")
+#rashka
+            (EXE, 0x27af94, b"\x34")
+#nymus
+            (EXE, 0x27B1BC, b"\x32")
+#marius
+            (EXE, 0x27AFF0, b"\x30")
+#vokial
+            (EXE, 0x27B554, b"\x3e")
+#moandor
+            (EXE, 0x27B5B0, b"\x40")
+#tamika
+            (EXE, 0x27B668, b"\x42")
+#dace
+            (EXE, 0x27BB70, b"\x4e")
+#synca
+            (EXE, 0x27BCE0, b"\x50")
+#yog
+            (EXE, 0x27C078, b"\x5e")
+#shiva
+            (EXE, 0x27C18C, b"\x5c")
+#krellion
+            (EXE, 0x27C244, b"\x5a")
+#vey
+            (EXE, 0x27C3B4, b"\x5a")
+#alkin
+            (EXE, 0x27C7A8, b"\x66")
+#broghild
+            (EXE, 0x27C8BC, b"\x6c")        
+#casmetra true
+            (DAT, 0x3cc1, b"\xA1\x00\x00\x00\x9D\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0F\x00\x00\x00\x19\x00\x00\x00\x02\x00\x00\x00\x03")   
+#tancred true
+            (DAT, 0x6c56, b"\xB4\x00\x00\x00\xAE\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0F\x00\x00\x00\x19\x00\x00\x00\x01\x00\x00\x00\x01")   
+#Agar true
+            (DAT, 0x82bd, b"\xB2\x00\x00\x00\xAE\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0F\x00\x00\x00\x19\x00\x00\x00\x02\x00\x00\x00\x03")   
+            ],
+    },    
     "StaticSpellSpecialties": {
         False: [
             (DAT, 0x45EC, b"\x31\x30\x25\x20\x66\x6F\x72\x20\x65\x76\x65\x72\x79\x20\x6E\x20\x68\x65\x72\x6F\x20\x6C\x65\x76\x65\x6C\x73\x2C\x20\x77\x68\x65\x72\x65\x20\x6E\x20\x69\x73\x20\x74\x68\x65\x20\x6C\x65\x76\x65\x6C\x20\x6F\x66\x20\x74\x68\x65\x20\x74\x61\x72\x67\x65\x74\x65\x64\x20\x63\x72\x65\x61\x74\x75\x72\x65\x2E"),
@@ -1152,7 +1259,125 @@ HEX_PL = {
             (DAT, 0x2E49B, b"\x50\x50"),
             (DAT, 0x2E7C6, b"\x50\x50"),
         ],
-    },    
+    },
+    "UniqueStartingArmies": {
+        False: [
+            (EXE, 0x27F159, b"\x69")
+#tyris
+            (EXE, 0x27a07c, b"\x02")
+#ingham
+            (EXE, 0x27a248, b"\x02")
+#sorsha
+            (EXE, 0x279Fc4, b"\x02")
+#clancy
+            (EXE, 0x27a5e0, b"\x10")
+#ryland
+            (EXE, 0x27a4cc, b"\x10")
+#aeris
+            (EXE, 0x27a91c, b"\x10")
+#Iona
+            (EXE, 0x27abfc, b"\x1E")
+#thane
+            (EXE, 0x27d550, b"\x1E")
+#fafner
+            (EXE, 0x27ab44, b"\x1E")
+#fafner
+            (EXE, 0x27ab44, b"\x1E")
+#theodorus            
+            (EXE, 0x27adc8, b"\x1E")
+#rashka
+            (EXE, 0x27af94, b"\x2C")
+#nymus
+            (EXE, 0x27B1BC, b"\x2C")
+#marius
+            (EXE, 0x27AFF0, b"\x2C")
+#vokial
+            (EXE, 0x27B554, b"\x3A")
+#moandor
+            (EXE, 0x27B5B0, b"\x3A")
+#tamika
+            (EXE, 0x27B668, b"\x3A")
+#dace
+            (EXE, 0x27BB70, b"\x48")
+#synca
+            (EXE, 0x27BCE0, b"\x48")
+#yog
+            (EXE, 0x27C078, b"\x56")
+#shiva
+            (EXE, 0x27C18C, b"\x56")
+#krellion
+            (EXE, 0x27C244, b"\x56")
+#vey
+            (EXE, 0x27C3B4, b"\x56")
+#alkin
+            (EXE, 0x27C7A8, b"\x64")
+#broghild
+            (EXE, 0x27C8BC, b"\x64")        
+#casmetra false
+            (DAT, 0x3F43, b"\x9B\x00\x00\x00\x9D\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0F\x00\x00\x00\x19\x00\x00\x00\x06\x00\x00\x00\x09")
+#tancred false
+            (DAT, 0x7181, b"\xAC\x00\x00\x00\xAE\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0F\x00\x00\x00\x19\x00\x00\x00\x07\x00\x00\x00\x09")   
+#Agar false
+            (DAT, 0x8913, b"\xAC\x00\x00\x00\xAE\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0F\x00\x00\x00\x19\x00\x00\x00\x07\x00\x00\x00\x09")   
+            ],
+        True: [
+            (EXE, 0x27F159, b"\x50")
+#tyris
+            (EXE, 0x27a07c, b"\x0A")
+#ingham
+            (EXE, 0x27a248, b"\x08")
+#sorsha
+            (EXE, 0x279Fc4, b"\x06")
+#clancy
+            (EXE, 0x27a5e0, b"\x18")
+#ryland
+            (EXE, 0x27a4cc, b"\x16")
+#aeris
+            (EXE, 0x27a91c, b"\x14")
+#Iona
+            (EXE, 0x27abfc, b"\x24")
+#thane
+            (EXE, 0x27d550, b"\x24")
+#fafner
+            (EXE, 0x27ab44, b"\x26")
+#theodorus            
+            (EXE, 0x27adc8, b"\x22")
+#rashka
+            (EXE, 0x27af94, b"\x34")
+#nymus
+            (EXE, 0x27B1BC, b"\x32")
+#marius
+            (EXE, 0x27AFF0, b"\x30")
+#vokial
+            (EXE, 0x27B554, b"\x3e")
+#moandor
+            (EXE, 0x27B5B0, b"\x40")
+#tamika
+            (EXE, 0x27B668, b"\x42")
+#dace
+            (EXE, 0x27BB70, b"\x4e")
+#synca
+            (EXE, 0x27BCE0, b"\x50")
+#yog
+            (EXE, 0x27C078, b"\x5e")
+#shiva
+            (EXE, 0x27C18C, b"\x5c")
+#krellion
+            (EXE, 0x27C244, b"\x5a")
+#vey
+            (EXE, 0x27C3B4, b"\x5a")
+#alkin
+            (EXE, 0x27C7A8, b"\x66")
+#broghild
+            (EXE, 0x27C8BC, b"\x6c")        
+#casmetra true
+            (DAT, 0x3F43, b"\xA1\x00\x00\x00\x9D\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0F\x00\x00\x00\x19\x00\x00\x00\x02\x00\x00\x00\x03")   
+#tancred true
+            (DAT, 0x7181, b"\xB4\x00\x00\x00\xAE\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0F\x00\x00\x00\x19\x00\x00\x00\x01\x00\x00\x00\x01")   
+#Agar true
+            (DAT, 0x8913, b"\xB2\x00\x00\x00\xAE\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0F\x00\x00\x00\x19\x00\x00\x00\x02\x00\x00\x00\x03")   
+            ],
+    },        
     "StaticSpellSpecialties": {
         False: [
             (DAT, 0x2937, b"\x31\x30\x25\x20\x7A\x61\x20\x6B\x61\xBF\x64\x79\x20\x70\x6F\x7A\x69\x6F\x6D\x20\x62\x6F\x68\x61\x74\x65\x72\x61\x2E\x20\x50\x72\x65\x6D\x69\x61\x20\x64\x7A\x69\x65\x6C\x6F\x6E\x61\x20\x6A\x65\x73\x74\x20\x70\x72\x7A\x65\x7A\x20\x70\x6F\x7A\x69\x6F\x6D\x20\x61\x74\x61\x6B\x6F\x77\x61\x6E\x65\x6A\x20\x6A\x65\x64\x6E\x6F\x73\x74\x6B\x69\x2E"),
@@ -1187,6 +1412,7 @@ HEX_PL = {
 
 
 HEX_ES = {}
+
 
 # Read the INI file. 
 # Get the folder where the EXE or script is actually running from
@@ -1225,6 +1451,9 @@ if 'HexSwapper' in config:
 else:
     main = config['HexSwapper'] = {}
     print("Warning: [HexSwapper] section was missing, added empty one.")
+    
+    
+    
 language_local = main.get('Language', fallback='english')
 if language_local == 'english':
     extra_hex = HEX_EN
@@ -1250,7 +1479,7 @@ INSTALLED = main.get('Installed', fallback= None)
 
 #HD DLL stuff
 original_text = b"\x4F\x6E\x6C\x69\x6E\x65\x20\x6C\x6F\x62\x62\x79\x20\x69\x73\x20\x70\x61\x72\x74\x20\x6F\x66\x20\x74\x68\x65\x20\x48\x6F\x4D\x4D\x33\x20\x48\x44\x2B\x20\x70\x72\x6F\x6A\x65\x63\x74\x2E\x0A\x48\x6F\x74\x41\x20\x43\x72\x65\x77"
-new_text = b"\x4F\x6E\x6C\x69\x6E\x65\x20\x6C\x6F\x62\x62\x79\x20\x69\x73\x20\x70\x61\x72\x74\x20\x6F\x66\x20\x74\x68\x65\x20\x48\x6F\x4D\x4D\x33\x20\x48\x44\x2B\x20\x70\x72\x6F\x6A\x65\x63\x74\x2E\x0A\x48\x6F\x74\x41\x20\x43\x72\x65\x77\x20\x68\x61\x73\x20\x7B\x6E\x6F\x74\x68\x69\x6E\x67\x7D\x20\x74\x6F\x20\x64\x6F\x20\x77\x69\x74\x68\x20\x74\x68\x65\x20\x64\x65\x76\x65\x6C\x6F\x70\x6D\x65\x6E\x74\x20\x61\x6E\x64\x20\x73\x75\x70\x70\x6F\x72\x74\x20\x6F\x66\x20\x6F\x6E\x6C\x69\x6E\x65\x20\x6C\x6F\x62\x62\x79\x2E\x0A\x0A\x7B\x50\x75\x6D\x70\x6B\x69\x6E\x7D\x20\x7B\x50\x61\x74\x63\x68\x7D\x20\x66\x75\x6E\x63\x74\x69\x6F\x6E\x73\x20\x77\x69\x74\x68\x20\x74\x68\x65\x20\x6F\x6E\x6C\x69\x6E\x65\x20\x6C\x6F\x62\x62\x79\x2C\x20\x62\x75\x74\x20\x79\x6F\x75\x20\x73\x68\x6F\x75\x6C\x64\x6E\x27\x74\x20\x70\x6C\x61\x79\x20\x72\x61\x6E\x6B\x65\x64\x20\x67\x61\x6D\x65\x73\x20\x77\x69\x74\x68\x20\x69\x74\x2E\x20\x57\x68\x65\x6E\x20\x69\x6E\x20\x64\x6F\x75\x62\x74\x2C\x20\x76\x69\x73\x69\x74\x20\x74\x68\x65\x20\x50\x50\x20\x44\x69\x73\x63\x6F\x72\x64\x20\x73\x65\x72\x76\x65\x72\x2E\x20\x0A\x0A"
+new_text = b"\x4F\x6E\x6C\x69\x6E\x65\x20\x6C\x6F\x62\x62\x79\x20\x69\x73\x20\x70\x61\x72\x74\x20\x6F\x66\x20\x74\x68\x65\x20\x48\x6F\x4D\x4D\x33\x20\x48\x44\x2B\x20\x70\x72\x6F\x6A\x65\x63\x74\x2E\x0A\x48\x6F\x74\x41\x20\x43\x72\x65\x77\x20\x68\x61\x73\x20\x7B\x6E\x6F\x74\x68\x69\x6E\x67\x7D\x20\x74\x6F\x20\x64\x6F\x20\x77\x69\x74\x68\x20\x74\x68\x65\x20\x6F\x6E\x6C\x69\x6E\x65\x20\x6C\x6F\x62\x62\x79\x2E\x0A\x0A\x48\x6F\x74\x41\x20\x69\x73\x20\x61\x20\x6E\x6F\x6E\x2D\x70\x72\x6F\x66\x69\x74\x20\x70\x72\x6F\x6A\x65\x63\x74\x2C\x20\x61\x6E\x64\x20\x74\x68\x65\x79\x20\x68\x61\x76\x65\x6E\x27\x74\x20\x61\x63\x63\x65\x70\x74\x65\x64\x20\x61\x6E\x79\x20\x64\x6F\x6E\x61\x74\x69\x6F\x6E\x73\x20\x6F\x76\x65\x72\x20\x31\x36\x20\x79\x65\x61\x72\x73\x20\x6F\x66\x20\x64\x65\x76\x65\x6C\x6F\x70\x6D\x65\x6E\x74\x2E\x20\x42\x79\x20\x73\x75\x70\x70\x6F\x72\x74\x69\x6E\x67\x20\x74\x68\x65\x20\x6C\x6F\x62\x62\x79\x20\x79\x6F\x75\x20\x73\x75\x70\x70\x6F\x72\x74\x20\x74\x68\x65\x20\x63\x72\x65\x61\x74\x6F\x72\x20\x6F\x66\x20\x48\x6F\x4D\x4D\x33\x20\x48\x44\x2B\x2C\x20\x6E\x6F\x74\x20\x74\x68\x65\x20\x48\x6F\x74\x41\x20\x70\x72\x6F\x6A\x65\x63\x74\x2E\x0A\x0A\x0A\x0A\x16\x18\x43\x73\x41\x72\x4F\x73\x7D\x3A\x0A\x7B\x50\x75\x6D\x70\x6B\x69\x6E\x7D\x20\x7B\x50\x61\x74\x63\x68\x7D\x20\x69\x73\x20\x63\x6F\x6D\x70\x61\x74\x69\x62\x6C\x65\x20\x77\x69\x74\x68\x20\x74\x68\x65\x20\x6F\x6E\x6C\x69\x6E\x65\x20\x6C\x6F\x62\x62\x79\x2C\x20\x62\x75\x74\x20\x69\x74\x20\x69\x73\x20\x6E\x6F\x74\x20\x61\x64\x76\x69\x73\x65\x64\x20\x6E\x74\x6F\x20\x70\x6C\x61\x79\x20\x61\x6E\x79\x20\x72\x61\x6E\x6B\x65\x64\x20\x67\x61\x6D\x65\x73\x2E\x20\x49\x6E\x20\x63\x61\x73\x65\x20\x6F\x66\x20\x61\x6E\x79\x20\x69\x73\x73\x75\x65\x73\x2C\x20\x76\x69\x73\x69\x74\x20\x74\x68\x65\x20\x50\x75\x6D\x70\x6B\x69\x6E\x20\x50\x61\x74\x63\x68\x20\x44\x69\x73\x63\x6F\x72\x64\x20\x73\x65\x72\x76\x65\x72\x2E"
 
 
 data_dir = os.path.join(script_dir, "Data")
@@ -1262,7 +1491,7 @@ PL_dir = os.path.join(script_dir, "Polish version.zip")
 HEX |= extra_hex
 
 
-def swaphex(file, offset, bytes, description, filepath = None):
+def swaphex(file, offset, bytes, filepath = None):
     if filepath == None:
         global script_dir
         path = os.path.join(script_dir, file)
@@ -1282,12 +1511,12 @@ def swaphex(file, offset, bytes, description, filepath = None):
                 written = f.read(len(bytes))
                 if written != bytes:
                     raise IOError("Verification failed")
-            #logging.info("%s patched at 0x%X", description, offset) 
+            #logging.info("%s patched at 0x%X", offset) 
             return
         except PermissionError:
             time.sleep(0.5)
         except IOError as e:
-            logging.error("IOError while verifying %s: %s", description, e)
+            logging.error("IOError while verifying %s: %s", e)
 
     logging.error("Failed to patch %s at offset 0x%X", path, offset)
     logging.debug("Expected bytes: %s, got: %s", bytes, written)
@@ -1303,7 +1532,6 @@ def find_hex(file, hex_to_find, filepath = None):
     if not os.path.isfile(path):
         logging.error("File not found: %s", path)
         raise FileNotFoundError(path)
-        offsets = ['']
         return offsets
     with open(path, 'rb') as f:
         data = f.read()
@@ -1313,6 +1541,7 @@ def find_hex(file, hex_to_find, filepath = None):
             index = data.find(hex_to_find, index + 1)
 
     return offsets
+
 
 def move_file(state, skinname):
     # Determine script directory (whether running as script or executable)
@@ -1365,13 +1594,33 @@ def apply(name, state):
         logging.warning("No entries found for state '%s' in key '%s'", state, name)
         return
 
+    if name.lower() == 'zenith':
+        un32 = find_hex(hd_dll, b"\x75\x6E\x33") 
+        if un32 == []:
+            un32 = find_hex(hd_dll, b"\x55\x4E\x33") 
+        
+        un44 = find_hex(hd_dll, b"\x75\x6E\x34") 
+        if un44 == []:
+            un44 = find_hex(hd_dll, b"\x55\x4E\x34") 
+            
+        if not un44 ==[] and not un32 ==[]:
+            offset32 = un32[0] + 3                
+            offset44 = un44[0] + 3
+
+            if state:
+                swaphex(hd_dll, offset32, b"\x50")
+                swaphex(hd_dll, offset44, b"\x50")
+            else:
+                swaphex(hd_dll, offset32, b"\x32")
+                swaphex(hd_dll, offset44, b"\x34")            
+
     # Check if the first entry indicates a skin patch
     if isinstance(entries[0], tuple) and entries[0][0] == 'skin':
         for internalcategory, skinname in entries:
             move_file(state, skinname)
     else:
         for target, offset, data in entries:
-            swaphex(target, offset, data, name)
+            swaphex(target, offset, data)
 
 def convert_value(value):
     true_values = {'true', 'yes', 'on'}
@@ -1460,7 +1709,7 @@ BUTTONS_Gameplay = [
     {'name': 'MaximumLuck4', 'category': features, 'current_state': None, 'button': None, 'valid_states': None, 'pos': (56, 144), 'description': "Maximum Luck of heroes and creatures is +4, \nwhich corresponds to 16.6% for a Lucky Strike."},
     {'name': 'RefuseLevelUp', 'category': features, 'current_state': None, 'button': None, 'valid_states': None, 'pos': (56, 188), 'description': "Upon Leveling up, the player may skip the choice of the new skill."},
     {'name': 'XPcalc', 'category': features, 'current_state': None, 'button': None, 'valid_states': None, 'pos': (56, 232), 'description': "XP is a function of AI value / 12, instead of the enemy HP."},
-    {'name': 'EarlyGriffin', 'category': features, 'current_state': None, 'button': None, 'valid_states': None, 'pos': (56, 276), 'description': "Griffin Tower requires the Guardhouse, \nbut doesn't require Blacksmith or Barracks."},
+    {'name': 'UniqueStartingArmies', 'category': features, 'current_state': None, 'button': None, 'valid_states': None, 'pos': (56, 276), 'description': "All heroes start with units they specialize in"},
     {'name': 'ZealotsCast', 'category': features, 'current_state': None, 'button': None, 'valid_states': None, 'pos': (56, 320), 'description': "Zealots can cast Advanced Bless, up to 3 times per combat. \nThey no longer benefit from no melee penalty."},
     {'name': 'Gwenneth_gameplay', 'category': features, 'current_state': None, 'button': None, 'valid_states': None, 'pos': (56, 364), 'description': "Switch between Gwenneth and Sanya being available by default on random maps."},
     {'name': 'Winstan', 'category': features, 'current_state': None, 'button': None, 'valid_states': None, 'pos': (56, 408), 'description': "Switch between Winstan and Thane being available by default on random maps."},
@@ -1552,7 +1801,7 @@ BUTTONS_Skins2 = [
 
 def update_templates():
     global script_dir
-    PASScode = 10000
+    PASScode = 500000
     for i, g in enumerate(BUTTONS_Gameplay):
         name = g['name']
         g['valid_states'] = list(HEX.get(name, {}).keys())
@@ -1569,18 +1818,16 @@ def update_templates():
     for i, tmpl in enumerate(templates):
         tmpl_dir = os.path.join(script_dir, "HotA_RMGTemplates", tmpl)
         name = name_list[i]
-        istr = str(i)
-        description = "template" + istr
         bytename = name.encode('ASCII')
         tmpl_offset = find_hex(tmpl, bytename, tmpl_dir)
-        if tmpl_offset == ['']:
+        if tmpl_offset == []:
             name = name.lower()
             bytename = name.encode('ASCII')
             tmpl_offset = find_hex(tmpl_dir, bytename)
 
         if len(tmpl_offset) >= 1:
             offset = tmpl_offset[0] + len(name) + 2
-            swaphex(tmpl, offset, bytePASS, description, tmpl_dir)
+            swaphex(tmpl, offset, bytePASS, tmpl_dir)
         else:
             logging.error(name, "misses its own title")
     logging.info("templates patched") 
@@ -1663,11 +1910,21 @@ class HexSwapper:
         self.root.title("HexSwapper")
         self.root.resizable(False, False)
 
-        icon_path = os.path.join(script_dir, "pp_icon.ico")
+        if getattr(sys, 'frozen', False):
+            # Running as .exe (frozen by PyInstaller)
+            icon_path = os.path.join(os.path.dirname(sys.executable), "pp_icon.png")
+        else:
+            # Running as .py script
+            icon_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "pp_icon.png")
+
         if os.path.exists(icon_path):
-            self.root.iconbitmap(icon_path)
-        else: 
-            self.root.iconbitmap(os.path.join(icons_dir, "pp_icon.ico"))
+            img = ImageTk.PhotoImage(Image.open(icon_path))
+            self.root.iconphoto(True, img)
+        elif os.path.exists(os.path.join(script_dir, "pp_icon.png")):
+            img = ImageTk.PhotoImage(Image.open(os.path.join(script_dir, "pp_icon.png")))
+            self.root.iconphoto(True, img)
+        else:
+            pass
 
         image1_path = os.path.join(icons_dir, "HexSwapper.png")
         image1 = Image.open(image1_path)
@@ -1921,7 +2178,7 @@ class HexSwapper:
         if not os.path.isfile(path):
             return
         else: 
-            swaphex(hd_dll, text_offset, new_text, description = "lobby desc.")
+            swaphex(hd_dll, text_offset, new_text)
 
     def game(self):
         if getattr(sys, 'frozen', False):
