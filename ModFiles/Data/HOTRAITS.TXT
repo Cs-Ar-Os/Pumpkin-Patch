@@ -129,13 +129,13 @@ Styg	15	25	Gnoll	4	7	PrimitiveLizardman	3	4	SerpentFly
 Andra	15	25	Gnoll	4	7	PrimitiveLizardman	3	4	SerpentFly
 Tiva	15	25	Gnoll	4	7	PrimitiveLizardman	3	4	SerpentFly
 Pasis	15	25	Pixies	3	5	Air Elementals	2	3	Air Elementals
-Thunar	15	25	Pixies	3	5	Air Elementals	3	5	Water Elementals
-Ignissa	15	25	Pixies	3	5	Air Elementals	3	5	Water Elementals
+Thunar	15	25	Pixies	3	4	Air Elementals	3	5	Water Elementals
+Ignissa	15	25	Pixies	3	5	Air Elementals	4	5	Water Elementals
 Lacus	15	25	Pixies	3	5	Water Elementals	2	3	Water Elementals
-Monere	15	25	Pixies	3	5	Air Elementals	2	3	Air Elementals
+Monere	15	25	Pixies	3	5	Air Elementals	3	5	Air Elementals
 Erdamon	15	25	Pixies	3	5	Air Elementals	3	5	Water Elementals
 Fiur	15	25	Pixies	1	1	Ballista	3	5	Water Elementals
-Kalt	15	25	Pixies	3	5	Water Elementals	2	3	Water Elementals
+Kalt	15	25	Pixies	3	5	Water Elementals	3	5	Water Elementals
 Luna	15	25	Pixies	3	5	Air Elementals	3	5	Water Elementals
 Brissa	15	25	Pixies	3	5	Air Elementals	3	5	Water Elementals
 Ciele	15	25	Pixies	3	5	Air Elementals	3	5	Water Elementals
