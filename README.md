@@ -15,6 +15,7 @@ python -m pip install pyinstaller psutil winshell pillow requests
 :: pip install pipreqs
 :: pipreqs . --force
 :: pip install -r requirements.txt
+
 python -m PyInstaller --clean --onefile --windowed --add-data "Icons/*;Icons" --noconsole --icon=pp_icon.ico HexSwapper.py
 
 Installer:
@@ -22,6 +23,7 @@ python -m pip install --upgrade pywin32
 python -m pywin32_postinstall -install
 
 py -m pip install pywin32 
+
 py -m PyInstaller ^
 --clean ^
 --onefile ^
