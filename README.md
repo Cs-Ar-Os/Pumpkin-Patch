@@ -18,6 +18,12 @@ python -m pip install pyinstaller psutil winshell pillow requests
 
 python -m PyInstaller --clean --onefile --windowed --add-data "Icons/*;Icons" --noconsole --icon=pp_icon.ico HexSwapper.py
 
+Uninstaller:
+py -m PyInstaller --onefile --windowed uninstall_Pumpkin_Patch.py --onefile --icon=uninstall_icon.ico
+
+
+Then I place the uninstaller and HexSwapper in Modfiles. Subsequently, I create the installer:
+
 Installer:
 python -m pip install --upgrade pywin32
 python -m pywin32_postinstall -install
