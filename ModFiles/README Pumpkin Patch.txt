@@ -6,9 +6,6 @@ Move all files to C:/Games/Heroes of Might and Magic 3 Complete Edition/
 Then just open HexSwapper.exe, and you're all set!
 
 
-If you want to play in Polish, drop files from /POLISH into the same folder!
-
-
 Additional "streamer request" skins are available in the Optional Files. 
 
 
@@ -24,9 +21,9 @@ The HexSwapper is a new program that you can run to modify your game. The option
 --------------------------------
 	LIST OF CHANGES
 
-wiki: https://heroes.thelazy.net/index.php/User:Csaros/Pumpkin_Patch
+wiki: https://heroes.thelazy.net/index.php/Pumpkin_Patch
 
-youtube: https://www.youtube.com/@csaros/videos
+youtube: https://www.youtube.com/@csaros
 
 
 
@@ -55,7 +52,7 @@ Graphics - Aphra
 
 Aphra - Thank you, a thousand times. Without you, this mod wouldn't have been possible. 
 
-HotA Crew - for the incredible HotA mod. This patch was created out of love for your work.  I'm particularly grateful for your inclusion of so many elements of Pumpkin patch 1.3.x into HotA 1.7.2 - seeing my work appear as the official Horn of the Abyss was exhilarating.  I also want to thank you for adding Murdoch, my favourite hero, to the campaign "All In", and for the recognition you've shown for the Pumpkin Patch through those means. 
+HotA Crew - for the incredible HotA mod. This patch was created out of love for your work, in particular the Factory town.   I also want to thank you for adding Murdoch, my favourite hero, to the campaign "All In", and for the recognition you've shown for the Pumpkin Patch through those means. 
 
 The Wiki team - for their amazing work
 
