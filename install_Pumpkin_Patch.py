@@ -95,11 +95,11 @@ def install_mod_files(mod_folder, game_folder):
 
             dir_to_create = os.path.dirname(target_path)
             if os.path.isfile(dir_to_create):
-                print(f"❌ Path {dir_to_create} is a FILE, not a directory!")
+                print(f"Path {dir_to_create} is a FILE, not a directory!")
             elif os.path.isdir(dir_to_create):
                 print(f"Could not create {dir_to_create}, as it already exists as directory")
             else:
-                print(f"🆕 Creating {dir_to_create}")
+                print(f"Creating {dir_to_create}")
                 os.makedirs(dir_to_create, exist_ok=True)
 
             shutil.copy2(os.path.join(root, file), target_path)
@@ -136,6 +136,8 @@ def find_hex(file, hex_to_find, filepath = None):
 def main():
     global folder
     global mod_folder
+    messagebox.showinfo("Welcome to the Pumpkin Patch installer!", "The installer will now load a directory for you to find your game. Please locate the heroes 3 folder when prompted.")
+
     mod_folder = mod_folder_inside_exe
 
     root = tk.Tk()
@@ -160,7 +162,6 @@ def main():
 
     #determine game version and make sure old is uninstalled
     create_backup()
-    messagebox.showinfo("Backup created", ("Backup location:  " + os.path.join(folder, "_HOTA BACKUP.zip")))
 #    language = check_language()
 
 #    if language in ("polish"):
@@ -181,17 +182,11 @@ def main():
 #            else: 
 #                install_mod_files(mod_folder, folder)
 #    else:
+
     install_mod_files(mod_folder, folder)
 
     config = type('Config', (), {'ignore_unzip_errors': True})()
-    hota_lod = os.path.join(folder, "Data", "HotA.lod")
     hota_vid = os.path.join(folder, "Data", "HotA.vid")
-
-    files_to_lod_list = ["ava0128.def", "ava0128.msk"]
-    for filename in files_to_lod_list:
-        file = os.path.join(mod_folder_inside_exe, "Data", "original", filename)
-        add_to_archive(hota_lod, file, config)
-        
     menu_bik = os.path.join(mod_folder_inside_exe, "Data", "CreditP.bik")
     add_to_archive(hota_vid, menu_bik, config)
 
@@ -239,6 +234,79 @@ def create_backup():
 
     print(mod_files_list)
 
+
+
+    #removes old files
+    delete_maps_list = ["Sir Mullich's Charge", "Secrets of the Pumpkin Patch", "Secrets of the PP", "[Pumpkin Patch] Secrets", "[Pumpkin Patch] Secrets - Copy", "[Pumpkin Patch] Charge"]
+    delete_templates_list = ["Duel 3.0", "Duel 3.0 t+", "Duel 3.0a", "Duel 3.0a t+", "Jebus Cross Pumpkin Patch", "Jebus Cross - PP", "Jebus Cross PP", "Memory Lane 1.8.2 PP", "Memory Lane PP", "Memory Lane 1.90", "Memory Lane - PP", "Memory Lane", "Memory Lane 1.8.2 - PP", "Memory Lane 1.9.0 PP", "Memory Lane 1.9.0 - PP", "6lm10a - PP", "6lm10a PP", "Memory Lane 1.82 PP", "Memory Lane 1.90 - PP"]
+    delete_folders_list = ["alternative", "Icons", "mkc", "modded", "original"]
+    delete_files_in_data_list = ["UnFacNJ.wav", "UnFact.wav"]
+    delete_files_list = ["_HOTA BACKUP.zip", "HexSwapper.exe"]
+
+    if os.path.isfile(backup_zip):
+        try:
+            with zipfile.ZipFile(backup_zip, 'r') as backup:
+                backup.extractall(folder)
+        except Exception:
+            pass
+
+    for mapname in delete_maps_list:
+        mapname = str(mapname) + ".h3m"
+        try:
+            os.remove(os.path.join(folder, "Maps", mapname))
+        except Exception:
+            pass
+        try:
+            os.remove(os.path.join(folder, "Maps", mapname.lower()))
+        except Exception:
+            pass
+    
+    for templatename in delete_templates_list:
+        templatename = str(templatename) + ".h3t"
+        try:
+            os.remove(os.path.join(folder, "HotA_RMGTemplates", templatename))
+        except Exception:
+            pass
+        try:
+            os.remove(os.path.join(folder, "HotA_RMGTemplates", templatename.lower()))
+        except Exception:
+            pass
+
+
+    for filename in delete_files_in_data_list:
+        if filename is not None:
+            try:
+                os.remove(os.path.join(folder, "Data", str(filename)))
+            except Exception:
+                pass
+            try:
+                os.remove(os.path.join(folder, "Data", str(filename).lower()))
+            except Exception:
+                pass
+
+    for foldername in delete_folders_list:
+        if foldername is not None:
+            try:
+                shutil.rmtree(os.path.join(folder, "Data", str(foldername)))
+            except Exception:
+                pass
+            try:
+                shutil.rmtree(os.path.join(folder, "Data", str(foldername).lower()))
+            except Exception:
+                pass
+
+    for filename in delete_files_list:
+        if filename is not None:
+            try:
+                os.remove(os.path.join(folder, str(filename)))
+            except Exception:
+                pass
+            try:
+                os.remove(os.path.join(folder, str(filename).lower()))
+            except Exception:
+                pass
+
+
     try:
         with zipfile.ZipFile(backup_zip, 'w', zipfile.ZIP_DEFLATED) as backup:
             # Backup game files corresponding to mod files
@@ -272,9 +340,12 @@ def create_backup():
                     backup.write(full_path, arcname=arcname)
 
             print(f"Templates backed up into: {backup_zip} under 'HotA_RMGTemplates/' folder")
-
+            messagebox.showinfo("Backup created", ("Backup location:  " + os.path.join(folder, "_HOTA BACKUP.zip")))
+            return
+        return
     except Exception as e:
         messagebox.showinfo("Error", f"Backup creation failed: {e}")
+    return
 
 
 if __name__ == "__main__":

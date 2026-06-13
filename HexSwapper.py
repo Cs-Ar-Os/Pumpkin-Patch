@@ -5,7 +5,7 @@ Created on Tue Aug  5 19:15:13 2025
 @author: CsArOs
 """
 
-import configparser, time, sys, subprocess, os, webbrowser, datetime, psutil, base64, random
+import configparser, time, sys, subprocess, os, webbrowser, datetime, psutil, base64
 import tkinter as tk
 from tkinter import messagebox
 from PIL import Image, ImageTk
@@ -42,6 +42,9 @@ DAT = "HotA.dat"
 MPD = "h3hota_maped.exe"
 hd_dll = "HD_HOTA.dll"
 hota_dll = "HotA.dll"
+EXE_DUEL = "h3hota 1hero.exe"
+DAT_DUEL = "HoPP.dat"
+hota_dll_DUEL = "HoPP.dll"
 #swaphex_tracker = False
 
 MEDIAFIRE_PAGE = (
@@ -92,7 +95,8 @@ def check_for_updates():
         datetime.datetime.strptime(local_date, "%Y-%m-%d")
     except ValueError:
         messagebox.showinfo("New version detected", ("Update available! Please visit the wiki and download the new version of the mod. \n\nMod last updated: " + local_date + "\nNew version uploaded: " + remote_date))
-        webbrowser.open("https://drive.google.com/file/d/1XuZ5PwzePxSIgP6uMOXN96jt0F5QpEBU/view?usp=sharing")
+#        webbrowser.open("https://drive.google.com/file/d/1XuZ5PwzePxSIgP6uMOXN96jt0F5QpEBU/view?usp=sharing")
+        webbrowser.open("https://www.mediafire.com/file/x0f010q9nk9pomc/Pumpkin_Patch.zip/file")
         return        
 
     try:
@@ -102,7 +106,8 @@ def check_for_updates():
 
     if remote_date > local_date:
         messagebox.showinfo("New version detected", ("Update available! Please visit the wiki and download the new version of the mod. \n\nMod last updated: " + local_date + "\nNew version uploaded: " + remote_date))
-        webbrowser.open("https://drive.google.com/file/d/1XuZ5PwzePxSIgP6uMOXN96jt0F5QpEBU/view?usp=sharing")
+#        webbrowser.open("https://drive.google.com/file/d/1XuZ5PwzePxSIgP6uMOXN96jt0F5QpEBU/view?usp=sharing")
+        webbrowser.open("https://www.mediafire.com/file/x0f010q9nk9pomc/Pumpkin_Patch.zip/file")
         return
 
     return
@@ -140,14 +145,16 @@ def confirmhex(filename, offset, byte, filepath = None):
             messagebox.showerror("Error", f"IOError while verifying {e}: {e}")
     return True
 
-
-def swaphex(filename, offset, byte, find_and_swap = False, byte_to_find = None, filepath = None, skip_zero = False):    
+def swaphex(filename, offset, byte, filepath = None, find_and_swap = False, byte_to_find = None, skip_zero = False):    
 #    global swaphex_tracker 
+    global file_not_found
     if filepath == None:
         global script_dir
         path = os.path.join(script_dir, filename)
     else:
         path = filepath
+
+#    print(filename, offset, byte, find_and_swap, byte_to_find, filepath, skip_zero)
 
     if find_and_swap:
         offset = find_hex(filename, byte_to_find)[0]
@@ -158,8 +165,10 @@ def swaphex(filename, offset, byte, find_and_swap = False, byte_to_find = None, 
         return
 
     if not os.path.isfile(path):
-        error_message = "File not found: " + path
-        messagebox.showinfo("File not found", error_message)
+        if not file_not_found:
+            error_message = "File not found: " + path
+            messagebox.showinfo("File not found", error_message)
+            file_not_found = True
         return
     for i in range(3):
         try:
@@ -180,7 +189,7 @@ def swaphex(filename, offset, byte, find_and_swap = False, byte_to_find = None, 
                     if not confirmhex(filename, offset, byte):
                         messagebox.showinfo("Warning", f"Failed to patch {path} at offset 0x{offset:X}. Expected bytes: {byte}, got: {read}")
                     raise IOError("Verification failed")
-            #print(f"{filename} patched at 0x{offset:X}") 
+            print(f"{filename} patched at 0x{offset:X}") 
 #            if filename == DAT:
 #                print(f"{filename} patched at 0x{offset:X}, with {byte[:20]}") 
 #            if swaphex_tracker:
@@ -219,7 +228,10 @@ def find_hex(file, hex_to_find, filepath = None, def0 = True):
 def LOD_ADD(folder, filename, archive):
     MMArchiveConfig = type('Config', (), {'ignore_unzip_errors': True})()
     archivepath = os.path.join(script_dir, "Data", archive)
-    filepath = os.path.join(script_dir, "Data", folder, filename)
+    if folder == "":
+        filepath = os.path.join(script_dir, "Data", filename)
+    else:
+        filepath = os.path.join(script_dir, "Data", folder, filename)
     add_to_archive(archivepath, filepath, MMArchiveConfig)
     #print("from folder", folder)
 
@@ -239,7 +251,7 @@ if not os.path.exists(ini_path):
     config.add_section("HexSwapper")
     config.set("HexSwapper", "Language", str(check_language()))
     config.set("HexSwapper", "Balanced", str(False))   
-    config.set("HexSwapper", "Chaos", str(False))   
+    config.set("HexSwapper", "Custom", str(False))   
     config.set("HexSwapper", "Duel", str(False))   
     config.set("HexSwapper", "Basic", str(True))   
     config.add_section("Optional features")
@@ -255,7 +267,7 @@ else:
     config.add_section("HexSwapper")
     main = config['HexSwapper']
     config.set("HexSwapper", "Balanced", str(False))   
-    config.set("HexSwapper", "Chaos", str(False))   
+    config.set("HexSwapper", "Custom", str(False))   
     config.set("HexSwapper", "Duel", str(False))   
     config.set("HexSwapper", "Basic", str(True))   
     config.set("HexSwapper", "Language", str(check_language()))
@@ -339,7 +351,7 @@ def list_templates_and_names():
     template_names = [os.path.splitext(t)[0] for t in templates]
     return templates, template_names
 
-def confirm(name, state, depth = False):
+def confirm(name, state, depth = False, override = False, MKC = True, MKC_only = False):
     #print("confirming:", name, state)
     patches = HEX.get(name, {})
     if not patches:
@@ -351,8 +363,8 @@ def confirm(name, state, depth = False):
         print(f"No entries found for state {state} in key {name}")
         return
 
-    if name in ["MKC_balance", "MKC_compatibility"]:
-        Accuracy_local = 8
+    if name in ["MKC_balance", "MKC_compatibility", "MKC_TRUE"]:
+        Accuracy_local = 100
     elif name in skins_list:
         Accuracy_local = 1
     if depth is not False:
@@ -376,15 +388,31 @@ def confirm(name, state, depth = False):
 
         else:
             target, offset, data = entry
+            if name in ["MKC_balance", "MKC_compatibility", "MKC_TRUE"]:
+                TARGET_DUEL_MAP = {
+                    EXE: EXE_DUEL,
+                    EXE_DUEL: EXE_DUEL,
+                    hota_dll: hota_dll_DUEL,
+                    DAT: DAT_DUEL,
+                    hd_dll: hd_dll,
+                    MPD: MPD,
+                    }        
+                target_duel = TARGET_DUEL_MAP.get(target)
+                if not target_duel is None:
+                    target = target_duel
+                else:
+                    break
             if not confirmhex(target, offset, data):
-                apply(name, state)
+                apply(name, state, override = override, MKC = MKC, MKC_only = MKC_only)
                 break    
         i += 1
         
     #print("confirmed", name, state)
     return
 
-def apply(name, state):
+def apply(name, state, override = False, MKC = True, MKC_only = False):
+    global file_not_found
+    file_not_found = False
     patches = HEX.get(name, {})
     if not patches:
         print("Unknown key in INI: %s", name)
@@ -407,19 +435,28 @@ def apply(name, state):
             LOD_ADD(folder, filename, archive)
         else:
             target, offset, data = entry
-            swaphex(target, offset, data)
+            if (not (MKC_only or (name == "MKC_TRUE" and not override))):
+                swaphex(target, offset, data)
+#                text = "APPLIED" + str(name) + str(state)
+#                messagebox.showinfo("info", text)
+#            else:
+#                print("DID NOT APPLY", name, "with state", state, "; MKC_TRUE:", bool(name == 'MKC_TRUE'), "OVERRIDE", bool(override), "MKC_ONLY:", bool(MKC_only))
+                
+            if MKC and (name in skins_list or (
+                    not get_preset_state("Duel", name) is None and state == get_preset_state("Duel", name)
+                    )):
+                TARGET_DUEL_MAP = {
+                    EXE: EXE_DUEL,
+                    EXE_DUEL: EXE_DUEL,
+                    hota_dll: hota_dll_DUEL,
+                    DAT: DAT_DUEL,
+                    hd_dll: hd_dll,
+                    MPD: MPD,
+                    }        
+                target_duel = TARGET_DUEL_MAP.get(target)
+                if not target_duel is None:
+                    swaphex(target_duel, offset, data)                        
     return
-
-#def update_specialty_images(letter = b"\x32", letter2 = b"\x34"):
-#    un3_bytes = [b"\x6E\x33\x32\x2E", b"\x4E\x33\x32\x2E", b"\x6E\x33\x32\x2E", b"\x4E\x33\x32\x2E", b"\x6E\x33\x50\x2E", b"\x4E\x33\x50\x2E", b"\x6E\x33\x50\x2E", b"\x4E\x33\x50\x2E", b"\x6E\x33\x63\x2E", b"\x4E\x33\x63\x2E", b"\x6E\x33\x63\x2E", b"\x4E\x33\x63\x2E"]
-#    un4_bytes = [b"\x6E\x34\x34\x2E", b"\x4E\x34\x34\x2E", b"\x6E\x34\x34\x2E", b"\x4E\x34\x34\x2E", b"\x6E\x34\x50\x2E", b"\x4E\x34\x50\x2E", b"\x6E\x34\x50\x2E", b"\x4E\x34\x50\x2E", b"\x6E\x34\x63\x2E", b"\x4E\x34\x63\x2E", b"\x6E\x34\x63\x2E", b"\x4E\x34\x63\x2E"]
-#
-#    for byte in un3_bytes:
-#        swaphex(hd_dll, find_hex(hd_dll, byte)[0] + 2, letter)
-#
-#    for byte in un4_bytes:
-#        swaphex(hd_dll, find_hex(hd_dll, byte)[0] + 2, letter2)
-
 
 def convert_value(value):
     true_values = {'true', 'yes', 'on'}
@@ -477,7 +514,6 @@ def update_ini():
     #writes reseted ini
     for btn_list in [
             BUTTONS_Gameplay, 
-            BUTTONS_Gameplay2, 
             BUTTONS_Skins, 
             BUTTONS_Skins2, 
             BUTTONS_Skins3, 
@@ -517,6 +553,7 @@ def on_apply_preset(preset, presets_only = False):
             if presets_only and not item in preset_list:
                 continue
 
+            print(item)
             button1 = BUTTONS_Gameplay_MAP.get(item)
             button2 = BUTTONS_PRESET_MAP.get(item)
             #print(item, "gmpl btn", button1, "preset btn", button2)
@@ -528,12 +565,15 @@ def on_apply_preset(preset, presets_only = False):
                     button['current_state'] = True
                     if button['category_name'] is not None:
                         config.set(button['category_name'], Preset_On, str(True))
+            elif master_state == "self":
+                continue
             elif master_state == "extra":
                 if item == "HeroLimit":
                     state = 11
                 else:
                     state = True
-                apply(item, state)
+                if not (Preset_On in ["Duel"]):
+                    apply(item, state)
                 for button in [button1, button2]:
                     if button is None:
                         continue
@@ -542,7 +582,8 @@ def on_apply_preset(preset, presets_only = False):
                         config.set(button['category_name'], button['name'], str(state))
             elif master_state == "ANTIextra":
                 state = False
-                apply(item, state)
+                if not (Preset_On in ["Duel"]):
+                    apply(item, state)
                 for button in [button1, button2]:
                     if button is None:
                         continue
@@ -564,16 +605,18 @@ def on_apply_preset(preset, presets_only = False):
                         continue
                     current_state = button['current_state']
                     if current_state != state:
-                        apply(button['name'], state)
+                        if not (Preset_On in ["Duel"]):
+                            apply(item, state)
                         button['current_state'] = state
                         if button['category_name'] is not None:
                             config.set(button['category_name'], button['name'], str(state))
                     else:
-                        confirm(button['name'], state, depth=3)
+                        confirm(button['name'], state, depth=4)
                 
     with open(ini_path, 'w') as configfile:
         config.write(configfile)
-    check_swaps(depth=2)
+    check_swaps(depth=4)
+    return
 
 def get_preset_state(preset_name, item_name):
     #print("\ngetting preset state of:", item_name, "for preset:", preset_name)
@@ -587,8 +630,8 @@ x_pos_list_skins = (70, 150, 230, 310, 390, 470, 70, 150, 230, 310, 390, 470, 70
 y_pos_list_skins = (151, 151, 151, 151, 151, 151, 237, 237, 237, 237, 237, 237, 323, 323, 323, 323, 323, 323, 409, 409, 409, 409, 409, 409, 495, 495, 495, 495, 0)
 
 
-x_pos_list_features = (56, 314, 56, 314, 56, 314, 56, 314, 56, 314, 56, 314, 56, 314, 56, 314, 56, 314, 56, 314, 0)
-y_pos_list_features = (144, 144, 188, 188, 232, 232, 276, 276, 320, 320, 364, 364, 408, 408, 452, 452, 0)
+x_pos_list_features = (56, 314, 56, 314, 56, 314, 56, 314, 56, 314, 56, 314, 56, 314, 56, 314, 56, 314, 56, 314, 56, 314, 0)
+y_pos_list_features = (144, 144, 188, 188, 232, 232, 276, 276, 320, 320, 364, 364, 408, 408, 452, 452, 496, 496, 0)
 
 
 NONE_DICT = [
@@ -607,32 +650,43 @@ BUTTONS_HexSwapperMenu = [
     {'name': 'Reset', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (622, 365), 'description': "Reset all options to their default values. \n\nTakes a few seconds to load."},
     {'name': 'Play', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (625, 477), 'description': "Close the HexSwapper and play!"},
 ]
+
+BUTTONS_HOME2 = [
+#    {'name': 'HallOfFame_pressed', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (430, 506), 'description': "Hall of Fame"},
+    {'name': 'PumpkinRace2025', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (124, 182), 'description': "Heroes 3 Wiki"},
+    {'name': 'Popawasia', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (261, 182), 'description': "Popawasia's twitch channel"},
+    {'name': 'Keszu', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (339, 182), 'description': "Keszu's youtube channel"},
+    {'name': 'Qweder', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (417, 182), 'description': "Qweder's channel"},
+]
+
 BUTTONS_HOME = [
 #    {'name': 'Wiki2', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (465, 455), 'description': "Full Changelog"},
-    {'name': 'Wiki2', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (235, 518), 'description': "Full Changelog"},
-    {'name': '-Wiki2', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (257, 520), 'description': "Full Changelog"},
-    {'name': 'Wiki', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (76, 519), 'description': "Heroes 3 Wiki"},
-    {'name': 'Feedback', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (75, 541), 'description': "Feedback Form"},   
-    {'name': 'Coffee', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (235, 539), 'description': "You can buy me a coffee here"},   
-    {'name': 'Discord', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (429, 520), 'description': "Discord: Pumpkin Patch server"},
-    {'name': 'Youtube', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (429, 543), 'description': "Youtube: CsArOs"},   
-    {'name': '-Wiki', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (96, 520), 'description': "Heroes 3 Wiki"},
-    {'name': '-Discord', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (450, 520), 'description': "Discord: Pumpkin Patch server"},
-    {'name': '-Youtube', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (449, 542), 'description': "Youtube: CsArOs"},   
-    {'name': '-Feedback', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (96, 542), 'description': "Feedback Form"},   
-    {'name': '-Coffee', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (257, 542), 'description': "You can buy me a coffee here"},   
-    {'name': 'LinkTree', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (250, 492), 'description': "LinkTree"},   
+    {'name': 'HallOfFame', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (430, 506), 'description': "Hall of Fame"},
+    {'name': 'Wiki2', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (74, 546), 'description': "Full Changelog"},
+    {'name': 'Wiki', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (76, 497), 'description': "Heroes 3 Wiki"},
+    {'name': 'Feedback', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (75, 522), 'description': "Feedback Form"},   
+    {'name': 'Coffee', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (235, 495), 'description': "You can buy me a coffee here"},   
+    {'name': 'Discord', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (236, 523), 'description': "Discord: Pumpkin Patch server"},
+    {'name': 'Youtube', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (237, 549), 'description': "Youtube: CsArOs"},   
+    {'name': '-Wiki2', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (96, 548), 'description': "Full Changelog"},
+    {'name': '-Wiki', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (96, 499), 'description': "Heroes 3 Wiki"},
+    {'name': '-Discord', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (257, 523), 'description': "Discord: Pumpkin Patch server"},
+    {'name': '-Youtube', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (257, 548), 'description': "Youtube: CsArOs"},   
+    {'name': '-Feedback', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (96, 523), 'description': "Feedback Form"},   
+    {'name': '-Coffee', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (257, 499), 'description': "You can buy me a coffee here"},   
+#    {'name': 'LinkTree', 'category': main, 'category_name': "HexSwapper", **ARROW_DICT[0], 'pos': (250, 492), 'description': "LinkTree"},   
 #    {'name': 'DeveloperMode', 'category': main, 'category_name': "HexSwapper", **NONE_DICT[0], 'pos': (509, 439), 'description': "Activate developer mode."},   
 ]
 
+
 BUTTONS_PRESET = [
-    {'name': 'Basic', 'Priority': False, 'category': main, 'category_name': "HexSwapper", **NONE_DICT[0], 'pos': (64, 177), 'description': 'Select the Basic preset.'},        
-    {'name': 'Balanced', 'Priority': False, 'category': main, 'category_name': "HexSwapper", **NONE_DICT[0], 'pos': (64, 251), 'description': "Select the Balanced preset."},        
-    {'name': 'Chaos', 'Priority': False, 'category': main, 'category_name': "HexSwapper", **NONE_DICT[0], 'pos': (64, 325), 'description': "Select the Chaos preset."},        
-    {'name': 'Duel', 'Priority': True, 'category': main, 'category_name': "HexSwapper", **NONE_DICT[0], 'pos': (64, 399), 'description': "Select the Duel preset."},        
+    {'name': 'Basic', 'Priority': False, 'category': main, 'category_name': "HexSwapper", **NONE_DICT[0], 'pos': (64, 177), 'description': 'Select the Basic preset. \n\nDisables all optional features. \nSets the hero limit to 8, and the luck and morale scale from -3 to 3.'},        
+    {'name': 'Balanced', 'Priority': False, 'category': main, 'category_name': "HexSwapper", **NONE_DICT[0], 'pos': (64, 251), 'description': "Select the Balanced preset. \n\nEnables the following settings:\nExpanded Luck and Morale limit (5), \nNew heroes on random maps, \nZenith replaces Straker, \nUnique starting armies, \nNew creature banks for Landlocked maps, \nNew creature skills, \nPrimary stat increase is constant, \nRemove Pandora pop-ups, \nLift magic skill restrictions, \nStatic spell specialties, \nMerge Artillery and Ballistics."},        
+    {'name': 'Duel', 'Priority': True, 'category': main, 'category_name': "HexSwapper", **NONE_DICT[0], 'pos': (64, 325), 'description': "Select the Duel preset. \n\nDisables all optional features except for the following:\nHero Limit (1), \nExpanded Luck and Morale limit (5), \nNew Heroes on random maps, \nRemove Pandora pop-ups, \nSkill rebalance for 1-hero, \nMKC's gameplay rebalance, \nControl Scrolls from day 1, \nDuel 3.0 generation."},        
+    {'name': 'Custom', 'Priority': False, 'category': main, 'category_name': "HexSwapper", **NONE_DICT[0], 'pos': (64, 399), 'description': "Select a Custom preset."},        
     ]
 
-preset_list = ["Duel", "MKC_balance"] + [p["name"] for p in BUTTONS_PRESET]#, "DeveloperMode"]
+preset_list = ["Duel", "MKC_duel", "MKC_balance"] + [p["name"] for p in BUTTONS_PRESET]#, "DeveloperMode"]
 
 Preset_On = False
 
@@ -643,58 +697,43 @@ for preset in preset_list:
             Preset_On = preset
             #print("ON!!!", Preset_On)
             break
-    elif get_hex_state(preset, main):
+    if get_hex_state(preset, main):
         Preset_On = preset
         #print("on!!!", Preset_On)
         break
 
+if Preset_On == False:
+    Preset_On = "Custom"
 
 BUTTONS_Gameplay = [
-    {'name': 'HeroLimit', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Switch between 1-hero, 3-hero and 8-hero modes. \n1 hero: Players cannot purchase more than 1 hero to wander the map at once. \nAI does not buy more than 1 hero. View Air shows enemy heroes without Air Magic skill. \n\n3 hero: Players can only purchase 3 heroes at a time, including the garrisoned heroes. \nAI purchases less heroes than before. \n\n8 heroes: Standard heroes 3 gameplay."},  #deleted: \n\n3 heroes: Players are limited to 3 heroes total (including the garrisoned heroes). No additional spell changes. 
-    {'name': 'ExpandedLuckMoraleScale', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Expands the maximum and minimum Morale and Luck"},
-#    {'name': 'RefuseLevelUp', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Upon Leveling up, the player may skip the choice of the new skill."},
-    {'name': 'BalancedOldHillFort', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Old Hill fort will upgrade units for a higher price. \n\nHighly recommended when playing with any of the new templates."},
-    {'name': 'NewCreatureBanks', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Replaces Derelict Ships and Temples of the Sea with new creature banks - Mountain Caverns and Underground Factories."},
-    {'name': 'XPcalc', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "XP is a function of AI value / 16, instead of the enemy HP."},
-    {'name': 'CastingUnicornsFlyingFamiliars', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Familiars can fly, at an increased price per unit. \nWar Unicorns can cast Magic Mirror for 3 rounds, once per battle."},
-    {'name': 'COTUK', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Cloak of the Undead King summons Wraiths, instead of Liches."},
-    {'name': 'Gwenneth_gameplay', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Switch between Gwenneth and Sanya being available by default on random maps."},
-    {'name': 'UniqueStartingArmies', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "All heroes start with units they specialize in."},
-    {'name': 'Winstan', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Switch between Winstan and Torosar being available by default on random maps."},
+    {'name': 'HeroLimit', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Switch between 1-hero, 3-hero and 8-hero modes. \n1 hero: Players cannot purchase more than 1 hero to wander the map at once. \nAI does not buy more than 1 hero. View Air shows enemy heroes without Air Magic skill. \n\n3 hero: Players can only purchase 3 heroes at a time, including the garrisoned heroes. \nAI purchases less heroes than before. \n\n8 heroes: Standard heroes 3 gameplay."},  
+    {'name': 'ExpandedLuckMoraleScale', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Expands the maximum and minimum Morale and Luck to the chosen value. \nThe odds scale linearly, i.e. +5 luck is 5/24 odds for a lucky strike."},
+    {'name': 'NewHeroesByDefault', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Enables the following heroes on random maps: \nAthe (Heretic, Diplomacy specialist), \nArchibald (Warlock, Tactics specialist), \nGwenneth (Cleric, Scholar specialist), \nWinstan (Alchemist, Precision specialist)."},
+    {'name': 'Zenith', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Replaces Straker (Death Knight, Zombie specialist) with Zenith (Necromancer, Mummy specialist). \nZenith can upgrade Walking Dead and Zombies into Mummies."},
+    {'name': 'UniqueStartingArmies', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "All heroes start with units they specialize in, except for the level 7 units."},
     {'name': 'PrimaryStatsIncreaseIsConstant', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Primary stat increase for each hero class does not change after level 10."},
-    {'name': 'Athe', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Switch between Athe and Olema being available by default on random maps."},
+    {'name': 'StaticSpellSpecialties', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Changes all level-scaling spell speciatlies for a static 25% bonus."},
     {'name': 'LiftMagicRestrictions', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Allows Rangers, Overlords, Beastmasters, Barbarians and Mercenaries to learn Water and Fire magic, but with very low probability."},
-    {'name': 'Archibald', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Switch between Archibald and Jeddite being available by default on random maps."},
-    {'name': 'StaticSpellSpecialties', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Changes all level-scaling spell speciatlies to instead be a static 25% bonus."},
-    {'name': 'Zenith', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Switch between Zenith and Straker."},
-
-    {'name': 'Arrow_right', 'category': main, 'category_name': None, **ARROW_DICT[0], 'pos': (310, 511), 'description': "Turn the page"},
-]
-
-
-BUTTONS_Gameplay2 = [
-    {'name': 'CompleteSpellRedesign', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Alters the level and mana cost of almost all spells."},
-    {'name': 'MKC_skills', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Improves the effect of Estates, Mysticism, Tactics and First Aid; reduces the bonuses of Logistics and Scouting."},
+    {'name': 'NewCreatureSkills', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Familiars can fly, at an increased price per unit. \nWar Unicorns can cast Magic Mirror for 3 rounds, once per battle.\nHorned demons benefit from the jousting bonus, \nat an increased price and decreased health per unit. "},
+    {'name': 'RemoveBallistics', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Merges the Artillery and Ballistics skills."},
     {'name': 'NoPandoraConfirmation', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Replaces pick-up and fight messages from Pandora boxes. Not recommended for custom scenarios."},
-    {'name': 'MKC_scrolls', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "All heroes start with three control spell scrolls. \nRecommended for Duel 3.0."},
-    {'name': 'UnpredictableGenies', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Genies can cast any positive spell, ignoring all targetting rules. \nThey may also cast Implosion."},
-    {'name': 'MKC_balance', 'Priority': True, 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Extensive gameplay rebalance for 1hero gameplay, designed by MKC. \nEnabling this setting may switch some of the other options. \n\nDue to the sheer number of changes, it takes a few seconds to load.\n\nDisables the switches for the following settings:\nHero Limit, Zenith, Static spell specialties, skins for Catherine, \nUnpredictable Genies, experience based on AI value."},
-    {'name': 'PowerlessElementalists', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Replaces starting stats of Elementalists for 0 Attack, 0 Defense, 3 Power and 2 Knowledge."},
-    {'name': 'MKC_duel', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Changes random map generation rules to match those expected by MKC's Duel 3.0 template. Necessary to play duel 3.0."},
-    {'name': 'SeparateTPDD', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Moves Town Portal to Water and Earth magic, and Dimension Door to Air and Fire magic."},
-    {'name': 'NewMainMenu', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "New Main Menu screen (from the HotA 1.7.0 demo)"},
-#    {'name': 'MusicSwap', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Replaces the music theme of the Factory Town for one created by Jakub Niewęgłowski."},
-
-    {'name': 'Arrow_left', 'category': main, 'category_name': None, **ARROW_DICT[0], 'pos': (230, 511), 'description': "Turn the page"},
+    {'name': 'MKC_scrolls', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "All heroes start with the three control spell scrolls. \nRecommended for Duel 3.0."},
+    {'name': 'NewCreatureBanks', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Adds two new creature banks: Mountain Caverns and Underground Factories."},
+    {'name': 'MKC_skills', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Improves Estates, First Aid and Mysticism; reduces the bonus of Scouting and Logistics."},
+    {'name': 'MergeTPDD', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Moves Town Portal and Dimension Door both to all schoools of magic.\n\nWhile the option is disabled, Town Portal belongs to Earth and Water magic, \nwhile Dimension Door belongs to Air and Fire magic."},
 ]
 
 BUTTONS_Hidden = [
+#    {'name': 'MKC_duel', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Activates the Duel preset."},
     {'name': 'StaticSpellSpecialties2', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "No description"},
+    {'name': 'MKC_TRUE', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "No description"},
     {'name': 'MKC_compatibility', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "No description"},
+    {'name': 'XPcalc', 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "XP is a function of AI value / 16, instead of the enemy HP."},
+    {'name': 'MKC_balance', 'Priority': True, 'category': features, 'category_name': "Optional features", **NONE_DICT[0], 'description': "Extensive gameplay rebalance for 1hero gameplay, designed by MKC. \nEnabling this setting may switch some of the other options. \nYou can read more about it on https://www.h3templates.com/content/po \n\nDue to the sheer number of changes, it takes a few seconds to load."},
 ]
 
-BUTTONS_PRESET_MAP = {b["name"]: b for b in  BUTTONS_Gameplay2 + BUTTONS_PRESET + BUTTONS_HOME}
-BUTTONS_Gameplay_MAP = {b["name"]: b for b in  BUTTONS_Gameplay2 + BUTTONS_Gameplay + BUTTONS_Hidden}
+BUTTONS_PRESET_MAP = {b["name"]: b for b in  BUTTONS_PRESET + BUTTONS_HOME}
+BUTTONS_Gameplay_MAP = {b["name"]: b for b in  BUTTONS_Gameplay + BUTTONS_Hidden}
 
 BUTTONS_Skins = [
     {'name': 'Edric', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Edric"},
@@ -736,17 +775,20 @@ BUTTONS_Skins2 = [
     {'name': 'Thant', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Thant"},
     {'name': 'Vidomina', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Vidomina"},
     {'name': 'Zenith2', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Zenith"},
+    {'name': 'Dace', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Dace"},
     {'name': 'Gunnar', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Gunnar"},
     {'name': 'Archibald2', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Archibald"},
     {'name': 'Mutare', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Mutare (Drake)"},     
     {'name': 'Alamar', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Alamar"},
-    {'name': 'Deemer', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Deemer"},
+    {'name': 'Malekith', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Malekith"},
     {'name': 'Jeddite', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Jeddite"},
+    {'name': 'Deemer', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Deemer"},
     {'name': 'Sephinroth', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Sephinroth"},
     {'name': 'Darkstorn', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Darkstorn"},
     {'name': 'Yog', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Yog"},
     {'name': 'Shiva', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Shiva"},
     {'name': 'CragHack', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Crag Hack"},
+    {'name': 'Tyraxor', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Tyraxor"},
     {'name': 'Gundula', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Gundula"},
     {'name': 'Kilgor', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Kilgor"},
     {'name': 'Bron', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Bron"},
@@ -755,16 +797,15 @@ BUTTONS_Skins2 = [
     {'name': 'Wystan', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Wystan"}, 
     {'name': 'Monere', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Monere"},
     {'name': 'Erdamon', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Erdamon"},
-    {'name': 'Luna', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Luna"},
-    {'name': 'Ciele', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Ciele"},
-    {'name': 'Astra', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Astra"}, 
-#    {'name': 'MainMenu', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Main Menu screen"},
-    
+#    {'name': 'MainMenu', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Main Menu screen"},    
     {'name': 'Arrow_left', 'category': main, 'category_name': None, **ARROW_DICT[0], 'pos': (390, 511), 'description': "Turn the page"},
     {'name': 'Arrow_right', 'category': main, 'category_name': None, **ARROW_DICT[0], 'pos': (470, 511), 'description': "Turn the page"},
 ]
 
 BUTTONS_Skins3 = [  
+    {'name': 'Luna', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Luna"},
+    {'name': 'Ciele', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Ciele"},
+    {'name': 'Astra', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Astra"}, 
     {'name': 'Wynona', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Wynona"},
     {'name': 'Wrathmont', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Wrathmont"},
     {'name': 'Agar', 'category': skins, 'category_name': "Skins", **NONE_DICT[0], 'description': "Agar"},
@@ -773,17 +814,17 @@ BUTTONS_Skins3 = [
 ]
 
 BUTTONS_Skins_Map = {b["name"]: b for b in BUTTONS_Skins3 + BUTTONS_Skins2 + BUTTONS_Skins}
-skins_list = [s["name"] for s in BUTTONS_Skins + BUTTONS_Skins2 + BUTTONS_Skins3]
+skins_list = [s["name"] for s in BUTTONS_Skins + BUTTONS_Skins2 + BUTTONS_Skins3 if s["name"] ]#not in ["Catherine"]]
 
 def check_swaps(depth = 2, complete = False):
-    print("run check_swaps")
+    #print("run check_swaps")
     global Preset_On
     preset_applied = False
     extra_keys = False
     if get_hex_state("Duel", main):
         extra_key, extra_key_state = "MKC_balance", True
         extra_key2, extra_key2_state = "Catherine", "dor"
-        extra_key3, extra_key3_state = "HeroLimit", 11
+        extra_key3, extra_key3_state = "MKC_TRUE", True 
         extra_keys = True
     else:
         extra_key, extra_key_state = None, None
@@ -796,15 +837,11 @@ def check_swaps(depth = 2, complete = False):
     else:
         extra_key4, extra_key4_state = None, None
 
-    if get_hex_state("MKC_duel", features):
+    if get_hex_state("Duel", main):
         extra_key5, extra_key5_state = "NewCreatureBanks", True
-        extra_key6, extra_key6_state = "PowerlessElementalists", False
-        extra_key7, extra_key7_state = "MKC_duel", True
         extra_keys = True
     else:
         extra_key5, extra_key5_state = None, None
-        extra_key6, extra_key6_state = None, None
-        extra_key7, extra_key7_state = None, None
 
     if get_hex_state("MKC_balance", features):
         extra_key8, extra_key8_state = "HeroLimit", 11
@@ -823,13 +860,12 @@ def check_swaps(depth = 2, complete = False):
                 (extra_key3, extra_key3_state),
                 (extra_key4, extra_key4_state),
                 (extra_key5, extra_key5_state),
-                (extra_key6, extra_key6_state),
-                (extra_key7, extra_key7_state),
                 (extra_key8, extra_key8_state),
                 (extra_key9, extra_key9_state),
                 (extra_key10, extra_key10_state),
                 ]:
             if key is not None:
+                print(key, key_state)
                 apply(key, key_state)
                 #print("KEYS:", key, key_state)
                 button_extra = BUTTONS_Gameplay_MAP.get(key)
@@ -850,11 +886,10 @@ def check_swaps(depth = 2, complete = False):
                 BUTTONS_Skins3,
                 BUTTONS_Skins2,
                 BUTTONS_Skins,
-                BUTTONS_Gameplay2,
                 BUTTONS_Gameplay,
                 ]
     else:
-        button_lists_list = [BUTTONS_Gameplay2, BUTTONS_Gameplay,]
+        button_lists_list = [BUTTONS_Gameplay]
 
     for btn_list in button_lists_list:
         for b in btn_list:
@@ -884,36 +919,37 @@ def check_swaps(depth = 2, complete = False):
 
     if get_hex_state("Duel", main):
         apply("Duel", True)
-        apply("MKC_balance", True)
+        confirm("MKC_balance", True)
         apply("MKC_compatibility", True)
     elif get_hex_state("MKC_balance", features):
         apply("MKC_balance", True)
         apply("MKC_compatibility", True)
     else:
-        if get_hex_state("MKC_scrolls", features):
-            apply("MKC_scrolls", True)
-        confirm("Zenith", get_hex_state("Zenith", features), depth=3)
-        confirm("Catherine", get_hex_state("Catherine", features), depth=3)
-        confirm("CastingUnicornsFlyingFamiliars", get_hex_state("CastingUnicornsFlyingFamiliars", features), depth=3)
-        confirm("NewCreatureBanks", get_hex_state("NewCreatureBanks", features), depth=3)
-        confirm("CompleteSpellRedesign", get_hex_state("CompleteSpellRedesign", features), depth=3)
+        pass
+#        if get_hex_state("MKC_scrolls", features):
+#            apply("MKC_scrolls", True)
+        confirm("Zenith", get_hex_state("Zenith", features), depth=4)
+#        confirm("Catherine", get_hex_state("Catherine", features), depth=3)
+#        confirm("NewCreatureSkills", get_hex_state("NewCreatureSkills", features), depth=3)
+#        confirm("NewCreatureBanks", get_hex_state("NewCreatureBanks", features), depth=3)
     return
             
 
 def get_pass():
-    PASScode = 268435456 #for version 1.4.9. 
+    pass_base_number = 1073741824 #2^30
+    PASScode = pass_base_number  
     if get_hex_state("Duel", main):
-        PASSWORD = 'Duel 14a'
+        PASSWORD = 'Duel 160'
         bytePASS = PASSWORD.encode('utf-8')
         return bytePASS
     elif get_hex_state("Basic", main):
-        PASSWORD = 'Base 14a'
-    elif get_hex_state("Balanced", main):
-        PASSWORD = 'Mods 14a'
-    elif get_hex_state("Chaos", main):
-        PASSWORD = 'Chaos14a'
+        PASSWORD = 'Base 160'
+    elif get_hex_state("Balanced", main) and get_hex_state("HeroLimit", features) == 8:
+        PASSWORD = 'PP160 8h'
+    elif get_hex_state("Balanced", main) and get_hex_state("HeroLimit", features) == 3:
+        PASSWORD = 'PP160 3h'
     else:
-        for i, g in enumerate(BUTTONS_Gameplay + BUTTONS_Gameplay2):
+        for i, g in enumerate(BUTTONS_Gameplay):
             if i > 9:
                 i = i - 1
             
@@ -928,9 +964,9 @@ def get_pass():
                 if int(g['current_state']) != 8:
                     PASScode = PASScode + 1
                 elif int(g['current_state']) < 8:
-                    PASScode = PASScode + 1 + 33554432 #2^25
+                    PASScode = PASScode + 1 + 2 * pass_base_number
             elif g['name'] == "ExpandedLuckMoraleScale":
-                PASScode = PASScode + int(g['current_state']) * 67108864 #2^26
+                PASScode = PASScode + int(g['current_state']) * 4 * pass_base_number
             elif g['name'] in ["NewMainMenu", "Arrow_left", "Arrow_right"]:
                 pass
             elif g['current_state']:
@@ -940,9 +976,8 @@ def get_pass():
         PASScode_b64 = base64.urlsafe_b64encode(PASScode_bytes).decode().rstrip('=')
 
         PASSWORD = str(PASScode_b64)
-        while len(PASSWORD) < 8:
-            PASSWORD += ' ' 
-    #print("PASSWORD IS", PASSWORD)
+    while len(PASSWORD) < 8:
+        PASSWORD += ' ' 
     bytePASS = PASSWORD.encode('utf-8')
     return bytePASS
 
@@ -964,22 +999,19 @@ def update_templates():
     for i, tmpl in enumerate(templates):
         tmpl_dir = os.path.join(script_dir, "HotA_RMGTemplates", tmpl)
         name = name_list[i]
+        if str(name).lower() in ["jebus cross", "6lm10a", "memory lane 1.90", "memory lane", "default random map"]:
+            name = str(name) + " - PP"
+
+        if str(name).lower() in ["duel 3.0", "duel 3.0 t+", "duel 3.0a", "duel 3.0a t+", "duel 3.1", "duel 3.1 t+", "jebus cross - pp", "memory lane - pp", "default random map - pp", "6lm10a - pp"]:
+            name = "{" + str(name) + "}"
+
         if is_utf8_encodable(name):
             bytename = name.encode('utf-8')
-        else: 
-            continue
-        tmpl_offset = find_hex(tmpl, bytename, tmpl_dir)
-        if tmpl_offset == []:
-            name = name.lower()
-            if str(name).lower() in ["duel 3.0", "duel 3.0 t+", "duel 3.0a", "duel 3.0a t+", "duel 3.0b", "duel 3.0b t+"]:
-                name = "{" + str(name) + "}"
-                print(name)
-            if is_utf8_encodable(name):
-                bytename = name.encode('utf-8')
-            else: 
-                continue
-            tmpl_offset = find_hex(tmpl_dir, bytename)
+            tmpl_offset = find_hex(tmpl, bytename, tmpl_dir)
 
+        if tmpl_offset == [] or tmpl_offset == [0]:
+            continue
+        
         if len(tmpl_offset) >= 1:
             offset = tmpl_offset[0] + len(name) + 2
             swaphex(tmpl, offset, bytePASS, tmpl_dir)
@@ -1000,6 +1032,7 @@ def update_button_image(btn_dict, suffix=""):
             #print("file:", name, state)
             filename = f"{name}_{state}{suffix}.png"
         else: 
+#            filename = f"{name}_{state}{suffix}.png"
             filename = f"{state}{suffix}.png"
     elif btn_dict['name'] in preset_list:
         if suffix != "":
@@ -1074,7 +1107,6 @@ class HexSwapper:
         #setting current states, based on category. This is the initial states based on INI. 
         for btn_list in [
                 BUTTONS_Gameplay, 
-                BUTTONS_Gameplay2, 
                 BUTTONS_Skins, 
                 BUTTONS_Skins2, 
                 BUTTONS_Skins3, 
@@ -1088,7 +1120,6 @@ class HexSwapper:
                 
         #print("PRESETON is", Preset_On)
         #checks swaps on startup. Deep. 
-        check_swaps(depth=4)
         global RESET, devmode
         RESET = False
         RESET = convert_value(main.get('RESET', fallback='False'))
@@ -1103,6 +1134,20 @@ class HexSwapper:
         if not is_exe_open():
             self.dont_ranked()
             apply("LOD_FIX", True)
+            print(get_hex_state("Duel", main))
+            mkc_is_on_list = [[],[],[]] 
+            mkc_is_on_list[0] = find_hex(EXE, b"movemmkc") 
+            mkc_is_on_list[1] = find_hex(hota_dll, b"\x6A\x01\x6A\x1D\xFF\xD3\x84\xC0\x74\x10\x6A\x32\x6A\x01\x6A\xFF\x6A\x02\x6A\xFF") 
+            mkc_is_on_list[2] = find_hex(DAT, b"{Dreadnoughts") 
+            MKC_IS_ON = False
+            for mkc_offset in mkc_is_on_list:
+                if mkc_offset != [0]:
+                    MKC_IS_ON = True
+                    break
+            if MKC_IS_ON:
+                apply("MKC_TRUE", False, override=True, MKC = False)
+            confirm("MKC_TRUE", get_hex_state("Duel", main), True, override = False, MKC_only = True)
+            check_swaps(depth=4)
             update_templates()
 
     def show_description(self, event, btn_dict):
@@ -1145,10 +1190,13 @@ class HexSwapper:
             btn_category = btn_dict['category']
             valid_states = get_valid_states(btn_name)
             current_state = btn_dict['current_state']
+            norm_states = [str(s).strip().lower() for s in valid_states]
+            norm_current = str(current_state).strip().lower()
             try:
-                i = valid_states.index(current_state)
+                i = norm_states.index(norm_current)
                 new_state = valid_states[(i + 1) % len(valid_states)]
             except ValueError:
+                print("\n\n, VALUE ERROR\n\n")
                 new_state = valid_states[0]
 
 #here all the skips start. Incompatible options, options that need to be "skipped" and we apply the next one, 
@@ -1156,21 +1204,31 @@ class HexSwapper:
             if btn_name == "NoPandoraConfirmation" and not new_state and get_hex_state("MKC_scrolls", features):
                 messagebox.showinfo("Cannot Swap Hex", 'You have enabled the "Control scrolls from day 1" setting, which forces this option to always be active.')
                 return            
-            elif btn_name == "NewCreatureBanks" and not new_state and get_hex_state("MKC_duel", features):
+            elif btn_name == "NewCreatureBanks" and not new_state and get_hex_state("Duel", main):
                 messagebox.showinfo("Cannot Swap Hex", 'You have enabled the "Duel 3.0 generation" setting, which forces this option to always be active.')
                 return            
+            elif str(btn_name).lower() == str(Preset_On).lower():
+                if btn_name.lower() == "custom":
+                    self.update_menu_state("Gameplay")
+                return            
             elif (
-                    (new_state == 8 
+                btn_name == "Catherine"
+                and not new_state
+                and (get_hex_state("Duel", main) or get_hex_state("MKC_balance", features))
+                ):
+#                messagebox.showinfo("Skipping option: 8-hero", 'You have enabled one of the enabled the "Skill rebalance for 1-hero" settings, which disable this skin.')
+                try:
+                    i = valid_states.index(current_state)
+                    new_state = valid_states[(i + 2) % len(valid_states)]
+                except ValueError:
+                    new_state = valid_states[1]                
+            elif (
+                    new_state == 8 
                      and btn_name == "HeroLimit" 
                      and (get_hex_state("MKC_skills", features) or get_hex_state("Duel", main) or get_hex_state("MKC_balance", features))
-                     )
-                    or (
-                        btn_name == "Catherine"
-                        and not new_state
-                        and (get_hex_state("Duel", main) or get_hex_state("MKC_balance", features))
-                        )
+                    
                 ):
-                messagebox.showinfo("Skipping option: 8-hero", 'You have enabled one of the enabled the "Skill rebalance for 1-hero" settings, which disable the 8-hero gameplay.')
+                messagebox.showinfo("Skipping option: 8-hero", 'You have enabled one of the 1 hero settings, which disable the 8-hero gameplay.')
                 try:
                     i = valid_states.index(current_state)
                     new_state = valid_states[(i + 2) % len(valid_states)]
@@ -1215,7 +1273,8 @@ class HexSwapper:
                         extra_key, extra_key_state = "MKC_balance", True
                         print("CASE 1.5")
                     elif ( #case 5: set different preset. 
-                        btn_name in preset_list and new_state
+                        btn_name in preset_list 
+                        and new_state
                         ):
                         Preset_On = btn_name
                         apply(preset, True)
@@ -1230,9 +1289,12 @@ class HexSwapper:
                         print("CASE FIVE")
                     elif ( #case 4: set preset. 
                         (btn_name in preset_list and not new_state and not (btn_name in ["Duel", "MKC_balance"]))
-                        or (not new_state and btn_name == preset)
+                        or 
+                            (
+                            not new_state and 
+                                btn_name.lower() == str(Preset_On).lower()
+                            )
                         ):
-                        Preset_On = False
                         apply(preset, False)
                         for button in [preset_dict, preset_dict2]:
                             if button is None:
@@ -1242,6 +1304,7 @@ class HexSwapper:
                                 config.set(button['category_name'], button['name'], str(False))
                         with open(ini_path, 'w') as configfile:
                             config.write(configfile)
+                        self.update_preset_custom()
                         print("CASE FOUR")
                     elif ( #case 2: disable preset. 
                         (btn_name in preset_list and new_state and (str(btn_name).lower() != str(preset).lower())) 
@@ -1251,7 +1314,6 @@ class HexSwapper:
                         if not messagebox.askyesno(f"Do you want to disable preset {Preset_On}", 
                                                f"""Preset "{Preset_On}" is active. Do you want to disable it to edit the gameplay settings?"""):
                             return
-                        Preset_On = False
                         apply(preset, False)
                         for button in [preset_dict, preset_dict2]:
                             if button is None:
@@ -1261,13 +1323,13 @@ class HexSwapper:
                                 config.set(button['category_name'], button['name'], str(False))
                         with open(ini_path, 'w') as configfile:
                             config.write(configfile)
+                        self.update_preset_custom()
                         print("CASE TWO")
                     else: #exception handling
                         if Preset_On is not False:
                             if not messagebox.askyesno(f"Do you want to disable preset {Preset_On}", 
                                                    f"""Preset "{Preset_On}" is active. Do you want to disable it to edit the gameplay settings?"""):
                                 return
-                        Preset_On = False
                         apply(preset, False)
                         for button in [preset_dict, preset_dict2]:
                             if button is None:
@@ -1277,6 +1339,7 @@ class HexSwapper:
                                 config.set(button['category_name'], button['name'], str(False))
                         with open(ini_path, 'w') as configfile:
                             config.write(configfile)
+                        self.update_preset_custom()
                         print("EXCEPTION HANDLING")
                             
             btn_dict['current_state'] = new_state
@@ -1286,6 +1349,7 @@ class HexSwapper:
 
             if (btn_name in preset_list) and new_state:
                 #print("trying to apply preset", btn_name, "\n\n\n")
+                print("applied preset!", btn_name)
                 on_apply_preset(btn_name)
                 #print("\n\n\nSUCCESSFULLY APPLIED PRESET: ", btn_name, "\n\n\n")
                 self.update_menu_state(self.menu_state, refresh=True)                
@@ -1310,7 +1374,7 @@ class HexSwapper:
                     Preset_On = "MKC_balance"
                 else:
                     apply(Preset_On, False)
-                    Preset_On = False
+                    Preset_On = "Custom"
                     for button in [preset_dict, preset_dict2]:
                         if button is None:
                             continue
@@ -1319,6 +1383,10 @@ class HexSwapper:
                             config.set(button['category_name'], button['name'], str(False))
                     with open(ini_path, 'w') as configfile:
                         config.write(configfile)
+            elif btn_name == "Balanced":
+                extra_key, extra_key_state = "HeroLimit", 8
+            elif btn_name == "MKC_balance":
+                extra_key, extra_key_state = "MKC_skills", new_state
             elif btn_name == "StaticSpellSpecialties":
                 extra_key, extra_key_state = "StaticSpellSpecialties2", new_state
             elif btn_name == "MKC_scrolls" and new_state:
@@ -1359,7 +1427,7 @@ class HexSwapper:
         for i, btn in enumerate(BUTTONS_HexSwapperMenu):
             name = btn['name']
 
-            if name.lower() in ["gameplay", "skins", "home"]:
+            if name.lower() in ["gameplay", "skins", "home", "halloffame", "halloffame_pressed"]:
                 btn_widget = tk.Button(
                     self.root,
                     command=lambda name=name: self.update_menu_state(name),
@@ -1382,7 +1450,7 @@ class HexSwapper:
                     bg=bgRGB, activebackground=bgRGB)
             elif name.lower() in [
                     "discord", "youtube", "wiki", "wiki2", "coffee", "feedback", 
-                    '-discord', '-youtube', '-wiki', '-wiki2', '-coffee', '-feedback', 
+                    '-discord', '-youtube', '-wiki', '-wiki2', '-coffee', '-feedback',
                     'linktree']: 
                 btn_widget = tk.Button(
                     self.root, 
@@ -1419,7 +1487,24 @@ class HexSwapper:
         link = 'https://' + site
         webbrowser.open(link)
     
-    
+    def update_preset_custom(self):
+        global Preset_On 
+        Preset_On = "Custom"
+        preset_dict = BUTTONS_PRESET_MAP.get(Preset_On)
+        if preset_dict is None:
+            return
+        preset_dict['current_state'] = False
+        if preset_dict['category_name'] is not None:
+            config.set(preset_dict['category_name'], preset_dict['name'], str(True))
+        if preset_dict['button'].winfo_exists():
+            update_button_image(preset_dict)
+        with open(ini_path, 'w') as configfile:
+            config.write(configfile)                                
+        on_apply_preset("Custom")
+#        if self.menu_state in ["Home", None]:
+#            self.update_menu_state("Home", refresh = True)
+        return
+
     def reset_all(self):
         if is_exe_open():
             messagebox.showwarning("Warning!", "The game is open! \n\nYou cannot use the HexSwapper to edit the game while it's open!\n\nIf you're getting this error despite having closed the game, please check the Task Manager or restart the system.")
@@ -1429,7 +1514,6 @@ class HexSwapper:
         config.set("HexSwapper", "RESET", "True")
         if str(self.menu_state).lower() in ["gameplay", "gameplay2", "home", None, "reset"]:
             button_dictionaries = [
-                BUTTONS_Gameplay2, 
                 BUTTONS_Gameplay, 
                 BUTTONS_PRESET, 
                 BUTTONS_Hidden,
@@ -1442,7 +1526,6 @@ class HexSwapper:
                 ]
         else:
             button_dictionaries = [
-                BUTTONS_Gameplay2, 
                 BUTTONS_Gameplay, 
                 BUTTONS_PRESET, 
                 BUTTONS_Skins, 
@@ -1461,13 +1544,15 @@ class HexSwapper:
                     b['current_state'] = default_state               
                     #print("confirming", name)
                     apply(name, default_state)
+                else:
+                    confirm(name, default_state, depth=4)
                 if b['category_name'] is not None:
                     config.set(b['category_name'], name, str(default_state))
                 #print("reset", name, "to state", b['current_state'])
 
         self.update_menu_state("Home", refresh = True)
         confirm("StaticSpellSpecialties2", False, depth=4)
-        on_apply_preset("Basic", presets_only = False)
+        on_apply_preset("Basic")
         update_ini()
         self.menu_state = None
         update_templates()
@@ -1493,7 +1578,7 @@ class HexSwapper:
         global devmode
         devmode = not devmode
         button = BUTTONS_PRESET_MAP.get("DeveloperMode")
-        print("SETTING DEVMODE TO", devmode)
+        #print("SETTING DEVMODE TO", devmode)
         button['current_state'] = devmode
         config.set("HexSwapper", "DeveloperMode", str(devmode))
         with open(ini_path, "w") as f:
@@ -1502,13 +1587,11 @@ class HexSwapper:
         self.update_menu_state("Home", refresh = True)
 
     def update_menu_state(self, requested_state="Home", refresh=True):
-        if requested_state is None or requested_state is False:
+        if requested_state is None or requested_state is False or requested_state.lower() == "halloffame_pressed":
             requested_state = "Home"
         requested_state = requested_state.lower()
-
         if str(self.menu_state).lower() == requested_state and not refresh:
             return
-
         global page1, page2, page3, pageA, pageB
         if requested_state.lower() in ["skins", "skins2", "skins3"]:
             page1 = "skins"            
@@ -1532,27 +1615,14 @@ class HexSwapper:
             "skins2": BUTTONS_Skins2,
             "skins3": BUTTONS_Skins3,
             "gameplay": BUTTONS_Gameplay,
-            "gameplay2": BUTTONS_Gameplay2,
-            "home": BUTTONS_HOME + BUTTONS_PRESET
+            "home": BUTTONS_HOME + BUTTONS_PRESET,
+            "halloffame": BUTTONS_HOME2
         }
-
-#        global devmode
-#        if devmode:
-#            menu_map = {
-#                "skins": BUTTONS_Skins,
-#                "skins2": BUTTONS_Skins2,
-#                "skins3": BUTTONS_Skins3,
-#                "gameplay": BUTTONS_Gameplay,
-#                "gameplay2": BUTTONS_Gameplay2,
-#                "home": BUTTONS_HOME + BUTTONS_PRESET
-#            }
 
         try:
             buttons = menu_map.get(requested_state)
         except ValueError:
             buttons = BUTTONS_HOME + BUTTONS_PRESET
-#            if devmode:
-#                buttons = BUTTONS_HOME + BUTTONS_PRESET
         color = bgRGB
         
         for i, btn in enumerate(buttons):
@@ -1587,10 +1657,17 @@ class HexSwapper:
                     bg=color,
                     activebackground=color
                     )
+            elif name.lower() in ["halloffame", "halloffame_pressed"]:
+                btn_widget = tk.Button(
+                    self.root,
+                    command=lambda name=name: self.update_menu_state(name),
+                    borderwidth=0, relief="flat", overrelief="flat",
+                    highlightthickness=0, bd=0, takefocus=0, bg=bgRGB, activebackground=bgRGB
+                    )
             elif name.lower() in [
                     "discord", "youtube", "wiki", "wiki2", "coffee", "feedback", 
                     '-discord', '-youtube', '-wiki', '-wiki2', '-coffee', '-feedback', 
-                    'linktree']: 
+                    "pumpkinrace2025", "popawasia", "keszu", "qweder", 'linktree']: 
                 btn_widget = tk.Button(
                     self.root, 
                     command=lambda site=HEX[name]['link'][0]: self.open_website(site), 
@@ -1628,23 +1705,15 @@ class HexSwapper:
             self.all_buttons.append(btn_widget)
 
         if str(requested_state).lower() == "gameplay":
-#            devmode = False
-#            config.set("HexSwapper", "DeveloperMode", "False")
-#            with open(ini_path, "w") as f:
-#                config.write(f)
             overlay = os.path.join(icons_dir, "GameplayOverlay.png")
             image2 = Image.open(overlay)
             self.bg_photo2 = ImageTk.PhotoImage(image2)
             self.overlay_image_id = self.canvas.create_image(50, 140, image=self.bg_photo2, anchor="nw")
-            overlay2 = os.path.join(icons_dir, "Arrow_left_false.png")
-            image3 = Image.open(overlay2)
-            self.bg_photo3 = ImageTk.PhotoImage(image3)
-            self.overlay_image_id = self.canvas.create_image(230, 511, image=self.bg_photo3, anchor="nw")
+#            overlay2 = os.path.join(icons_dir, "Arrow_left_false.png")
+#            image3 = Image.open(overlay2)
+#            self.bg_photo3 = ImageTk.PhotoImage(image3)
+#            self.overlay_image_id = self.canvas.create_image(230, 511, image=self.bg_photo3, anchor="nw")
         elif str(requested_state).lower() == "gameplay2":
-#            devmode = False
-#            config.set("HexSwapper", "DeveloperMode", "False")
-#            with open(ini_path, "w") as f:
-#                config.write(f)
             overlay = os.path.join(icons_dir, "GameplayOverlay2.png")
             image2 = Image.open(overlay)
             self.bg_photo2 = ImageTk.PhotoImage(image2)
@@ -1665,6 +1734,11 @@ class HexSwapper:
             self.overlay_image_id = self.canvas.create_image(470, 511, image=self.bg_photo2, anchor="nw")
         elif str(requested_state).lower() == "skins2":
             pass
+        elif str(requested_state).lower() == "halloffame":
+            overlay = os.path.join(icons_dir, "Hall Of Fame.png")
+            image2 = Image.open(overlay)
+            self.bg_photo2 = ImageTk.PhotoImage(image2)
+            self.overlay_image_id = self.canvas.create_image(50, 140, image=self.bg_photo2, anchor="nw")            
         elif (str(requested_state).lower() == "home" or requested_state is None):
 #            if devmode:
             overlay = os.path.join(icons_dir, "Home Overlay.png")
@@ -1689,29 +1763,35 @@ class HexSwapper:
         #check_for_updates()
         global devmode
         RESET = get_hex_state("RESET", main)
-        if not RESET and (Preset_On is False or Preset_On == "MKC_balance") and not devmode:
-            rand = random.randint(1,2)
-            if rand == 1:
-                if messagebox.askyesno("Warning", """To play online multiplayer, both players must have the same settings. 
+        if not RESET and (Preset_On in [False, "Custom", "MKC_balance"]) and not devmode:
+            #rand = random.randint(1,2)
+            #if rand == 1:
+            if messagebox.askyesno("Warning", """To play online multiplayer, both players must have the same settings. 
                                        \nConfirm with your friends that you have the same settings. 
                                        \n\nDo you want to go back to HexSwapper?"""):
-                    self.update_menu_state("gameplay")
-                    return
-            elif rand == 2:
-                if not messagebox.askyesno("Warning", """To play online multiplayer, both players must have the same settings. 
-                                           \nConfirm with your friends that you have the same settings. 
-                                           \n\nDo you want to proceed to the game?"""):
-                    self.update_menu_state("gameplay")
-                    return
-        check_swaps(depth=2)
+                self.update_menu_state("gameplay")
+                return
+            #elif rand == 2:
+                #if not messagebox.askyesno("Warning", """To play online multiplayer, both players must have the same settings. 
+                #                           \nConfirm with your friends that you have the same settings. 
+                #                           \n\nDo you want to proceed to the game?"""):
+                #    self.update_menu_state("gameplay")
+                #    return
+        if Preset_On != "Duel":
+            check_swaps(depth=4)
         update_templates()
+#        print(Preset_On)
         if getattr(sys, 'frozen', False):
             #Running as .exe (frozen by PyInstaller)
             game_dir = os.path.dirname(sys.executable)
         else:
             #Running as .py script
             game_dir = os.path.dirname(os.path.abspath(__file__))
-        game_exe = os.path.join(game_dir, EXE)
+        
+        if Preset_On == "Duel":
+            game_exe = os.path.join(game_dir, EXE_DUEL)
+        else:
+            game_exe = os.path.join(game_dir, EXE)
         if not os.path.exists(game_exe):
             messagebox.showerror("Error", f"Game executable not found at: {game_exe}")
             return
