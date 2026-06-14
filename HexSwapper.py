@@ -939,15 +939,15 @@ def get_pass():
     pass_base_number = 1073741824 #2^30
     PASScode = pass_base_number  
     if get_hex_state("Duel", main):
-        PASSWORD = 'Duel 160'
+        PASSWORD = 'Duel 161'
         bytePASS = PASSWORD.encode('utf-8')
         return bytePASS
     elif get_hex_state("Basic", main):
-        PASSWORD = 'Base 160'
+        PASSWORD = 'Base 161'
     elif get_hex_state("Balanced", main) and get_hex_state("HeroLimit", features) == 8:
-        PASSWORD = 'PP160 8h'
+        PASSWORD = 'PP161 8h'
     elif get_hex_state("Balanced", main) and get_hex_state("HeroLimit", features) == 3:
-        PASSWORD = 'PP160 3h'
+        PASSWORD = 'PP161 3h'
     else:
         for i, g in enumerate(BUTTONS_Gameplay):
             if i > 9:
