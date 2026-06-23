@@ -42,3 +42,7 @@ py -m PyInstaller ^
 --hidden-import=win32com ^
 --hidden-import=pythoncom ^
 install_Pumpkin_Patch.py
+
+
+
+In case you run into issues with the app, check that you have the VCRUNTIME.dll installed: https://learn.microsoft.com/en-us/answers/questions/4269238/vcruntime140-dll-and-msvcp140-dll-missing-in-windo
