@@ -5,16 +5,10 @@ Created on Tue Aug  5 19:15:13 2025
 @author: CsArOs
 """
 
-import os
-import sys
-import subprocess
-import shutil
-import zipfile
+import os, sys, winshell, subprocess 
+import shutil, zipfile
 import tkinter as tk
 from tkinter import filedialog, messagebox
-import winshell
-
-from MMArchiveCLI import add_to_archive
 
 EXE_NAME = "h3hota HD.exe"
 PP_Folder = "PumpkinPatch"
@@ -134,6 +128,7 @@ def find_hex(file, hex_to_find, filepath = None):
 #        return language
 
 def main():
+
     global folder
     global mod_folder
     messagebox.showinfo("Welcome to the Pumpkin Patch installer!", "The installer will now load a directory for you to find your game. Please locate the heroes 3 folder when prompted.")
@@ -185,11 +180,6 @@ def main():
 
     install_mod_files(mod_folder, folder)
 
-    config = type('Config', (), {'ignore_unzip_errors': True})()
-    hota_vid = os.path.join(folder, "Data", "HotA.vid")
-    menu_bik = os.path.join(mod_folder_inside_exe, "Data", "CreditP.bik")
-    add_to_archive(hota_vid, menu_bik, config)
-
     messagebox.showinfo("Success", "Files installed successfully!")
 
     hexswapper_exe = os.path.join(folder, "HexSwapper.exe")
@@ -235,13 +225,11 @@ def create_backup():
     print(mod_files_list)
 
 
-
     #removes old files
-    delete_maps_list = ["Sir Mullich's Charge", "Secrets of the Pumpkin Patch", "Secrets of the PP", "[Pumpkin Patch] Secrets", "[Pumpkin Patch] Secrets - Copy", "[Pumpkin Patch] Charge"]
+    delete_maps_list = ["Sir Mullich's Charge", "Secrets of the Pumpkin Patch", "Secrets of the PP", "[Pumpkin Patch] Secrets", "[Pumpkin Patch] Secrets - Copy", "[Pumpkin Patch] Charge", "The Mysterious Island - Allies"]
     delete_templates_list = ["Duel 3.0", "Duel 3.0 t+", "Duel 3.0a", "Duel 3.0a t+", "Jebus Cross Pumpkin Patch", "Jebus Cross - PP", "Jebus Cross PP", "Memory Lane 1.8.2 PP", "Memory Lane PP", "Memory Lane 1.90", "Memory Lane - PP", "Memory Lane", "Memory Lane 1.8.2 - PP", "Memory Lane 1.9.0 PP", "Memory Lane 1.9.0 - PP", "6lm10a - PP", "6lm10a PP", "Memory Lane 1.82 PP", "Memory Lane 1.90 - PP"]
     delete_folders_list = ["alternative", "Icons", "mkc", "modded", "original"]
-    delete_files_in_data_list = ["UnFacNJ.wav", "UnFact.wav"]
-    delete_files_list = ["_HOTA BACKUP.zip", "HexSwapper.exe"]
+    delete_files_list = ["HexSwapper.exe"]
 
     if os.path.isfile(backup_zip):
         try:
@@ -253,56 +241,45 @@ def create_backup():
     for mapname in delete_maps_list:
         mapname = str(mapname) + ".h3m"
         try:
-            os.remove(os.path.join(folder, "Maps", mapname))
+            winshell.delete_file(os.path.join(folder, "Maps", mapname), no_confirm = True)
         except Exception:
             pass
         try:
-            os.remove(os.path.join(folder, "Maps", mapname.lower()))
+            winshell.delete_file(os.path.join(folder, "Maps", mapname.lower()), no_confirm = True)
         except Exception:
             pass
     
     for templatename in delete_templates_list:
         templatename = str(templatename) + ".h3t"
         try:
-            os.remove(os.path.join(folder, "HotA_RMGTemplates", templatename))
+            winshell.delete_file(os.path.join(folder, "HotA_RMGTemplates", templatename), no_confirm = True)
         except Exception:
             pass
         try:
-            os.remove(os.path.join(folder, "HotA_RMGTemplates", templatename.lower()))
+            winshell.delete_file(os.path.join(folder, "HotA_RMGTemplates", templatename.lower()), no_confirm = True)
         except Exception:
             pass
 
-
-    for filename in delete_files_in_data_list:
-        if filename is not None:
-            try:
-                os.remove(os.path.join(folder, "Data", str(filename)))
-            except Exception:
-                pass
-            try:
-                os.remove(os.path.join(folder, "Data", str(filename).lower()))
-            except Exception:
-                pass
 
     for foldername in delete_folders_list:
         if foldername is not None:
             try:
-                shutil.rmtree(os.path.join(folder, "Data", str(foldername)))
+                winshell.delete_file(os.path.join(folder, "Data", str(foldername)), no_confirm = True)
             except Exception:
                 pass
             try:
-                shutil.rmtree(os.path.join(folder, "Data", str(foldername).lower()))
+                winshell.delete_file(os.path.join(folder, "Data", str(foldername).lower()), no_confirm = True)
             except Exception:
                 pass
 
     for filename in delete_files_list:
         if filename is not None:
             try:
-                os.remove(os.path.join(folder, str(filename)))
+                winshell.delete_file(os.path.join(folder, str(filename)), no_confirm = True)
             except Exception:
                 pass
             try:
-                os.remove(os.path.join(folder, str(filename).lower()))
+                winshell.delete_file(os.path.join(folder, str(filename).lower()), no_confirm = True)
             except Exception:
                 pass
 
@@ -310,27 +287,6 @@ def create_backup():
     try:
         with zipfile.ZipFile(backup_zip, 'w', zipfile.ZIP_DEFLATED) as backup:
             # Backup game files corresponding to mod files
-            for full_mod_path in mod_files_list:
-                try:
-                    rel_path_inside_mod = os.path.relpath(full_mod_path, mod_folder)
-                except ValueError:
-                    messagebox.showinfo(
-                        "Could not backup files",
-                        f"Files inside the installer are located at {full_mod_path}.\n"
-                        f"Your installation directory is at {folder}.\n\n"
-                        "Since these are on different drives, a backup could not be created. "
-                        "Be sure to backup Heroes 3: HotA files manually."
-                    )
-                    continue
-
-                path_in_game = os.path.join(folder, rel_path_inside_mod)
-                if os.path.isfile(path_in_game):
-                    backup.write(path_in_game, arcname=rel_path_inside_mod)
-                    print(f"Backed up: {rel_path_inside_mod}")
-                else:
-                    print(f"File not found in {folder}, skipping: {rel_path_inside_mod}")
-
-#            for folder_type in [tmpl_folder, data_folder]:
             #Backup templates folder once
             for dirpath, _, filenames in os.walk(tmpl_folder):
                 for file in filenames:

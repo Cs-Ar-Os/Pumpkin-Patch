@@ -7,8 +7,9 @@ Created on Tue Aug  5 18:55:03 2025
 
 import sys
 import os
-import shutil
+#import shutil
 import zipfile
+import winshell
 import tkinter as tk
 from tkinter import messagebox
 
@@ -137,29 +138,29 @@ def main():
 
         delete_maps_list = ["Sir Mullich's Charge", "Secrets of the Pumpkin Patch", "Secrets of the PP", "[Pumpkin Patch] Secrets", "[Pumpkin Patch] Secrets - Copy", "[Pumpkin Patch] Charge"]
         delete_templates_list = ["Duel 3.0", "Duel 3.0 t+", "Duel 3.0a", "Duel 3.0a t+", "Jebus Cross Pumpkin Patch", "Jebus Cross - PP", "Jebus Cross PP", "Memory Lane 1.8.2 PP", "Memory Lane PP", "Memory Lane 1.90", "Memory Lane - PP", "Memory Lane", "Memory Lane 1.8.2 - PP", "Memory Lane 1.9.0 PP", "Memory Lane 1.9.0 - PP", "6lm10a - PP", "6lm10a PP", "Memory Lane 1.82 PP", "Memory Lane 1.90 - PP"]
-        delete_folders_list = ["alternative", "Icons", "mkc", "modded", "original"]
-        delete_files_in_data_list = ["UnFacNJ.wav", "UnFact.wav"]
-        delete_files_list = ["_HOTA BACKUP.zip", "HexSwapper.exe"]
+        delete_folders_list = ["alternative", "Icons", "mkc", "modded", "original", "video"]
+        delete_files_in_data_list = ["UnFacNJ.wav", "UnFact.wav", "Objects.txt", "HOTRAITS.TXT", "CrBanks.txt", "EdObjts.txt", "CrbankP.txt", "ObjectP.txt"]
+        delete_files_list = ["_HOTA BACKUP.zip", "HexSwapper.exe", "PP_version.txt"]
     
         for mapname in delete_maps_list:
             mapname = str(mapname) + ".h3m"
             try:
-                os.remove(os.path.join(script_dir, "Maps", mapname))
+                winshell.delete_file(os.path.join(script_dir, "Maps", mapname), no_confirm = True)
             except Exception:
                 pass
             try:
-                os.remove(os.path.join(script_dir, "Maps", mapname.lower()))
+                winshell.delete_file(os.path.join(script_dir, "Maps", mapname.lower()), no_confirm = True)
             except Exception:
                 pass
         
         for templatename in delete_templates_list:
             templatename = str(templatename) + ".h3t"
             try:
-                os.remove(os.path.join(script_dir, "HotA_RMGTemplates", templatename))
+                winshell.delete_file(os.path.join(script_dir, "HotA_RMGTemplates", templatename), no_confirm = True)
             except Exception:
                 pass
             try:
-                os.remove(os.path.join(script_dir, "HotA_RMGTemplates", templatename.lower()))
+                winshell.delete_file(os.path.join(script_dir, "HotA_RMGTemplates", templatename.lower()), no_confirm = True)
             except Exception:
                 pass
     
@@ -167,25 +168,36 @@ def main():
         for filename in delete_files_in_data_list:
             if filename is not None:
                 try:
-                    os.remove(os.path.join(script_dir, "Data", str(filename)))
+                    winshell.delete_file(os.path.join(script_dir, "Data", str(filename)), no_confirm = True)
                 except Exception:
                     pass
                 try:
-                    os.remove(os.path.join(script_dir, "Data", str(filename).lower()))
+                    winshell.delete_file(os.path.join(script_dir, "Data", str(filename).lower()), no_confirm = True)
                 except Exception:
                     pass
     
         for foldername in delete_folders_list:
             if foldername is not None:
                 try:
-                    shutil.rmtree(os.path.join(script_dir, "Data", str(foldername)))
+                    winshell.delete_file(os.path.join(script_dir, "Data", str(foldername)), no_confirm = True)
                 except Exception:
                     pass
                 try:
-                    shutil.rmtree(os.path.join(script_dir, "Data", str(foldername).lower()))
+                    winshell.delete_file(os.path.join(script_dir, "Data", str(foldername).lower()), no_confirm = True)
                 except Exception:
                     pass
-
+    
+        for filename in delete_files_list:
+            if filename is not None:
+                try:
+                    winshell.delete_file(os.path.join(script_dir, str(filename)), no_confirm = True)
+                except Exception:
+                    pass
+                try:
+                    winshell.delete_file(os.path.join(script_dir, str(filename).lower()), no_confirm = True)
+                except Exception:
+                    pass
+                
         text_offset = find_hex(hd_dll, new_text)[0]
         if not text_offset:
             print("Could not find hex offset in DLL.")
@@ -198,10 +210,10 @@ def main():
         messagebox.showinfo("HD_HOTA.dll updated", "Pumpkin changes have been reverted for the file.")
 
         if os.path.exists(hexswapper_EXE):
-            os.remove(hexswapper_EXE)
+            winshell.delete_file(hexswapper_EXE, no_confirm = True)
             
         if os.path.exists(Icons):
-            shutil.rmtree(Icons)
+            winshell.delete_file(Icons, no_confirm = True)
 
         messagebox.showinfo("HexSwapper removed", "HexSwapper.exe has been deleted. ")
 
