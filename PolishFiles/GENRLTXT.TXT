@@ -1,0 +1,874 @@
+Miscellaneous and unorganized game text
+Nie mo¿na dodaæ mened¿era!
+%s nie mo¿e zdobyæ wiêcej punktów doœwiadczenia w tym scenariuszu.
+"{Poziom %d}
+
+{Nastêpny poziom:} %d
+{Posiadane doœwiadczenie:} %d"
+%d/dzieñ
+lub
+%s przegrywa!
+%s, nie masz ¿adnego miasta. Je¿eli w ci¹gu siedmiu dni nie zdobêdziesz jakiegoœ miasta, wypadniesz z gry.
+%s, twoi bohaterowie opuszczaj¹ ciê i musisz opuœciæ t¹ krainê.
+%s musi udaæ siê na wygnanie i traci swoich bohaterów.
+"Nie mo¿na by³o zapisaæ gry jako ""%s""."
+Wyst¹pi³ b³¹d podczas próby otwarcia pliku %s!
+NOWA GRA
+Na pewno chcesz zwolniæ ten oddzia³?
+Aktualny gracz: %s
+Wyst¹pi³ b³¹d podczas transmisji danych.  Kontynuowaæ?
+%s, %s
+Rekrutuj
+Brak miejsca w garnizonie na ten oddzia³.
+Dowodzisz ju¿ %d bohaterami.
+Ten bohater nie dowodzi ¿adnym oddzia³em.  Bohater bez armii nie sprosta trudom wojny. 
+Jakoœæ grafiki
+Ten przedmiot nie mo¿e zostaæ wymieniony.
+Na pewno chcesz siê pozbyæ tego bohatera?
+Wybierz cel
+Na to pole nie mo¿na teleportowaæ oddzia³u.
+Teleportuj tutaj 
+Rzuæ zaklêcie %s
+Rzuæ zaklêcie %s na %s
+Czy na pewno chcesz uciec?
+Nie masz wystarczaj¹cej iloœci z³ota!
+Zdobywasz artefakty wroga!
+Brak
+"%s oznajmia:
+
+""Przyjmê twoj¹ kapitulacjê i pozwolê ci odejœæ wraz z armi¹, je¿eli zap³acisz mi %d szt. z³ota."""
+%s - wysokie morale oddzia³u pozwala na powtórny atak.
+%s - z powodu niskiego morale oddzia³ drêtwieje ze strachu.
+%s - nie masz miejsca, aby przy³¹czyæ ten oddzia³.
+Zaatakuj %s (obra¿enia: %s, zabitych: %s)
+Strzelaj do: %s (pozosta³ 1 pocisk, obra¿enia: %s, zabitych: %s)
+Informacje o kampanii:
+%s jest aktywny.
+Nazwa sesji
+Nazwa u¿ytkownika
+stworzenie
+stworzenia
+Pech pada na oddzia³: %s!
+Szczêœcie dopisuje oddzia³owi: %s!
+Bogactwo
+%s - miasto %s zosta³o zaatakowane!
+Miasto
+Bohater
+Ekran miasta
+Nie mo¿esz zbudowaæ jeszcze jednego okrêtu.
+Wymagania:
+<SYSTEM>:
+"{Mapa}
+
+Oto pomniejszona mapa œwiata.  Klikniêcie w dowolnym miejscu mapy wyœwietla wybrany fragment terenu na mapie przygody. Mo¿esz tak¿e przesuwaæ p³ynnie teren przemieszczaj¹c czerwon¹ ramkê."
+Co najmniej jeden z twoich bohaterów posiada jeszcze punkty ruchu. Na pewno chcesz zakoñczyæ turê?
+Poszukiwania artefaktu wymagaj¹ ca³ego dnia, spróbuj jutro.
+Twój bohater nie ma ju¿ miejsca w sakwie i nie mo¿e zabraæ tego artefaktu!
+Gratulacje! Po wielu godzinach poszukiwañ twoi ¿o³nierze odnajduj¹ artefakt -  
+"Nic nie znajdujesz.
+Gdzie to mo¿e byæ?"
+Lepiej spróbuj poszukaæ na l¹dzie!
+Niezbadany teren
+Mies
+Tydz
+Dzieñ
+Aby uzyskaæ informacje o przeciwniku, kliknij na nim prawym przyciskiem myszki.
+ping=%dms
+"Czy na pewno chcesz rozpocz¹æ grê od nowa?
+(Aktualna gra NIE zostanie zachowana)"
+"Na pewno chcesz wczytaæ stan gry?
+(Aktualna gra zostanie zakoñczona)"
+Czy na pewno chcesz zakoñczyæ grê?
+Zaklêcie 'wrota wymiarów' nie zadzia³a³o!
+Premia pocz¹tkowa:
+ping
+pingujê %s...
+pingujê wszystkich...
+Wynik
+AUTOZAPIS
+{Pocz¹tkowy bohater}
+{Profesja bohatera}
+{Dostêpne stworzenia}
+{Zamek bohatera}
+Nast¹pi³ b³¹d podczas przesy³ania danych.  Kontynuowaæ?
+Aby rozpocz¹æ grê wieloosobow¹ wymaganych jest co najmniej 2 graczy. Wybierz inn¹ mapê lub sprawdŸ zaawansowane opcje.
+{Artefakt}
+{Z³oto}
+{Zasoby}
+{Losowe}
+1000-1500
+Armagedon zadaje %d pkt. obra¿eñ.
+5-10 drewna / 5-10 rudy
+Twój bohater otrzymuje losowo wybrany artefakt.
+Promieñ os³abia oddzia³ wroga zabieraj¹c mu %d pkt. obrony.
+Na pocz¹tku gry gracz dostaje 1000-1500 sztuk z³ota.
+Na pocz¹tku gry gracz dostaje 5-10 s¹gów drewna oraz 5-10 wozów rudy.
+Na pocz¹tku gry dostajesz losow¹ premiê - z³oto, dostawy drewna i rudy, lub artefakt.
+Wyeliminowano ciê!
+"Nasze gratulacje!
+Twój wynik znajdzie siê na liœcie najlepszych.
+
+Wpisz swoje imiê."
+Spróbuj poszukaæ na mniej kamienistym terenie.
+Wysy³anie danych
+Odbieranie danych
+Chaos.mp2
+{Losowy bohater}
+Bohater zostanie wybrany losowo z klas, które dostêpne s¹ w mieœcie pocz¹tkowym.
+{Losowe miasto}
+Wybrane zostanie losowo jedno z oœmiu dostêpnych rodzajów miast.
+%s poddaje siê i odchodzi wraz z wojskami p³ac¹c ci %d sztuk z³ota.
+"Nie znaleziono p³yty z gr¹ The Heroes III: %s !
+
+%s wymaga obecnoœci oryginalnej p³yty z gr¹ w napêdzie CD-ROM podczas gry jednoosobowej, kampanii oraz gdy komputer ma byæ serwerem gry dla wielu osób. 
+
+Je¿eli chcesz do³¹czyæ do gry wieloosobowej, nie musisz wk³adaæ do napêdu CD-ROM oryginalnej p³yty z gr¹.
+
+Jeœli chcesz rozegraæ pojedynczy scenariusz lub kampaniê, w³ó¿ p³ytê z %s do napêdu, nim uruchomisz %s."
+Autozapis...
+PLYREXIT
+"{Okno statusu}
+
+To okno wyœwietla informacje o bohaterze i królestwie oraz pokazuje aktualn¹ datê i czas. Kliknij lewym przyciskiem myszki, aby prze³¹czyæ widok."
+Granica
+%s absorbuje %d pkt. magii.
+%s absorbuj¹ %d pkt. magii.
+Nie odnaleziono katalogu gry Heroes III.  Uruchom program instalacyjny.
+Nie odnaleziono niektórych plików gry Heroes III.  Uruchom program instalacyjny.
+"Przyjaciele, armie naszych wrogów zosta³y zniszczone, a oni sami rzuceni na kolana. Wielka kampania dobieg³a koñca, a ja od dzisiaj w³adam niepodzielnie tym królestwem!
+
+Zwyciêstwo zosta³o osi¹gniête w ci¹gu %d dni!"
+Zmartwychwstaje: %d %s!
+Zmartwychwstaje: %d (%s)!
+%s umiera pod przera¿aj¹cym wzrokiem stworzenia %s.
+%d jednostek typu %s ginie pod przera¿aj¹cym wzrokiem stworzenia %s.
+"%s przechodzi do obrony 
+i dostaje +%d pkt. obrony."
+"%s przechodz¹ do obrony
+i dostaj¹ +%d pkt. obrony."
+%s doœw.
+W najbli¿szym mieœcie przebywa bohater.  Rzucenie zaklêcia nie powiod³o siê!
+Najbli¿sze miasto jest zbyt daleko.  Rzucenie zaklêcia nie powiod³o siê!
+Twój bohater jest ju¿ zbyt zmêczony.  Spróbuj jutro.
+Tylko bohaterowie odwiedzaj¹cy miasto mog¹ u¿ywaæ zaklêcia 'miejski portal'.
+Nie posiadasz bohatera, który móg³by rzuciæ zaklêcie.
+Twój bohater rzuci³ ju¿ zaklêcie w tej kolejce.
+Czy chcesz uratowaæ armiê gracza %s  p³ac¹c %d szt. z³ota?
+Nie uda³o siê zainicjowaæ kontrolerów gry - prawdopodobnie wyst¹pi³ problem z myszk¹ lub klawiatur¹.
+Nie uda³o siê zainicjowaæ dŸwiêku.
+Nie uda³o siê zainicjowaæ myszki.
+Nie mo¿na by³o otworzyæ okna - prawdopodobnie zabrak³o pamiêci lub wyst¹pi³ b³¹d na dysku.
+%s odnajduje opuszczon¹ stoczniê.  Niestety dok jest zniszczony i nie mo¿na ju¿ w niej budowaæ okrêtów.
+Rzucenie zaklêcia nie powiod³o siê!  Aby rzuciæ to zaklêcie, bohater musi znajdowaæ siê na l¹dzie.
+%s oczekuje na lepsz¹ okazjê do dzia³ania.
+%s oczekuj¹ na lepsz¹ okazjê do dzia³ania.
+%s, poziom %d %s
+%s, dog³êbnie studiuj¹c magiê, 
+uczy siê zaklêæ 
+ oraz 
+ od: %s
+chwilowa odpornoœæ na
+chwilowa dopornoœæ na 
+Praktykuj¹c przera¿aj¹c¹ magiê nekromancji, twój bohater wskrzesza %d wrogów, którzy do³¹czaj¹ do jego armii jako %s.
+Praktykuj¹c przera¿aj¹c¹ magiê nekromancji, twój bohater wskrzesza jednego wroga, który do³¹cza do jego armii jako %s.
+przekazuje wiedzê o 
+dla: %s
+"{Punkty magii}
+
+Punkty magii (mana) potrzebne s¹ do rzucania zaklêæ. Maksymalna liczba many wynosi iloœæ pkt. wiedzy x 10.  Mo¿liwe jest czasami posiadanie wiêkszej iloœci many ni¿ wynika³oby to z posiadanej wiedzy."
+DŸwiêk cyfrowy nie jest dostêpny na tym komputerze.
+Balista
+Twoja sakwa jest pe³na.
+W twojej sakwie nie zmieœci siê coœ tak du¿ego jak %s.
+%s ulega zniszczeniu.
+%s posiada %d pkt. ataku i zadaje %d-%d pkt. obra¿eñ.
+Wyœwietl informacje o wie¿y ³uczniczej
+Mogê ci zaoferowaæ %d %s zasobu %s za %d %s zasobu %s.
+Targowisko
+Faktoria handlowa
+szt.
+szt.
+Uda³o ci siê ubiæ doskona³y interes. Sam nic nie zarobi³em.  Mo¿e zainteresuj¹ ciê inne towary?
+Witaj! Chcesz coœ kupiæ lub wymieniæ? Wybierz towar i zobaczymy, co da siê zrobiæ.
+n.d.
+%s - oddaj graczowi: %s.
+Czy chcesz oddaæ jeszcze jakieœ zasoby?
+Je¿eli chcesz oddaæ czêœæ swoich zasobów innemu graczowi, kliknij na odpowiedniej ikonie zasobów, a nastêpnie na wybranym graczu.
+Do kupienia
+Gracze
+%s os³ania: %s
+%s - to zaklêcie mo¿e byæ rzucone tylko na wrogi oddzia³
+Poziom 1
+Poziom 2
+Poziom 3
+Poziom 4
+Poziom 5
+%s - to zaklêcie mo¿e byæ rzucone tylko na w³asny oddzia³
+"Podaj adres IP komputera gospodarza
+(np. 220.415.119.223)"
+%s nie zadzia³a na: %s
+%s posiadaj¹ odpornoœæ na zaklêcie %s
+%s - nie ma miejsca, aby to umieœciæ.
+"Zaklêcie ""trzêsienie ziemi"" dzia³a tylko na mury miast."
+Twój bohater ma ju¿ %d oddzia³ów i nie mo¿e mieæ ich wiêcej.
+"Atak
+Obrona
+Moc
+Wiedza"
+To zaklêcie nie zadzia³a na nikogo!
+"Zaklêcie %s zadaje %d pkt. obra¿eñ
+wszystkim nieumar³ym."
+"Zaklêcie zadaje %d pkt. obra¿eñ
+wszystkim oddzia³om ¿ywych."
+"Rzucenie zaklêcia ""klonuj"" nie uda³o siê!"
+%s %s zaklêcie!
+Atak
+Obrona
+Zaklêcie nie jest wystarczaj¹co potê¿ne, aby mog³o unieœæ okrêt.
+Szybkoœæ
+Przyrost
+%s rzuca zaklêcie '%s' na %s.
+%s rzuca zaklêcie '%s'.
+%s gracz
+Strza³y
+Obra¿.
+Pozosta³o
+Koniec tury.
+Stra¿nicy:
+Stopieñ %s umiejêtnoœci %s.
+%s (%s) lub %s (%s)
+"{Punkty magii}
+
+%s posiada aktualnie %d pkt. magii (many) z maksymalnej mo¿liwej liczby %d.  Maksymalna liczba many równa siê iloœci pkt. wiedzy x 10.  Niekiedy mo¿liwe jest posiadanie wiêkszej iloœci many."
+To zaklêcie zu¿ywa %d pkt. magii. Twój bohater posiada %d pkt. magii, wiêc nie mo¿e rzuciæ tego zaklêcia.
+Aby wytrenowaæ swoje oddzia³y bêdziesz musia³ wydaæ nieco z³ota. Czy na pewno chcesz je wytrenowaæ?
+%s - najwiêcej znalezionych obelisków.
+%s - najwiêcej znalezionych artefaktów.
+%s posiada najwiêksz¹ moc.
+%s zarabia najwiêcej z³ota.
+Artefakt ostateczny mo¿na odnaleŸæ %s.
+Aby rzucaæ zaklêcia, twój bohater musi zakupiæ za 500 sztuk z³ota ksiêgê zaklêæ. Wygl¹da jednak na to, ¿e chwilowo nie masz potrzebnych funduszy. 
+Aby rzucaæ zaklêcia, twój bohater musi zakupiæ za 500 sztuk z³ot¹ ksiêgê zaklêæ.  Czy chcesz zakupiæ ksiêgê zaklêæ?
+"%s jest na %d poziomie zaawansowania, %s
+posiada %d artefakt(ów)."
+"W³aœciciel karczmy szepcze ci do ucha:
+%s"
+Jest: 
+Ocena
+Wszystkie wymagania potrzebne do zbudowania tej  budowli zosta³y spe³nione.
+Zaatakuj %s
+Dziêki bacznej obserwacji wroga, %s poznaje zaklêcie %s
+Brak pamiêci.
+Nie mo¿esz ju¿ nic zbudowaæ w tej turze.
+Utrata %s '%s'.
+Utrata bohatera '%s'.
+Nie uda³o siê odnieœæ zwyciêstwa do miesi¹ca %d,  tygodnia %d, dnia %d.
+Utrata wszystkich miast i bohaterów.
+Zdob¹dŸ: %s '%s'.
+Pokonaj bohatera: '%s'.
+ZnajdŸ Graala.
+ZnajdŸ: %s.
+Zbierz: %d %s.
+Lub pokonaj wszystkich wrogów.
+Pokonaj wrogów i zdob¹dŸ wszystkie miasta.
+Ty i twoi sprzymierzeñcy
+Ty i twój sprzymierzeniec
+ oraz 
+Ty
+wrogie przymierze
+wróg - 
+"{Doœwiadczenie}
+
+Zdobywanie doœwiadczenia pozwala bohaterom na zwiêkszanie ich umiejêtnoœci oraz zdobywanie nowych."
+"{Zasoby}
+
+W Heroes III wystêpuje siedem ró¿nych zasobów, które potrzebne s¹ do rozbudowywania miast, zakupów wojska oraz bohaterów. Z³oto jest najbardziej po¿¹danym surowcem,  potrzebnym niemal do wszystkiego. Drewno i ruda wykorzystywane s¹ g³ównie do budowy. Inne surowce s¹ u¿ywane przy rekrutacji niektórych jednostek oraz powstawaniu pewnych budowli."
+Stworzenia z tego oddzia³u chc¹ do nas do³¹czyæ!
+"Wszystkie stworzenia do³¹cz¹ do nas...
+
+za %d sztuk z³ota."
+Stworzenia wchodz¹ce w sk³ad tego oddzia³u z pewnoœci¹ bêd¹ chcia³y uciec.
+Wygl¹da na to, ¿e stworzenia z tego oddzia³u tylko czekaj¹ na okazjê do walki.
+Poszukiwanie Graala jest bezsensowne.  Twój bohater nie móg³by go ze sob¹ zabraæ - nie ma wolnego miejsca w sakwie.
+Nie uda³o siê uzyskaæ dostêpu do napêdu CD-ROM! Bez napêdu CD-ROM i oryginalnej p³yty z gr¹ mo¿esz graæ tylko jako klient gry wieloosobowej.
+Gratulacje! Zdobywasz %s i odnosisz zwyciêstwo!
+Wróg zdoby³ %s i odniós³ zwyciêstwo!
+Miasto %s zosta³o zdobyte - wszystko stracone!
+Gratulacje! Uda³o ci siê pokonaæ przeciwnika (%s). Odnosisz zwyciêstwo!
+%s przegrywa - gra zakoñczona!
+Up³yn¹³ czas przeznaczony na wykonanie zadania. Wszystko stracone.
+Dzienny przychód
+Podziel %s
+Anuluj
+Artefakty
+Aktywne
+Oszust!!!
+Ró¿ne
+W sakwie
+Graal jest ukryty w %s czêœci œwiata.
+Graal jest ukryty w %s czêœci podziemi.
+"Przyrost"
+"Oddzia³y"
+Oto moja propozycja %s = %d %s zasobu %s.
+Oto moja propozycja %d %s zasobu %s = %s.
+Oto moja propozycja %d %s zasobu %s = %d jedn. %s.
+Zapasy królestwa
+%s, artefakty
+Oddzia³y - %s
+Tylko bohaterowie odwiedzaj¹cy miasto mog¹ u¿ywaæ budowli: %s.
+Buduj %s
+Brak miejsca w garnizonie.
+Gratulacje! Masz potê¿n¹ armiê: %d, %s. Twoi wrogowie nie maj¹ wyboru i musz¹ poddaæ siê twojej potêdze.
+Wróg zebra³ potê¿n¹ armiê: %d, %s. Zosta³eœ pokonany!
+Gratulacje! Zebra³eœ wymagane zasoby: %d, %s. Zwyciêstwo!
+Wróg zebra³ wymagane zasoby: %d %s. Przegrywasz!
+Gratulacje! Odnajdujesz %s i wygrywasz!
+Wróg odnalaz³ %s, przegrywasz!
+Gratulacje! Uda³o ci siê rozbudowaæ miasto i wygrywasz grê!
+Wróg rozbudowa³ swoje miasto jako pierwszy, pokonano ciê!
+Gratulacje!  Koñczysz budowê sanktuarium Graala przed innymi i wygrywasz grê!
+Wróg wybudowa³ jako pierwszy sanktuarium Graala i wygrywa grê!
+Gratulacje!  Uda³o ci siê zabiæ bestiê i wygrywasz grê!
+Twojemu wrogowi uda³o siê jako pierwszemu zabiæ bestiê i wygrywa grê !
+Gratulacje!  Wszystkie siedliska s¹ oflagowane twoj¹ barw¹. Wygrywasz!
+Wróg oflagowa³ wszystkie siedliska. Ponosisz klêskê!
+Gratulacje!  Wszystkie kopalnie s¹ oflagowane twoimi proporcami. Wygrywasz!
+Wróg oflagowa³ wszystkie kopalnie. Pokonano ciê!
+Gratulacje!  Uda³o ci siê dostarczyæ twój cenny ³adunek w nienaruszonym stanie. Wygrywasz!
+Wróg dostarczy³ jako pierwszy swój ³adunek. Przegrywasz!
+%s - przemieœæ oddzia³.
+%s - przemieœæ oddzia³.
+Strzelaj do: %s (pozosta³e strza³y: %d, obra¿enia: %s, zabitych: %s)
+Wyœwietl informacje o jednostce: %s.
+Zabrak³o amunicji!
+Wskrzeszenie: %s.
+Przyzwij demony: %s
+Rzuæ zaklêcie na: %s
+Wróg siê podda³!
+Wróg uciek³!
+Zwyciêstwo!
+"
+
+Za mêstwo w walce %s otrzymuje %d pkt. doœwiadczenia."
+%s poddaje siê i opuszcza pole bitwy pogr¹¿ony w nies³awie.
+%s tchórzliwie ucieka z pola bitwy.
+Twoje wojska zosta³y pokonane, %s opuszcza ciê.
+Twoja armia poddaje siê i we wstydzie opuszcza pole bitwy.
+Twoje tchórzliwe wojska uciekaj¹ z pola bitwy.
+Twoje si³y ponosz¹ dotkliw¹ klêskê.
+Katapulta musi znajdowaæ siê w aktywnym ekwipunku!
+Ten oddzia³ zosta³ ju¿ ulepszony.
+Nie staæ ciê na ulepszenie tego oddzia³u.
+Wszystkie oddzia³y s¹ ju¿ ulepszone.
+Nie staæ ciê na ulepszenie wszystkich oddzia³ów.
+zamek
+Ulepsz %s.
+Wybuduj sanktuarium Graala w %s.
+Wybuduj sanktuarium Graala w dowolnym mieœcie.
+Pokonaj stworzenia: %s w %s czêœci œwiata.
+Zbierz armiê: %d, %s.
+Oflaguj wszystkie siedliska stworzeñ.
+Oflaguj wszystkie kopalnie.
+Przetransportuj %s do %s.
+Nie posiadasz wystarczaj¹cej iloœci miejsca w sakwie.
+Czekam na innych graczy...
+Po³¹czenie zosta³o przerwane!
+Nie staæ ciê na zakup okrêtu.
+(mo¿na kopaæ)
+Ktoœ oszukuje!
+Ktoœ uruchomi³ grê w trybie -debug! (oszukuje)
+%s jest ju¿ na pok³adzie okrêtu.
+W okolicy nie ma miejsca, do którego móg³by przybiæ okrêt.
+Nie istnieje okrêt, który mo¿na by by³o przyzwaæ.
+%s próbuje wezwaæ okrêt, ale zaklêcie nie zadzia³a³o.
+%s próbuje zniszczyæ okrêt, ale zaklêcie nie zadzia³a³o.
+%s nie posiada wystarczaj¹cej mocy, aby ponownie rzuciæ dzisiaj to zaklêcie.
+%s, poziom %d
+Przeciwnik posiada Kajdany wojny.  %s nie mo¿e uciec!
+Przeciwnik posiada Kajdany wojny.  %s nie mo¿e siê poddaæ!
+Poziom %d %s
+"
+Zadaje %d pkt. obra¿eñ."
+Ulepsz
+N/D
+Koszt
+%s jasnowidz
+(Poszukuje %s)
+Targowisko
+%s - gra zosta³a zapisana.
+Aktualna kolejka: %s.
+(Odwiedzone)
+(Nieodwiedzone)
+(Odwiedzone)
+(Uczy %s)
+(Uczy %s)
+(Odwiedzone)
+%s przysy³a ci prezent
+%s prosi o przys³anie %s
+%s prosi o przys³anie dowolnych zasobów.
+%s pozbawia %d pkt. ¿ycia: %s.
+%s pozbawiaj¹ %d pkt. ¿ycia: %s.
+I jeden z nich zmartwychwstaje.
+I %d z nich zmartwychwstaje.
+%s zadaje podwójne obra¿enia!
+%s zadaj¹ podwójne obra¿enia!
+%s zostaj¹ ra¿one piorunem!
+%s p³onie gniewem i zadaje o 50%% wiêksze obra¿enia dla - %s.
+%s p³on¹ gniewem i zadaj¹ o 50%% wiêksze obra¿enia dla - %s.
+%s  leczy swoje rany i oddzia³ odtwarza siê.
+%s  lecz¹ swoje rany i oddzia³ odtwarza siê.
+"{Faza taktyczna}
+
+Wysokie umiejêtnoœci taktyczne twojego bohatera pozwalaj¹ mu rozmieœciæ swoje wojska na okreœlonych pozycjach przed rozpoczêciem bitwy."
+%s absorbuje punkty magii nale¿¹ce do: %s!
+%s absorbuj¹ punkty magii nale¿¹ce do: %s!
+Wie¿a strzelnicza
+%s zadaje %d pkt. obra¿eñ.
+%s zadaj¹ %d pkt. obra¿eñ.
+"
+Ginie 1 %s."
+"
+Straty: %d (%s)."
+Atak
+Obrona
+Moc
+Wiedza
+Morale
+Szcz.
+Obra¿.
+Mana
+Wytrzym.
+Wytrz.
+Sojusz
+Wróg
+Opcje walki
+Szybkoœæ animacji
+G³oœnoœæ muzyki
+G³oœnoœæ efektów
+Opcje auto-walki
+Informacje o jednostce
+Stworzenia
+Zaklêcia	  
+Katapulta	  
+Namiot medyka	
+Statystyki	
+Tylko zaklêcia	
+Poka¿ siatkê	
+Poka¿ zasiêg	
+Cieñ kursora	
+Ofiary bitwy	
+Atakuj¹cy	
+Obroñca	
+Zwyciêzca	
+Pokonany	
+Rozpoczyna siê nastêpna tura.	
+"%s czuje, ¿e przewaga wroga jest mia¿d¿¹ca.
+
+Czy chcesz uciec?"	
+"%s: %s
++ %d pkt. ¿ycia."	
+Inny gracz opuœci³ grê! Jego rolê przejmie komputer.
+Inny gracz opuœci³ grê! Wygrywasz!
+Poka¿ statystyki bohatera
+Poka¿ statystyki wrogiego bohatera
+Udzielaj pomocy najpierw: %s
+"{Artefakt}
+
+Poprzez zaroœla dostrzegasz le¿¹cy na ma³ej polanie artefakt.  Niestety strze¿e go %s stworzeñ, to %s.  Czy chcesz zaatakowaæ %s i spróbowaæ zdobyæ artefakt?"
+"Z przera¿eniem orientujesz siê, i¿ obiektu ""%s"" strze¿e %s (%s).
+
+Czy chcesz zaatakowaæ stra¿ników?"
+"%s  - ktoœ ciê uprzedzi³, nie ma tutaj nikogo kto móg³by zasiliæ twoj¹ armiê. Wróæ w przysz³ym tygodniu.
+"
+"Do twojej armii do³¹cza oddzia³: %d %s.
+"
+Dawno temu to miasto zamieszkiwa³y smoki strzeg¹ce nieprzebranych bogactw. Dzisiaj jednak tylko wiatr gwi¿d¿e w pustych komnatach.
+%s - oddzia³ nie mo¿e do³¹czyæ do twojej armii.
+artefakt
+artefakty
+ka¿dego z zasobów
+garnizon
+mapa w starym formacie
+Inny gracz opuœci³ grê przerywaj¹c transmisjê danych. Koniec gry.
+Ulepsz wszystkie oddzia³y
+Ranga
+Gracz
+Mapa
+Dni
+"
+Oszust!!! +maximum"
+"Ca³kowity
+czas"
+"Wynik
+podstawowy"
+"Poziom
+trudnoœci"
+"Wynik
+fina³owy"
+ +1 poziom
+"
+***Parametry linii komend***
+
+/S0 - wy³¹cza efekty dŸwiêkowe i muzykê
+/I0 - nie wyœwietla intro
+
+Przyk³ad:
+
+HEROES3 /S0 /I0
+
+Uruchamia Heroes III bez dŸwiêku i intra.
+"
+%s - kolejny poziom
+%s, poziom %d, %s
+"Zamiana miejsc
+Podaj imiona graczy:"
+Wyst¹pi³ b³¹d podczas inicjacji po³¹czenia modemowego.  Ponów próbê.
+Sesja modemowa
+Wyst¹pi³ b³¹d podczas inicjacji po³¹czenia poprzez port.  Ponów próbê.
+Sesja - port szeregowy 
+Wyst¹pi³y b³êdy podczas inicjacji gry.  Ponów próbê.
+Moja gra
+Has³o:
+Nie odnaleziono ¿adnych sesji na komputerze gospodarza!
+Wyst¹pi³ b³¹d podczas próby otwarcia tej sesji.  Ponów próbê.
+Nie odnaleziono zapisu gry.  Ponów próbê.
+Niew³aœciwe has³o!
+Wyst¹pi³ b³¹d podczas inicjacji po³¹czenia TCP/IP.  Ponów próbê.
+"Twój adres IP:
+%s"
+Wyst¹pi³ b³¹d podczas inicjacji po³¹czenia IPX.  Ponów próbê.
+Has³o (opcjonalne):
+Nie odnalezionego podanego adresu IP!
+Uk³adanka
+Dostarcz %s do %s.
+Jest
+Koszt
+Wyst¹pi³ b³¹d podczas próby nawi¹zania po³¹czenia z komputerem gospodarza.  Ponów próbê.
+Komputer
+%s opuszcza grê.
+Teraz ty jesteœ gospodarzem!
+Oczekiwanie na innych graczy...
+Gracz komputerowy zaatakowa³ armiê innego gracza.  Trwa oczekiwanie na zakoñczenie bitwy....
+szepcze 
+szepcze do 
+Nastêpny poziom
+Doœwiadczenie z o³tarza
+Ofiaruj artefakty za doœwiadczenie
+Przenieœ artefakty na o³tarz
+O³tarz ofiarny
+Aby z³o¿yæ w ofierze stworzenia, przenieœ je na o³tarz i kliknij na 'z³ó¿ ofiarê'.
+Wybierz %s
+Nie mo¿esz z³o¿yæ w ofierze tej rzeczy!
+To okienko wyœwietla informacje o aktualnie wybranych stworzeniach.
+Z³ó¿ w ofierze: %s
+Wybierz stworzenia
+Szkieletornia
+Wybierz stworzenia do transformacji.
+Te stworzenia zostan¹ przemienione w szkielety.
+%s - jednostka zostanie przekszta³cona na: %s
+%s jest ju¿ szkieletem.
+%s s¹ ju¿ szkieletami.
+Poziom trudnoœci
+"%s ju¿ istnieje.
+
+Skasowaæ?"
+Poz. tr. mapy:
+Nazwa scenariusza:
+Opis scenariusza:
+Warunki zwyciêstwa:
+Warunki przegranej:
+Cz³owiek
+Poka¿ dostêpne scenariusze
+Poka¿ zaawansowane opcje
+Czytam pliki scenariuszy...
+Plik jest uszkodzony.
+Wyst¹pi³ problem z danymi zawartymi w tym pliku, nie mo¿e on zostaæ u¿yty przez Heroes III
+Wczytaj i zapisz t¹ mapê korzystaj¹c z edytora map Heroes III, spowoduje to jej przekonwertowanie na nowy format map.
+Ta mapa zawiera b³êdy uniemo¿liwiaj¹ce grê. Mo¿esz je skorygowaæ za pomoc¹ edytora map Heroes III.
+Puste miejsce
+Bez nazwy
+Otrzymywanie nag³ówków map...
+Rozmiar mapy
+S
+M
+L
+XL
+Zaawansowane opcje
+Ustaw opcje pocz¹tkowe oraz podaj imiona wszystkich graczy.
+"Imiê gracza
+sytuacja"
+"Miasto
+pocz¹tkowe"
+"Posiadany
+bohater"
+"Premia
+pocz¹tkowa"
+Czas trwania kolejki
+Losowo
+Brak
+Gra rozpoczê³a siê bez ciebie!
+%s do³¹cza do gry.
+%s opuszcza grê.
+Nieznany gracz opuszcza grê!
+%s jest nowym gospodarzem.
+Nie s¹ dostêpne ¿adne mapy.
+Zanim rozpoczniesz grê musisz dokonaæ wyboru pozycji.
+Ukryj okno rozmów
+Poka¿ okno rozmów
+Przygotowania do rozpoczêcia gry...
+Nie mo¿na otworzyæ pliku - video.vid
+Plik wideo jest uszkodzony!
+%s os³abia moc magiczn¹. %s nie mo¿e rzucaæ zaklêæ 3-go lub wy¿szego stopnia.
+Wichry wiej¹ce na tych przeklêtych ziemiach zabieraj¹ ci ca³¹ energiê magiczn¹.  Nie mo¿esz tutaj rzucaæ zaklêæ.
+Poniewa¿ %s wezwa³ ju¿ %s, ¿adne inne ¿ywio³y nie przybêd¹, aby wspomóc %s.
+jego
+jej
+%s recytuje inkantacjê, ale nic siê nie wydarza.
+Wybierz oddzia³, który ma zostaæ wskrzeszony
+Wybierz oddzia³, który ma zostaæ z³o¿ony w ofierze
+%s unika %d pkt. obra¿eñ
+%s unikaj¹ %d pkt. obra¿eñ
+%s doznaje %d dodatkowych obra¿eñ
+%s doznaj¹ %d dodatkowych obra¿eñ
+Wskrzeœ jednostkê %s
+Z³ó¿ w ofierze jednostkê %s
+Usuñ t¹ przeszkodê
+%s starzeje siê gwa³townie trac¹c %d pkt. ¿ycia.
+%s starzej¹ siê gwa³townie trac¹c %d pkt. ¿ycia.
+%s nagle zaczyna czuæ siê bardzo Ÿle!
+%s nagle zaczynaj¹ czuæ siê bardzo Ÿle!
+%s - wszystkie czary chroni¹ce oddzia³ przestaj¹ dzia³aæ.
+%s - oddzia³ oœlep³!
+%s - temu oddzia³owi nic siê nie udaje tak jak powinno.
+%s kamienieje ze strachu!
+%s kamieniej¹ ze strachu!
+Wyrastaj¹ce nagle korzenie i pêdy wstrzymuj¹ oddzia³ (%s) w miejscu!
+%s krzyczy z bólu, czuj¹c jak trucizna rozchodzi siê po ciele.
+%s krzycz¹ z bólu, czuj¹c jak trucizna rozchodzi siê po ich ciele.
+%s zostaje sparali¿owany(a)+A88!
+%s zostaj¹ sparali¿owani(e)!
+%s rzuca %s
+%s rzucaj¹ %s
+ na %s
+Opcje gry
+Szybkoœæ bohatera
+Szybkoœæ wrogów
+Szybkoœæ przesuwu mapy
+Poka¿ œcie¿kê ruchu
+Przypominaj o ruchu
+Szybka walka
+Napisy w animacjach
+Podœwietlaj budynki
+Animacja ksiêgi zakl.
+"Na pewno?
+(Aktualna gra nie zostanie zapisana)"
+Zbli¿aj¹c siê do wiru magii czujesz jak twoje cia³o wype³nia energia. Iloœæ pkt. magii, które posiadasz, zwiêksza siê dwukrotnie.
+"Nadzorca stajni zbli¿a siê do ciebie prowadz¹c okaza³ego rumaka. ""Moje konie pozwol¹ ci pokonaæ wiêksz¹ odleg³oœæ. Kiedy po tygodniu podró¿y zmêcz¹ siê, wróæ aby dostaæ œwie¿e."""
+Studiuj¹c napisy na œcianie wiedzy odkrywasz nowe aspekty stosowania magii (wiedza +1).
+Odwiedzaj¹c bractwo ognia dowiadujesz siê, jak zwiêkszyæ potêgê swojej mocy magicznej (moc +1).
+Wizyta w akademii wojskowej zwiêksza twoje doœwiadczenie (doœwiadczenie +1000).
+Krótka wizyta w Salach Walhalli umo¿liwia ci polepszenie technik walki (atak +1).
+Odwiedzasz œwi¹tyniê wojny. Doœwiadczeni ¿o³nierze, którzy w niej przebywaj¹, ucz¹ ciê sztuki skutecznej obrony (obrona +1).
+%s wybudowa³ %s.
+%d dodatkowych %s mo¿na naj¹æ w %s
+%s - dodatkowy przyrost
+%s - przyrost tygodniowy wynosi %d
+"
+
+Przyrost podstawowy %d"
+"
+Dodatkowo %+d"
+Siedziba
+Opuœæ gildiê magów
+Garnizon
+Nowy budynek - %s
+Nie buduj -  %s
+Czy chcesz, aby to miasto sta³o siê sanktuarium Graala?
+Wybuduj okrêt
+Nie buduj okrêtu
+Wyjœcie
+Zamek
+Uniwersytet
+Kroki twojego bohatera rozbrzmiewaj¹ g³oœno w gmachu uniwersytetu.  Napotkany urzêdnik informuje ciê, i¿ mo¿esz tu zg³êbiæ nastêpuj¹ce dziedziny wiedzy.
+Twój bohater posiada ju¿ tê umiejêtnoœæ.
+Twój bohater nie mo¿e posi¹œæ tej umiejêtnoœci.
+Ten bohater nie mo¿e posi¹œæ wiêcej umiejêtnoœci.
+Stopieñ %s umiejêtnoœci %s kosztuje %d sztuk z³ota.
+"Urzêdnik oznajmia z chytrym uœmiechem ""Op³ata za stopieñ %s dziedziny %s wynosi %d sztuk z³ota."""
+Kup %s
+%s, dzia³anie: %d kolejek.
+Poka¿ œwiat
+Miasto
+Bohater
+Artefakt
+Teleporter
+Portal
+Kopalnia
+Zasoby
+Drewno
+Rtêæ
+Ruda
+Siarka
+Kryszta³y
+Klejnoty
+Z³oto
+Pozosta³a 1 sekunda do koñca tury.
+Pozosta³o %d sek. do koñca tury.
+Pozosta³a 1 minuta do koñca tury.
+Pozosta³o %0.1f minut do koñca tury.
+Aktualny gracz:
+%s odnajduje artefakt - %s - i wygrywa grê!
+%s odnajduje artefakt - %s - i mo¿e og³osiæ zwyciêstwo!
+%s ma ju¿ wymagan¹ armiê - %d, %s.  Przegrywasz!
+%s ma ju¿ armiê - %d, %s. Przegrywasz!
+%s ma armiê - %d, %s i mo¿e og³osiæ zwyciêstwo!
+%s maj¹ armie - %d, %s. Przegrywasz!
+Gratulacje! %s odnajduje artefakt - %s. Zwyciêstwo!
+Gratulacje! %s pierwszy rozbudowuje miasto. Zwyciêstwo!
+%s rozbudowuje swoje miasto i og³asza zwyciêstwo!
+%s rozbudowuje swoje miasto i wygrywa!
+Gratulacje!  %s  koñczy budowê sanktuarium Graala. Zwyciêstwo!
+%s koñczy budowê sanktuarium Graala i wygrywa!
+%s koñczy budowê sanktuarium Graala i wygrywa!
+Gratulacje! %s wype³nia misjê pokonania przera¿aj¹cego potwora. Zwyciêstwo!
+%s wype³nia misjê i og³asza zwyciêstwo!
+%s pokonuje ciê, nie uda³o ci siê wype³niæ misji przed innymi!
+%s ma siedliska i wygrywa!
+%s ma siedliska i wygrywa!
+%s ma kopalnie i wygrywa!
+%s ma wszystkie kopalnie i wygrywa!
+Gratulacje! %s dostarcza ³adunek w nienaruszonym stanie. Zwyciêstwo!
+%s dostarcza ³adunek w nienaruszonym stanie i mo¿e og³osiæ zwyciêstwo!
+%s dostarcza ³adunek w nienaruszonym stanie i wygrywa!
+Gospodarz opuœci³ grê, musisz posiadaæ oryginaln¹ p³ytê z gr¹, aby przej¹æ jego rolê!
+Wyœwietl listê zapisanych gier
+Dru¿yna %d
+{Ustawienia dru¿yny}
+Jeden z graczy opuœci³ grê... proszê czekaæ...
+Gratulacje! Wszyscy twoi wrogowie zostali pokonani! Odnosisz zwyciêstwo!
+Wygnano ciê z tych ziem!  Wszystkie nale¿¹ce do ciebie armie zosta³y rozbite!
+Informacje o scenariuszu
+Wciœnij ESC, aby opuœciæ tryb gdy jednoosobowej.
+Nie mo¿na otworzyæ pliku - Heroes3.snd
+Plik z danymi dŸwiêkowymi jest uszkodzony!
+Twoja wersja #%s  nie jest kompatybilna z wersj¹ #%s zainstalowan¹ na komputerze gospodarza.  Nie mo¿esz do³¹czyæ do tej gry.
+"Zresetowanie listy najlepszych wyników spowoduje, i¿ zapis twoich dokonañ zostanie utracony.
+
+Na pewno chcesz zresetowaæ listê najlepszych wyników?"
+"
+%s ulega zniszczeniu."
+Pokonaj: %s - znajduj¹ siê w %s czêœci podziemi.
+%s nie wype³nia na czas zadañ, wiêc przegrywa.
+%s traci bohatera - %s.  Twoja misja zostaje zakoñczona.
+Czy chcesz wczytaæ zapisany stan gry?
+Kampania
+Przekazuj¹c mieszkañcom tego miasta s³owa legendy o Graalu widzisz, ¿e odbierane s¹ one z niedowierzaniem.  Wiara mieszkaj¹cych tutaj ludzi jest zbyt ma³a.  Musisz odnaleŸæ miejsce, które bardziej zas³uguje na zaszczyt stania siê sanktuarium Graala.
+Brak aktywnych zaklêæ
+%s przyzywa stworzenia. Jest ich %d i s¹ to %s
+"Twój
+stopieñ"
+Staw nic jeszcze nie wyprodukowa³.
+Staw wyprodukowa³ w tym tygodniu: %d, %s.
+%s, czas trwania: %s.
+dopóki rzucaj¹cy czar nie zginie lub nie przemieœci siê
+do nastêpnego ataku
+do koñca bitwy
+%s wznosi do góry artefakt %s, który poch³ania ca³¹ energiê rzuconego zaklêcia.
+Ten garnizon chroniony jest przez potê¿n¹ magiê broni¹c¹ go przed wp³ywem innych zaklêæ.
+"Nie odnaleziono plików z zapisem stanów gry.
+
+Czy chcesz rozpocz¹æ now¹ grê? Wróæ do menu g³ównego gry i wybierz opcjê ""Nowa gra""."
+Wybierz cel
+Czy na pewno chcesz usun¹æ %s?
+Na pocz¹tku gry do zasobów królestwa dodawane jest od 3 do 6 kryszta³ów.
+Na pocz¹tku gry do zasobów królestwa dodawane jest od 3 do 6 sztuk klejnotów.
+Na pocz¹tku gry do zasobów królestwa dodawane jest od 3 do 6 uncji rtêci.
+Na pocz¹tku gry do zasobów królestwa dodawane jest od 3 do 6 uncji siarki.
+3-6 kryszta³ów
+3-6 klejnotów
+3-6 uncji rtêci
+3-6 uncji siarki
+%s nie ma wiêcej pkt. magii.
+%s nie maj¹ wiêcej pkt. magii.
+Na przeklêtej ziemi nie mo¿na rzucaæ zaklêæ.
+Aura antymagiczna nie pozwala na u¿ywanie tutaj magii.
+Artefakt %s nie pozwala na rzucanie zaklêæ.
+Mo¿esz przyzywaæ %s tylko ze zw³ok poleg³ych ¿ywych stworzeñ (oprócz nieumar³ych).
+%s nie ma wystarczaj¹cej mocy, aby wezwaæ %s
+%s nie maj¹ wystarczaj¹cej mocy, aby wezwaæ %s
+Tylko uprzednio ¿yj¹ce istoty mog¹ byæ wskrzeszane.
+%s nie ma wystarczaj¹cej mocy, aby wskrzesiæ %s
+%s nie maj¹ wystarczaj¹cej mocy, aby wskrzesiæ %s
+"{Brak miejsca na dysku}
+
+Gra Heroes III wymaga do poprawnej pracy co najmniej 5 MB wolnego miejsca na dysku.
+
+Zwolnij miejsce na dysku i spróbuj uruchomiæ grê ponownie."
+"{Brak wolnego miejsca na dysku}
+
+Aby zapisaæ grê Heroes III wymaga przynajmniej 1 MB wolnego miejsca na dysku twardym.
+
+Aby skasowaæ wybrany zapis gry, wciœnij CTRL-DELETE.
+
+Wciœnij ALT-TAB, aby przejœæ do Windows."
+Zostaw sta¿ników
+%s zamiera ze strachu.
+%s zamieraj¹ ze strachu.
+To zaklêcie nie zadzia³a.
+W koñcu zdobywasz ostatni artefakt wymagany do stworzenia Ostrza. Wkrótce ca³y œwiat legnie u twych stóp.
+%s udostêpnia wszystkie czary.
+Premia: %s
+Premia: zaklêcie %s
+Premia: %d (%s)  
+Premia: stopieñ %s - %s
+Premia: bohaterowie (%s)
+Zaczynasz z losowym bohaterem
+Drewno i ruda
+Siarka, rtêæ, kryszta³ i klejnoty
+%s ma z³y format
+Wybierz kampaniê Ostrze Armagedonu
+Wybierz kampaniê Odrodzenie Erathii
+Wybierz w³asn¹ kampaniê
+Powrót do g³ównego menu
+%s to widok parali¿uj¹cy jednostkê %s.
+"Znaleziono p³ytê z gr¹ Heroes III: %s .
+
+By graæ w Heroes III: %s, wymagana jest p³yta %s .  
+
+Jeœli chcesz do³¹czyæ do gry wieloosobowej, nie musisz mieæ p³yty.
+
+Jeœli chcesz zagraæ w scenariusz lub kampaniê, uruchom grê %s ponownie po w³o¿eniu p³yty z gr¹ do napêdu."
+Komputer gospodarza generuje losow¹ mapê.
+Zaklêcie anulowane
+Masz wszystkie wymagane artefakty, by stworzyæ %s. Chcesz kontynuowaæ?
+Chcesz roz³o¿yæ ten artefakt?
+Wybierz kampaniê Róg Otch³ani
+Czarodziejka
+Yog porzuci³ magiê w ka¿dej znanej formie. Teraz bêdzie szed³ przez ¿ycie korzystaj¹c ze swej wiedzy z zakresu taktyki i walki.
+Gratulacje, uda³o ci siê odzyskaæ wszystkie trzy elementy od braci barbarzyñców.
+Mapa losowa - konfiguracja
+Wybierz opcje mapy losowej
+Mapa losowa
+Gra na mapie losowej
+"Mapa samouczka ""tutorial.tut"" nie jest umieszczona w katalogu z mapami. Bez tej mapy nie mo¿na rozegraæ misji szkoleniowej."
+Rozgrywanie zapisanej gry wymaga, by wszyscy gracze wczytali stan %s.  Niektórzy gracze nie mog¹ graæ w tê grê.
+Rozgrywanie zapisanej gry wymaga, by wszyscy gracze wczytali stan %s.  Niektórzy gracze nie mog¹ graæ na tej mapie.
+Ostrze Armagedonu
+Cieñ Œmierci
+Na przeklêtej ziemi zaklêcia nie dzia³aj¹.
+Mapa losowa stworzona!
+Nie mo¿na zapisaæ Random_Map.H3M w katalogu z danymi.
+B³¹d zapisu mapy losowej na dysku.
+Nie mo¿na stworzyæ mapy losowej odpowiadaj¹cej obecnym ustawieniom.
+Rozmiar mapy
+Gracze ludzcy lub komputerowi
+Dru¿yny ludzkie lub komputerowe
+Gracze tylko komputerowi
+Dru¿yny tylko komputerowe
+Obszar wody
+Si³a potworów
+Mapa losowa
+Tworzenie mapy
+Tylko Gelu mo¿e nieœæ Ostrze Armagedonu.
+Odrodzenie Erathii
+Gratulacje, uda³o ci siê zdobyæ wszystkie trzy artefakty.

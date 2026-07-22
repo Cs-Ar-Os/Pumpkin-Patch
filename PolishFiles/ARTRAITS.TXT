@@ -1,0 +1,656 @@
+		Hero Slots																				
+Name	Cost	Spell Book	War Machine 4	War Machine 3	War Machine 2	War Machine 1	Misc 5	Misc 4	Misc 3	Misc 2	Misc 1	Feet	Left Ring	Right Ring	Torso	Left Hand	Right Hand	Neck	Shoulders	Head	Class (S,T,N,J,R)	Description
+Ksiêga Zaklêæ	0	x	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	 	 	S	"{Ksiêga Zaklêæ}
+
+Kliknij lewym przyciskiem myszki, aby uzyskaæ informacje o zaklêciach poznanych przez bohatera."
+Zwój z Zaklêciem	2500	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	S	"{Zwój z Zaklêciem}
+
+Na zwoju zapisano zaklêcie, które dodawane jest do ksiêgi czarów bohatera, dopóki pergamin znajduje sie w jego posiadaniu. "
+Graal	0	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	 	 	S	"{Graal}
+
+Dostarcz Graala do wybranego miasta, a jego mieszkañcy wznios¹ wspania³¹ budowlê, która da ci wielk¹ przewagê nad przeciwnikami."
+Katapulta	1000	 	x	 	 	 		 	 	 	 	 	 	 	 	 	 	 	 	 	S	"{Katapulta}
+
+U¿ywaj tej machiny podczas oblê¿enia do niszczenia umocnieñ wroga."
+Balista	1500	 	 	 	 	x		 	 	 	 	 	 	 	 	 	 	 	 	 	S	"{Balista}
+
+U¿yj tej machiny do niszczenia oddzia³ów wroga."
+Wóz z amunicj¹	1000	 	 	 	x	 		 	 	 	 	 	 	 	 	 	 	 	 	 	S	"{Wóz z amunicj¹}
+
+Dziêki wozowi z amunicj¹ twoim oddzia³om nigdy nie zabraknie pocisków. "
+Namiot medyka	750	 	 	x	 	 		 	 	 	 	 	 	 	 	 	 	 	 	 	S	"{Namiot medyka}
+
+Dziêki namiotowi medyka na pocz¹tku ka¿dej kolejki leczony jest jeden z twoich oddzia³ów."
+Topór Centaura	2000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	x	 	 	 	T	"{Topór Centaura}
+
+Ta praworêczna broñ zwiêksza si³ê ataku bohatera o 2."
+Miecz Rycerza Œmierci	3000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	x	 	 	 	N	"{Miecz Rycerza Œmierci}
+
+Ta praworêczna broñ zwiêksza si³ê ataku bohatera o 3."
+Wiêkszy Korbacz Gnolli	4000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	x	 	 	 	N	"{Wiêkszy Korbacz Gnolli}
+
+Ta praworêczna broñ zwiêksza si³ê ataku bohatera o 4."
+Niszczycielska Maczuga Ogrów	5000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	x	 	 	 	J	"{Niszczycielska Maczuga Ogrów}
+
+Ta praworêczna broñ zwiêksza si³ê ataku bohatera o 5."
+Miecz Ognia Piekielnego	6000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	x	 	 	 	J	"{Miecz Ognia Piekielnego}
+
+Ta praworêczna broñ zwiêksza si³ê ataku bohatera o 6."
+Gladius Tytanów	10000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	x	 	 	 	R	"{Gladius Tytanów}
+
+Ten relikt, trzymany w prawej rêce, zwiêksza si³ê ataku bohatera o 12, ale redukuje jego zdolnoœæ obrony o 3."
+Tarcza Krasnoludzkich W³adców	2000	 	 	 	 	 		 	 	 	 	 	 	 	 	x	 	 	 	 	T	"{Tarcza Krasnoludzkich W³adców}
+
+Ten artefakt, trzymany w lewej rêce, zwiêksza skutecznoœæ obrony bohatera o 2."
+Tarcza Zion¹cej Œmierci	3000	 	 	 	 	 		 	 	 	 	 	 	 	 	x	 	 	 	 	N	"{Tarcza Zion¹cej Œmierci}
+
+Ten artefakt, trzymany w lewej rêce, zwiêksza skutecznoœæ obrony bohatera o 3."
+Puklerz Króla Gnolli	4000	 	 	 	 	 		 	 	 	 	 	 	 	 	x	 	 	 	 	N	"{Puklerz Króla Gnolli}
+
+Ten artefakt, trzymany w lewej rêce, zwiêksza skutecznoœæ obrony bohatera o 4."
+Tarcza Szalonego Ogra	5000	 	 	 	 	 		 	 	 	 	 	 	 	 	x	 	 	 	 	J	"{Tarcza Szalonego Ogra}
+
+Ten artefakt, trzymany w lewej rêce, zwiêksza skutecznoœæ obrony bohatera o 5."
+Tarcza Potêpionych	6000	 	 	 	 	 		 	 	 	 	 	 	 	 	x	 	 	 	 	J	"{Tarcza Potêpionych}
+
+Ten artefakt, trzymany w lewej rêce, zwiêksza skutecznoœæ obrony bohatera o 6."
+Tarcza Stra¿nika Niebios	10000	 	 	 	 	 		 	 	 	 	 	 	 	 	x	 	 	 	 	R	"{Tarcza Stra¿nika Niebios}
+
+Ten relikt, trzymany w lewej rêce, zwiêksza zdolnoœæ obrony bohatera o 12, ale obni¿a si³ê jego ataku o 3."
+He³m Alabastrowego Jednoro¿ca	1000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	 	x	T	"{He³m Alabastrowego Jednoro¿ca}
+
+Ten artefakt, noszony na g³owie, zwiêksza wiedzê bohatera o 1."
+Czaszkowy He³m	3000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	 	x	T	"{Czaszkowy He³m}
+
+Ten artefakt, noszony na g³owie, zwiêksza wiedzê bohatera o 2."
+He³m Chaosu	4000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	 	x	N	"{He³m Chaosu}
+
+Ten artefakt, noszony na g³owie, zwiêksza wiedzê bohatera o 3."
+Korona Najwy¿szego Maga	5000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	 	x	N	"{Korona Najwy¿szego Maga}
+
+Ten artefakt, noszony na g³owie, zwiêksza wiedzê bohatera o 4."
+He³m Piekielnego Sztormu	6000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	 	x	J	"{He³m Piekielnego Sztormu}
+
+Ten artefakt, noszony na g³owie, zwiêksza wiedzê bohatera o 5."
+He³m Gromu	10000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	 	x	R	"{He³m Gromu}
+
+Ten relikt, noszony na g³owie, zwiêksza wiedzê bohatera o 10, ale zmniejsza jego moc o 2."
+Zbroja ze Skamienia³ego Drzewa	1000	 	 	 	 	 		 	 	 	 	 	 	 	x	 	 	 	 	 	T	"{Zbroja ze Skamienia³ego Drzewa}
+
+Ten artefakt, kiedy jest noszony, zwiêksza moc bohatera o 1."
+Klatka ¯ebrowa	3000	 	 	 	 	 		 	 	 	 	 	 	 	x	 	 	 	 	 	N	"{Klatka ¯ebrowa}
+
+Ten artefakt, kiedy jest noszony, zwiêksza moc bohatera o 2."
+Kolczuga z £usek Bazyliszka	4000	 	 	 	 	 		 	 	 	 	 	 	 	x	 	 	 	 	 	N	"{Kolczuga z £usek Bazyliszka}
+
+Ten artefakt, kiedy jest noszony, zwiêksza moc bohatera o 3."
+Tunika Króla Cyklopów	5000	 	 	 	 	 		 	 	 	 	 	 	 	x	 	 	 	 	 	J	"{Tunika Króla Cyklopów}
+
+Ten artefakt, kiedy jest noszony, zwiêksza moc bohatera o 4."
+Zbroja Ognistej Mocy	6000	 	 	 	 	 		 	 	 	 	 	 	 	x	 	 	 	 	 	J	"{Zbroja Ognistej Mocy}
+
+Ten artefakt, kiedy jest noszony, zwiêksza moc bohatera o 5."
+Pancerz Tytana	10000	 	 	 	 	 		 	 	 	 	 	 	 	x	 	 	 	 	 	R	"{Pancerz Tytana}
+
+Ten relikt, kiedy jest noszony, zwiêksza moc bohatera o 10, ale zmniejsza jego wiedzê o 2."
+Zbroja Cudów	5000	 	 	 	 	 		 	 	 	 	 	 	 	x	 	 	 	 	 	N	"{Zbroja Cudów}
+
+Zbroja cudów, kiedy jest noszona, zwiêksza wszystkie cztery podstawowe umiejêtnoœci bohatera o 1."
+Sanda³y Œwiêtego	10000	 	 	 	 	 		 	 	 	 	x	 	 	 	 	 	 	 	 	R	"{Sanda³y Œwiêtego}
+
+Sanda³y œwiêtego, kiedy s¹ noszone, zwiêkszaj¹ wszystkie cztery podstawowe umiejêtnoœci bohatera o 2."
+Naszyjnik Boskiej Mocy	10000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	x	 	 	R	"{Naszyjnik Boskiej Mocy}
+
+Naszyjnik boskiej mocy, kiedy jest noszony, zwiêksza wszystkie cztery podstawowe umiejêtnoœci bohatera o 2."
+Tarcza Lwiej Odwagi	15000	 	 	 	 	 		 	 	 	 	 	 	 	 	x	 	 	 	 	R	"{Lwia Tarcza Odwagi}
+
+Kiedy tarcza ta jest noszona, zwiêksza wszystkie cztery podstawowe wspó³czynniki bohatera o 3."
+Miecz Sprawiedliwoœci	15000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	x	 	 	 	R	"{Miecz Sprawiedliwoœci}
+
+Miecz sprawiedliwoœci, trzymany w prawej rêce, zwiêksza wszystkie cztery podstawowe umiejêtnoœci bohatera o 3."
+He³m Boskich Mocy	20000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	 	x	R	"{He³m Boskich Mocy}
+
+He³m boskich mocy, noszony na g³owie, zwiêksza wszystkie cztery podstawowe umiejêtnoœci bohatera o 4."
+Oprawione Oko Smoka	2000	 	 	 	 	 		 	 	 	 	 	x	x	 	 	 	 	 	 	T	"{Oprawione Oko Smoka}
+
+Ten artefakt, noszony na palcu, zwiêksza si³ê ataku i zdolnoœæ obrony bohatera o 1."
+Ognisty Jêzyk Czerwonego Smoka	4000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	x	 	 	 	N	"{Ognisty Jêzyk Czerwonego Smoka}
+
+Ten artefakt, noszony w prawej rêce, zwiêksza si³ê ataku i zdolnoœæ obrony bohatera o 2."
+Tarcza ze Smoczych £usek	6000	 	 	 	 	 		 	 	 	 	 	 	 	 	x	 	 	 	 	J	"{Tarcza ze Smoczych £usek}
+
+Ten artefakt, noszony w lewej rêce, zwiêksza si³ê ataku i zdolnoœæ obrony bohatera o 3."
+Kolczuga ze Smoczych £usek	8000	 	 	 	 	 		 	 	 	 	 	 	 	x	 	 	 	 	 	R	"{Kolczuga ze Smoczych £usek}
+
+Ten artefakt, kiedy jest noszony, zwiêksza si³ê ataku i zdolnoœæ obrony bohatera o 4."
+Nagolenniki ze Smoczych Koœci	2000	 	 	 	 	 		 	 	 	 	x	 	 	 	 	 	 	 	 	T	"{Nagolenniki ze Smoczych Koœci}
+
+Ten artefakt, kiedy jest noszony, zwiêksza wiedzê i moc bohatera o 1."
+P³aszcz ze Smoczych Skrzyde³	4000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	x	 	N	"{P³aszcz ze Smoczych Skrzyde³}
+
+Ten artefakt, kiedy jest noszony, zwiêksza wiedzê i moc bohatera o 2."
+Naszyjnik ze Smoczych Zêbów	6000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	x	 	 	J	"{Naszyjnik ze Smoczych Zêbów}
+
+Ten artefakt, kiedy jest noszony, zwiêksza wiedzê i moc bohatera o 3."
+Korona ze Smoczych Zêbów	8000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	 	x	R	"{Korona ze Smoczych Zêbów}
+
+Ten artefakt, kiedy jest noszony, zwiêksza wiedzê i moc bohatera o 4."
+Zastyg³e Oko Smoka	2000	 	 	 	 	 		 	 	 	 	 	x	x	 	 	 	 	 	 	T	"{Zastyg³e Oko Smoka}
+
+Ten artefakt, noszony na palcu, zwiêksza szczêœcie i morale bohatera o 1."
+Czterolistna Koniczynka	1000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Czterolistna Koniczynka}
+
+Zwiêksza szczêœcie o 1."
+Karty Tarota	1000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Karty Tarota}
+
+Zwiêkszaj¹ szczêœcie o 1."
+Statuetka Szczêœcia	1000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Statuetka Szczêœcia}
+
+Zwiêksza szczêœcie o 1."
+Order Mêstwa	1000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Order Mêstwa}
+
+Zwiêksza morale o 1."
+Herb Mêstwa	1000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Herb Mêstwa}
+
+Zwiêksza morale o 1."
+Glejt Mêstwa	1000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Glejt Mêstwa}
+
+Zwiêksza morale o 1."
+Teleskop	1000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Teleskop}
+
+Zwiêksza pole widzenia bohatera o 1."
+Luneta	1000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Luneta}
+
+Zwiêksza pole widzenia bohatera o 1."
+Amulet Grabarza	2000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	x	 	 	T	"{Amulet Grabarza}
+
+Ten artefakt, noszony na szyi, zwiêksza umiejêtnoœæ 'Nekromancja' bohatera o 2,5%."
+Kaptur Wampira	4000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	x	 	N	"{Kaptur Wampira}
+
+Ten artefakt, kiedy jest noszony, zwiêksza umiejêtnoœæ 'Nekromancja' bohatera o 5%."
+Buty Trupa	6000	 	 	 	 	 		 	 	 	 	x	 	 	 	 	 	 	 	 	N	"{Buty Trupa}
+
+Ten artefakt, kiedy jest noszony, zwiêksza umiejêtnoœæ 'Nekromancja' bohatera o 7,5%."
+Naszyjnik Odpornoœci	2000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	x	 	 	J	"{Naszyjnik Odpornoœci}
+
+Ten artefakt, kiedy jest noszony, zwiêksza odpornoœæ oddzia³ów bohatera na magiê o 5%."
+Opoñcza Przeciwstawienia	4000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	x	 	J	"{Opoñcza Przeciwstawienia}
+
+Ten artefakt, kiedy jest noszony, zwiêksza odpornoœæ oddzia³ów bohatera na magiê o 10%."
+Buty Odpornoœci	6000	 	 	 	 	 		 	 	 	 	x	 	 	 	 	 	 	 	 	R	"{Buty Odpornoœci}
+
+Ten artefakt, kiedy jest noszony, zwiêksza odpornoœæ oddzia³ów bohatera na magiê o 15%."
+Elficki £uk z Drzewa Wiœni	2000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Elficki £uk z Drzewa Wiœni}
+
+Ten artefakt, kiedy jest noszony, zwiêksza umiejêtnoœæ '£ucznictwo' bohatera o 5%."
+Ciêciwa z Grzywy Jednoro¿ca	4000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Ciêciwa z Grzywy Jednoro¿ca}
+
+Ten artefakt, kiedy jest noszony, zwiêksza umiejêtnoœæ '£ucznictwo' bohatera o 10%."
+Anielskie Strza³y	6000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	N	"{Anielskie Strza³y}
+
+Ten artefakt, kiedy jest noszony, zwiêksza umiejêtnoœæ '£ucznictwo' bohatera o 15%."
+Statuetka Poznania	1000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Statuetka Poznania}
+
+Ten artefakt, kiedy jest noszony, zwiêksza umiejêtnoœæ 'Sokoli wzrok' bohatera o 5%."
+Stoicki Obserwator	2000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Stoicki Obserwator}
+
+Ten artefakt, kiedy jest noszony, zwiêksza umiejêtnoœæ 'Sokoli wzrok' bohatera o 10%."
+Emblemat Wiedzy	3000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Emblemat Wiedzy}
+
+Ten artefakt, kiedy jest noszony, zwiêksza umiejêtnoœæ 'Sokoli wzrok' bohatera o 15%."
+Medal Mê¿a Stanu	5000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	x	 	 	N	"{Medal Mê¿a Stanu}
+
+Ten artefakt, kiedy jest noszony, zmniejsza koszty poddania siê o 10%."
+Pierœcieñ Dyplomaty	5000	 	 	 	 	 		 	 	 	 	 	x	x	 	 	 	 	 	 	N	"{Pierœcieñ Dyplomaty}
+
+Ten artefakt, kiedy jest noszony, zmniejsza koszty poddania siê o 10%."
+Szarfa Ambasadora	5000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	x	 	N	"{Szarfa Ambasadora}
+
+Ten artefakt, kiedy jest noszony, zmniejsza koszty poddania siê o 10%."
+Pierœcieñ Wêdrowca	5000	 	 	 	 	 		 	 	 	 	 	x	x	 	 	 	 	 	 	J	"{Pierœcieñ Wêdrowca}
+
+Ten artefakt, kiedy jest noszony, zwiêksza szybkoœæ wszystkich oddzia³ów o 1."
+Rêkawice JeŸdŸca	3000	 	 	 	 	 		 	 	 	 	 	x	x	 	 	 	 	 	 	N	"{Rêkawice JeŸdŸca}
+
+Ten artefakt, kiedy jest noszony, zwiêksza ruch bohatera na l¹dzie o 200 punktów."
+Naszyjnik Nawigatora	10000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	x	 	 	J	"{Naszyjnik Nawigatora}
+
+Ten artefakt, kiedy jest noszony, zwiêksza ruch okrêtu bohatera o 1000 punktów."
+Skrzyd³a Anio³a	20000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	x	 	R	"{Skrzyd³a Anio³a}
+
+Ten artefakt, kiedy jest noszony, pozwala bohaterowi lataæ (ignorowaæ przeszkody oraz kary wynikaj¹ce z ruchu po trudnym terenie)."
+Magiczny Znak	750	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Magiczny Znak}
+
+Ten artefakt regeneruje dodatkowo 3 punkt magii dziennie."
+Talizman Many	1250	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Talizman Many}
+
+Ten artefakt regeneruje dodatkowo 5 punkty magii dziennie."
+Magiczna Kula Many	1750	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	N	"{Magiczna Kula Many}
+
+Ten artefakt regeneruje dodatkowo 7 punkty magii dziennie."
+Zaklêty Naszyjnik	500	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	x	 	 	T	"{Zaklêty Naszyjnik}
+
+Ten artefakt, kiedy jest noszony, przed³u¿a czas trwania zaklêæ rzuconych przez bohatera o 1 turê.
+
+Powiadaj¹, ¿e w innych krainach ten artefakt jest elementem niezbêdnym do stworzenia pierœcienia maga, ale tutaj nie jest to mo¿liwe."
+Zaklêty Pierœcieñ	1000	 	 	 	 	 		 	 	 	 	 	x	x	 	 	 	 	 	 	T	"{Zaklêty Pierœcieñ}
+
+Ten artefakt, kiedy jest noszony, przed³u¿a czas trwania zaklêæ rzuconych przez bohatera o 2 tury.
+
+Powiadaj¹, ¿e w innych krainach ten artefakt jest elementem niezbêdnym do stworzenia pierœcienia maga, ale tutaj nie jest to mo¿liwe."
+Zaklêty P³aszcz	1500	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	x	 	T	"{Zaklêty P³aszcz}
+
+Ten artefakt, kiedy jest noszony, przed³u¿a czas trwania zaklêæ rzuconych przez bohatera o 3 tury.
+
+Powiadaj¹, ¿e w innych krainach ten artefakt jest elementem niezbêdnym do stworzenia pierœcienia maga, ale tutaj nie jest to mo¿liwe."
+Kula Firmamentów	6000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	J	"{Kula Firmamentów}
+
+Ten artefakt zwiêksza o 50% uszkodzenia zadawane przez zaklêcia magii powietrza."
+Kula ¯ywio³u Ziemi	6000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	J	"{Kula ¯ywio³u Ziemi}
+
+Ten artefakt zwiêksza o 50% uszkodzenia zadawane przez zaklêcia magii ziemi."
+Kula P³on¹cego Ognia	6000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	J	"{Kula P³on¹cego Ognia}
+
+Ten artefakt zwiêksza o 50% uszkodzenia zadawane przez zaklêcia magii ognia."
+Kula Sztormów	6000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	J	"{Kula Sztormów}
+
+Ten artefakt zwiêksza o 50% uszkodzenia zadawane przez zaklêcia magii wody."
+P³aszcz Odwrócenia	8000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	x	 	J	"{P³aszcz Odwrócenia}
+
+Ten artefakt, kiedy jest noszony, nie pozwala podczas bitwy na u¿ywanie zaklêæ poziomu 3 i wy¿szych."
+Duch Opresji	2000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Duch Opresji}
+
+Ten artefakt niweluje podczas bitwy wszystkie premie za morale, jakie otrzymuj¹ oddzia³y bohatera lub wroga."
+Klepsydra Diabelskiej Godziny	2000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Klepsydra Diabelskiej Godziny}
+
+Ten artefakt niweluje podczas bitwy wszystkie premie za szczêœcie, jakie otrzymuj¹ oddzia³y bohatera lub wroga."
+Ksiêga Magii Ognia	20000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	R	"{Ksiêga Magii Ognia}
+
+Ta ciê¿ka ksiêga zawiera wszystkie zaklêcia magii ognia. Aby jej u¿ywaæ, bohater musi trzymaæ j¹ w aktywnym ekwipunku."
+Ksiêga Magii Powietrza	20000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	R	"{Ksiêga Magii Powietrza}
+
+Ta ciê¿ka ksiêga zawiera wszystkie zaklêcia magii powietrza. Aby jej u¿ywaæ, bohater musi trzymaæ j¹ w aktywnym ekwipunku."
+Ksiêga Magii Wody	20000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	R	"{Ksiêga Magii Wody}
+
+Ta ciê¿ka ksiêga zawiera wszystkie zaklêcia magii wody. Aby jej u¿ywaæ, bohater musi trzymaæ j¹ w aktywnym ekwipunku."
+Ksiêga Magii Ziemi	20000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	R	"{Ksiêga Magii Ziemi}
+
+Ta ciê¿ka ksiêga zawiera wszystkie zaklêcia magii ziemi. Aby jej u¿ywaæ, bohater musi trzymaæ j¹ w aktywnym ekwipunku."
+Magiczne Buty Lewitacji	10000	 	 	 	 	 		 	 	 	 	x	 	 	 	 	 	 	 	 	R	"{Magiczne Buty Lewitacji}
+
+Ten artefakt, kiedy jest noszony, pozwala ci spacerowaæ po wodzie."
+Z³oty £uk	8000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	J	"{Z³oty £uk}
+
+Ten artefakt, je¿eli jest dzier¿ony, powoduje, i¿ pociski wystrzeliwane przez oddzia³y bohatera nie s¹ os³abiane przez ¿adne przeszkody blokuj¹ce ich drogê."
+Kula Sta³oœci	7500	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	J	"{Kula Sta³oœci}
+
+Ten artefakt, je¿eli jest dzier¿ony, powoduje, ¿e wojska bohatera s¹ odporne na zaklêcie 'Rozproszenie'."
+Kula Os³abienia	25000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	R	"{Kula Os³abienia}
+
+Ten artefakt powoduje, i¿ podczas walki stworzenia naturalnie odporne na magiê trac¹ tê w³aœciwoœæ."
+Pierœcieñ ¯ywotnoœci	5000	 	 	 	 	 		 	 	 	 	 	x	x	 	 	 	 	 	 	N	"{Pierœcieñ ¯ywotnoœci}
+
+Zwiêksza zdrowie wszystkich jednostek o 1."
+Pierœcieñ ¯ycia	10000	 	 	 	 	 		 	 	 	 	 	x	x	 	 	 	 	 	 	J	"{Pierœcieñ ¯ycia}
+
+Zwiêksza zdrowie wszystkich jednostek o 2."
+Fiolka ¯ywej Krwi	15000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	R	"{Fiolka ¯ywej Krwi}
+
+Zwiêksza zdrowie wszystkich ¿ywych jednostek o 3."
+Naszyjnik Przyœpieszenia	5000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	x	 	 	N	"{Naszyjnik Przyœpieszenia}
+
+Ten artefakt, kiedy jest noszony, zwiêksza szybkoœæ wszystkich jednostek o 1."
+Buty Przyœpieszenia	6000	 	 	 	 	 		 	 	 	 	x	 	 	 	 	 	 	 	 	J	"{Buty Przyœpieszenia}
+
+Ten artefakt, kiedy jest noszony, zwiêksza ruch bohatera na l¹dzie o 400 punktów."
+P³aszcz Zwinnoœci	10000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	x	 	R	"{P³aszcz Zwinnoœci}
+
+Ten artefakt, kiedy jest noszony, zwiêksza szybkoœæ wszystkich jednostek dowodzonych przez bohatera o 2."
+Amulet TrzeŸwego Umys³u	1000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	x	 	 	T	"{Amulet TrzeŸwego Umys³u}
+
+Ten artefakt, kiedy jest noszony, chroni oddzia³y przed zaklêciem 'Berserk'."
+Amulet Magicznej Wizji	5000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	x	 	 	N	"{Amulet Magicznej Wizji}
+
+Ten artefakt, kiedy jest noszony, chroni oddzia³y przed zaklêciem 'Oœlepienie'."
+Znak Œwiêtoœci	1000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	x	 	 	T	"{Znak Œwiêtoœci}
+
+Ten artefakt, kiedy jest noszony, chroni oddzia³y przed zaklêciem 'Kl¹twa'."
+Amulet ¯ycia	2500	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	x	 	 	T	"{Amulet ¯ycia}
+
+Ten artefakt, kiedy jest noszony, chroni oddzia³y przed zaklêciem 'Fala œmierci'."
+Amulet Œmierci	2500	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	x	 	 	T	"{Amulet Œmierci}
+
+Ten artefakt, kiedy jest noszony, chroni oddzia³y przed zaklêciem 'Zniszczenie nieumar³ych'."
+Amulet Wolnej Woli	1000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	x	 	 	T	"{Amulet Wolnej Woli}
+
+Ten artefakt, kiedy jest noszony, chroni oddzia³y przed zaklêciem 'Hipnoza'."
+Amulet Przeciwstawienia	5000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	x	 	 	J	"{Amulet Przeciwstawienia}
+
+Ten artefakt, kiedy jest noszony, chroni oddzia³y przed zaklêciami 'B³yskawica', 'B³yskawica tytana' i '£añcuch piorunów'."
+Amulet Pamiêci	3000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	x	 	 	T	"{Amulet Pamiêci}
+
+Ten artefakt, kiedy jest noszony, chroni oddzia³y przed zaklêciem 'Zapomnienie'."
+Znak Odwagi	6000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	x	 	 	J	"{Znak Odwagi}
+
+Ten artefakt, kiedy jest noszony, dodaje 2 morale i 2 szczêœcia."
+P³aszcz B³yszcz¹cego Kryszta³u	4000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	x	 	N	"{P³aszcz B³yszcz¹cego Kryszta³u}
+
+Ten artefakt, kiedy jest noszony, generuje 1 kryszta³ dziennie."
+Pierœcieñ Nieskoñczonych Bogactw	4000	 	 	 	 	 		 	 	 	 	 	x	x	 	 	 	 	 	 	N	"{Pierœcieñ Nieskoñczonych Bogactw}
+
+Ten artefakt, kiedy jest noszony, generuje 1 klejnot dziennie."
+Bezdenna Fiolka Rtêci	4000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 		 	 	N	"{Bezdenna Fiolka Rtêci}
+
+Ten artefakt, kiedy jest noszony, generuje 1 uncjê rtêci dziennie."
+Samonape³niaj¹cy siê Wóz Rudy	2000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Samonape³niaj¹cy siê Wóz Rudy}
+
+Ten artefakt, kiedy jest noszony, generuje 1 wóz rudy dziennie."
+Pierœcieñ P³on¹cej Siarki	4000	 	 	 	 	 		 	 	 	 	 	x	x	 	 	 	 	 	 	N	"{Pierœcieñ Gorej¹cej Siarki}
+
+Ten artefakt, kiedy jest noszony, generuje 1 uncjê siarki dziennie."
+Samonape³niaj¹cy siê Wóz Drewna	2000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Samonape³niaj¹cy siê Wóz Drewna}
+
+Ten artefakt, kiedy jest noszony, generuje 1 s¹g drewna dziennie."
+Bezdenny Worek Z³ota	10000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	J	"{Bezdenny Worek Z³ota}
+
+Ten artefakt, kiedy jest noszony, generuje 1000 sztuk z³ota dziennie."
+Bezdenna Sakiewka Z³ota	7500	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	J	"{Bezdenna Sakiewka Z³ota}
+
+Ten artefakt, kiedy jest noszony, generuje 750 sztuk z³ota dziennie."
+Bezdenny Mieszek Z³ota	5000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	J	"{Bezdenny Mieszek z³ota}
+
+Ten artefakt, kiedy jest noszony, generuje 500 sztuk z³ota dziennie."
+Nogi Legionisty	4000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	T	"{Nogi Legionisty}
+
+Ten artefakt, bêd¹c w aktywnym ekwipunku bohatera znajduj¹cego siê w mieœcie, zwiêksza o 6 tygodniowy przyrost stworzeñ poziomu 2 (w danym mieœcie)."
+LêdŸwie Legionisty	6000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	N	"{LêdŸwie Legionisty}
+
+Ten artefakt, bêd¹c w aktywnym ekwipunku bohatera znajduj¹cego siê w mieœcie, zwiêksza o 5 tygodniowy przyrost stworzeñ poziomu 3 (w danym mieœcie)."
+Korpus Legionisty	8000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	J	"{Korpus Legionisty}
+
+Ten artefakt, bêd¹c w aktywnym ekwipunku bohatera znajduj¹cego siê w mieœcie, zwiêksza o 4 tygodniowy przyrost stworzeñ poziomu 4 (w danym mieœcie)."
+Ramiona Legionisty	10000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	J	"{Ramiona Legionisty}
+
+Ten artefakt, bêd¹c w aktywnym ekwipunku bohatera znajduj¹cego siê w mieœcie, zwiêksza o 3 tygodniowy przyrost stworzeñ poziomu 5 (w danym mieœcie)."
+G³owa Legionisty	12000	 	 	 	 	 	x	x	x	x	x	 	 	 	 	 	 	 	 	 	R	"{G³owa Legionisty}
+
+Ten artefakt, bêd¹c w aktywnym ekwipunku bohatera znajduj¹cego siê w mieœcie, zwiêksza o 2 tygodniowy przyrost stworzeñ poziomu 6 (w danym mieœcie)."
+He³m Wilka Morskiego	15000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	 	x	R	"{He³m Wilka Morskiego}
+
+Ten artefakt, kiedy jest noszony, zwiêksza zasiêg okrêtu bohatera o 500 punktów, pozwala mu przyzywaæ i niszczyæ okrêty oraz chroni jego okrêt przed wirami."
+Kapelusz Czarodzieja	30000	 	 	 	 	 		 	 	 	 	 	 	 	 	 	 	 	 	x	R	"{Kapelusz Czarodzieja}
+
+Ten artefakt, kiedy jest noszony, pozwala na rzucanie zaklêæ 5 poziomu."
+Kajdany Wojny	5000	 	 	 	 	 	x	x	x	x	x	 	 	 	 			 	 	 	J	"{Kajdany Wojny}
+
+Ten artefakt nie pozwala na ucieczkê z pola bitwy ani bohaterowi, ani jego przeciwnikowi."
+Kula Przeciwstawienia	20000	 	 	 	 	 	x	x	x	x	x		 	 	 	 	 	 	 	 	R	"{Kula Przeciwstawienia}
+
+Ten potê¿ny artefakt nie pozwala na u¿ywanie zaklêæ na polu bitwy."
+Fiolka Smoczej Krwi	20000						x	x	x	x	x										R	"{Fiolka Smoczej Krwi}
+
+Wszystkie smoki pod twoj¹ komend¹ dostaj¹ 5 do ataku i obrony."
+Ostrze Armagedonu																	x				R	"{Ostrze Armagedonu}
+
+Wliczaj¹c efekty artefaktów sk³adowych, Ostrze Armagedonu dodaje 6 punktów ataku i obrony oraz 5 punktów mocy i wiedzy. Umieszcza w Ksiêdze Zaklêæ czar 'Armagedon' na poziomie mistrzowskim. Jednostki bohatera staj¹ siê odporne na ten czar."
+Miecz Anielskiego Sojuszu																	x				R	"{Miecz Anielskiego Sojuszu}
+
+Wliczaj¹c efekty artefaktów sk³adowych, Miecz Anielskiego Sojuszu zwiêksza o 15 punktów wszystkie cztery wspó³czynniki bohatera, niweluje negatywne efekty mieszania wojsk z dobrych i neutralnych frakcji oraz na pocz¹tku bitwy rzuca czar 'Modlitwa' na poziomie mistrzowskim, który bêdzie trwaæ 50 tur."
+P³aszcz Nieumar³ego Króla																			x		R	"{P³aszcz Nieumar³ego Króla}
+
+Jeœli bohater nie posiada zdolnoœci 'Nekromancja', P³aszcz Nieumar³ego Króla wskrzesi na koniec bitwy 15% martwych jednostek jako szkielety. Je¿eli jednak bohater zna 'Nekromancjê', wliczaj¹c efekty artefaktów sk³adowych p³aszcz zwiêkszy tê zdolnoœæ o 15%. Ponadto, na poziomie zaawansowanym nekromancja przywraca o¿ywieñców, a na mistrzowskim upiory."
+Eliksir ¯ycia							x	x	x	x	x										R	"{Eliksir ¯ycia}
+
+Wliczaj¹c efekty artefaktów sk³adowych, Eliksir ¯ycia zwiêksza punkty ¿ycia wszystkich jednostek w armii bohatera o 2. Ponadto, wszystkie ¿ywe stworzenia otrzymuj¹ dodatkowo 25% + 3 punktów ¿ycia i uzyskuj¹ zdolnoœæ regeneracji 50 punktów ¿ycia na turê."
+Zbroja Przeklêtego															x						R	"{Zbroja Przeklêtego}
+
+Wliczaj¹c efekty artefaktów sk³adowych, Zbroja Przeklêtego zwiêksza atak i obronê bohatera o +3, a moc i wiedzê o +2. Na pocz¹tku bitwy na wszystkie wrogie jednostki rzucane s¹ trwaj¹ce 50 tur czary na poziomie eksperta: 'Spowolnienie', 'Os³abienie', 'Kl¹twa' i 'Pech'."
+Statua Legionów							x	x	x	x	x										R	"{Statua Legionów}
+
+Wliczaj¹c efekty artefaktów sk³adowych, Statua Legionów zwiêksza przyrost jednostek poziomów 2/3/4/5/6 o 6/5/4/3/2 w mieœcie, w którym stacjonuje bohater. Ponadto, przyrost wszystkich jednostek we wszystkich zamkach gracza zwiêksza siê o 50%."
+Moc Ojca Smoków															x						R	"{Moc Ojca Smoków}
+
+Wliczaj¹c efekty artefaktów sk³adowych, Moc Ojca Smoków zwiêksza o 16 punktów wszystkie cztery wspó³czynniki bohatera i zapewnia wszystkim jednostkom ochronê przed czarami poza 'Rozproszeniem'."
+B³yskawica Tytana																	x				R	"{Piorun Tytana}
+
+Wliczaj¹c efekty artefaktów sk³adowych, Piorun Tytana zwiêksza atak i obronê bohatera o +12, a moc i wiedzê o +10. Bohater zyskuje mo¿liwoœæ rzucenia zaklêcia 'B³yskawica tytana', zadaj¹cego celowi (600 + 60 x moc) punktów obra¿eñ, bez ubytku many. Dodaje Ksiêgê Zaklêæ do posiadanych przedmiotów."
+Kapelusz Admira³a																				x	R	"{Kapelusz Admira³a}
+
+Wliczaj¹c efekty artefaktów sk³adowych, Kapelusz Admira³a zwiêksza ruch bohatera na morzu o 1500 punktów, pozwala przyzywaæ i niszczyæ okrêty oraz chroni armiê przed negatywnymi efektami podró¿owania wirami wodnymi. Ponadto, nie ma straty punktów ruchu przy wchodzeniu i schodzeniu ze statku. Zamienia punkty ruchu na l¹dzie w punkty ruchu na wodzie. "
+£uk Strzelca							x	x	x	x	x						 				R	"{£uk Strzelca}
+
+Wliczaj¹c efekty artefaktów sk³adowych, £uk Strzelca zwiêksza zdolnoœæ '£ucznictwo' o 30%. Oddzia³y ³ucznicze mog¹ strzelaæ nawet, gdy zosta³y zablokowane przez wrogi oddzia³. Ponadto, nie otrzymuj¹ ¿adnych kar przy ataku na odleg³oœæ."
+ród³o Maga							x	x	x	x	x										R	"{ród³o Maga}
+
+Codzienie przywraca wszystkie punkty many."
+Pierœcieñ Maga	5000												x	x							J	"{Pierœcieñ Maga}
+
+Zmniejsza koszt czarów bitewnych o 2 punkty many."
+Róg Obfitoœci							x	x	x	x	x										R	"{Róg Obfitoœci}
+
+Wliczaj¹c efekty artefaktów sk³adowych, Róg Obfitoœci co dzieñ wytwarza 5 jednostek cennych surowców."
+Ubiór Dyplomaty																			x		R	"{Ubiór Neutralnoœci}
+
+To jest niesamowicie intryguj¹cy artefakt."
+B³oto Neutralnoœci															x						R	"{B³oto Neutralnoœci}
+
+To jest niesamowicie intryguj¹cy artefakt."
+Piêœæ Ogra																	x				R	"{Piêœæ Ogra}
+
+To jest niesamowicie intryguj¹cy artefakt."
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						

@@ -1,0 +1,29 @@
+Gildia magów poziom 1	Odwiedzenie gildii magów pozwala bohaterowi na poznanie znajduj¹cych siê w niej zaklêæ.
+Gildia magów poziom 2	Odwiedzenie gildii magów pozwala bohaterowi na poznanie znajduj¹cych siê w niej zaklêæ.
+Gildia magów poziom 3	Odwiedzenie gildii magów pozwala bohaterowi na poznanie znajduj¹cych siê w niej zaklêæ.
+Gildia magów poziom 4	Odwiedzenie gildii magów pozwala bohaterowi na poznanie znajduj¹cych siê w niej zaklêæ.
+Gildia magów poziom 5	Odwiedzenie gildii magów pozwala bohaterowi na poznanie znajduj¹cych siê w niej zaklêæ.
+Karczma	Karczma zwiêksza morale garnizonu broni¹cego miasta.
+Stocznia	Stocznia pozwala na produkcjê oraz zakup okrêtów.
+Fort	Fort wzmacnia mury zamku.
+Cytadela	Cytadela dodaje wie¿ê do fortu oraz zwiêksza o 50% bazow¹ iloœæ produkowanych jednostek.
+Zamek	Zamek dodaje 2 wie¿e ³ucznicze, umacnia mury miasta oraz podwaja bazow¹ iloœæ produkowanych jednostek.
+Rada osady	Rada osady pozwala na dalsz¹ rozbudowê oraz dostarcza 500 sztuk z³ota dziennie.
+Rada miasta	Rada miasta umo¿liwia jego rozbudowê oraz dostarcza 1000 sztuk z³ota dziennie.
+Ratusz	Ratusz umo¿liwia rozbudowê miasta oraz dostarcza 2000 sztuk z³ota dziennie.
+Kapitol	Kapitol dostarcza codziennie 4000 sztuk z³ota.
+Targowisko	Na targowisku mo¿na sprzedawaæ oraz wymieniaæ zasoby (kurs wymiany zale¿y od liczby posiadanych targowisk).
+
+KuŸnia	W kuŸni produkuje siê: %s
+Fosa	Fosa spowalnia wrogie oddzia³y. Ka¿da jednostka, która wejdzie do fosy otrzymuje obra¿enia, koñczy swój ruch i staje siê mniej odporna na ataki.
+Stocznia ze statkiem	Umo¿liwia zakup statku
+KuŸnia	W kuŸni produkuje siê balisty.
+KuŸnia	W kuŸni produkuje siê namioty medyków.
+KuŸnia	W kuŸni produkuje siê wozy z amunicj¹.
+KuŸnia	W kuŸni produkuje siê balisty.
+KuŸnia	W kuŸni produkuje siê namioty medyków.
+KuŸnia	W kuŸni produkuje siê wozy z amunicj¹.
+KuŸnia	W kuŸni produkuje siê wozy z amunicj¹.
+KuŸnia	W kuŸni produkuje siê namioty medyków.
+KuŸnia	W kuŸni produkuje siê balisty.
+KuŸnia	W kuŸni produkuje siê machiny oblê¿nicze.

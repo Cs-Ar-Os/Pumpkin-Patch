@@ -1,0 +1,256 @@
+Mo¿e czarny smok jest potê¿niejszy od tytana, ale nawet tytan bez pomocy nie pokona archanio³a.
+"Pewien mêdrzec rzek³ niegdyœ: ""Nie dziel siê z nikim swoj¹ m¹droœci¹."""
+W ma³ym jeziorze p³ywa szkar³atny ³ab¹dŸ.
+Krew jest gêstsza ni¿ woda.
+Chocia¿ chowañce s¹ s³abe fizycznie, nadrabiaj¹ to swoj¹ liczebnoœci¹.
+Gdzie diabe³ nie mo¿e tam babê poœle.
+Ca³un ciemnoœci z pewnoœci¹ pomo¿e ci oszukaæ twych wrogów.
+ZnajdŸ Graala - nawet nie przypuszczasz, jaka kryje siê w nim potêga.
+ZnajdŸ dobrego kartografa. Choæ jego mapy kosztuj¹ wiêcej, s¹ wyj¹tkowo dok³adne.
+Strze¿ siê Kreegan przynosz¹cych podarki.
+Zawsze chroñ dobrze swych strzelców w czasie bitwy.
+Czasami najlepszym sposobem na unikniêcie przegranej jest ucieczka.
+Atakuj s³abe punkty przeciwnika.
+S³ysza³eœ o ¿abie, która chcia³a zostaæ królem...i której siê to uda³o?
+S³ysza³em, ¿e pewien mag odkry³ ostatnio zaklêcie, które pozwala lataæ CA£EJ armii!
+Chaos jest najlepszym przyjacielem W³adcy.
+Podobno nic i nikt nie powstrzyma ataku staro¿ytnego behemota.
+Lepiej nie mieszaj siê w lokalne wojny.
+Troglodyci nie maj¹ oczu, ale i tak widz¹.
+Zawsze obserwuj wrota do podziemi. Mog¹ stamt¹d niespodziewanie wy³oniæ siê wrogowie.
+Tylko zielone i z³ote smoki stoj¹ po stronie dobra.  Czerwone i czarne smoki s³u¿¹ Nighonowi, zaœ upiorne i koœciane smoki s¹ tworami nekromantów.
+Dzisiejszy dzieñ jest wczorajszym jutrem.
+Podró¿nik powiedzia³ mi, ¿e w³adcy Enroth utracili b³ogos³awieñstwo niebios.
+Kiedy poznasz tajniki magii, twoje czary bêd¹ mog³y obj¹æ swym zasiêgiem wszystkie oddzia³y twoje lub przeciwnika. A czasami nawet jedne i drugie!
+Podró¿uj¹c przez pustynie staraj siê znaleŸæ oazy. Pobyt w nich skróci czas twej podró¿y.
+Szukaj kamieni wiedzy, które rozsiane s¹ po ca³ej krainie. Z ka¿dego mo¿esz skorzystaæ tylko raz, ale wiele siê z niego nauczysz.
+Im wiêcej tym lepiej, szczególnie gdy 'wiêcej' liczy siê w tysi¹cach.
+Pamiêtaj, czarny smok przeciwstawi siê ka¿demu zaklêciu - powa¿nie zranisz go jedynie przy pomocy czaru 'Pogromca'...
+Przyœpieszenie i spowolnienie to dwa zaklêcia bardzo przydatne podczas walki.
+Walcz z ogniem u¿ywaj¹c ochrony przed ogniem.
+Magia wody nie zaszkodzi temu, kto mistrzowsko j¹ opanowa³.
+Magia powietrza nie zaszkodzi temu, kto mistrzowsko j¹ opanowa³.
+Magia ziemi nie zaszkodzi temu, kto mistrzowsko j¹ opanowa³.
+Na uniwersytecie nauczysz siê niemal wszystkiego... za odpowiedni¹ cenê.
+Archanio³y to najpotê¿niejsi mieszkañcy Zamku.
+Z³ote smoki to najpotê¿niejsi mieszkañcy Bastionu.
+Tytani to najpotê¿niejsi mieszkañcy Fortecy.
+Arcydiab³y to najpotê¿niejsi mieszkañcy Inferno.
+Upiorne smoki to najpotê¿niejsi mieszkañcy Nekropolis.
+Czarne smoki to najpotê¿niejsi mieszkañcy Lochów.
+Staro¿ytne behemoty to najpotê¿niejsi mieszkañcy Twierdzy.
+Hydry chaosu to najpotê¿niejsi mieszkañcy Cytadeli.
+U¿ywaj¹c odpowiedniego zaklêcia mo¿esz zniszczyæ swój okrêt, aby nie wpad³ on w rêce wrogów.
+Nic tak nie smakuje jak moje ciasto z zakalcem. Nie? To mo¿e trochê galaretki ze œwiñskich nó¿ek?
+Ech, nie mam nic do powiedzenia, bo tacy jak TY nie przynosz¹ ¿adnych ciekawych wieœci.
+O tej porze roku woda wokó³ wyspy Vori zamarza.
+Vori to nacja odizolowana od reszty œwiata.
+S³ysza³em, ¿e elfy z Vori maj¹ skórê bia³¹ jak œnieg.
+Czy wiesz, ¿e elfy z AvLee pochodz¹ w prostej linii od elfów z Vori?
+Miasto, w którym jest cytadela przyci¹ga wiêcej oddzia³ów ni¿ miasto z fortem.
+S³ysza³em, ¿e w Fortecach mo¿na kupiæ artefakty.
+Wiesz, ¿e w Twierdzach mo¿na zakupiæ ¿o³nierzy?
+S³ysza³em, ¿e bohaterowie mog¹ podró¿owaæ miêdzy miastami Inferno nie ruszaj¹c siê z miejsca.
+Gildia z³odziei jest przyjacielem ka¿dego i nikogo.
+Bractwo Miecza znacznie zwiêksza szansê obrony Zamku w czasie oblê¿enia.
+S³ysza³em, i¿ na czeœæ bohatera, który przyniesie Graala, mieszkañcy Zamku skonstruuj¹ wielkiego kolosa.
+S³ysza³em, i¿ na czeœæ bohatera, który przyniesie Graala, mieszkañcy Bastionu skonstruuj¹ duchowego stra¿nika.
+S³ysza³em, i¿ na czeœæ bohatera, który przyniesie Graala, mieszkañcy Fortecy skonstruuj¹ olbrzymi okrêt unosz¹cy siê w chmurach.
+S³ysza³em, i¿ na czeœæ bohatera, który przyniesie Graala, mieszkañcy Inferno wezw¹ bóstwo ognia.
+S³ysza³em, i¿ na czeœæ bohatera, który przyniesie Graala, mieszkañcy Nekropolis skonstruuj¹ wiêzienie dusz.
+S³ysza³em, i¿ na czeœæ bohatera, który przyniesie Graala, mieszkañcy Lochów wezw¹ stra¿nika ziemi.
+S³ysza³em, i¿ na czeœæ bohatera, który przyniesie Graala, mieszkañcy Twierdzy zbuduj¹ pomnik wodza.
+S³ysza³em, i¿ na czeœæ bohatera, który przyniesie Graala, mieszkañcy Cytadeli wyhoduj¹ ogromn¹, miêso¿ern¹ roœlinê.
+Erathiañskie konie najlepiej radz¹ sobie na normalnym gruncie.
+Strzelcy erathiañscy mog¹ wystrzeliæ dwie strza³y w czasie, gdy wróg wystrzeli jedn¹.
+Gryfy wytresowane na królewskim dworze s¹ niezast¹pione podczas obrony.
+Krzy¿owiec mo¿e zadaæ dwa ciosy w czasie, gdy przeciwnik zd¹¿y zadaæ tylko jeden.
+Powiadaj¹, ¿e podobno kap³ani nie s¹ cielesnymi istotami...
+Pozwól swoim czempionom przejechaæ siê po szeregach wroga. Spodoba ci siê rezultat.
+Anio³y nienawidz¹ diab³ów i walcz¹ z nimi wyj¹tkowo skutecznie.
+Widzia³em, jak podczas bitwy anio³y wskrzesza³y poleg³ych.
+Podobno obecnoœæ anio³ów zwiêksza morale ka¿dej armii, za wyj¹tkiem trupów.
+Widzia³em raz, jak krasnoludy opar³y siê zaklêciu, które na nie rzucono.
+Podobno ³ucznicy z AvLee s¹ lepsi od erathiañskich kuszników.
+Podobno przeciwnikom jest bardzo trudno rzuciæ zaklêcie na pegaza.
+Korzenie entów powstrzymaj¹ ataki przeciwników.
+Je¿eli chcesz obroniæ siê przed zaklêciami, stañ w pobli¿u jednoro¿ca.
+Zielone smoki, chocia¿ nie tak silne jak z³ote, opr¹ siê wiêkszoœci zaklêæ.
+Z³ote smoki s¹ bardziej odporne na magiê ni¿ zielone, ale mniej ni¿ czarne.
+Chowañce bêd¹ wysysaæ manê z rzucanych przez ciebie zaklêæ i przekazywaæ j¹ swojemu dowódcy.
+Magogi wystrzeliwuj¹ ogniste kule spalaj¹ce cel i jego otoczenie.
+¯aden oddzia³ nie zdo³a odpowiedzieæ na atak wœciek³ego, trzyg³owego cerbera.
+Widzia³em kiedyœ, jak czarci lord wskrzesza³ poleg³ych pobratymców na polu bitwy.
+Magia ognia jest bezu¿yteczna przeciw ifritom.
+Ifrit wpada w furiê atakuj¹c d¿inna.
+Ifrity su³tañskie chroni¹ siê za tarcz¹ z ognia.
+Szczêœcie opuszcza ka¿dego, kto napotka diab³y.
+Diab³y podró¿uj¹ poprzez otch³anie swojego piekielnego œwiata.
+¯aden oddzia³ nie zdo³a oddaæ ciosu po niszcz¹cym uderzeniu kosy diab³a.
+W walce z anio³ami diab³y atakuj¹ z dzik¹ furi¹.
+Nie pozwól, aby dotknê³y ciê zombie.  Roznosz¹ zarazê.
+Upiory i zjawy to plugawe duchy. Jeœli nie zabijesz ich wszystkich pierwszym ciosem, w ca³oœci siê zregeneruj¹.
+Upiory ¿ywi¹ siê magiczn¹ energi¹. W ich obecnoœci zanika mana.
+S³ysza³em, ¿e duchy z Enroth s¹ znacznie groŸniejsze ni¿ zjawy i upiory z Erathii.
+Podczas bitwy, wiêksze nadzieje na zwyciêstwo ma oddzia³, który zaatakuje pierwszy.
+Podczas bitwy szybkoœæ oznacza ¿ycie, a ¿ycie zale¿y od szybkoœci.
+Widzia³em, jak wampirzy lord od¿y³ ch³epcz¹c krew pokonanego wroga.
+Nie mo¿na oddaæ ciosu po przera¿aj¹cym ataku wampirów.
+Atak lisza rani ¿ywe istoty nie czyni¹c krzywdy nieumar³ym.
+Cios czarnego rycerza mo¿e sprowadziæ przekleñstwo na jego wroga.
+Upiorni rycerze to potê¿ni wojownicy, którzy mog¹ powaliæ wielu wrogów jednym, zabójczym ciosem.
+Podczas bitwy upiorne i koœciane smoki siej¹ strach i przera¿enie w szeregach przeciwników
+Upiorne smoki po¿¹daj¹ si³ witalnych. Uwa¿aj, gdy¿ ich atak mo¿e zamieniæ ciê w starca.
+Golemy nie maj¹ w³asnego rozumu.
+Golemy s¹ o¿ywiane przez magiê, która stanowi tajemnicê dla wiêkszoœci ludzi.
+Z natury golemy s¹ bardziej odporne na magiê ni¿ inne stworzenia.
+Podobno magowie i arcymagowie pomagaj¹ bohaterowi, gdy rzuca on zaklêcia. 
+Arcymagowie potrafi¹ rzucaæ zaklêcia z niebywa³¹ precyzj¹.
+Ifrity s¹ naturalnymi wrogami d¿innów.
+D¿inny atakuj¹ ifrity z rzadko widzian¹ zaciek³oœci¹.
+Wielkie d¿inny mog¹ rzucaæ zaklêcia ze skutecznoœci¹ dorównuj¹c¹ bohaterom.
+Po ataku cztero lub szeœciorêcznej nagi ¿aden oddzia³ nie ma szans na oddanie ciosów.
+Atak nag to prawdziwy pokaz sztuki szermierki.
+Tylko anio³y i archanio³y mog¹ pokonaæ nagê w walce na miecze.
+Wiêkszoœæ nie docenia inteligencji gigantów i tytanów. Nikt jednak nie mo¿e zapanowaæ nad ich umys³ami.
+Tytani z niespotykan¹ zaciek³oœci¹ walcz¹ przeciwko czarnym smokom.
+Wilczy jeŸdŸcy s¹ niesamowicie szybcy. Zd¹¿¹ ciê dwa razy zaatakowaæ zanim uniesiesz tarczê do obrony.
+Szamani ogrów posiadaj¹ przera¿aj¹c¹ moc.  Sprawiaj¹, ¿e armia, w, której szeregach s³u¿¹, rzuca siê do walki w szale bojowym.
+Podobno ptaki gromu przyzywaj¹ pioruny z nieba.
+Je¿eli chcesz szybko zdobyæ miasto weŸ ze sob¹ kilku cyklopów. Szybko zniszcz¹ mury miasta.
+Niewielu prze¿y³o atak behemotów. Podobno nie mo¿na siê przed nimi obroniæ.
+Troglodyci nie maj¹ oczu, wiêc nie mo¿na ich oœlepiæ.
+Wiele armii upad³o pod mia¿d¿¹cym atakiem harpii nie mog¹æ zadaæ im najmniejszych strat.
+Harpie atakuj¹ szybko i oddalaj¹ siê zanim zdo³asz im oddaæ.
+Obserwatorzy to bardzo pewna jednostka. Zachowuj¹ spokój nawet przy znacznej przewadze wroga.
+Wielu obawia siê spojrzenia meduzy. Bardziej nale¿y siê jednak obawiaæ jej z³otych strza³.
+Nawet w przypadku przyt³aczaj¹cej przewagi wroga ¿¹dne krwi minotaury rzucaj¹ siê do walki.
+Jad chimery mo¿e sparali¿owaæ nawet golema.
+¯adne zaklêcie nie uczyni krzywdy czarnemu smokowi.
+Podobno podczas walki z czarnymi smokami przydatne jest zaklêcie 'Kula s³aboœci'.
+Podobno podczas bitwy czarne smoki zawsze wypatruj¹ tytanów.
+Podobno wa¿ka mo¿e rozpraszaæ zaklêcia.
+Niewiele wiadomo na temat gorgon, ale ich spojrzenie mo¿e ponoæ zabiæ na miejscu.
+Strze¿ siê jadu wiwerny królewskiej. W mgnieniu oka mo¿e wyssaæ z ciebie wszystkie si³y!
+Nie mo¿na odpowiedzieæ na atak wielog³owej hydry.
+Chcesz siê szybko czegoœ nauczyæ? OdwiedŸ Akademiê Wojskow¹ w Lochach.
+Podobno czarnoksiê¿nicy mog¹ podwoiæ swoj¹ potêgê tworz¹c Wir Many.
+Dziêki Portalowi Przyzwania w³adca Lochów mo¿e rekrutowaæ istoty mieszkaj¹ce na powierzchni.
+Obelisk Krwi w Fortecy zwiêksza szansê obrony miasta.
+Dzieñ spêdzony w akademii wojny z pewnoœci¹ nauczy ka¿dego wielu przydatnych rzeczy.
+Gdy atakujesz Inferno, strze¿ siê Chmur Siarki. Czarnoksiê¿nicy czerpi¹ z nich swoj¹ moc.
+Podobno zamki Inferna po³¹czone s¹ ze sob¹ magicznymi portalami. 
+Je¿eli chcesz posiadaæ wiêksz¹ moc, odwiedŸ Bractwo Ognia w mieœcie Inferno.
+Ca³un ciemnoœci okrywa tereny nale¿¹ce do nekromantów.
+Podobno nekromanci zamieniaj¹ swoich wiêŸniów w szkielety.
+Niektórzy twierdz¹, ¿e nekromanci wznosz¹ jakieœ budowle, które zwiêkszaj¹ ich umiejêtnoœci o¿ywiania zmar³ych.
+Magiczny staw jest bardzo trudno odkryæ. Nigdy nie wiadomo, jakie wspania³e bogactwa siê w nim kryj¹.
+Mieszkañcy bastionów buduj¹ fontanny, które przynosz¹ im szczêœcie podczas obrony.
+Chcesz pomno¿yæ swoje pieni¹dze? Zdeponuj je w krasnoludzkim skarbcu, który mo¿na znaleŸæ w bastionach.
+W niektórych Twierdzach znajduj¹ siê tunele, którymi mo¿na uciec z oblê¿onego miasta.
+Bohaterowie odwiedzaj¹cy Salê Walhalli w staj¹ siê lepszymi wojownikami.
+Je¿eli chcesz wiedzieæ wiêcej, odwiedŸ Œcianê Wiedzy w Fortecy.
+Na przeklêtej ziemi nikt nie ma przewagi.
+Na magicznej ziemi nawet zwyk³y cz³owiek mo¿e rzucaæ zaklêcia niczym wielki czarodziej.
+S³ysza³em, i¿ na czeœæ bohatera, który przyniesie Graala, mieszkañcy Zamku skonstruuj¹ wielkiego kolosa.
+Bractwo Miecza znacznie zwiêksza szansê obrony Zamku w czasie oblê¿enia.
+Gildia z³odziei jest przyjacielem ka¿dego i nikogo.
+S³ysza³em, ¿e bohaterowie mog¹ podró¿owaæ miêdzy miastami Inferno nie ruszaj¹c siê z miejsca.
+Wiesz, ¿e w Twierdzach mo¿na zakupiæ ¿o³nierzy?
+S³ysza³em, ¿e w Fortecach mo¿na kupiæ artefakty.
+Miasto, w którym jest cytadela przyci¹ga wiêcej oddzia³ów ni¿ miasto z fortem.
+Mo¿e czarny smok jest potê¿niejszy od tytana, ale nawet tytan bez pomocy nie pokona archanio³a.
+"Pewien mêdrzec rzek³ niegdyœ: ""Nie dziel siê z nikim swoj¹ m¹droœci¹."""
+W ma³ym jeziorze p³ywa szkar³atny ³ab¹dŸ.
+Krew jest gêstsza ni¿ woda.
+Chocia¿ chowañce s¹ s³abe fizycznie, nadrabiaj¹ to swoj¹ liczebnoœci¹.
+Gdzie diabe³ nie mo¿e tam babê poœle.
+Ca³un ciemnoœci z pewnoœci¹ pomo¿e ci oszukaæ twych wrogów.
+ZnajdŸ Graala - nawet nie przypuszczasz, jaka kryje siê w nim potêga.
+ZnajdŸ dobrego kartografa. Choæ jego mapy kosztuj¹ wiêcej, s¹ wyj¹tkowo dok³adne.
+Strze¿ siê Kreegan przynosz¹cych podarki.
+Zawsze chroñ dobrze swych strzelców w czasie bitwy.
+Czasami najlepszym sposobem na unikniêcie przegranej jest ucieczka.
+Atakuj s³abe punkty przeciwnika.
+S³ysza³eœ o ¿abie, która chcia³a zostaæ królem... i której siê to uda³o?
+S³ysza³em, ¿e pewien mag odkry³ ostatnio zaklêcie, które pozwala lataæ CA£EJ armii!
+Chaos jest najlepszym przyjacielem W³adcy.
+Podobno nic i nikt nie powstrzyma ataku staro¿ytnego behemota.
+Lepiej nie mieszaj siê w lokalne wojny.
+Troglodyci nie maj¹ oczu, ale i tak widz¹.
+Zawsze obserwuj wrota do podziemi. Mog¹ stamt¹d niespodziewanie wy³oniæ siê wrogowie.
+Tylko zielone i z³ote smoki stoj¹ po stronie dobra.  Czerwone i czarne smoki s³u¿¹ Nighonowi, zaœ upiorne i koœciane smoki s¹ tworami nekromantów.
+Dzisiejszy dzieñ jest wczorajszym jutrem.
+Podró¿nik powiedzia³ mi, ¿e w³adcy Enroth utracili b³ogos³awieñstwo niebios.
+Kiedy poznasz tajniki magii, twoje czary bêd¹ mog³y obj¹æ swym zasiêgiem wszystkie oddzia³y twoje lub przeciwnika. A czasami nawet jedne i drugie!
+Podró¿uj¹c przez pustynie staraj siê znaleŸæ oazy. Pobyt w nich skróci czas twej podró¿y.
+Szukaj kamieni wiedzy, które rozsiane s¹ po ca³ej krainie. Z ka¿dego mo¿esz skorzystaæ tylko raz, ale wiele siê z niego nauczysz.
+Im wiêcej tym lepiej, szczególnie gdy 'wiêcej' liczy siê w tysi¹cach.
+Pamiêtaj, czarny smok przeciwstawi siê ka¿demu zaklêciu - powa¿nie zranisz go jedynie przy pomocy czaru 'Pogromca'...
+Przyœpieszenie i spowolnienie to dwa zaklêcia bardzo przydatne podczas walki.
+Walcz z ogniem u¿ywaj¹c ochrony przed ogniem.
+Magia wody nie zaszkodzi temu, kto mistrzowsko j¹ opanowa³.
+Magia powietrza nie zaszkodzi temu, kto mistrzowsko j¹ opanowa³.
+Magia ziemi nie zaszkodzi temu, kto mistrzowsko j¹ opanowa³.
+Na uniwersytecie nauczysz siê niemal wszystkiego... za odpowiedni¹ cenê.
+Archanio³y to najpotê¿niejsi mieszkañcy Zamku.
+Z³ote smoki to najpotê¿niejsi mieszkañcy Bastionu.
+Tytani to najpotê¿niejsi mieszkañcy Fortecy.
+Arcydiab³y to najpotê¿niejsi mieszkañcy Inferno.
+Upiorne smoki to najpotê¿niejsi mieszkañcy Nekropolis.
+Czarne smoki to najpotê¿niejsi mieszkañcy Lochów.
+Staro¿ytne behemoty to najpotê¿niejsi mieszkañcy Twierdzy.
+Hydry chaosu to najpotê¿niejsi mieszkañcy Cytadeli.
+U¿ywaj¹c odpowiedniego zaklêcia mo¿esz zniszczyæ swój okrêt, aby nie wpad³ on w rêce wrogów.
+Nic tak nie smakuje jak moje ciasto z zakalcem.  Nie? To mo¿e trochê galaretki ze œwiñskich nó¿ek?
+Ech, nie mam nic do powiedzenia, bo tacy jak TY nie przynosz¹ ¿adnych ciekawych wieœci.
+O tej porze roku woda wokó³ wyspy Vori zamarza.
+Vori to nacja odizolowana od reszty œwiata.
+S³ysza³em, ¿e elfy z Vori maj¹ skórê bia³¹ jak œnieg.
+Czy wiesz, ¿e elfy z avLee pochodz¹ w prostej linii od elfów z Vori?
+Miasto, w którym jest cytadela przyci¹ga wiêcej oddzia³ów ni¿ miasto z fortem.
+S³ysza³em, ¿e w Fortecach mo¿na kupiæ artefakty.
+Wiesz, ¿e w Twierdzach mo¿na zakupiæ ¿o³nierzy?
+S³ysza³em, ¿e bohaterowie mog¹ podró¿owaæ miêdzy miastami Inferno nie ruszaj¹c siê z miejsca.
+Gildia z³odziei jest przyjacielem ka¿dego i nikogo.
+Bractwo Miecza znacznie zwiêksza szansê obrony Zamku w czasie oblê¿enia.
+S³ysza³em, i¿ na czeœæ bohatera, który przyniesie Graala, mieszkañcy Zamku skonstruuj¹ wielkiego kolosa.
+S³ysza³em, i¿ na czeœæ bohatera, który przyniesie Graala, mieszkañcy Bastionu skonstruuj¹ duchowego stra¿nika.
+S³ysza³em, i¿ na czeœæ bohatera, który przyniesie Graala, mieszkañcy Fortecy skonstruuj¹ olbrzymi okrêt unosz¹cy siê w chmurach.
+S³ysza³em, i¿ na czeœæ bohatera, który przyniesie Graala, mieszkañcy Inferno wezw¹ bóstwo ognia.
+S³ysza³em, i¿ na czeœæ bohatera, który przyniesie Graala, mieszkañcy Nekropolis skonstruuj¹ wiêzienie dusz.
+S³ysza³em, i¿ na czeœæ bohatera, który przyniesie Graala, mieszkañcy Lochów wezw¹ stra¿nika ziemi.
+S³ysza³em, i¿ na czeœæ bohatera, który przyniesie Graala, mieszkañcy Twierdzy zbuduj¹ pomnik wodza.
+S³ysza³em, i¿ na czeœæ bohatera, który przyniesie Graala, mieszkañcy Cytadeli wyhoduj¹ ogromn¹, miêso¿ern¹ roœlinê.
+Erathiañskie konie najlepiej radz¹ sobie na normalnym gruncie.
+Strzelcy erathiañscy mog¹ wystrzeliæ dwie strza³y w czasie, gdy wróg wystrzeli jedn¹.
+Gryfy wytresowane na królewskim dworze s¹ niezast¹pione podczas obrony.
+Krzy¿owiec mo¿e zadaæ dwa ciosy w czasie, gdy przeciwnik zd¹¿y zadaæ tylko jeden.
+Powiadaj¹, ¿e podobno kap³ani nie s¹ cielesnymi istotami...
+Pozwól swoim czempionom przejechaæ siê po szeregach wroga. Spodoba ci siê rezultat.
+Anio³y nienawidz¹ diab³ów i walcz¹ z nimi wyj¹tkowo skutecznie.
+Widzia³em, jak podczas bitwy anio³y wskrzesza³y poleg³ych.
+Podobno obecnoœæ anio³ów zwiêksza morale ka¿dej armii, za wyj¹tkiem trupów.
+Widzia³em raz jak krasnoludy opar³y siê zaklêciu, które na nie rzucono.
+Podobno ³ucznicy z AvLee s¹ lepsi od erathiañskich kuszników.
+Podobno przeciwnikom jest bardzo trudno rzuciæ zaklêcie na pegaza.
+Korzenie entów powstrzymaj¹ ataki przeciwników.
+Je¿eli chcesz obroniæ siê przed zaklêciami, stañ w pobli¿u jednoro¿ca.
+Zielone smoki, chocia¿ nie tak silne jak z³ote, opr¹ siê wiêkszoœci zaklêæ.
+Z³ote smoki s¹ bardziej odporne na magiê ni¿ zielone, ale mniej ni¿ czarne.
+Chowañce bêd¹ ci zabieraæ manê i przekazywaæ j¹ swojemu dowódcy.
+Magogi wystrzeliwuj¹ ogniste kule spalaj¹ce cel i jego otoczenie.
+¯aden oddzia³ nie zdo³a odpowiedzieæ na atak wœciek³ego, trzyg³owego cerbera.
+Widzia³em kiedyœ, jak czarci lord wskrzesza³ poleg³ych pobratymców na polu bitwy.
+Magia ognia jest bezu¿yteczna przeciw ifritom.
+Ifrit wpada w furiê atakuj¹c d¿inna.
+Ifrity su³tañskie chroni¹ siê za tarcz¹ z ognia.
+Szczêœcie opuszcza ka¿dego, kto napotka diab³y.
+Mo¿e czarny smok jest potê¿niejszy od tytana, ale nawet tytan bez pomocy nie pokona archanio³a.
+"Pewien mêdrzec rzek³ niegdyœ: ""Nie dziel siê z nikim swoj¹ m¹droœci¹."""
+W ma³ym jeziorze p³ywa szkar³atny ³ab¹dŸ.
+Krew jest gêstsza ni¿ woda.
+Chocia¿ chowañce s¹ s³abe fizycznie, nadrabiaj¹ to swoj¹ liczebnoœci¹.
+Gdzie diabe³ nie mo¿e tam babê poœle.
+Ca³un ciemnoœci z pewnoœci¹ pomo¿e ci oszukaæ twych wrogów.
+ZnajdŸ Graala - nawet nie przypuszczasz, jaka potêga jest w nim ukryta.

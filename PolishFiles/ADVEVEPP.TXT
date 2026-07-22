@@ -1,0 +1,422 @@
+Wkraczasz na arenê i stajesz oko w oko z wœciek³ymi lwami. Przy g³oœnym aplauzie gawiedzi pokonujesz je po zaciek³ej walce. Stary trener gladiatorów, pozostaj¹c pod wra¿eniem twoich wyczynów, proponuje ci pomoc w nauce wybranej przez ciebie umiejêtnoœci.
+"Stra¿nik areny nie pozwala ci wejœæ.  ""Uda³o ci siê pokonaæ nasze najlepsze potwory. OdejdŸ."""
+Nie mo¿esz zabraæ tego artefaktu, nie masz ju¿ wolnego miejsca w sakwie!
+"{Artefakt}
+
+Trafiasz do skromnego domku starego pustelnika.  Pustelnik oznajmia, ¿e %s bêdzie nale¿eæ do pierwszej m¹drej osoby, która go odwiedzi."
+"{Artefakt}
+
+Trafiasz do spartañskiej kwatery starego ¿o³nierza.  ¯o³nierz oznajmia ci, ¿e %s bêdzie nale¿eæ do pierwszego prawdziwego dowódcy, który go odwiedzi.."
+"{Artefakt}
+
+Leprekaun twierdzi, ¿e %s ma wartoœæ 2000 sztuk z³ota.  Czy chcesz kupiæ ten artefakt?"
+"{Artefakt}
+
+Leprekaun twierdzi, ¿e %s ma wartoœæ 2500 sztuk z³ota oraz 3 %s. Czy chcesz kupiæ ten artefakt?"
+"{Artefakt}
+
+Leprekaun twierdzi, ¿e %s ma wartoœæ 3000 sztuk z³ota oraz 5 %s.  Czy chcesz kupiæ ten artefakt?"
+Pokonawszy wroga zabierasz nale¿n¹ ci nagrodê - %s.
+"{Artefakt}
+
+Odnajdujesz prastary artefakt.  Ju¿ wyci¹gasz rêkê, by go podnieœæ, gdy nagle z krzaków wypada kilka cerberów i atakuje ciê z furi¹ broni¹c swojego skarbu."
+"{Artefakt}
+
+Przez zaroœla dostrzegasz le¿¹cy na polanie staro¿ytny artefakt. Niestety strzeg¹ go %s. %s dostrzegaj¹ ciê, czy chcesz walczyæ o artefakt?"
+Rozs¹dek przewa¿a nad mêstwem i uznajesz, ¿e lepiej dziœ unikn¹æ tej walki.
+Ju¿ chcesz zap³aciæ leprekaunowi, gdy nagle orientujesz siê, ¿e nie masz wystarczaj¹cej iloœci z³ota. Leprekaun tupie ze z³oœci¹ ma³¹ nó¿k¹ i postanawia ciê zignorowaæ.
+Obra¿ony leprekaun tupie ze z³oœci¹ ma³¹ nó¿k¹ i postanawia ciê zignorowaæ.
+Czy chcesz otworzyæ puszkê?
+Zagl¹dasz do œrodka.  Z westchnieniem ulgi stwierdzasz, i¿ puszka jest pusta.
+Trzeba by³o to przewidzieæ! Czeka ciê walka!
+"Podchodzi do ciebie stra¿nik, ""Witaj.  Otrzyma³em informacjê o twoim przybyciu.  Czy chcesz przekroczyæ granicê?"""
+"""Nikt nie poinformowa³ mnie o twoim przybyciu,"" mówi stra¿nik granicy.  ""Nie mogê ciê przepuœciæ.  Musisz najpierw odwiedziæ klucznika."""
+"Mieszkaniec tego namiotu wygl¹da na zadowolonego z twojej wizyty.  ""Ach, w koñcu ktoœ godzien,"" mówi.  ""Niezw³ocznie wyœlê pos³añca do stra¿nika granicy z rozkazami przepuszczenia ciê."""
+"Mieszkaniec namiotu poznaje ciê.  ""Wys³a³em ju¿ przecie¿ pos³añca z wiadomoœci¹,"" mówi.  ""OdejdŸ w pokoju."""
+"{Boja}
+
+Twoi ludzie odnajduj¹ star¹ bojê nawigacyjn¹.  Ich morale wzrasta gdy nabieraj¹ pewnoœci, ¿e p³yniecie w³aœciwym kursem."
+"{Boja}
+
+Twoi ludzie odnajduj¹ star¹ bojê nawigacyjn¹.  Wygl¹da na to, ¿e twój okrêt p³ynie w³aœciwym kursem."
+"{Obozowisko}
+
+Przetrz¹saj¹c obóz wroga odnajdujesz ukryt¹ skrzyniê ze skarbami."
+Pokazywa³em ci wszystkie moje mapy, a teraz idŸ ju¿ sobie.
+Spotykasz starego rybaka, który posiada najbardziej szczegó³owe mapy nawigacyjne, jakie kiedykolwiek zdarzy³o ci siê przegl¹daæ.  Czy chcesz je kupiæ za 10000 sztuk z³ota?
+Spotykasz kartografa sprzedaj¹cego mapy po 10000 sztuk z³ota.  Czy chcesz kupiæ mapê?
+Spotykasz starego krasnoluda, który posiada kilka map z czasów, gdy pracowa³ w kopalniach.  Chce ci je odsprzedaæ za 10000 sztuk z³ota.  Kupujesz?
+Moje mapy kosztuj¹ 10000 sztuk z³ota. Wygl¹da jednak na to, ¿e ciê na nie nie staæ, nie marnuj wiêc mojego czasu.
+"{£abêdzi staw}
+
+W bajkach powiadaj¹, ¿e widok szkar³atnego ³abêdzia przynosi szczêœcie.  Decydujesz siê wiêc na krótki odpoczynek nad stawem."
+"{£abêdzi staw}
+
+W bajkach powiadaj¹, ¿e widok szkar³atnego ³abêdzia przynosi szczêœcie. Ci¹gle jednak jesteœ pod wp³ywem ostatniej wizyty w tym miejscu, wiêc bez zbêdnych ceregieli wyruszasz w dalsz¹ drogê."
+"{Ca³un ciemnoœci}
+
+Dotykasz ca³unu ciemnoœci i nagle teren wokó³ ciebie pokrywa gêsta, ciemna mg³a. Tylko twoje oczy mog¹ siê przez ni¹ przebiæ."
+Przed tob¹ %s.  Czy chcesz zaatakowaæ stra¿ników?
+Znajdujesz coœ, co wygl¹da jak %s, jednak od bardzo d³ugiego czasu nikt tu nie zagl¹da³.
+Pokonawszy wroga (%s) zabierasz ³upy (%s).
+"{%s}
+
+%s chc¹ do³¹czyæ do twojej armii. Zgadzasz siê, czy odrzucasz ich propozycjê?"
+"{%s}
+
+Czy chcesz do³¹czyæ do swojej armii nastêpuj¹ce oddzia³y: %s, %s, %s, lub %s?"
+"{Szkielet}
+
+Odnajdujesz ¿a³osne szcz¹tki jakiegoœ nieszczêœnika.  Przeszukujesz rozrzucone koœci i coœ znajdujesz - "
+"{Szkielet}
+
+Odnajdujesz ¿a³osne szcz¹tki jakiegoœ nieszczêœnika.  Przeszukujesz rozrzucone koœci, ale nic nie znajdujesz. "
+"{Kamienna wie¿a}
+
+¯o³nierze zamieszkuj¹cy wie¿ê ucz¹ ciê kilku sztuczek przydatnych podczas obrony."
+"{Kamienna wie¿a}
+
+""Przykro mi,"" mówi dowódca ¿o³nierzy, ""wiesz ju¿ wszystko, czego moglibyœmy ciê nauczyæ."""
+"{Grota w górach}
+
+Stado harpii krêci siê wokó³ groty. Czy chcesz j¹ przeszukaæ?"
+Po pokonaniu harpich wiedŸm przez wiele godzin przeszukujesz pobojowisko, ale nic nie znajdujesz. Bezsensowne poszukiwania obni¿aj¹ morale twojej armii.
+Po pokonaniu harpich wiedŸm przeszukujesz pobojowisko i znajdujesz mantikory!
+"{%s}
+
+Obóz jest opuszczony.  Mo¿e warto tu wróciæ w przysz³ym tygodniu..."
+%s
+"{Dragon utopia}
+
+This text is no longer used.  If you see it, it is a bug."
+"{Smocza utopia}
+
+Stoisz przed smocz¹ utopi¹, miejscem które le¿y poza zasiêgiem zwyk³ego œmiertelnika. Czy chcesz z³amaæ zasady i wyzwaæ smoki na pojedynek?"
+To dziwne oko wydaje siê uwa¿nie studiowaæ okolicê.  Jego powolne ruchy sprawiaj¹ wra¿enie celowych.  Nie mo¿esz wyzbyæ siê wra¿enia, ¿e ktoœ obserwuje ciê z zupe³nie innego miejsca.
+"{Zaklêty kr¹g}
+
+Wkraczasz do krêgu, co sprawia, ¿e twoja armia bêdzie mia³a szczêœcie podczas nastêpnej bitwy."
+"{Zaklêty kr¹g}
+
+Wkraczasz do krêgu, ale nic siê nie dzieje."
+"{Szcz¹tki statku}
+
+Przeszukujesz resztki tego, co kiedyœ by³o statkiem, ale nic nie znajdujesz."
+"{Szcz¹tki statku}
+
+Przeszukujesz resztki tego, co kiedyœ by³o statkiem i znajdujesz trochê drewna."
+"{Szcz¹tki statku}
+
+Przeszukujesz resztki tego, co kiedyœ by³o statkiem i znajdujesz trochê drewna i z³ota."
+"{Szcz¹tki statku}
+
+Przeszukujesz resztki tego, co kiedyœ by³o statkiem i znajdujesz trochê drewna i z³ota."
+"{Fontanna fortuny}
+
+Pij¹c s³odk¹ wodê czujesz, ¿e dopisze ci szczêœcie."
+"{Fontanna fortuny}
+
+Pijesz kilka ³yków s³odkiej wody, ale nic siê nie dzieje."
+"{Fontanna m³odoœci}
+
+Wypijasz trochê wody i czujesz powracaj¹cy wigor m³odoœci!  Twoi ¿o³nierze widz¹, i¿ jesteœ w œwietnej formie, a ich morale wzrasta. "
+"{Fontanna m³odoœci}
+
+Wypijasz trochê wody, ale nie dzieje siê nic szczególnego."
+"{Ogród objawienia}
+
+Siedz¹cy w ogrodzie mnich zaprasza ciê do wspólnej medytacji.  Zgadzasz siê i po chwili czujesz, i¿ twój umys³ doznaje oœwiecenia."
+"{Ogród objawienia}
+
+Wchodzisz do ogrodu. Mieszkaj¹cy w nim mnich poznaje ciê, ""Moje dziecko,  b³ogos³awieñstwo wiedzy mo¿na otrzymaæ tylko raz w ¿yciu."""
+Wchodzisz do prymitywnej chatki i spotykasz mieszkaj¹cego w niej magika. Gospodarz opowiada ci o ró¿nych, mniej lub bardziej odleg³ych miejscach, których znajomoœæ mo¿e okazaæ siê pomocna w czasie podró¿y, które podejmujesz.
+"{Bo¿ek fortuny}
+
+Odnajdujesz zwietrza³y pos¹g kamiennego bóstwa. Podobno poca³owanie go przynosi szczêœcie, czynisz wiêc to. Kamienny pos¹g jest bardzo zimny."
+"{Bo¿ek fortuny}
+
+Odnajdujesz zwietrza³y pos¹g kamiennego bóstwa.  Podobno poca³owanie go przynosi szczêœcie, ale kiedy to czynisz, nic specjalnego siê nie dzieje."
+"{Stara szopa}
+
+Znajdujesz star¹ szopê.  Przeszukujesz j¹ i znajdujesz trochê przydatnych zasobów."
+"{Stara szopa}
+
+Znajdujesz star¹ szopê.  Nie ma w niej nic wartoœciowego."
+"{Biblioteka oœwiecenia}
+
+Stra¿nik wpuszcza ciê do wnêtrza.  Chocia¿ spêdzasz w bibliotece niewiele czasu, dowiadujesz siê w niej wielu ciekawych rzeczy."
+"{Biblioteka oœwiecenia}
+
+Stra¿nik poznaje ciê.  ""Bibliotekê oœwiecenia mo¿na odwiedziæ tylko raz,"" mówi."
+"{Biblioteka oœwiecenia}
+
+Stra¿nik otwiera wrota i taksuje ciê wzrokiem.  ""Brakuje ci s³awy i og³ady, by wst¹piæ w progi Biblioteki Oœwiecenia,"" mówi.  ""Wróæ tu, gdy staniesz siê osob¹ godn¹ nauki."""
+"{Latarnia morska}
+
+Latarnia morska nale¿y teraz do ciebie, dziêki czemu twoje okrêty w ka¿dej turze mog¹ dop³yn¹æ dalej."
+Ta struktura wygl¹da jak portal, jednak wygl¹da na to, ¿e nie dzia³a.
+"{Szko³a magii}
+
+Czujesz mrowienie skóry od unosz¹cej siê  wokó³ magii.  Jeden z akolitów proponuje, ¿e da ci lekcjê w zamian za skromne 1000 sztuk z³ota. Mo¿esz pog³êbiæ swoj¹ wiedzê lub zwiêkszyæ moc, któr¹ dysponujesz."
+"{Szko³a magii}
+
+Nagle obok ciebie materializuje siê stary czarodziej. ""Wasza dostojnoœæ,"" mówi, ""wiesz ju¿ wszystko czego moglibyœmy ciê nauczyæ."""
+"{Szko³a magii}
+
+Czujesz mrowienie skóry od unosz¹cej siê  wokó³ magii.  Jeden z akolitów proponuje, ¿e da ci lekcjê w zamian za skromne 1000 sztuk z³ota. Orientujesz siê jednak, i¿ nie masz wymaganej sumy."
+"{Magiczne Ÿród³o}
+
+Pij¹c Ÿródlan¹ wodê czujesz jak roœnie twoja moc!  W rezerwie masz dwa razy wiêcej punktów magii!"
+"{Magiczne Ÿród³o}
+
+Magiczne Ÿród³o regeneruje swoj¹ moc co tydzieñ. Wygl¹da na to, ¿e w tym tygodniu ktoœ ju¿ z niego pi³."
+"{Magiczne Ÿród³o}
+
+Zwykle magiczne Ÿród³o podwaja iloœæ posiadanych punktów magii, jednak znajdujesz siê ju¿ pod jego wp³ywem."
+"{Magiczna studnia}
+
+Woda ze studni przywraca ci wszystkie punkty magii."
+"{Magiczna studnia}
+
+Ponowne wypicie wody tego samego dnia nic ci nie da."
+"{Magiczna studnia}
+
+Woda ze studni zwykle przywraca wszystkie punkty magii, ale masz ich ju¿ maksymaln¹ iloœæ."
+"{Obóz najemników}
+Natrafiasz na obóz, w którym w³aœnie trenuj¹ najemnicy.  ¯o³nierze z obozu witaj¹ ciê i zapraszaj¹ twoich ¿o³nierzy do wspólnych æwiczeñ."
+"{Obóz najemników}
+
+Natrafiasz na obóz, w którym w³aœnie trenuj¹ najemnicy.  Ich dowódca mówi  ""Jesteœ dla nas zbyt trudnym przeciwnikiem, nie nauczymy ciê niczego nowego."""
+"{Syreny}
+
+""Wróæ póŸniej po b³ogos³awieñstwo""."
+"{Syreny}
+
+Magiczna uroda syren oczarowuje ciebie i twoj¹ za³ogê.  Zapominasz o wszystkich k³opotach ciesz¹c siê chwil¹. Na odchodne syreny b³ogos³awi¹ twoje wojska, co ma przynieœæ im szczêœcie podczas nastêpnej bitwy."
+Znajdujesz opuszczon¹ kopalniê.  Kopalnia wygl¹da na legowisko troglodytów.  Czy chcesz do niej wejœæ?
+Pokonujesz troglodytów i udaje ci siê uruchomiæ kopalniê.
+"{Stronnicy}
+
+%s chc¹ przy³¹czyæ siê do twojej armii, aby zakosztowaæ weso³ego ¿ycia ¿o³nierza. Czy zgodzisz siê na to?"
+Obra¿ony twoj¹ odmow¹ oddzia³ atakuje!
+%s chc¹ przy³¹czyæ siê do twojej armii pod warunkiem, i¿ zap³acisz im %d sztuk z³ota.  Czy zgodzisz siê na to?
+"Twoje zdolnoœci dyplomatyczne okazuj¹ siê przydatne - przeciwnik sk³ada ci propozycjê:
+
+"
+%d stworzeñ (%s) chce do³¹czyæ do twojej armii, je¿eli zap³acisz im %d sztuk z³ota.  Czy zgodzisz siê na to?
+%s widz¹c potêgê twojej armii uciekaj¹ w pop³ochu.  Czy chcesz dogoniæ wroga i zaatakowaæ go?
+"{Mistyczny ogród}
+
+DŸwiêki muzyki wabi¹ ciê do ma³ego ogrodu, gdzie dostrzegasz tañcz¹cego radoœnie leprekauna.  £apiesz go, a on w zamian za odzyskanie wolnoœci prowadzi ciê do miejsca, gdzie ukryty jest ma³y garnuszek wype³niony kosztownoœciami."
+"{Mistyczny ogród}
+
+DŸwiêki muzyki wabi¹ ciê do ma³ego ogrodu, gdzie dostrzegasz tañcz¹cego radoœnie leprekauna.  Próbujesz go z³apaæ, ale on zwinnie wywija siê i znika w pobliskich zaroœlach."
+"{Oaza}
+
+Pijesz wodê w oazie, ale nic siê nie dzieje.  Byæ trzeba tu wróciæ po najbli¿szej bitwie."
+"{Oaza}
+
+OrzeŸwiaj¹ca woda z oazy wzmacnia ducha twich ¿o³nierzy i dodaje im si³.  Mo¿esz dziœ jeszcze pokonaæ spory kawa³ek drogi."
+"{Obelisk}
+
+Natrafiasz na dziwny obelisk wykuty z nieznanego ci kamienia. Ogl¹daj¹c g³adk¹ powierzchniê zauwa¿asz, ¿e nieoczekiwanie pojawiaj¹ siê na niej jakieœ znaki uk³adaj¹ce siê w mapê.  Szybko kopiujesz rysunek, który wkrótce znika tak nagle, jak siê pojawi³."
+"{Obelisk}
+
+Znasz ju¿  ten obelisk."
+"{Obserwatorium}
+
+Ze szczytu obserwatorium mo¿esz ujrzeæ dalekie krainy."
+"{Wie¿a ognia}
+
+Znajdujesz wie¿ê z gazow¹ lamp¹ na szczycie.  Zapalasz lampê rozpraszaj¹c ciemnoœci panuj¹ce w podziemiach."
+"{Gwiazda}
+
+Zauwa¿asz, i¿ w tym miejscu zebra³o siê kilku znanych i powa¿anych astrologów.  Zadowoleni z twojego towarzystwa ucz¹ ciê jak wykorzystaæ potêgê s³oñca, ksiê¿yca i gwiazd do wzmocnienia rzucanych zaklêæ."
+"{Gwiazda}
+
+Zauwa¿asz, i¿ w tym miejscu zebra³o siê kilku znanych i powa¿anych astrologów.  Spêdzasz kilka chwil na mi³ych pogawêdkach, ale z rozczarowaniem orientujesz siê, ¿e nie s¹ w stanie nauczyæ ciê niczego nowego."
+W gwa³townym porywie szlachetnoœci wywa¿asz drzwi wiêzienia i uwalniasz zamkniêtego w nim bohatera, który w ramach wdziêcznoœci przysiêga ci lojalnoœæ.
+Dowodzisz ju¿ oœmioma bohaterami, musisz wiêc pozostawiæ wiêŸnia w jego celi, skazuj¹c go tym samym na powoln¹ agoniê w udrêce.
+Naczelnik wiêzienia informuje ciê, ¿e wiêzieñ zosta³ u³askawiony i uwolniony przez króla, który wtr¹ci³ go do wiêzienia.
+Zbli¿asz siê do piramidy zbudowanej ku chwale potê¿nego, staro¿ytnego króla.  Korci ciê, by j¹ przeszukaæ, ale stare legendy ostrzegaj¹ przed okropnymi kl¹twami i martwymi stra¿nikami czyhaj¹cymi na nierozwa¿nych œmia³ków.  Czy mimo to chcesz wejœæ do piramidy?
+Po pokonaniu przera¿aj¹cych potworów w pocie czo³a odcyfrowujesz prastary napis na œcianie, który ujawnia ci tajemnicê zaklêcia - 
+Natrafiasz na piramidê zbudowan¹ ku chwale potê¿nego, staro¿ytnego króla.  Przeszukujesz j¹, ale okazuje siê, ¿e jest zupe³nie pusta.
+  Niestety, twoja wiedza jest niewystarczaj¹ca, aby nauczyæ siê tego zaklêcia.
+  Niestety nie posiadasz ksiêgi zaklêæ i nie mo¿esz zapisaæ w niej tego zaklêcia.
+"{Pobojowisko}
+
+Wykorzystuj¹c okazjê wyg³aszasz przemówienie do swych ¿o³nierzy, podnosz¹c ich na duchu i dodaj¹c im si³."
+"{Pobojowisko}
+
+Wykorzystuj¹c okazjê wyg³aszasz przemówienie do swych ¿o³nierzy, podnosz¹c ich na duchu i dodaj¹c im si³.  Twoi ludzie s¹ zadowoleni i z chêci¹ pokonaj¹ dzisiaj wiêkszy odcinek drogi ni¿ zwykle."
+"{%s}
+
+Czy chcesz do³¹czyæ ten oddzia³ do swojej armii?"
+Zdobywasz:  %s.
+Wchodzisz do sanktuarium i natychmiast odczuwasz ulgê, jakby z serca zdjêto ci ogromny ciê¿ar.  Czujesz siê tu bezpiecznie.
+Wje¿d¿asz na polanê i dostrzegasz uczonego, odpoczywaj¹cego po trudach podró¿y.  Zadowolony z twojego towarzystwa chêtnie przekazuje ci czêœæ swojej wiedzy.
+"{Skrzynia}
+
+Spêdziwszy wiele godzin na próbach wy³owienia skrzyni wci¹gasz j¹ w koñcu na pok³ad i odkrywasz, i¿ jest ona kompletnie pusta."
+"{Skrzynia}
+
+Spêdziwszy wiele godzin na próbach wy³owienia skrzyni wci¹gasz j¹ w koñcu na pok³ad i odkrywasz, i¿ znajduje siê w niej 1000 sztuk z³ota oraz %s"
+"{Skrzynia}
+
+Spêdziwszy wiele godzin na próbach wy³owienia skrzyni wci¹gasz j¹ w koñcu na pok³ad i odkrywasz, ¿e znajduje siê w niej 1500 sztuk z³ota."
+"{Krypta}
+
+Ostro¿nie zbli¿asz siê do starej krypty, bêd¹cej miejscem pochówku staro¿ytnych wojowników.  Czy chcesz przeszukaæ znajduj¹ce siê w niej groby?"
+Po pokonaniu nieumar³ych stra¿ników krypty spêdzasz wiele godzin na jej przeszukiwaniu, lecz nic nie znajdujesz. Ten pod³y akt profanacji obni¿a morale twojej armii.
+Po pokonaniu nieumar³ych stra¿ników krypty znajdujesz w niej coœ wartoœciowego!
+"{Górska grota}
+
+Klucz harpii kr¹¿y wokó³ szczytu. Czy na pewno chcesz wejœæ do œrodka?"
+Pokonawszy harpie, spêdzasz kilka godzin przekopuj¹c siê przez rumowisko, ale nie znajdujesz nic godnego uwagi.  Bezowocne grzebanie w œmieciach zmniejsza morale twojej armii.
+Pokonawszy harpie, przeszukujesz okoliczne rumowisko i  znajdujesz coœ wartoœciowego!
+"{Rozbitek}
+
+Wyci¹gasz z wody wyczerpanego rozbitka ratuj¹c go przed œmierci¹ w ch³odnych wodach oceanu. Dowodem wdziêcznoœci uratowanego nieszczêœnika jest %s."
+"{Rozbitek}
+
+Wyci¹gasz z wody wyczerpanego cz³owieka ratuj¹c go przed œmierci¹ w zimnych wodach oceanu.  Wdziêczny za ocalenie rozbitek mówi: ""Z chêci¹ odwdziêczy³bym siê, daj¹c ci artefakt, ale widzê, ¿e nie masz ju¿ miejsca w swoim ekwipunku."""
+"{Kaplica magicznego s³owa}
+
+Trafiasz do kaplicy, w której spotykasz kilku adeptów magii.  W zamian za ochronê proponuj¹, ¿e naucz¹ ciê prostego zaklêcia - "
+"{Kaplica magicznego symbolu}
+
+Trafiasz do kaplicy, w której spotykasz kilku pulchnych mnichów.  W zamian za ochronê proponuj¹, ¿e naucz¹ ciê przydatnego zaklêcia - "
+"{Kaplica magicznej myœli}
+
+Trafiasz do kaplicy, w której spotykasz grupê wysokich dostojników koœcielnych.  W zamian za ochronê proponuj¹, ¿e naucz¹ ciê potê¿nego zaklêcia - "
+ Niestety masz zbyt ma³¹ wiedzê, aby nauczyæ siê tego zaklêcia.
+ Niestety nie posiadasz ksiêgi czarów, wiêc nie mo¿esz zapamiêtaæ tego zaklêcia.
+P³aczliwa pieœñ syren unosi siê nad powierzchni¹ wody. Wielu cz³onków twojej za³ogi poddaje siê czarowi pieœni i skacze za burtê, pogr¹¿aj¹c siê na zawsze w odmêtach oceanu. To smutne doœwiadczenie daje ci %d punktów doœwiadczenia.
+Zanim pieœñ syren ma szansê dotrzeæ do uszu twojej za³ogi rozkazujesz, aby wszyscy zalepili uszy woskiem.
+Chocia¿ pieœñ syren brzmi niesamowicie, twojej zdeterminowanej za³odze udaje siê pokonaæ obezw³adniaj¹c¹ chêæ wyskoczenia za burtê.
+Znajdujesz zwój z zaklêciem %s.  Rzucasz na niego okiem i po czym chowasz do swojej sakwy.
+"{Stajnie}
+
+Uda³o ci siê ju¿ odwiedziæ stajnie w tym tygodniu."
+"{Stajnie}
+
+W³aœciciel stajni wymienia twoje konie na wypoczête, co zwiêksza mobilnoœæ twojej armii do koñca tygodnia."
+"{Stajnie}
+
+W³aœciciel stajni wymienia twoje konie na wypoczête, co zwiêksza mobilnoœæ twojej armii do koñca tygodnia. Ponadto szkoli twoj¹ kawaleriê do poziomu czempionów."
+"{Stajnie}
+
+W³aœciciel stajni wymienia twoje konie na wypoczête, co zwiêksza mobilnoœæ twojej armii do koñca tygodnia. Ponadto szkoli twoj¹ kawaleriê do poziomu czempionów."
+"{Œwi¹tynia}
+
+Wizyta w œwi¹tyni zwiêksza morale twoich wojsk."
+"{Œwi¹tynia}
+
+Dwukrotna wizyta w œwi¹tyni przed bitw¹ nie przyniesie ci ¿adnych korzyœci.  Wróæ innego dnia."
+"{Kryjówka z³odziei}
+
+Przeszukuj¹c krzaki natrafiasz na ukryte przejœcie prowadz¹ce do z³odziejskiej kryjówki.  Ku swojemu zdumieniu wewn¹trz spotykasz starego ""znajomego"", który opowiada ci o ró¿nych ciekawych sztuczkach, jakich nauczy³ siê od czasu waszego ostatniego spotkania."
+"{Kamieñ wiedzy}
+
+Gdy zbli¿asz siê do kamienia jego g³adka dot¹d powierzchnia zaczyna nagle falowaæ. Z zaskoczeniem zauwa¿asz, ¿e pojawiaj¹ siê na niej odpowiedzi na pytania, które nurtowa³y ciê od lat.  Po chwili kamieñ znów ukrywa swe tajemnice, ale czujesz, ¿e twoja wiedza znacznie wzros³a."
+"{Kamieñ wiedzy}
+
+Zbli¿asz siê do kamienia maj¹c nadziejê, ¿e ujawni swoje tajemnice, ale jego g³adka powierzchnia odbija tylko promienie s³oñca."
+"{Skrzynia}
+
+Przeszukuj¹c okolicê odnajdujesz ukryt¹ skrzyniê. Ku twojej radoœci okazuje siê, i¿ kufer zawiera staro¿ytny artefakt - %s."
+"{Skrzynia}
+
+Przeszukuj¹c okolicê odnajdujesz ukryt¹ skrzyniê ze skarbami.  Mo¿esz zabraæ z³oto lub oddaæ je wieœniakom zyskuj¹c doœwiadczenie. Co wybierzesz?"
+"{Drzewo wiedzy}
+
+Drzewo obserwuje twoje przybycie z wyraŸnym zadowoleniem. ""Witaj. Mam nadziejê, i¿ moja wiedza oka¿e siê przydatna."""
+"{Drzewo wiedzy}
+
+Drzewo obserwuje twoje przybycie z wyraŸnym zadowoleniem.  ""Ach, strudzony podró¿nik!  Pozwól, i¿ przeka¿ê ci czêœæ mojej wielowiekowej wiedzy."""
+"{Drzewo wiedzy}
+
+Drzewo obserwuje twoje przybycie z wyraŸnym zadowoleniem.  ""Ach, strudzony podró¿nik!  Chêtnie przeka¿ê ci czêœæ mojej wielowiekowej wiedzy w zamian za marne 2000 sztuk z³ota.""  (Zakop je po prostu pod moimi korzeniami.)"
+"{Drzewo wiedzy}
+
+Do oczu drzewa nap³ywaj¹ ³zy.  ""Potrzebujê 2000 sztuk z³ota,"" szepcze ³kaj¹c.  ""No có¿, wróæ kiedy je zdobêdziesz."""
+"{Drzewo wiedzy}
+
+Drzewo obserwuje twoje przybycie z wyraŸnym zadowoleniem.  ""Ach, strudzony podró¿nik!  Chêtnie przeka¿ê ci czêœæ mojej wielowiekowej wiedzy w zamian za skromne 10 klejnotów.""  (Zakop je po prostu pod moimi korzeniami.)"
+"{Drzewo wiedzy}
+
+Do oczu drzewa nap³ywaj¹ ³zy.  ""Potrzebujê 10 klejnotów,"" szepcze ³kaj¹c.  ""No có¿, wróæ kiedy je zdobêdziesz."""
+Zaraz przy wejœciu natrafiasz na wielkie zawalisko blokuj¹ce tunel.  Opuszczasz to miejsce z poczuciem niezadowolenia i rozczarowania.
+"{Wóz}
+
+Odnajdujesz stary wóz handlarza, któremu przysz³o zgin¹æ w tej niespokojnej krainie.  Ze zdziwieniem odkrywasz, ¿e w wozie znajduje siê jeszcze czêœæ jego dobytku."
+"{Wóz}
+
+Odnajdujesz stary wóz handlarza, któremu przysz³o zgin¹æ w tej niespokojnej krainie.  Przeszukuj¹c wóz znajdujesz u¿yteczny przedmiot. To %s."
+"{Wóz}
+
+Odnajdujesz stary wóz handlarza, któremu przysz³o zgin¹æ w tej niespokojnej krainie.  Jak mo¿na by³o siê spodziewaæ, ktoœ ju¿ zatroszczy³ siê o jego dobytek."
+"{Fabryka machin wojennych}
+
+Czy chcesz zakupiæ machiny wojenne?"
+"{Akademia wojskowa}
+
+Pokryty bliznami instruktor proponuje, ¿e za 1000 sztuk z³ota da ci lekcjê obrony lub ataku."
+"{Akademia wojskowa}
+
+Gdy prosisz o trening, instruktor œmieje siê g³oœno.  ""Z twoimi umiejêtnoœciami, to ty mo¿esz mnie uczyæ!"" wykrzykuje."
+"{Akademia wojskowa}
+
+Pokryty bliznami instruktor proponuje, ¿e za 1000 sztuk z³ota da ci lekcjê obrony lub ataku.  Z rozczarowaniem stwierdzasz jednak, i¿ obecnie nie staæ ciê na trening."
+Odnajdujesz miejsce spoczynku bezimiennego wojownika.  Czy chcesz przeszukaæ jego grobowiec?
+Twoi ¿o³nierze niechêtnie przeszukuj¹ grobowiec i odnajduj¹ w nim wartoœciowy przedmiot. To %s.  Ten akt profanacji rujnuje jednak morale twojego wojska.
+Twoi ¿o³nierze niechêtnie przeszukuj¹ grobowiec, ale nie znajduj¹ w nim nic wartoœciowego.  Ten akt profanacji rujnuje morale twojego wojska.
+"{M³yn wodny}
+
+W³aœciciel m³yna oznajmia: ""Wasza dostojnoœæ,  zebranie tego z³ota kosztowa³o mnie wiele pracy. PrzyjdŸ proszê po wiêcej w przysz³ym tygodniu."""
+"{M³yn wodny}
+
+W³aœciciel m³yna oznajmia: ""Wasza dostojnoœæ, nie mam wiêcej z³ota. Wróæ proszê w przysz³ym tygodniu."""
+"{ród³o}
+
+Zimna woda orzeŸwia twoich ¿o³nierzy.  Dzisiaj mo¿esz pokonaæ jeszcze szmat drogi."
+"{ród³o}
+
+Zimna woda orzeŸwia twoich ¿o³nierzy, ale nie dzieje siê nic specjalnego."
+"{Wir}
+
+Twój okrêt wpad³ w potê¿ny wir.  Czêœæ za³ogi wylecia³a za burtê!"
+"{Wiatrak}
+
+W³aœciciel wiatraka oznajmia: ""Wasza dostojnoœæ, nie mam nic dla ciebie. Wróæ proszê w przysz³ym tygodniu."""
+"{Wiatrak}
+
+W³aœciciel wiatraka oznajmia: ""Wasza dostojnoœæ, wiele pracy kosztowa³o mnie zebranie tych zasobów. Wróæ proszê po wiêcej w przysz³ym tygodniu."""
+"{Chata wiedŸmy}
+
+Stara wiedŸma mieszkaj¹ca w chatce z sobie tylko znanych powodów pragnie przekazaæ ci wiedzê o umiejêtnoœci ""%s"". Czy chcesz pos³uchaæ, co ma do powiedzenia?"
+"{Chata wiedŸmy}
+
+Wchodzisz do chaty i widzisz wiedŸmê studiuj¹c¹ umiejêtnoœæ ""%s"".  Kiedy siê do niej zbli¿asz skrzeczy  ""Wiesz ju¿ wszystko czego mog³am ciê nauczyæ. OdejdŸ albo zamieniê ciê w ¿abê.""."
+"{Chata wiedŸmy}
+
+Wchodzisz do chaty i widzisz wiedŸmê studiuj¹c¹ umiejêtnoœæ ""%s"".  WiedŸma taksuje ciê uwa¿nie swoim szklanym okiem.  ""HA!"" krzyczy, ""Chyba nie s¹dzisz, ¿e bêdê przekazywaæ wiedzê komuœ tak m¹dremu jak ty, co?""  Wychodzisz z chaty, ale jakoœ nie mo¿esz pozbyæ siê uczucia, ¿e w³aœnie ciê obra¿ono."
+Tak siê sk³ada, ¿e znasz ju¿ to zaklêcie wiêc nie musisz siê go uczyæ.
+%s uczy siê czegoœ.
+%s traci magiczn¹ energiê.
+%s zyskuje magiczn¹ energiê.
+%s zmniejsza swoje morale.
+%s zwiêksza swoje morale.
+%s ma pecha.
+%s ma szczêœcie.
+%s traci skarb.
+%s odnajduje skarb.
+%s poznaje zaklêcie.
+%s do³¹cza do armii, któr¹ dowodzi %s.
+%s do³¹czaj¹ do armii, któr¹ dowodzi %s
+Niestety wygl¹da na to, ¿e w³aœciciel zostawi³ stra¿ników. Chcesz z nimi walczyæ?
+%s uczy siê zaklêcia.
+Stoi tu opuszczona stocznia. Niestety drogi s¹ zablokowane i nie mo¿na w niej budowaæ statków.
+"{Chata wiedŸmy}
+
+Zbli¿asz siê do chaty, ale widzisz, ¿e od jakiegoœ czasu jest ona opuszczona."

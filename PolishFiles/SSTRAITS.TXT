@@ -1,0 +1,198 @@
+	Description		
+Name	Basic	Advanced	Expert
+Znajd. drogi	"{Znajdowanie drogi - poziom podstawowy}
+
+Redukuje karê do poruszania siê po trudnym terenie obni¿aj¹c koszt ruchu o 25 punktów. Minimalny koszt ruchu wynosi 95 punktów."	"{Znajdowanie drogi - poziom zaawansowany}
+
+Redukuje karê do poruszania siê po trudnym terenie obni¿aj¹c koszt ruchu o 50 punktów. Minimalny koszt ruchu wynosi 90 punktów."	"{Znajdowanie drogi - poziom mistrzowski}
+
+Niweluje karê do poruszania siê po trudnym terenie obni¿aj¹c koszt ruchu o 75 punktów. Minimalny koszt ruchu wynosi 85 punktów."
+£ucznictwo	"{£ucznictwo - poziom podstawowy}
+
+Zwiêksza bazowe obra¿enia zadawane przez jednostki atakuj¹ce na odleg³oœæ o 20%. "	"{£ucznictwo - poziom zaawansowany}
+
+Zwiêksza bazowe obra¿enia zadawane przez jednostki atakuj¹ce na odleg³oœæ o 35%."	"{£ucznictwo - poziom mistrzowski}
+
+Zwiêksza bazowe obra¿enia zadawane przez jednostki atakuj¹ce na odleg³oœæ o 50%."
+Logistyka	"{Logistyka - poziom podstawowy}
+
+Powiêksza liczbê punktów ruchu bohatera na l¹dzie o 5%."	"{Logistyka - poziom zaawansowany}
+
+Powiêksza liczbê punktów ruchu bohatera na l¹dzie o 10%."	"{Logistyka - poziom mistrzowski}
+
+Powiêksza liczbê punktów ruchu bohatera na l¹dzie o 20%."
+Zwiad	"{Zwiad - poziom podstawowy}
+
+Zwiêksza pole widzenia bohatera o 1."	"{Zwiad - poziom zaawansowany}
+
+Zwiêksza pole widzenia bohatera o 3."	"{Zwiad - poziom mistrzowski}
+
+Zwiêksza pole widzenia bohatera o 5."
+Dyplomacja	"{Dyplomacja - poziom podstawowy}
+
+Pozwala negocjowaæ ze s³abszymi oddzia³ami wroga ich przy³¹czenie siê do armii bohatera oraz zmniejsza koszty poddania siê o 20%."	"{Dyplomacja - poziom zaawansowany}
+
+Pozwala negocjowaæ ze s³abszymi oddzia³ami wroga ich przy³¹czenie siê do armii bohatera oraz zmniejsza koszty poddania siê o 40%."	"{Dyplomacja - poziom mistrzowski}
+
+Pozwala negocjowaæ ze s³abszymi oddzia³ami wroga ich przy³¹czenie siê do armii bohatera oraz zmniejsza koszty poddania siê o 60%."
+Nawigacja	"{Nawigacja - poziom podstawowy}
+
+Zwiêksza liczbê punktów ruchu bohatera na morzu o 50%."	"{Nawigacja - poziom zaawansowany}
+
+Zwiêksza liczbê punktów ruchu bohatera na morzu o 75%."	"{Nawigacja - poziom mistrzowski}
+
+Podwaja liczbê punktów ruchu bohatera na morzu."
+Dowodzenie	"{Dowodzenie - poziom podstawowy}
+
+Zwiêksza morale wszystkich oddzia³ów o 1."	"{Dowodzenie - poziom zaawansowany}
+
+Zwiêksza morale wszystkich oddzia³ów o 2."	"{Dowodzenie - poziom mistrzowski}
+
+Zwiêksza morale wszystkich oddzia³ów o 3."
+M¹droœæ	"{M¹droœæ - poziom podstawowy}
+
+Pozwala bohaterowi na zrozumienie i poznanie zaklêæ trzeciego poziomu."	"{M¹droœæ - poziom zaawansowany}
+
+Pozwala bohaterowi na zrozumienie i poznanie zaklêæ czwartego poziomu."	"{M¹droœæ - poziom mistrzowski}
+
+Pozwala bohaterowi na zrozumienie i poznanie zaklêæ pi¹tego poziomu."
+Mistycyzm	"{Mistycyzm - poziom podstawowy}
+
+Regeneruje 10% maksymalnej liczby puntów magii dziennie. Przywraca minimum 5 punktów."	"{Mistycyzm - poziom zaawansowany}
+
+Regeneruje 20% maksymalnej liczby puntów magii dziennie. Przywraca minimum 10 punktów."	"{Mistycyzm - poziom mistrzowski}
+
+Regeneruje 30% maksymalnej liczby puntów magii dziennie. Przywraca minimum 15 punktów."
+Szczêœcie	"{Szczêœcie - poziom podstawowy}
+
+Zwiêksza szczêœcie bohatera o 1."	"{Szczêœcie - poziom zaawansowany}
+
+Zwiêksza szczêœcie bohatera o 2."	"{Szczêœcie - poziom mistrzowski}
+
+Zwiêksza szczêœcie bohatera o 3."
+Balistyka	"{Balistyka - poziom podstawowy}
+
+Pozwala bohaterowi przej¹æ sterowanie nad katapult¹. Zwiêksza szansê na trafienie wskazanej fortyfikacji. Talent ten chroni katapultê, minimalizuj¹c otrzymane obra¿enia do 40% ca³kowitej liczby punktów ¿ycia na jeden atak."	"{Balistyka - poziom zaawansowany}
+
+Pozwala bohaterowi przej¹æ sterowanie nad katapult¹ i wystrzeliæ dwa razy ze zwiêkszon¹ szans¹ na trafienie wskazanej fortyfikacji. Talent ten chroni katapultê, minimalizuj¹c otrzymane obra¿enia do 40% ca³kowitej liczby punktów ¿ycia na jeden atak."	"{Balistyka - poziom mistrzowski}
+
+Pozwala bohaterowi przej¹æ sterowanie nad katapult¹ i wystrzeliæ trzy razy ze 100% skutecznoœci¹, zadaj¹c maksymalne obra¿enia wskazanej fortyfikacji. Talent ten chroni katapultê, minimalizuj¹c otrzymane obra¿enia do 40% ca³kowitej liczby punktów ¿ycia na jeden atak."
+Sokoli wzrok	"{Sokoli wzrok - poziom podstawowy}
+
+Podczas bitwy pozwala podejrzeæ czary poziomów od 1 do 3 z ksiêgi zaklêæ wrogiego bohatera. Ponadto, bohater otrzymuje 20% szansê na naukê jednego z nich przed bitw¹ i 100% szansê na naukê zaraz po rzuceniu czaru przez wroga podczas bitwy. Blokuje jeden poziom Sokolego wzroku u wrogiego bohatera."	"{Sokoli wzrok - poziom zaawansowany}
+
+Podczas bitwy pozwala podejrzeæ czary poziomów od 1 do 4 z ksiêgi zaklêæ wrogiego bohatera. Ponadto, bohater otrzymuje 35% szansê na naukê jednego z nich przed bitw¹ i 100% szansê na naukê zaraz po rzuceniu czaru przez wroga podczas bitwy. Blokuje dwa poziomy Sokolego wzroku u wrogiego bohatera."	"{Sokoli wzrok - poziom mistrzowski}
+
+Podczas bitwy pozwala podejrzeæ wszystkie czary z ksiêgi zaklêæ wrogiego bohatera. Ponadto, bohater otrzymuje 50% szansê na naukê jednego z nich przed bitw¹ i 100% szansê na naukê zaraz po rzuceniu czaru przez wroga podczas bitwy. Blokuje Sokoli wzrok u wrogiego bohatera"
+Nekromancja	"{Nekromancja - poziom podstawowy}
+
+Pozwala wskrzesiæ w postaci szkieletów 5% poleg³ych w walce stworzeñ."	"{Nekromancja - poziom zaawansowany}
+
+Pozwala wskrzesiæ w postaci szkieletów 10% poleg³ych w walce stworzeñ."	"{Nekromancja - poziom mistrzowski}
+
+Pozwala wskrzesiæ w postaci szkieletów 15% poleg³ych w walce stworzeñ."
+Finanse	"{Finanse - poziom podstawowy}
+
+Bohater dostarcza królestwu 250 sztuk z³ota dziennie."	"{Finanse - poziom zaawansowany}
+
+Bohater dostarcza królestwu 500 sztuk z³ota dziennie."	"{Finanse - poziom mistrzowski}
+
+Bohater dostarcza królestwu 1000 sztuk z³ota dziennie."
+Magia ognia	"{Magia ognia - poziom podstawowy}
+
+Pozwala rzucaæ zaklêcia magii ognia po zmniejszonych kosztach (mana)."	"{Magia ognia - poziom zaawansowany}
+
+Pozwala rzucaæ zaklêcia magii ognia po zmniejszonych kosztach (mana) i ze zwiêkszon¹ efektywnoœci¹."	"{Magia ognia - poziom mistrzowski}
+
+Pozwala rzucaæ zaklêcia magii ognia po zmniejszonych kosztach (mana) i z maksymaln¹ efektywnoœci¹."
+M. powietrza	"{Magia powietrza - poziom podstawowy}
+
+Pozwala rzucaæ zaklêcia magii powietrza po zmniejszonych kosztach (mana)."	"{Magia powietrza - poziom zaawansowany}
+
+Pozwala rzucaæ zaklêcia magii powietrza po zmniejszonych kosztach (mana) i ze zwiêkszon¹ efektywnoœci¹."	"{Magia powietrza - poziom mistrzowski}
+
+Pozwala rzucaæ zaklêcia magii powietrza po zmniejszonych kosztach (mana) i z maksymaln¹ efektywnoœci¹."
+Magia wody	"{Magia wody - poziom podstawowy}
+
+Pozwala rzucaæ zaklêcia magii wody po zmniejszonych kosztach (mana)."	"{Magia wody - poziom zaawansowany}
+
+Pozwala rzucaæ zaklêcia magii wody po zmniejszonych kosztach (mana) i ze zwiêkszon¹ efektywnoœci¹."	"{Magia wody - poziom mistrzowski}
+
+Pozwala rzucaæ zaklêcia magii wody po zmniejszonych kosztach (mana) i z maksymaln¹ efektywnoœci¹."
+Magia ziemi	"{Magia ziemi - poziom podstawowy}
+
+Pozwala rzucaæ zaklêcia magii ziemi po zmniejszonych kosztach (mana)."	"{Magia ziemi - poziom zaawansowany}
+
+Pozwala rzucaæ zaklêcia magii ziemi po zmniejszonych kosztach (mana) i ze zwiêkszon¹ efektywnoœci¹."	"{Magia ziemi - poziom mistrzowski}
+
+Pozwala rzucaæ zaklêcia magii ziemi po zmniejszonych kosztach (mana) i z maksymaln¹ efektywnoœci¹."
+Uczony	"{Uczony - poziom podstawowy}
+
+Pozwala wymieniaæ bohaterom wiedzê o posiadanych zaklêciach - poziomów 1-szego i 2-giego."	"{Uczony - poziom zaawansowany}
+
+Pozwala wymieniaæ bohaterom wiedzê o posiadanych zaklêciach - poziomów 1-szego, 2-giego i 3-ciego."	"{Uczony - poziom mistrzowski}
+
+Pozwala wymieniaæ bohaterom wiedzê o posiadanych zaklêciach - poziomów 1-szego, 2-giego, 3-ciego i 4-tego."
+Taktyka	"{Taktyka - poziom podstawowy}
+
+Pozwala na ustawienie oddzia³ów na wybranych pozycjach przed rozpoczêciem bitwy. Oddzia³y mo¿na ustawiæ w odleg³oœci maksymalnie 3 pól od bohatera. Blokuje jeden poziom Taktyki u wrogiego bohatera."	"{Taktyka - poziom zaawansowany}
+
+Pozwala na ustawienie oddzia³ów na wybranych pozycjach przed rozpoczêciem bitwy. Oddzia³y mo¿na ustawiæ w odleg³oœci maksymalnie 5 pól od bohatera. Blokuje dwa poziomy Taktyki u wrogiego bohatera."	"{Taktyka - poziom mistrzowski}
+
+Pozwala na ustawienie oddzia³ów na wybranych pozycjach przed rozpoczêciem bitwy. Oddzia³y mo¿na ustawiæ w odleg³oœci maksymalnie 7 pól od bohatera. Blokuje Taktykê u wrogiego bohatera."
+Artyleria	"{Artyleria - poziom podstawowy}
+
+Przekazuje bohaterowi kontrolê nad balist¹, wie¿ami obronnymi oraz armat¹. Balista otrzymuje 50% szansê na zadanie podwójnych obra¿eñ. Armata otrzymuje wiêksz¹ szansê na trafienie fortyfikacji. Talent ten chroni balistê i armatê, minimalizuj¹c otrzymane obra¿enia do 40% ca³kowitej liczby punktów ¿ycia na jeden atak."	"{Artyleria - poziom zaawansowany}
+
+Przekazuje bohaterowi kontrolê nad balist¹, wie¿ami obronnymi oraz armat¹. Umo¿liwia mu oddanie dwóch strza³ów z balisty z 75% szans¹ na zadanie podwójnych obra¿eñ. Armata zadaje podwójne obra¿enia oraz otrzymuje wiêksz¹ szansê na trafienie fortyfikacji. Talent ten chroni balistê i armatê, minimalizuj¹c otrzymane obra¿enia do 40% ca³kowitej liczby punktów ¿ycia na jeden atak."	"{Artyleria - poziom mistrzowski}
+
+
+Przekazuje bohaterowi kontrolê nad balist¹, wie¿ami obronnymi oraz armat¹. Umo¿liwia mu oddanie dwóch strza³ów z balisty zadaj¹c podwójne obra¿ennia. Armata zadaje potrójne obra¿enia oraz strzela do fortyfikacji z maksymaln¹ skutecznoœci¹. Talent ten chroni balistê i armatê, minimalizuj¹c otrzymane obra¿enia do 40% ca³kowitej liczby punktów ¿ycia na jeden atak."
+Nauka	"{Nauka - poziom podstawowy}
+
+Zwiêksza liczbê zdobywanych puntów doœwiadczenia o 10%. Wybranie tego talentu natychmiast przyznaje bohaterowi jeden dodatkowy poziom."	"{Nauka - poziom zaawansowany}
+
+Zwiêksza liczbê zdobywanych puntów doœwiadczenia o 20%. Rozwiniêcie tego talentu natychmiast przyznaje bohaterowi jeden dodatkowy poziom."	"{Nauka - poziom mistrzowski}
+
+Zwiêksza liczbê zdobywanych puntów doœwiadczenia o 30%. Rozwiniêcie tego talentu natychmiast przyznaje bohaterowi jeden dodatkowy poziom."
+Ofensywa	"{Ofensywa - poziom podstawowy}
+
+O 10% zwiêksza iloœæ obra¿eñ zadawanych wrêcz przez oddzia³y bohatera."	"{Ofensywa - poziom zaawansowany}
+
+O 20% zwiêksza iloœæ obra¿eñ zadawanych wrêcz przez oddzia³y bohatera."	"{Ofensywa - poziom mistrzowski}
+
+O 30% zwiêksza iloœæ obra¿eñ zadawanych wrêcz przez oddzia³y bohatera."
+P³atnerz	"{P³atnerz - poziom podstawowy}
+
+Zmniejsza obra¿enia zadawane oddzia³om bohatera o 5%."	"{P³atnerz - poziom zaawansowany}
+
+Zmniejsza obra¿enia zadawane oddzia³om bohatera o 10%."	"{P³atnerz - poziom mistrzowski}
+
+Zmniejsza obra¿enia zadawane oddzia³om bohatera o 15%."
+Inteligencja	"{Inteligencja - poziom podstawowy}
+
+Zwiêksza liczbê posiadanych punktów magii o 20%."	"{Inteligencja - poziom zaawansowany}
+
+Zwiêksza liczbê posiadanych punktów magii o 35%."	"{Inteligencja - poziom mistrzowski}
+
+Zwiêksza liczbê posiadanych punktów magii o 50%."
+Czarnoksiêstwo	"{Czarnoksiêstwo - poziom podstawowy}
+
+Zaklêcia rzucone przez bohatera zadaj¹ wrogom o 10% wiêcej obra¿eñ."	"{Czarnoksiêstwo - poziom zaawansowany}
+
+Zaklêcia rzucone przez bohatera zadaj¹ wrogom o 20% wiêcej obra¿eñ."	"{Czarnoksiêstwo - poziom mistrzowski}
+
+Zaklêcia rzucone przez bohatera zadaj¹ wrogom o 30% wiêcej obra¿eñ."
+Odpornoœæ	"{Odpornoœæ - poziom podstawowy}
+Zwiêksza odpornoœæ na magiê wszystkich oddzia³ów o 5%."	"{Odpornoœæ - poziom zaawansowany}
+
+
+Zwiêksza odpornoœæ na magiê wszystkich oddzia³ów o 10%."	"{Odpornoœæ - poziom mistrzowski}
+Zwiêksza odpornoœæ na magiê wszystkich oddzia³ów o 20%."
+Pierw. pomoc	"{Pierwsza pomoc - poziom podstawowy}
+
+Przekazuje bohaterowi kontrolê nad namiotem medyka, daj¹c mu mo¿liwoœæ uleczenia 40-50 punktów ¿ycia pierwszemu stworzeniu z wybranego przez bohatera oddzia³u. Obecnoœæ namiotu medyka na polu bitwy zwiêksza maksymaln¹ liczbê punktów ¿ycia wszystkich oddzia³ów bohatera o 5%. Talent ten chroni namiot medyka, minimalizuj¹c otrzymane obra¿enia do 40% ca³kowitej liczby punktów ¿ycia na jeden atak."	"{Pierwsza pomoc - poziom zaawansowany}
+
+Przekazuje bohaterowi kontrolê nad namiotem medyka, daj¹c mu mo¿liwoœæ uleczenia 60-75 punktów ¿ycia pierwszemu stworzeniu z wybranego przez bohatera oddzia³u. Obecnoœæ namiotu medyka na polu bitwy zwiêksza maksymaln¹ liczbê punktów ¿ycia wszystkich oddzia³ów bohatera o 10%. Talent ten chroni namiot medyka, minimalizuj¹c otrzymane obra¿enia do 40% ca³kowitej liczby punktów ¿ycia na jeden atak."	"{Pierwsza pomoc - poziom mistrzowski}
+
+Przekazuje bohaterowi kontrolê nad namiotem medyka, daj¹c mu mo¿liwoœæ uleczenia 80-100 punktów ¿ycia pierwszemu stworzeniu z wybranego przez bohatera oddzia³u. Obecnoœæ namiotu medyka na polu bitwy zwiêksza maksymaln¹ liczbê punktów ¿ycia wszystkich oddzia³ów bohatera o 20%. Talent ten chroni namiot medyka, minimalizuj¹c otrzymane obra¿enia do 40% ca³kowitej liczby punktów ¿ycia na jeden atak."

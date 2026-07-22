@@ -1,0 +1,371 @@
+Note: do not change the headings in this file, they are used to detect problems
+gStatDesc
+"{Atak}
+
+Twój wspó³czynnik ataku stanowi premiê dodawan¹ do ataku ka¿dej jednostki, co pozwala na zadawanie wiêkszych obra¿eñ wrogom."
+"{Obrona}
+
+Twój wspó³czynnik obrony stanowi premiê dodawan¹ do obrony ka¿dej jednostki, co zwiêksza jej odpornoœæ na rany."
+"{Moc magiczna}
+
+Moc magiczna okreœla si³ê oraz d³ugoœæ dzia³ania rzucanych zaklêæ."
+"{Wiedza}
+
+Wiedza okreœla ile many (punktów magii) mo¿e posiadaæ wybrany bohater.   W normalnych warunkach jeden punkt wiedzy daje bohaterowi 10 punktów magii."
+gLuckText
+"
+Specjalizacja: Szczêœcie +2"
+Okropne
+Niskie
+Normalne
+Wysokie
+Niezwyk³e
+Przys³owiowe
+gMoraleText
+Zdrada
+Bardzo niskie
+Niskie
+Normalne
+Wysokie
+Doskona³e
+Krwi!
+gOwnedByColor
+ - nale¿y do czerwonego gracza.
+ - nale¿y do niebieskiego gracza.
+ - nale¿y do br¹zowego gracza.
+ - nale¿y do zielonego gracza.
+ - nale¿y do pomarañczowego gracza.
+ - nale¿y do purpurowego gracza.
+ - nale¿y do  jasnoniebieskiego gracza.
+ - nale¿y do ró¿owego gracza.
+gMonthNames
+Konika polnego
+Kota
+Biedronki
+Paj¹ka
+Motyla
+Trzmiela
+Szarañczy
+Robaka
+Szerszenia
+¯uka
+gWeekNames
+Wiewiórki
+Królika
+Sus³a
+Borsuka
+Szczura
+Or³a
+£asicy
+Kruka
+Mangusty
+Psa
+Mrówkojada
+Jaszczurki
+¯ó³wia
+Je¿a
+Kondora
+cLuckInfo
+"{Wysokie szczêœcie}
+
+Wysokie szczêœcie pozwala czasami twoim wojskom na zadanie podwójnych obra¿eñ i zwiêksza szansê na losowych umiejêtnoœci jednostek."
+"{Normalne szczêœcie}
+
+Normalne szczêœcie oznacza, ¿e twoje jednostki nigdy nie bêd¹ otrzymywaæ premii na polu bitwy, ale te¿ nie bêd¹ mia³y pecha."
+"{Niskie}
+
+Niskie szczêœcie na polu bitwy powoduje, ¿e czasami, twoje oddzia³y zadadz¹ wrogom o po³owê mniejsze obra¿enia. Ponadto, niskie szczêœcie zmniejsza szansê na losowych umiejêtnoœci jednostek."
+"%s
+
+
+{Aktualne modyfikatory szczêœcia:}"
+"
+Zastyg³e Oko Smoka +1"
+"
+Czterolistna Koniczynka +1"
+"
+Karty Tarota +1"
+"
+Statuetka Szczêœcia +1"
+"
+Wizyta przy ³abêdzim stawie +2"
+"
+Wizyta przy bo¿ku fortuny +1"
+"
+Wizyta przy fontannie fortuny %s"
+"
+Wizyta w piramidzie -2"
+"
+Wizyta w zaklêtym krêgu +1"
+"
+Wizyta u syren +1"
+"
+Wizyta przy fladze +1"
+"
+Szczêœcie - poz. podstawowy +1"
+"
+Szczêœcie - poz. zaawansowany +2"
+"
+Szczêœcie - poz. mistrzowski +3"
+"
+Brak"
+"
+-%d tymczasowo (do nastêpnej bitwy)."
+"
++%d tymczasowo (do nastêpnej bitwy)."
+"
+Znak Odwagi +2"
+"
+Na przeklêtej ziemi modyfikatory szczêœcia nie dzia³aj¹."
+"
+%s zabiera ca³e szczêœcie"
+Oddzia³y z neutralnego miasta na ³¹ce koniczyny +2
+cMoraleInfo
+"{Wysokie morale}
+
+Wysokie morale pozwala twoim jednostkom na otrzymywanie ró¿nych premii podczas walki."
+"{Normalne morale}
+
+Normalne morale oznacza, ¿e twoi ¿o³nierze nie bêd¹ otrzymywaæ na polu bitwy ¿adnych premii, ale tak¿e nie bêd¹ sztywnieæ ze zamieraæ przed wrogiem."
+"{Niskie morale}
+
+Niskie morale mo¿e spowodowaæ, ¿e twoje jednostki bêd¹ zamieraæ ze strachu na polu bitwy."
+"%s
+
+
+{Aktualne modyfikatory morale:}"
+"
+Zastyg³e Oko Smoka +1"
+"
+Order Mêstwa +1"
+"
+Herb Mêstwa +1"
+"
+Glejt Mêstwa +1"
+"
+Wizyta przy bo¿ku fortuny +1"
+"
+Wizyta przy boi +1"
+"
+Wizyta w oazie +1"
+"
+Wizyta w œwi¹tyni +1"
+"
+Wizyta w œwi¹tyni w niedzielê +2"
+"
+Wizyta przy grobach -1"
+"
+Wizyta na wraku -1"
+"
+Wizyta u Ÿród³a +1"
+"
+Wizyta na opuszczonym okrêcie -1"
+"
+Wizyta przy fladze +1"
+"
+Wizyta przy Ÿródle m³odoœci +1"
+"
+Wizyta na grobie wojownika -3"
+"
+Dowodzenie - poz. podstawowy +1"
+"
+Dowodzenie - poz. zaawansowany +2"
+"
+Dowodzenie - poz. mistrzowski +3"
+"
+Brak"
+"
+-%d tymczasowo do nastêpnej bitwy"
+"
++%d tymczasowo do nastêpnej bitwy"
+"
+Znak Odwagi +2"
+"
+Na przeklêtej ziemi modyfikatory morale nie dzia³aj¹."
+"
+Morale nie ma wp³ywu"
+"
+Oddzia³y z %d ró¿nych miast %d"
+"
+Wszystkie oddzia³y z miasta tego samego rodzaju +1"
+"
+Nieumarli w armii -1"
+"
+%s w armii +1"
+"
+Przeciwko: %s -1"
+"
+%s obni¿a morale"
+"
+%s zawsze ma dodatnie morale"
+"
+Zaklêcia %+d"
+"
+Na w³asnym terenie +1"
+Oddzia³y z dobrego miasta na œwiêtej ziemi +1
+Oddzia³y ze z³ego miasta na œwiêtej ziemi -1
+Oddzia³y ze z³ego miasta w diabelskiej mgle +1
+Oddzia³y z dobrego miasta w diabelskiej mgle -1
+cNewTurn
+%s, je¿eli w ci¹gu %d dni nie zdobêdziesz jakiegoœ miasta, zostaniesz wygnany!
+%s, je¿eli nie zdobêdziesz jakiegoœ miasta w tej kolejce, zostaniesz wygnany!
+"Astrologowie og³aszaj¹, ¿e symbolem tego miesi¹ca bêdzie %s.
+
+Populacja królestwa zwiêksza siê."
+"Astrologowie og³aszaj¹, ¿e symbolem tego miesi¹ca bêdzie %s.
+
+%s - populacja dubluje siê!
+
+Populacja królestwa zwiêksza siê."
+"Astrologowie og³aszaj¹ miesi¹c PLAGI!
+
+Ginie po³owa populacji królestwa."
+"Astrologowie og³aszaj¹, ¿e symbolem tego tygodnia bêdzie %s.
+
+Populacja królestwa zwiêksza siê."
+"Astrologowie og³aszaj¹, ¿e symbolem tego tygodnia bêdzie %s.
+
+%s - przyrost +5.
+
+Populacja królestwa zwiêksza siê."
+"Astrologowie og³aszaj¹, ¿e symbolem tego tygodnia bêdzie %s.
+
+%s - przyrost %+d.
+%s - przyrost %+d.
+
+Populacja królestwa zwiêksza siê."
+cMapSize
+Ma³a
+Œrednia
+Du¿a
+Bardzo du¿a
+cDifficulty
+£atwy
+Normalny
+Trudny
+Bardzo trud.
+Super trudny
+cDirections
+pó³nocy
+pó³nocnym-wschodzie
+wschodzie
+po³udniowym-wschodzie
+po³udniu
+po³udniowym-zachodzie
+zachodzie
+pó³nocnym-zachodzie
+centrum
+cRumourTerrainDescriptions
+w ziemi.
+w ¿ó³tych piaskach.
+na zielonych ³¹kach.
+w zbitych œniegach.
+w œmierdz¹cych bagnach.
+na zniszczonym pustkowiu.
+w podziemnych pieczarach.
+w kipi¹cej lawie.
+w otch³aniach oceanu.
+pod ska³ami.
+cPersonality
+Wojownik
+Budowniczy
+Odkrywca
+Cz³owiek
+gArmySizeNames
+1-4
+Ma³o przeciwników (1-4):
+ma³o przeciwników ({1-4}):
+5-9
+Paru przeciwników (5-9):
+Paru przeciwników ({5-9}):
+10-19
+Grupa przeciwników (10-19):
+grupa przeciwników ({10-19}):
+20-49
+Mnóstwo przeciwników (20-49):
+mnóstwo przeciwników ({20-49}):
+50-99
+Horda przeciwników (50-99):
+horda przeciwników ({50-99}):
+100-249
+Wataha przeciwników (100-249):
+wataha przeciwników ({100-249}):
+250-499
+Mrowie przeciwników (250-499):
+mrowie przeciwników ({250-499}):
+500-599
+Setki przeciwników (500-999):
+setki przeciwników ({500-999}):
+1000+
+Legion przeciwników (1000+):
+legion przeciwników ({1000+}):
+const_wise_tree_price_text
+ (+1 poziom)
+ (+1 poziom za 2000 sztuk z³ota)
+ (+1 poziom za 10 klejnotów)
+HumanCPU
+"Cz³owiek
+lub CPU"
+Cz³owiek
+CPU
+HandiText
+Normalna
+Niedu¿a
+Bardzo ma³a
+AGRText
+Artefakt
+Z³oto
+Zasoby
+gTownTypeNames
+Neutralne miasto
+Zamek
+Bastion
+Forteca
+Inferno
+Nekropolis
+Loch
+Twierdza
+Cytadela
+Wrota ¿ywio³ów
+NewLoadSave
+Wybierz scenariusz
+Wczytaj stan gry
+Zapisz grê
+Army speed names
+Sparali¿owany
+Niespotykanie wolny
+Niesamowicie wolny
+Bardzo wolny
+Wyj¹tkowo wolny
+Wolny
+Chy¿y
+Wyj¹tkowo chy¿y
+Bardzo chy¿y
+Niesamowicie chy¿y
+Niespotykanie chy¿y
+¯wawy
+Wyj¹tkowo ¿wawy
+Bardzo ¿wawy
+Niesamowicie ¿wawy
+Niespotykanie ¿wawy
+Szybki
+Wyj¹tkowo szybki
+Bardzo szybki
+Niesamowicie szybki
+Niespotykanie szybki
+Town size names
+Wioska
+Miasteczko
+Miasto
+Metropolia
+Moat Names
+Fosa
+Ciernisty krzew
+Kopalnie
+Lawa
+Stos koœci
+Wrz¹cy olej
+Ostrokó³
+Wrz¹ca smo³a
+Fosa
+Insert all data before this line. Do not alter or delete this line.

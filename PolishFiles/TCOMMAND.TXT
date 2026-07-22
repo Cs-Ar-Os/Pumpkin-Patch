@@ -1,0 +1,36 @@
+Podziel oddzia³ - %s
+Nie mo¿na przekazaæ ostatniego oddzia³u bohatera
+Po³¹cz oddzia³y (%s)
+Podziel oddzia³
+%s - poka¿ informacje
+Bohater musi dowodziæ co najmniej jednym oddzia³em!
+Przenieœ - %s
+Zamieñ miejscami - %s i %s
+WyjdŸ z miasta
+Nie mo¿esz przenieœæ tego bohatera do garnizonu.
+Informacje o królestwie
+Wolne miejsce
+Wybierz - %s (w garnizonie)
+Informacje o bohaterze
+Gildia magów
+Gildia z³odziei
+Karczma
+Stocznia
+Zamek
+KuŸnia
+Rada osady  -  Buduj. 
+Rekrutuj: %s
+Rada miasta  -  Buduj. 
+Ratusz  -  Buduj. 
+Kapitol  -  Buduj. 
+
+Targowisko
+Magazyn zasobów
+Fort
+Cytadela
+Aby korzystaæ z portalu, musisz oflagowaæ na mapie siedlisko danych stworzeñ.
+Zakupiono: %s
+Wybierz - %s (odwiedzaj¹cy)
+Wybierz - %s (usuniête stworzenia)
+Wybierz - %s (armia bohatera)
+%s (nie mo¿na usun¹æ)

@@ -1,0 +1,526 @@
+Bonus	Bonus	
+(short)	(long)	Right click text
+£ucznictwo	Dodatkowa zdolnoœæ: ³ucznictwo	{£ucznictwo}
+
+Zwiêksza o 5% efekt zdolnoœci "£ucznictwo" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+£ucznicy	Specjalny oddzia³: ³ucznicy	{£ucznicy i kusznicy}
+
+Zwiêksza szybkoœæ ³uczników i kuszników o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 2 poziomy (w zaokr¹gleniu w górê).
+Gryfy	Specjalny oddzia³: gryfy	{Gryfy i gryfy królewskie}
+
+Zwiêksza szybkoœæ gryfów i gryfów królewskich o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 3 poziomy (w zaokr¹gleniu w górê).
+Nawigacja	Dodatkowa zdolnoœæ: nawigacja	{Nawigacja}
+
+Zwiêksza o 75 liczbê punktów ruchu na morzu za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Finanse	Dodatkowa zdolnoœæ: finanse	{Finanse}
+
+Zwiêksza o 5% efekt zdolnoœci "Finanse" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Zbrojni	Specjalny oddzia³: zbrojni	{Zbrojni i krzy¿owcy}
+
+Zwiêksza szybkoœæ zbrojnych i krzy¿owców o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 4 poziomy (w zaokr¹gleniu w górê).
+Balista	Artyleria: balista	{Balista}
+
+Zwiêksza atak oraz obronê balisty bohatera o 30% za ka¿de 5 poziomów (w zaokr¹gleniu w górê).
+Kawalerzyœci	Specjalny oddzia³: kawalerzyœci	{Kawalerzyœci i czempioni}
+
+Zwiêksza szybkoœæ kawalerzystów i czempionów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 6 poziomów (w zaokr¹gleniu w górê).
+Pierwsza pomoc	Dodatkowa zdolnoœæ: pierwsza pomoc	{Pierwsza pomoc}
+
+Zwiêksza o 5% efekt zdolnoœci "Pierwsza pomoc" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+B³ogos³awieñstwo	Specjalne zaklêcie: b³ogos³awieñstwo	{B³ogos³awieñstwo}
+
+Zwiêksza obra¿enia zadawane przez jednostki pod wp³ywem czaru "B³ogos³awieñstwo" o 10% za ka¿dy poziom bohatera. Premia dzielona jest przez poziom wzmacnianej jednostki.
+Os³abienie	Specjalne zaklêcie: os³abienie	{Os³abienie}
+
+Czar "Os³abienie" zmniejsza atak o dodatkowe:
+4 punkty jednostkom poziomów 1-2
+6 punktów jednostkom poziomów 3-4
+8 punktów jednostkom poziomów 5-6
+10 punktów jednostkom z poziomu 7
+Kr¹g zimna	Specjalne zaklêcie: kr¹g zimna	{Kr¹g zimna}
+
+Zwiêksza obra¿enia zadawane przez czar "Kr¹g zimna" o 10% za ka¿dy poziom bohatera. Premia dzielona jest przez poziom atakowanej jednostki.
+Mnisi	Specjalny oddzia³: mnisi	{Mnisi i kap³ani}
+
+Zwiêksza szybkoœæ mnichów i kap³anów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 5 poziomów (w zaokr¹gleniu w górê).
+Sokoli wzrok	Dodatkowa zdolnoœæ: sokoli wzrok	{Sokoli wzrok}
+
+Zwiêksza o 5% efekt zdolnoœci "Sokoli wzrok" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Modlitwa	Specjalne zaklêcie: modlitwa	{Modlitwa}
+
+Czar "Modlitwa" zwiêksza atak, obronê i szybkoœæ o dodatkowe:
+3 punkty jednostkom poziomów 1-4 
+2 punkty jednostkom poziomów 5-6
+1 punkt jednostkom z poziomu 7
+350 szt. z³ota	350 szt. z³ota dziennie	{350 szt. z³ota}
+
+Dostarcza 350 sztuk z³ota dziennie.
+P³atnerz	Dodatkowa zdolnoœæ: p³atnerz	{P³atnerz}
+
+Zwiêksza o 5% efekt zdolnoœci "P³atnerstwo" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Krasnoludy	Specjalny oddzia³: krasnoludy	{Krasnoludy i krasnoludzcy wojownicy}
+
+Zwiêksza szybkoœæ krasnoludów i krasnoludzkich wojowników o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 2 poziomy (w zaokr¹gleniu w górê).
+350 szt. z³ota	350 szt. z³ota dziennie	{350 szt. z³ota}
+
+Dostarcza 350 sztuk z³ota dziennie.
+Drzewce	Specjalny oddzia³: drzewce	{Drzewce i enty}
+
+Zwiêksza szybkoœæ drzewców i entów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 5 poziomów (w zaokr¹gleniu w górê).
+Odpornoœæ	Dodatkowa zdolnoœæ: odpornoœæ	{Odpornoœæ}
+
+Zwiêksza o 5% efekt zdolnoœci "Odpornoœæ" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Leœne elfy	Specjalny oddzia³: leœne elfy	{Leœne elfy i wysokie elfy}
+
+Zwiêksza szybkoœæ leœnych elfów i wysokich elfów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 3 poziomy (w zaokr¹gleniu w górê).
+Jednoro¿ce	Specjalny oddzia³: jednoro¿ce	{Jednoro¿ce i bitewne jednoro¿ce}
+
+Zwiêksza szybkoœæ jednoro¿ców i bitewnych jednoro¿ców o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 6 poziomów (w zaokr¹gleniu w górê).
+Logistyka	Dodatkowa zdolnoœæ: logistyka	{Logistyka}
+
+Zwiêksza o 5% efekt zdolnoœci "Logistyka" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Pogromca	Specjalne zaklêcie: pogromca	{Pogromca}
+
+Czar "Pogromca" zwiêksza atak o dodatkowe:
+10 punktów jednostkom poziomu 1-2
+8 punktów jednostkom poziomu 3-4
+6 punktów jednostkom poziomu 5-6
+4 punkty jednostkom z poziomu 7
+Uleczenie	Specjalne zaklêcie: uleczenie	{Uleczenie}
+
+Zwiêksza liczbê przywróconych punktów ¿ycia przez czar "Uleczenie" o 10% za ka¿de (8 - n) poziomów bohatera, gdzie n odpowiada poziomowi wskazanego stworzenia.
+Inteligencja	Dodatkowa zdolnoœæ: inteligencja	{Inteligencja}
+
+Zwiêksza o 5% efekt zdolnoœci "Inteligencja" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Pierwsza pomoc	Dodatkowa zdolnoœæ: pierwsza pomoc	{Pierwsza pomoc}
+
+Zwiêksza o 5% efekt zdolnoœci "Pierwsza pomoc" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Sokoli wzrok	Dodatkowa zdolnoœæ: sokoli wzrok	{Sokoli wzrok}
+
+Zwiêksza o 5% efekt zdolnoœci "Sokoli wzrok" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Szczêœcie	Dodatkowa zdolnoœæ: szczêœcie	{Szczêœcie}
+
+Otrzymuje +2 do szczêœcia. 
+Lodowy pocisk	Specjalne zaklêcie: lodowy pocisk	{Lodowy pocisk}
+
+Zwiêksza obra¿enia zadawane przez czar "Lodowy pocisk" o 10% za ka¿dy poziom bohatera. Premia dzielona jest przez poziom atakowanej jednostki.
+Pegazy	Specjalny oddzia³: pegazy	{Pegazy i srebrne pegazy}
+
+Zwiêksza szybkoœæ pegazów i srebrnych pegazów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 4 poziomy (w zaokr¹gleniu w górê).
+Kamienne gargulce	Specjalny oddzia³: kamienne gargulce	{Kamienne gargulce i obsydianowe gargulce}
+
+Zwiêksza szybkoœæ kamiennych gargulców i obsydianowych gargulców o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 2 poziomy (w zaokr¹gleniu w górê).
+Precyzja	Specjalne zaklêcie: precyzja	{Precyzja}
+
+Czar "Precyzja" zwiêksza atak (przy oddawaniu strza³ów) o dodatkowe:
+10 punktów jednostkom poziomów 1-2
+8 punktów jednostkom poziomów 3-4
+6 punktów jednostkom poziomów 5-6
+4 punkty jednostkom z poziomu 7.
+Kamienne golemy	Specjalny oddzia³: kamienne golemy	{Kamienne golemy i ¿elazne golemy}
+
+Zwiêksza szybkoœæ kamiennych golemów i ¿elaznych golemów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 3 poziomy (w zaokr¹gleniu w górê).
+P³atnerz	Dodatkowa zdolnoœæ: p³atnerz	{P³atnerz}
+
+Zwiêksza o 5% efekt zdolnoœci "P³atnerstwo" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Balista	Artyleria: balista	{Balista}
+
+Zwiêksza atak oraz obronê balisty bohatera o 30% za ka¿de 5 poziomów (w zaokr¹gleniu w górê).
+Nagi	Specjalny oddzia³: nagi	{Nagi i królewskie nagi}
+
+Zwiêksza szybkoœæ nag i królewskich nag o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 6 poziomów (w zaokr¹gleniu w górê).
+Rtêæ +1 	1 uncja rtêci dziennie	{Rtêæ +1}
+
+Dostarcza 1 uncjê rtêci dziennie.
+D¿inny	Specjalny oddzia³: d¿inny	{D¿inny i wielkie d¿inny}
+
+Zwiêksza szybkoœæ d¿innów i wielkich d¿innów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 5 poziomów (w zaokr¹gleniu w górê).
+Dyplomacja	Dodatkowa zdolnoœæ: dyplomacja	{Dyplomacja}
+
+Zmniejsza koszt poddania siê w walce o 5% za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Mistycyzm	Dodatkowa zdolnoœæ: mistycyzm	{Mistycyzm}
+
+Zwiêksza o 5% efekt zdolnoœci "Mistycyzm" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Sokoli wzrok	Dodatkowa zdolnoœæ: sokoli wzrok	{Sokoli wzrok}
+
+Zwiêksza o 5% efekt zdolnoœci "Sokoli wzrok" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Fortuna	Specjalne zaklêcie: fortuna	{Fortuna}
+
+Czar "Fortuna" zawsze zwiêksza szczêœcie jednostek o 3 punkty.
+Magowie	Specjalny oddzia³: magowie	{Magowie i arcymagowie}
+
+Zwiêksza szybkoœæ magów i arcymagów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 4 poziomy (w zaokr¹gleniu w górê).
+£añcuch piorunów	Specjalne zaklêcie: ³añcuch piorunów	{£añcuch piorunów}
+
+Zwiêksza obra¿enia zadawane przez czar "£añcuch piorunów" o 5% za ka¿dy poziom bohatera. Premia dzielona jest przez poziom atakowanej jednostki.
+Przyœpieszenie	Specjalne zaklêcie: przyœpieszenie	{Przyœpieszenie}
+
+Czar "Przyœpieszenie" zwiêksza zasiêg ruchu o dodatkowe:
+3 punkty jednostkom poziomów 1-4
+2 punkty jednostkom poziomów 5-6
+1 punkt jednostkom z poziomu 7
+350 szt. z³ota	350 szt. z³ota dziennie	{350 szt. z³ota}
+
+Dostarcza 350 sztuk z³ota dziennie.
+Piekielne ogary	Specjalny oddzia³: piekielne ogary	{Piekielne ogary i cerbery}
+
+Zwiêksza szybkoœæ piekielnych ogarów i cerberów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 3 poziomy (w zaokr¹gleniu w górê).
+Ifryty	Specjalny oddzia³: ifryty	{Ifryty i su³tañskie ifryty}
+
+Zwiêksza szybkoœæ ifrytów i su³tañskich ifrytów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 6 poziomów (w zaokr¹gleniu w górê).
+Demony	Specjalny oddzia³: demony	{Demony i rogate demony}
+
+Zwiêksza szybkoœæ demonów i rogatych demonów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 4 poziomy (w zaokr¹gleniu w górê).
+Impy	Specjalny oddzia³: impy	{Impy i chowañce}
+
+Zwiêksza szybkoœæ impów i chowañców o 1, a tak¿e ich atak oraz obronê o 10% za ka¿dy poziom (w zaokr¹gleniu w górê).
+350 szt. z³ota	350 szt. z³ota dziennie	{350 szt. z³ota}
+
+Dostarcza 350 z³otych monet dziennie.
+Gogi	Specjalny oddzia³: gogi	{Gogi i magogi}
+
+Zwiêksza szybkoœæ gogów i magogów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 2 poziomy (w zaokr¹gleniu w górê).
+Balista	Artyleria: balista	{Balista}
+
+Zwiêksza atak oraz obronê balisty bohatera o 30% za ka¿de 5 poziomów (w zaokr¹gleniu w górê).
+Czarty	Specjalny oddzia³: czarty	{Czarty i czarci lordowie}
+
+Zwiêksza szybkoœæ czartów i czarcich lordów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 5 poziomów (w zaokr¹gleniu w górê).
+Inteligencja	Dodatkowa zdolnoœæ: inteligencja	{Inteligencja}
+
+Zwiêksza o 5% efekt zdolnoœci "Inteligencja" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Inferno	Specjalne zaklêcie: inferno	{Inferno}
+
+Zwiêksza obra¿enia zadawane przez czar "Inferno" o 10% za ka¿dy poziom bohatera. Premia dzielona jest przez poziom atakowanej jednostki.
+Mistycyzm	Dodatkowa zdolnoœæ: mistycyzm	{Mistycyzm}
+
+Zwiêksza o 5% efekt zdolnoœci "Mistycyzm" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Os³abienie	Specjalne zaklêcie: os³abienie	{Os³abienie}
+
+Czar "Os³abienie" zmniejsza atak o dodatkowe:
+4 punkty jednostkom poziomów 1-2
+6 punktów jednostkom poziomów 3-4
+8 punktów jednostkom poziomów 5-6
+10 punktów jednostkom z poziomu 7
+Siarka +1 	1 uncja siarki dziennie	{Siarka +1}
+
+Dostarcza 1 uncjê siarki dziennie.
+¯¹dza krwi	Specjalne zaklêcie: ¿¹dza krwi	{¯¹dza krwi}
+
+Czar "¯¹dza krwi" zwiêksza atak o dodatkowe:
+10 punktów jednostkom poziomów 1-2
+8 punktów jednostkom poziomów 3-4
+6 punktów jednostkom poziomów 5-6
+4 punkty jednostkom z poziomu 7
+Czarnoksiestwo	Dodatkowa zdolnoœæ: czarnoksiêstwo	{Czarnoksiêstwo}
+
+Zwiêksza o 5% efekt zdolnoœci "Czarnoksiêstwo" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Kula ognia	Specjalne zaklêcie: kula ognia	{Kula ognia}
+
+Zwiêksza obra¿enia zadawane przez czar "Kula ognia" o 10% za ka¿dy poziom bohatera. Premia dzielona jest przez poziom atakowanej jednostki.
+O¿ywieñcy	Specjalny oddzia³: o¿ywieñcy	{O¿ywieñcy i zombie}
+
+Zwiêksza szybkoœæ o¿ywieñców i zombie o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 2 poziomy (w zaokr¹gleniu w górê).
+Wampiry	Specjalny oddzia³: wampiry	{Wampiry i wampirzy lordowie}
+
+Zwiêksza szybkoœæ wampirów i wampirzych lordów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 4 poziomy (w zaokr¹gleniu w górê).
+Lisze	Specjalny oddzia³: lisze	{Lisze i arcylisze}
+
+Zwiêksza szybkoœæ liszów i arcyliszów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 5 poziomów (w zaokr¹gleniu w górê).
+Zjawy	Specjalny oddzia³: zjawy	{Zjawy i upiory}
+
+Zwiêksza szybkoœæ zjaw i upiorów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 3 poziomy (w zaokr¹gleniu w górê).
+Czarni rycerze	Specjalny oddzia³: czarni rycerze	{Czarni rycerze i upiorni rycerze}
+
+Zwiêksza szybkoœæ czarnych rycerzy i upiornych rycerzy o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 6 poziomów (w zaokr¹gleniu w górê).
+Nekromancja	Dodatkowa zdolnoœæ: nekromancja	{Nekromancja}
+
+Zwiêksza o 5% efekt zdolnoœci "Nekromancja" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+350 szt. z³ota	350 szt. z³ota dziennie	{350 szt. z³ota}
+
+Dostarcza 350 z³otych monet dziennie.
+Szkielety	Specjalny oddzia³: szkielety	{Szkielety i koœcieje}
+
+Zwiêksza szybkoœæ szkieletów i koœciejów o 1, a tak¿e ich atak oraz obronê o 10% za ka¿dy poziomy (w zaokr¹gleniu w górê).
+Fala œmierci	Specjalne zaklêcie: fala œmierci	{Fala œmierci}
+
+Zwiêksza obra¿enia zadawane przez czar "Fala œmierci" o 10% za ka¿dy poziom bohatera. Premia dzielona jest przez poziom atakowanej jednostki.
+Deszcz meteorów	Specjalne zaklêcie: deszcz meteorów	{Deszcz meteorów}
+
+Zwiêksza obra¿enia zadawane przez czar "Deszcz meteorów" o 5% za ka¿dy poziom bohatera. Premia dzielona jest przez poziom atakowanej jednostki.
+Czarnoksiêstwo	Dodatkowa zdolnoœæ: czarnoksiêstwo	{Czarnoksiêstwo}
+
+Zwiêksza o 5% efekt zdolnoœci "Czarnoksiêstwo" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Sokoli wzrok	Dodatkowa zdolnoœæ: sokoli wzrok	{Sokoli wzrok}
+
+Zwiêksza o 5% efekt zdolnoœci "Sokoli wzrok" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+O¿ywienie	Specjalne zaklêcie: o¿ywienie	{O¿ywienie}
+
+Zwiêksza efektywnoœæ czaru "O¿ywienie" o 5% za ka¿dy poziom bohatera. Premia dzielona jest przez poziom o¿ywianej jednostki.
+Kamienna skóra	Specjalne zaklêcie: kamienna skóra	{Kamienna skora}
+
+Czar "Kamienna skóra" zwiêksza obronê o dodatkowe:
+10 punktów jednostkom poziomów 1-2
+8 punktów jednostkom poziomów 3-4
+6 punktów jednostkom poziomów 5-6
+4 punkty jednostkom z poziomu 7
+Nekromancja	Dodatkowa zdolnoœæ: nekromancja	{Nekromancja}
+
+Zwiêksza o 5% efekt zdolnoœci "Nekromancja" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+350 szt. z³ota	350 szt. z³ota dziennie	{350 szt. z³ota}
+
+Dostarcza 350 z³otych monet dziennie.
+Harpie	Specjalny oddzia³: harpie	{Harpie i harpie wiedŸmy}
+
+Zwiêksza szybkoœæ harpii i harpich wiedŸm o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 2 poziomy (w zaokr¹gleniu w górê).
+Balista	Artyleria: balista	{Balista}
+
+Zwiêksza atak oraz obronê balisty bohatera o 30% za ka¿de 5 poziomów (w zaokr¹gleniu w górê).
+Minotaury	Specjalny oddzia³: minotaury	{Minotaury i minotaury królewskie}
+
+Zwiêksza szybkoœæ minotaurów i minotaurów królewskich o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 5 poziomów (w zaokr¹gleniu w górê).
+Obserwatorzy	Specjalny oddzia³: obserwatorzy	{Obserwatorzy i z³e oczy}
+
+Zwiêksza szybkoœæ obserwatorów i z³ych oczu o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 3 poziomy (w zaokr¹gleniu w górê).
+350 szt. z³ota	350 szt. z³ota dziennie	{350 szt. z³ota}
+
+Dostarcza 350 z³otych monet dziennie.
+Logistyka	Dodatkowa zdolnoœæ: logistyka	{Logistyka}
+
+Zwiêksza o 5% efekt zdolnoœci "Logistyka" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Mantykory	Specjalny oddzia³: mantykory	{Mantykory i skorpikory}
+
+Zwiêksza szybkoœæ mantykor i skorpikor o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 6 poziomów (w zaokr¹gleniu w górê).
+Troglodyci	Specjalny oddzia³: troglodyci	{Troglodyci i piekielni troglodyci}
+
+Zwiêksza szybkoœæ troglodytów i piekielnych troglodytów o 1, a tak¿e ich atak oraz obronê o 10% za ka¿dy poziom (w zaokr¹gleniu w górê).
+Wskrzeszenie	Specjalne zaklêcie: wskrzeszenie	{Wskrzeszenie}
+
+Zwiêksza efektywnoœæ czaru "Wskrzeszenie" o 5% za ka¿dy poziom bohatera. Premia dzielona jest przez poziom wskrzeszanej jednostki.
+Mistycyzm	Dodatkowa zdolnoœæ: mistycyzm	{Mistycyzm}
+
+Zwiêksza o 5% efekt zdolnoœci "Mistycyzm" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Czarnoksiêstwo	Dodatkowa zdolnoœæ: czarnoksiêstwo	{Czarnoksiêstwo}
+
+Zwiêksza o 5% efekt zdolnoœci "Czarnoksiêstwo" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Wskrzeszenie	Specjalne zaklêcie: wskrzeszenie	{Wskrzeszenie}
+
+Zwiêksza efektywnoœæ czaru "Wskrzeszenie" o 5% za ka¿dy poziom bohatera. Im wy¿szy poziom jednostki, tym s³absza premia.
+Sokoli wzrok	Dodatkowa zdolnoœæ: sokoli wzrok	{Sokoli wzrok}
+
+Zwiêksza o 5% efekt zdolnoœci "Sokoli wzrok" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Deszcz meteorów	Specjalne zaklêcie: deszcz meteorów	{Deszcz meteorów}
+
+Zwiêksza obra¿enia zadawane przez czar "Deszcz meteorów" o 5% za ka¿dy poziom bohatera. Premia dzielona jest przez poziom atakowanej jednostki.
+Kryszta³y +1	1 kryszta³ dziennie	{Kryszta³y +1}
+
+Dostarcza 1 kryszta³ dziennie.
+Kamienna skóra	Specjalne zaklêcie: kamienna skóra	{Kamienna skóra}
+
+Czar "Kamienna skóra" zwiêksza obronê o dodatkowe:
+10 punktów jednostkom poziomów 1-2
+8 punktów jednostkom poziomów 3-4
+6 punktów jednostkom poziomów 5-6
+4 punkty jednostkom z poziomu 7
+Cyklopy	Specjalny oddzia³: cyklopy	{Cyklopy i elitarne cyklopy}
+
+Zwiêksza szybkoœæ cyklopów i elitarnych cyklopów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 6 poziomów (w zaokr¹gleniu w górê).
+Balista	Artyleria: balista	{Balista}
+
+Zwiêksza atak oraz obronê balisty bohatera o 30% za ka¿de 5 poziomów (w zaokr¹gleniu w górê).
+Orkowie	Specjalny oddzia³: orkowie	{Orkowie i Uruki}
+
+Zwiêksza szybkoœæ orków i uruków o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 3 poziomy (w zaokr¹gleniu w górê).
+Roki	Specjalny oddzia³: roki	{Roki i ptaki gromu}
+
+Zwiêksza szybkoœæ roków i ptaków gromu o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 5 poziomów (w zaokr¹gleniu w górê).
+Gobliny	Specjalny oddzia³: gobliny	{Gobliny i Hobgobliny}
+
+Zwiêksza szybkoœæ goblinów i hobgoblinów o 1, a tak¿e ich atak oraz obronê o 10% za ka¿dy poziom (w zaokr¹gleniu w górê).
+Ogry	Specjalny oddzia³: ogry	{Ogry i ogrzy szamani}
+
+Zwiêksza szybkoœæ ogrów i ogrzych szamanów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 4 poziomy (w zaokr¹gleniu w górê).
+Ofensywa	Dodatkowa zdolnoœæ: ofensywa	{Ofensywa}
+
+Zwiêksza o 5% efekt zdolnoœci "Ofensywa" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Wilczy jeŸdŸcy	Specjalny oddzia³: wilczy jeŸdŸcy	{Wilczy jeŸdŸcy i wilczy rycerze}
+
+Zwiêksza szybkoœæ wilczych jeŸdŸców i wilczych rycerzy o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 2 poziomy (w zaokr¹gleniu w górê).
+Czarnoksiestwo	Dodatkowa zdolnoœæ: czarnoksiêstwo	{Czarnoksiêstwo}
+
+Zwiêksza o 5% efekt zdolnoœci "Czarnoksiêstwo" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Ogry	Specjalny oddzia³: ogry	{Ogry i ogrzy szamani}
+
+Zwiêksza szybkoœæ ogrów i ogrzych szamanów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 4 poziomy (w zaokr¹gleniu w górê).
+Logistyka	Dodatkowa zdolnoœæ: logistyka	{Logistyka}
+
+Zwiêksza o 5% efekt zdolnoœci "Logistyka" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Przyœpieszenie	Specjalne zaklêcie: przyœpieszenie	{Przyœpieszenie}
+
+Czar "Przyœpieszenie" zwiêksza zasiêg ruchu o dodatkowe:
+3 punkty jednostkom poziomów 1-4
+2 punkty jednostkom poziomów 5-6
+1 punkt jednostkom z poziomu 7
+Precyzja	Specjalne zaklêcie: precyzja	{Precyzja}
+
+Czar "Precyzja" zwiêksza atak (przy oddawaniu strza³ów) o dodatkowe:
+10 punktów jednostkom poziomów 1-2
+8 punktów jednostkom poziomów 3-4
+6 punktów jednostkom poziomów 5-6
+4 punkty jednostkom z poziomu 7.
+Ofensywa	Dodatkowa zdolnoœæ: ofensywa	{Ofensywa}
+
+Zwiêksza o 5% efekt zdolnoœci "Ofensywa" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Sokoli wzrok	Dodatkowa zdolnoœæ: sokoli wzrok	{Sokoli wzrok}
+
+Zwiêksza o 5% efekt zdolnoœci "Sokoli wzrok" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Klejnoty +1 	1 klejnot dziennie	{Klejnoty +1}
+
+Dostarcza 1 klejnot dziennie.
+Bazyliszki	Specjalny oddzia³: bazyliszki	{Bazyliszki i wiêksze bazyliszki}
+
+Zwiêksza szybkoœæ baszyliszków i wiêkszych bazyliszków o 1, a tak¿e ich atak oraz obronê o 520% za ka¿de 4 poziomy (w zaokr¹gleniu w górê).
+Gnolle	Specjalny oddzia³: gnolle	{Gnolle i gnolle maruderzy}
+
+Zwiêksza szybkoœæ gnolli i gnolli maruderów o 1, a tak¿e ich atak oraz obronê o 10% za ka¿dy poziom (w zaokr¹gleniu w górê).
+Jaszczuroludzie	Specjalny oddzia³: jaszczuroludzie	{Jaszczuroludzie i reptilioni}
+
+Zwiêksza szybkoœæ jaszczuroludzi i reptilionów o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 2 poziomy (w zaokr¹gleniu w górê).
+P³atnerz	Dodatkowa zdolnoœæ: p³atnerz	{P³atnerz}
+
+Zwiêksza o 5% efekt zdolnoœci "P³atnerstwo" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Gorgony	Specjalny oddzia³: gorgony	{Gorgony i potê¿ne gorgony}
+
+Zwiêksza szybkoœæ gorgon i potê¿nych gorgon o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 5 poziomów (w zaokr¹gleniu w górê).
+Wa¿ki	Specjalny oddzia³: wa¿ki	{Wa¿ki i smocze wa¿ki}
+
+Zwiêksza szybkoœæ wa¿ek i smoczych wa¿ek o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 3 poziomy (w zaokr¹gleniu w górê).
+Balista	Artyleria: balista	{Balista}
+
+Zwiêksza atak oraz obronê balisty bohatera o 30% za ka¿de 5 poziomów (w zaokr¹gleniu w górê).
+Wiwerny	Specjalny oddzia³: wiwerny	{Wiwerny i krolewskie wiwerny}
+
+Zwiêksza szybkoœæ wiwern i królewskich wiwern o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 6 poziomów (w zaokr¹gleniu w górê).
+Os³abienie	Specjalne zaklêcie: os³abienie	{Os³abienie}
+
+Czar "Os³abienie" zmniejsza atak o dodatkowe:
+4 punkty jednostkom poziomów 1-2
+6 punktów jednostkom poziomów 3-4
+8 punktów jednostkom poziomów 5-6
+10 punktów jednostkom z poziomu 7
+Mistycyzm	Dodatkowa zdolnoœæ: mistycyzm	{Mistycyzm}
+
+Zwiêksza o 5% efekt zdolnoœci "Mistycyzm" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Nawigacja	Dodatkowa zdolnoœæ: nawigacja	{Nawigacja}
+
+Zwiêksza o 75 liczbê punktów ruchu na morzu za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Pierwsza pomoc	Dodatkowa zdolnoœæ: pierwsza pomoc	{Pierwsza pomoc}
+
+Zwiêksza o 5% efekt zdolnoœci "Pierwsza pomoc" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Kamienna skóra	Specjalne zaklêcie: kamienna skóra	{Kamienna skóra}
+
+Czar "Kamienna skóra" zwiêksza obronê o dodatkowe:
+10 punktów jednostkom poziomów 1-2
+8 punktów jednostkom poziomów 3-4
+6 punktów jednostkom poziomów 5-6
+4 punkty jednostkom z poziomu 7
+Czarnoksiêstwo	Dodatkowa zdolnoœæ: czarnoksiêstwo	{Czarnoksiêstwo}
+
+Zwiêksza o 5% efekt zdolnoœci "Czarnoksiêstwo" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Inteligencja	Dodatkowa zdolnoœæ: inteligencja	{Inteligencja}
+
+Zwiêksza o 5% efekt zdolnoœci "Inteligencja" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Sokoli wzrok	Dodatkowa zdolnoœæ: sokoli wzrok	{Sokoli wzrok}
+
+Zwiêksza o 5% efekt zdolnoœci "Sokoli wzrok" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+¯ywio³aki umys³u	Specjalny oddzia³: ¿ywio³aki umys³u	{¯ywio³aki umys³u i ¿ywio³aki magii}
+
+Zwiêksza atak oraz obronê ¿ywio³aków umys³u i ¿ywio³aków magii o 5 punktów.
+¯ywio³aki ziemi	Specjalny oddzia³: ¿ywio³aki ziemi	{¯ywio³aki ziemi i ¿ywio³aki magmy}
+
+Zwiêksza atak ¿ywio³aków ziemi i ¿ywio³aków magmy o 3 punkty, obronê o 2 punkty i obra¿enia bazowe o 5 punktów.
+¯ywio³aki ognia	Specjalny oddzia³: ¿ywio³aki ognia	{¯ywio³aki ognia i ¿ywio³aki energii}
+
+Zwiêksza atak ¿ywio³aków ognia i ¿ywio³aków energii o 3 punkty, obronê o 4 punkty i obra¿enia bazowe o 2 punkty.
+¯ywio³aki wody	Specjalny oddzia³: ¿ywio³aki wody	{¯ywio³aki wody i ¿ywio³aki lodu}
+
+Zwiêksza atak ¿ywio³aków wody i ¿ywio³aków lodu o 12 punktów.
+Logistyka	Dodatkowa zdolnoœæ: logistyka	{Logistyka}
+
+Zwiêksza o 5% efekt zdolnoœci "Logistyka" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+P³atnerz	Dodatkowa zdolnoœæ: p³atnerz	{P³atnerz}
+
+Zwiêksza o 5% efekt zdolnoœci "P³atnerstwo" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Balista	Artyleria: balista	{Balista}
+
+Zwiêksza atak oraz obronê balisty bohatera o 30% za ka¿de 5 poziomów (w zaokr¹gleniu w górê).
+Nauka	Dodatkowa zdolnoœæ: nauka	{Nauka}
+
+Zwiêksza o 20% efekt zdolnoœci "Nauka" za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Œciana ognia	Specjalne zaklêcie: œciana ognia	{Œciana ognia}
+
+Zwiêksza obra¿enia zadawane przez czar "Œciana ognia" o 10% za ka¿dy poziom bohatera. Premia dzielona jest przez poziom atakowanej jednostki.
+Przyœpieszenie	Specjalne zaklêcie: przyœpieszenie	{Przyœpieszenie}
+
+Czar "Przyœpieszenie" zwiêksza zasiêg ruchu o dodatkowe:
+3 punkty jednostkom poziomów 1-4
+2 punkty jednostkom poziomów 5-6
+1 punkt jednostkom z poziomu 7
+Magiczna strza³a	Specjalne zaklêcie: magiczna strza³a	{Magiczna strza³a}
+
+Zwiêksza obra¿enia zadawane przez czar "Magiczna strza³a" o 10% za ka¿dy poziom bohatera. Premia dzielona jest przez poziom atakowanej jednostki.
+Kamienna skóra	Specjalne zaklêcie: kamienna skóra	{Kamienna skóra}
+
+Czar "Kamienna skóra" zwiêksza obronê o dodatkowe:
+10 punktów jednostkom poziomów 1-2
+8 punktów jednostkom poziomów 3-4
+6 punktów jednostkom poziomów 5-6
+4 punkty jednostkom z poziomu 7
+Kula ognia	Specjalne zaklêcie: kula ognia	{Kula ognia}
+
+Zwiêksza obra¿enia zadawane przez czar "Kula ognia" o 10% za ka¿dy poziom bohatera. Premia dzielona jest przez poziom atakowanej jednostki.
+Promieñ os³abienia	Specjalne zaklêcie: promieñ os³abienia	{Promieñ os³abienia}
+
+Czar "Promieñ os³abienia" odbiera dodatkowe 10 punktów obrony.
+Lodowy pocisk	Specjalne zaklêcie: lodowy pocisk	{Lodowy pocisk}
+
+Zwiêksza obra¿enia zadawane przez czar "Lodowy pocisk" o 10% za ka¿dy poziom bohatera. Premia dzielona jest przez poziom atakowanej jednostki.
+350 szt. z³ota	350 szt. z³ota dziennie	{350 szt. z³ota}
+
+Dostarcza 350 z³otych monet dziennie.
+Szybkoœæ	Specjalny oddzia³: szybkoœæ	{Szybkoœæ}
+
+Zwiêksza szybkoœæ wszystkich jednostek o 2 punkty.
+Magia ognia	Specjalna zdolnoœæ: ekspert magii ognia	{Magia ognia}
+
+Wszystkie czary magii ognia zadaj¹ 50% wiêcej obra¿eñ.
+Uczony	Dodatkowa zdolnoœæ: uczony	{Uczony}
+
+Zwiêksza poziom czarów przekazywanych zdolnoœci¹ "Uczony" o 1.
+Czarodzieje	Specjalny oddzia³: czarodzieje	{Czarodzieje}
+
+Pozwala trenowaæ mnichów, kap³anów, magów i arcymagów na czarodziejów.
+Strzelcy	Specjalny oddzia³: strzelcy wyborowi	{Strzelcy}
+
+Pozwala trenowaæ ³uczników, kuszników, elfy i wysokie elfy na strzelców.
+Behemoty	Specjalny oddzia³: behemoty	{Behemoty i staro¿ytne behemoty}
+
+Zwiêksza atak oraz obronê behemotów i staro¿ytnych behemotów o 10, a tak¿e ich bazowe obra¿enia o 10 punktów.
+Dyplomacja	Dodatkowa zdolnoœæ: dyplomacja	{Dyplomacja}
+
+Zmniejsza koszt poddania siê w walce o 5% za ka¿dy osi¹gniêty poziom doœwiadczenia.
+Taktyka	Dodatkowa zdolnoœæ: taktyka	{Taktyka}
+
+Zwiêksza zasiêg umiejêtnoœci "Taktyka" o 2 rzêdy za ka¿dy poziom powy¿ej podstawowego.
+Zbrojni	Specjalny oddzia³: zbrojni	{Zbrojni i krzy¿owcy}
+
+Zwiêksza szybkoœæ zbrojnych i krzy¿owców o 1, a tak¿e ich atak oraz obronê o 20% za ka¿de 4 poziomy (w zaokr¹gleniu w górê).
+Smoki	Specjalny oddzia³: smoki	{Smoki}
+
+Zwiêksza atak i obronê wszystkich smoków o 10 punktów.
+Uczony	Dodatkowa zdolnoœæ: uczony	{Uczony}
+
+Zwiêksza poziom czarów przekazywanych zdolnoœci¹ "Uczony" o 1.
+Diab³y	Specjalny oddzia³: diab³y	{Diab³y i arcydiab³y}
+
+Zwiêksza atak diab³ów i arcydiab³ów o 10, obronê o 10, a tak¿e ich szybkoœæ o 1 punkt.

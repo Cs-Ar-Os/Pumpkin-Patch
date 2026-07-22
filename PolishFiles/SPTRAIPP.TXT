@@ -1,0 +1,1169 @@
+			School				Cost				Effect					% Chance to gain									AI value				Right Click Text				
+Name	Abbreviated Name	Level	Earth	Water	Fire	Air	None	Basic	Advanced	Expert	Power 	None	Basic	Advanced	Expert	Castle	Rampart	Tower	Inferno	Necropolis	Dungeon	Stronghold	Fortress	Conflux	None	Basic	Advanced	Expert	Normal	Basic	Advanced	Expert	Attributes (reference only, do not change)
+																																	
+Adventure spells																																	
+																																	
+Przyzwanie okrêtu	Przyzwanie okrêtu	3	 	x	 	 	8	7	7	7	0	50	50	75	100	5	5	5	5	10	5	5	5	5	10	10	20	20	"{Przyzwanie okrêtu}
+
+Przywo³uje do okolicy istniej¹cy okrêt, nale¿¹cy do aktualnego gracza.
+
+Czar ma 50% szans na powodzenie.
+"	"{Przyzwanie okrêtu}
+{Poziom podstawowy}
+
+Przywo³uje do okolicy istniej¹cy okrêt, nale¿¹cy do aktualnego gracza.
+
+Czar ma 50% szans na powodzenie.
+"	"{Przyzwanie okrêtu}
+{Poziom zaawansowany}
+
+Przywo³uje do okolicy istniej¹cy okrêt, nale¿¹cy do aktualnego gracza. Je¿eli okrêt nie istnieje - zostaje stworzony.
+
+Czar ma 75% szans na powodzenie.
+"	"{Przyzwanie okrêtu}
+{Poziom eksperta}
+
+Przywo³uje do okolicy istniej¹cy okrêt, nale¿¹cy do aktualnego gracza. Je¿eli okrêt nie istnieje - zostaje stworzony.
+"	 ADV_SPELL
+Zniszczenie okrêtu	Zniszczenie okrêtu	1	 	x	 	 	8	6	6	6	0	50	50	75	100	5	5	5	5	5	5	5	5	5	1	1	1	1	"{Zniszczenie okrêtu}
+
+Nieodwracalnie niiszczy okrêt. 
+
+Czar ma 50% szans na powodzenie.
+"	"{Zniszczenie okrêtu}
+{Poziom podstawowy}
+
+Nieodwracalnie niiszczy okrêt. 
+
+Czar ma 50% szans na powodzenie.
+"	"{Zniszczenie okrêtu}
+{Poziom zaawansowany}
+
+Nieodwracalnie niiszczy okrêt. 
+
+Czar ma 75% szans na powodzenie.
+"	"{Zniszczenie okrêtu}
+{Poziom eksperta}
+
+Nieodwracalnie niiszczy okrêt.
+"	 ADV_SPELL
+Wizja	Wizja	1	x	x	x	x	3	2	2	2	0	1	1	2	3	10	5	5	5	5	5	5	5	5	1	1	1	1	"{Wizja}
+
+Ukazuje liczbê jednostek w grupie i informuje czy bêd¹ chcia³y siê przy³¹czyæ, walczyæ, czy uciec. Zasiêg to Moc, lub 3, zale¿nie od tego która wartoœæ jest wy¿sza.
+"	"{Wizja}
+{Poziom podstawowy}
+
+Ukazuje liczbê jednostek w grupie i informuje czy bêd¹ chcia³y siê przy³¹czyæ, walczyæ, czy uciec. Zasiêg to Moc, lub 3, zale¿nie od tego która wartoœæ jest wy¿sza.
+"	"{Wizja}
+{Poziom zaawansowany}
+
+Ukazuje liczbê jednostek w grupie i informuje czy bêd¹ chcia³y siê przy³¹czyæ, walczyæ, czy uciec. Dodatkowo ukazuje wspó³czynniki i sk³ad armii wrogich bohaterów. Zasiêg to (Moc x 2), lub 3, zale¿nie od tego która wartoœæ jest wy¿sza.
+"	"{Wizja}
+{Poziom eksperta}
+
+Ukazuje liczbê jednostek w grupie i informuje czy bêd¹ chcia³y siê przy³¹czyæ, walczyæ, czy uciec. Dodatkowo ukazuje wspó³czynniki i sk³ad armii wrogich bohaterów oraz informacje na temat zamków. Zasiêg to (Moc x 3).
+"	 ADV_SPELL
+Zasoby ziemi	Zasoby ziemi	1	x				2	1	1	1	0	0	0	0	0	5	5	5	5	10	5	5	5	5	1	1	1	1	"{Zasoby ziemi}
+
+Ujawnia umiejscowienie wszystkich zasobów znajduj¹cych siê na mapie.
+"	"{Zasoby ziemi}
+{Poziom podstawowy}
+
+Ujawnia umiejscowienie wszystkich zasobów znajduj¹cych siê na mapie.
+"	"{Zasoby ziemi}
+{Poziom zaawansowany}
+
+Ujawnia umiejscowienie wszystkich zasobów oraz kopalñ znajduj¹cych siê na mapie.
+"	"{Zasoby ziemi}
+{Poziom eksperta}
+
+Odkrywa ca³¹ mapê oraz ujawnia umiejscowienie wszystkich zasobów i kopalñ.
+"	 ADV_SPELL
+Ukrycie	Ukrycie	1	 	 	 	x	2	1	1	1	0	0	0	0	0	5	5	5	5	5	5	5	10	5	1	1	1	1	"{Ukrycie}
+
+Wrogowie otrzymuj¹ fa³szywe informacje o bohaterze, który rzuci³ ten czar. Wszystkie jednostki wygl¹daj¹ jak najsilniejsze w grupie.
+"	"{Ukrycie}
+{Poziom podstawowy}
+
+Wrogowie otrzymuj¹ fa³szywe informacje o bohaterze, który rzuci³ ten czar. Wszystkie jednostki wygl¹daj¹ jak najsilniejsze w grupie.
+"	"{Ukrycie}
+{Poziom zaawansowany}
+
+Wrogowie otrzymuj¹ fa³szywe informacje o bohaterze, który rzuci³ ten czar. Wszystkie jednostki wygl¹daj¹ jak najsilniejsze w grupie i ich liczba wynosi 0.
+"	"{Ukrycie}
+{Poziom eksperta}
+
+Wrogowie otrzymuj¹ fa³szywe informacje o bohaterze, który rzuci³ ten czar. Wszystkie jednostki wygl¹daj¹ jak najsilniejsze w najd³u¿ej posiadanym przez gracza mieœcie i ich liczba jest równa 0.
+"	 ADV_SPELL
+Aura artefaktów	Aura artefaktów	1				x	2	1	1	1	0	0	0	0	0	5	5	5	5	10	5	5	5	5	1	1	1	1	"{Aura artefaktów}
+
+Ujawnia miejsca na mapie, gdzie znajduj¹ siê artefakty.
+"	"{Aura artefaktów}
+{Poziom podstawowy}
+
+Ujawnia miejsca na mapie, gdzie znajduj¹ siê artefakty.
+"	"{Aura artefaktów}
+{Poziom zaawansowany}
+
+Ujawnia miejsca na mapie, gdzie znajduj¹ siê artefakty oraz wrodzy bohaterowie.
+"	"{Aura artefaktów}
+{Poziom eksperta}
+
+Ujawnia miejsca na mapie, gdzie znajduj¹ siê artefakty oraz wrodzy bohaterowie i ich miasta.
+"	 ADV_SPELL
+Lot	Lot	5	 	 	 	x	16	12	12	12	0	70	70	85	100	0	15	15	15	15	15	0	0	15	30	30	40	50	"{Lot}
+
+Bohater rzucaj¹cy czar mo¿e poruszaæ siê ponad przeszkodami je¿eli jego ruch zakoñczy siê na wolnym polu na l¹dzie. Kara do ruchu ponad przeszkodami wynosi 30%.
+"	"{Lot}
+{Poziom podstawowy}
+
+Bohater rzucaj¹cy czar mo¿e poruszaæ siê ponad przeszkodami je¿eli jego ruch zakoñczy siê na wolnym polu na l¹dzie. Kara do ruchu ponad przeszkodami wynosi 30%.
+"	"{Lot}
+{Poziom zaawansowany}
+
+Bohater rzucaj¹cy czar mo¿e poruszaæ siê ponad przeszkodami je¿eli jego ruch zakoñczy siê na wolnym polu na l¹dzie. Kara do ruchu ponad przeszkodami wynosi 15%.
+"	"{Lot}
+{Poziom eksperta}
+
+Bohater rzucaj¹cy czar mo¿e poruszaæ siê ponad przeszkodami je¿eli jego ruch zakoñczy siê na wolnym polu na l¹dzie.
+"	 ADV_SPELL
+Spacer po wodzie	Spacer po wodzie	4	 	x	 	 	12	8	8	8	0	70	70	85	100	10	10	10	10	10	10	0	0	10	15	15	20	25	"{Spacer po wodzie}
+
+Bohater rzucaj¹cy czar mo¿e poruszaæ siê po wodzie je¿eli jego ruch zakoñczy siê na l¹dzie. Kara do ruchu po wodzie wynosi 30%.
+"	"{Spacer po wodzie}
+{Poziom podstawowy}
+
+Bohater rzucaj¹cy czar mo¿e poruszaæ siê po wodzie je¿eli jego ruch zakoñczy siê na l¹dzie. Kara do ruchu po wodzie wynosi 30%.
+"	"{Spacer po wodzie}
+{Poziom zaawansowany}
+
+Bohater rzucaj¹cy czar mo¿e poruszaæ siê po wodzie je¿eli jego ruch zakoñczy siê na l¹dzie. Kara do ruchu po wodzie wynosi 15%.
+"	"{Spacer po wodzie}
+{Poziom eksperta}
+
+Bohater rzucaj¹cy czar mo¿e poruszaæ siê po wodzie je¿eli jego ruch zakoñczy siê na l¹dzie.
+"	 ADV_SPELL
+Wrota wymiarów	Wrota wymiarów	5	 	 	x	 	25	20	20	20	0	1	1	2	3	0	20	20	20	20	20	0	0	20	30	30	150	150	"{Wrota wymiarów}
+
+Bohater rzucaj¹cy czar mo¿e przenieœæ siê w wybrane miejsce na mapie przygody, je¿eli jego ruch zakoñczy siê na pustym polu na l¹dzie. Czar ten mo¿e zostaæ rzucony raz dziennie, a bohater traci 300 punktów ruchu.
+"	"{Wrota wymiarów}
+{Poziom podstawowy}
+
+Bohater rzucaj¹cy czar mo¿e przenieœæ siê w wybrane miejsce na mapie przygody, je¿eli jego ruch zakoñczy siê na pustym polu na l¹dzie. Czar ten mo¿e zostaæ rzucony raz dziennie, a bohater za ka¿dym razem traci 300 punktów ruchu.
+"	"{Wrota wymiarów}
+{Poziom zaawansowany}
+
+Bohater rzucaj¹cy czar mo¿e przenieœæ siê w wybrane miejsce na mapie przygody, je¿eli jego ruch zakoñczy siê na pustym polu na l¹dzie. Czar ten mo¿e zostaæ rzucony raz dziennie, a bohater za ka¿dym razem traci 300 punktów ruchu.
+"	"{Wrota wymiarów}
+{Poziom eksperta}
+
+Bohater rzucaj¹cy czar mo¿e przenieœæ siê w wybrane miejsce na mapie przygody, je¿eli jego ruch zakoñczy siê na pustym polu na l¹dzie. Czar ten mo¿e zostaæ rzucony 2 razy dziennie, a bohater za ka¿dym razem traci 200 punktów ruchu.
+"	 ADV_SPELL
+Miejski portal	Miejski portal	4	 	x	 	 	25	20	28	28	0	0	0	0	0	15	15	15	15	15	15	0	0	15	30	30	150	150	"{Miejski portal}
+
+Przenosi rzucaj¹cego czar bohatera do najbli¿szego przyjaznego miasta. Bohater traci te¿ 300 punktów ruchu. Miasto nie mo¿e byæ zajête przez innego bohatera.
+"	"{Magiczny portal}
+{Poziom podstawowy}
+
+Przenosi rzucaj¹cego czar bohatera do najbli¿szego przyjaznego miasta. Bohater traci te¿ 300 punktów ruchu. Miasto nie mo¿e byæ zajête przez innego bohatera.
+"	"{Magiczny portal}
+{Poziom zaawansowany}
+
+Przenosi rzucaj¹cego czar bohatera do wybranego przyjaznego miasta. Bohater traci te¿ 300 punktów ruchu. Miasto nie mo¿e byæ zajête przez innego bohatera.
+"	"{Magiczny portal}
+{Poziom eksperta}
+
+Przenosi rzucaj¹cego czar bohatera do wybranego przyjaznego miasta. Bohater traci te¿ 200 punktów ruchu. Miasto nie mo¿e byæ zajête przez innego bohatera.
+"	 ADV_SPELL
+																																	
+Combat spells																																	
+																																	
+Ruchome piaski	Ruchome piaski	2	x	 	 	 	6	5	5	5	0	0	0	0	0	5	5	5	2	7	5	5	8	5	1	1	1	1	"{Ruchome piaski}
+
+Umieszcza losowo 6 pól ruchomych piasków na polu bitwy widocznych dla rzucaj¹cego i jednostek, dla których teren jest rodzimy. Oddzia³, który w nie wejdzie, traci ruch w danej turze i odkrywa pole dla wszystkich. Czar trwa do koñca bitwy.
+"	"{Ruchome piaski}
+{Poziom podstawowy}
+
+Umieszcza losowo 6 pól ruchomych piasków na polu bitwy widocznych dla rzucaj¹cego i jednostek, dla których teren jest rodzimy. Oddzia³, który w nie wejdzie, traci ruch w danej turze i odkrywa pole dla wszystkich. Czar trwa do koñca bitwy.
+"	"{Ruchome piaski}
+{Poziom zaawansowany}
+
+Umieszcza losowo 8 pól ruchomych piasków na polu bitwy widocznych dla rzucaj¹cego i jednostek, dla których teren jest rodzimy. Oddzia³, który w nie wejdzie, traci ruch w danej turze i odkrywa pole dla wszystkich. Czar trwa do koñca bitwy.
+"	"{Ruchome piaski}
+{Poziom eksperta}
+
+Umieszcza losowo 10 pól ruchomych piasków na polu bitwy widocznych dla rzucaj¹cego i jednostek, dla których teren jest rodzimy. Oddzia³, który w nie wejdzie, traci ruch w danej turze i odkrywa pole dla wszystkich. Czar trwa do koñca bitwy.
+"	 COMBAT_SPELL|LOCATION_TARGET
+Pole minowe	Pole minowe	2	 	 	x	 	6	5	5	5	10	25	25	50	100	5	5	10	10	2	7	5	5	5	1	1	1	1	"{Pole minowe}
+
+Umieszcza na polu bitwy 6 min widocznych dla rzucaj¹cego i jednostek, dla których teren jest rodzimy (miny nie wyrz¹dz¹ im szkód). Czar trwa do koñca bitwy.
+"	"{Pole minowe}
+{Poziom podstawowy}
+
+Umieszcza na polu bitwy 6 min widocznych dla rzucaj¹cego i jednostek, dla których teren jest rodzimy (miny nie wyrz¹dz¹ im szkód). Czar trwa do koñca bitwy.
+"	"{Pole minowe}
+{Poziom zaawansowany}
+
+Umieszcza na polu bitwy 7 min widocznych dla rzucaj¹cego i jednostek, dla których teren jest rodzimy (miny nie wyrz¹dz¹ im szkód). Czar trwa do koñca bitwy.
+"	"{Pole minowe}
+{Poziom eksperta}
+
+Umieszcza na polu bitwy 8 min widocznych dla rzucaj¹cego i jednostek, dla których teren jest rodzimy (miny nie wyrz¹dz¹ im szkód). Czar trwa do koñca bitwy.
+"	 COMBAT_SPELL|LOCATION_TARGET
+Pole si³owe	Pole si³owe	2	x	 	 	 	8	7	7	6	0	0	0	0	0	5	10	5	3	5	7	5	5	10	1	1	1	1	"{Pole si³owe}
+
+Tworzy we wskazanym miejscu 2-polowe pole si³owe, które dzia³a jak naturalna przeszkoda. Czas trwania czaru wynosi 2 tury.
+"	"{Pole si³owe}
+{Poziom podstawowy}
+
+Tworzy we wskazanym miejscu 2-polowe pole si³owe, które dzia³a jak naturalna przeszkoda. Czas trwania czaru wynosi 2 tury.
+"	"{Pole si³owe}
+{Poziom zaawansowany}
+
+Tworzy we wskazanym miejscu 3-polowe pole si³owe, które dzia³a jak naturalna przeszkoda. Czas trwania czaru wynosi 2 tury.
+"	"{Pole si³owe}
+{Poziom eksperta}
+
+Tworzy we wskazanym miejscu 3-polowe pole si³owe, które dzia³a jak naturalna przeszkoda. Czas trwania czaru wynosi 2 tury.
+"	 COMBAT_SPELL|LOCATION_TARGET
+Œciana ognia	Œciana ognia	3		 	x	 	8	6	6	6	15	10	10	20	50	3	1	5	15	8	10	3	5	12	1	1	1	1	"{Œciana ognia}
+
+Tworzy 2-polow¹ œcianê ognia na polu bitwy, która rani oddzia³y próbuj¹ce j¹ pokonaæ. Obra¿enia czaru to (10 + 15 x moc). Czas trwania czaru wynosi 2 tury.
+"	"{Œciana ognia}
+{Poziom podstawowy}
+
+Tworzy 2-polow¹ œcianê ognia na polu bitwy, która rani oddzia³y próbuj¹ce j¹ pokonaæ. Obra¿enia czaru to (10 + 15 x moc). Czas trwania czaru wynosi 2 tury.
+"	"{Œciana ognia}
+{Poziom zaawansowany}
+
+Tworzy 3-polow¹ œcianê ognia na polu bitwy, która rani oddzia³y próbuj¹ce j¹ pokonaæ. Obra¿enia czaru to (20 + 15 x moc). Czas trwania czaru wynosi 2 tury.
+"	"{Œciana ognia}
+{Poziom eksperta}
+
+Tworzy 3-polow¹ œcianê ognia na polu bitwy, która rani oddzia³y próbuj¹ce j¹ pokonaæ. Obra¿enia czaru to (50 + 15 x moc). Czas trwania czaru wynosi 2 tury.
+"	 COMBAT_SPELL|LOCATION_TARGET
+Trzêsienie ziemi	Trzêsienie ziemi	2	x	 	 	 	5	4	4	4	1	2	2	3	4	5	5	5	3	5	5	10	15	5	1	1	1	1	"{Trzêsienie ziemi}
+
+Uszkadza mury miasta w dwóch losowo wybranych miejscach.
+"	"{Trzêsienie ziemi}
+{Poziom podstawowy}
+
+Uszkadza mury miasta w dwóch losowo wybranych miejscach.
+"	"{Trzêsienie ziemi}
+{Poziom zaawansowany}
+
+Uszkadza mury miasta w trzech losowo wybranych miejscach.
+"	"{Trzêsienie ziemi}
+{Poziom eksperta}
+
+Uszkadza mury miasta w czterech losowo wybranych miejscach.
+"	 COMBAT_SPELL
+Magiczna strza³a	Magiczna strza³a	2	x	x	x	x	6	5	5	4	10	10	10	20	30	20	20	25	20	20	25	15	15	30	10	10	10	10	"{Magiczna strza³a}
+
+Wysy³a pocisk magicznej energii, zadaj¹cy (10 + 10 x moc) punktów obra¿eñ.
+"	"{Magiczna strza³a}
+{Poziom podstawowy}
+
+Wysy³a pocisk magicznej energii, zadaj¹cy (10 + 10 x moc) punktów obra¿eñ.
+"	"{Magiczna strza³a }
+{Poziom zaawansowany}
+
+Wysy³a pocisk magicznej energii, zadaj¹cy (20 + 10 x moc) punktów obra¿eñ.
+"	"{Magiczna strza³a}
+{Poziom eksperta}
+
+Wysy³a pocisk magicznej energii, zadaj¹cy (30 + 10 x moc) punktów obra¿eñ.
+"	 COMBAT_SPELL|CREATURE_TARGET
+Lodowy pocisk	Lodowy pocisk	3	 	x	 	 	8	6	6	6	20	10	10	20	50	20	15	10	0	8	10	10	15	12	20	20	20	20	"{Lodowy pocisk}
+
+Wysysa ciep³o z cia³ wrogów, zadaj¹c im (10 + 20 x moc) punktów obra¿eñ.
+"	"{Lodowy pocisk}
+{Poziom podstawowy}
+
+Wysysa ciep³o z cia³ wrogów, zadaj¹c im (10 + 20 x moc) punktów obra¿eñ.
+"	"{Lodowy pocisk}
+{Poziom zaawansowany}
+
+Wysysa ciep³o z cia³ wrogów, zadaj¹c im (20 + 20 x moc) punktów obra¿eñ.
+"	"{Lodowy pocisk}
+{Poziom eksperta}
+
+Wysysa ciep³o z cia³ wrogów, zadaj¹c im (50 + 20 x moc) punktów obra¿eñ.
+"	 COMBAT_SPELL|CREATURE_TARGET
+B³yskawica	B³yskawica	3	 	 	 	x	9	7	7	7	25	10	10	20	50	5	15	15	10	10	15	10	5	12	25	25	25	25	"{B³yskawica}
+
+Œci¹ga uderzenie pioruna na oddzia³ wroga, zadaj¹c mu (10 + 25 x moc) punktów obra¿eñ.
+"	"{B³yskawica}
+{Poziom podstawowy}
+
+Œci¹ga uderzenie pioruna na oddzia³ wroga, zadaj¹c mu (10 + 25 x moc) punktów obra¿eñ.
+"	"{B³yskawica}
+{Poziom zaawansowany}
+
+Œci¹ga uderzenie pioruna na oddzia³ wroga, zadaj¹c mu (20 + 25 x moc) punktów obra¿eñ.
+"	"{B³yskawica}
+{Poziom eksperta}
+
+Œci¹ga uderzenie pioruna na oddzia³ wroga, zadaj¹c mu (50 + 25 x moc) punktów obra¿eñ.
+"	 COMBAT_SPELL|CREATURE_TARGET
+Implozja	Implozja	5	x	 	 	 	32	28	28	28	75	100	100	200	300	0	15	20	20	10	25	0	0	20	75	75	75	75	"{Implozja}
+
+Rozrywa cia³a wrogów zadaj¹c (100 + 75 x moc) obra¿eñ wybranemu oddzia³owi.
+"	"{Implozja}
+{Poziom podstawowy}
+
+Rozrywa cia³a wrogów zadaj¹c (100 + 75 x moc) obra¿eñ wybranemu oddzia³owi.
+"	"{Implozja}
+{Poziom zaawansowany}
+
+Rozrywa cia³a wrogów zadaj¹c (200 + 75 x moc) obra¿eñ wybranemu oddzia³owi.
+"	"{Implozja}
+{Poziom eksperta}
+
+Rozrywa cia³a wrogów zadaj¹c (300 + 75 x moc) obra¿eñ wybranemu oddzia³owi.
+"	 COMBAT_SPELL|CREATURE_TARGET
+£añcuch piorunów	£añcuch piorunów	5	 	 	 	x	22	19	19	19	40	25	25	50	100	0	15	20	15	5	15	0	0	20	75	75	75	75	"{£añcuch piorunów}
+
+Œci¹ga uderzenie pioruna na wybrany oddzia³ wroga, zadaj¹c mu (25 + 40 x moc) punktów obra¿eñ. Piorun nastêpnie przeskakuje dalej na trzy kolejne oddzia³y, zadaj¹c ka¿demu kolejnemu o 50% mniej obra¿eñ.
+"	"{£añcuch piorunów}
+{Poziom podstawowy}
+
+Œci¹ga uderzenie pioruna na wybrany oddzia³ wroga, zadaj¹c mu (25 + 40 x moc) punktów obra¿eñ. Piorun nastêpnie przeskakuje dalej na trzy kolejne oddzia³y, zadaj¹c ka¿demu kolejnemu o 50% mniej obra¿eñ.
+"	"{£añcuch piorunów}
+{Poziom zaawansowany}
+
+Œci¹ga uderzenie pioruna na wybrany oddzia³ wroga, zadaj¹c mu (50 + 40 x moc) punktów obra¿eñ. Piorun nastêpnie przeskakuje dalej na cztery kolejne oddzia³y, zadaj¹c ka¿demu kolejnemu o 50% mniej obra¿eñ.
+"	"{£añcuch piorunów}
+{Poziom eksperta}
+
+Œci¹ga uderzenie pioruna na wybrany oddzia³ wroga, zadaj¹c mu (100 + 40 x moc) punktów obra¿eñ. Piorun nastêpnie przeskakuje dalej na piêæ kolejnych oddzia³ów, zadaj¹c ka¿demu kolejnemu o 50% mniej obra¿eñ
+"	 COMBAT_SPELL|CREATURE_TARGET
+Kr¹g zimna	Kr¹g zimna	4	 	x	 	 	14	12	12	12	18	15	15	30	60	15	15	10	0	5	5	0	0	6	18	18	18	18	"{Kr¹g zimna}
+
+Wysysa ciep³o z krêgu pól dooko³a wybranego pola, zadaj¹c wszystkim trafionym oddzia³om (15 + 18 x moc) punktów obra¿eñ.
+"	"{Kr¹g zimna}
+{Poziom podstawowy}
+
+Wysysa ciep³o z krêgu dooko³a wybranego hexu, zadaj¹c wszystkim trafionym oddzia³om (15 + 18 x moc) punktów obra¿eñ.
+"	"{Kr¹g zimna}
+{Poziom zaawansowany}
+
+Wysysa ciep³o z krêgu dooko³a wybranego hexu, zadaj¹c wszystkim trafionym oddzia³om (30 + 18 x moc) punktów obra¿eñ.
+"	"{Kr¹g zimna}
+{Poziom eksperta}
+
+Wysysa ciep³o z krêgu dooko³a wybranego hexu, zadaj¹c wszystkim trafionym oddzia³om (60 + 18 x moc) punktów obra¿eñ.
+"	 COMBAT_SPELL|LOCATION_TARGET
+Kula ognia	Kula ognia	3	 	 	x	 	10	8	8	8	10	15	15	30	60	5	1	10	15	8	10	5	5	12	15	15	15	15	"{Kula ognia}
+
+Potê¿na kula ognia sprawia, ¿e wszystkie oddzia³y na wybranym polu i polach przylegaj¹cych do niego staj¹ w p³omieniach i otrzymuj¹ (15 + 10 x moc) punktów obra¿eñ.
+"	"{Kula ognia}
+{Poziom podstawowy}
+
+Potê¿na kula ognia sprawia, ¿e wszystkie oddzia³y na wybranym polu i polach przylegaj¹cych do niego staj¹ w p³omieniach i otrzymuj¹ (15 + 10 x moc) punktów obra¿eñ.
+"	"{Kula ognia}
+{Poziom zaawansowany}
+
+Potê¿na kula ognia sprawia, ¿e wszystkie oddzia³y na wybranym polu i polach przylegaj¹cych do niego staj¹ w p³omieniach i otrzymuj¹ (30 + 10 x moc) punktów obra¿eñ.
+"	"{Kula ognia}
+{Poziom eksperta}
+
+Potê¿na kula ognia sprawia, ¿e wszystkie oddzia³y na wybranym polu i polach przylegaj¹cych do niego staj¹ w p³omieniach i otrzymuj¹ (60 + 10 x moc) punktów obra¿eñ.
+"	 COMBAT_SPELL|LOCATION_TARGET
+Inferno	Inferno	4	 	 	x	 	18	16	16	16	18	20	20	40	80	5	5	5	15	5	10	0	0	6	20	20	20	20	"{Inferno}
+
+Potê¿ny wybuch zadaje (20 + 18 x moc) punktów obra¿eñ wszystkim oddzia³om w zasiêgu 2 pól od wybranego pola.
+"	"{Inferno}
+{Poziom podstawowy}
+
+Potê¿ny wybuch zadaje (20 + 18 x moc) punktów obra¿eñ wszystkim oddzia³om w zasiêgu 2 pól od wybranego pola.
+"	"{Inferno}
+{Poziom zaawansowany}
+
+Potê¿ny wybuch zadaje (40 + 18 x moc) punktów obra¿eñ wszystkim oddzia³om w zasiêgu 2 pól od wybranego pola.
+"	"{Inferno}
+{Poziom eksperta}
+
+Potê¿ny wybuch zadaje (80 + 18 x moc) punktów obra¿eñ wszystkim oddzia³om w zasiêgu 2 pól od wybranego pola.
+"	 COMBAT_SPELL|LOCATION_TARGET
+Deszcz meteorów	Deszcz meteorów	5	x	 	 	 	20	17	17	17	25	25	25	50	100	0	15	10	15	10	15	0	0	20	37	37	37	37	"{Deszcz meteorów}
+
+Sprowadza deszcz meteorów na wybrany oddzia³ oraz na inne jednostki znajduj¹ce siê w jego s¹siedztwie, zadaj¹c im (25 + 25 x moc) punktów obra¿eñ.
+"	"{Deszcz meteorów}
+{Poziom podstawowy}
+
+Sprowadza deszcz meteorów na wybrany oddzia³ oraz na inne jednostki znajduj¹ce siê w jego s¹siedztwie, zadaj¹c im (25 + 25 x moc) punktów obra¿eñ.
+"	"{Deszcz meteorów}
+{Poziom zaawansowany}
+
+Sprowadza deszcz meteorów na wybrany oddzia³ oraz na inne jednostki znajduj¹ce siê w jego s¹siedztwie, zadaj¹c im (50 + 25 x moc) punktów obra¿eñ.
+"	"{Deszcz meteorów}
+{Poziom eksperta}
+
+Sprowadza deszcz meteorów na wybrany oddzia³ oraz na inne jednostki znajduj¹ce siê w jego s¹siedztwie, zadaj¹c im (100 + 25 x moc) punktów obra¿eñ.
+"	 COMBAT_SPELL|LOCATION_TARGET
+Fala œmierci	Fala œmierci	2	x	 	 	 	7	5	5	5	5	10	10	20	30	0	0	0	0	20	0	0	0	0	20	20	20	20	"{Fala œmierci}
+
+Wysy³a falê œmierci, która zadaje (10 + 5 x moc) punktów obra¿eñ wszystkim ¿ywym jednostki znajduj¹cym siê na polu bitwy.
+"	"{Fala œmierci}
+{Poziom podstawowy}
+
+Wysy³a falê œmierci, która zadaje (10 + 5 x moc) punktów obra¿eñ wszystkim ¿ywym jednostki znajduj¹cym siê na polu bitwy.
+"	"{Fala œmierci}
+{Poziom zaawansowany}
+
+Wysy³a falê œmierci, która zadaje (20 + 5 x moc) punktów obra¿eñ wszystkim ¿ywym jednostki znajduj¹cym siê na polu bitwy.
+"	"{Fala œmierci}
+{Poziom eksperta}
+
+Wysy³a falê œmierci, która zadaje (30 + 5 x moc) punktów obra¿eñ wszystkim ¿ywym jednostki znajduj¹cym siê na polu bitwy.
+"	 COMBAT_SPELL
+Zniszcz. nieumar³ych	Zniszcz. nieumar.	3	 	 	 	x	13	10	10	10	10	10	10	20	50	20	5	5	5	0	5	5	5	5	40	40	40	40	"{Zniszczenie nieumar³ych}
+
+Zadaje wszystkim nieumar³ym znajduj¹cym siê na polu bitwy (10 + 10 x moc) punktów obra¿eñ.
+"	"{Zniszczenie nieumar³ych}
+{Poziom podstawowy}
+
+Zadaje wszystkim nieumar³ym znajduj¹cym siê na polu bitwy (10 + 10 x moc) punktów obra¿eñ.
+"	"{Zniszczenie nieumar³ych}
+{Poziom zaawansowany}
+
+Zadaje wszystkim nieumar³ym znajduj¹cym siê na polu bitwy (20 + 10 x moc) punktów obra¿eñ.
+"	"{Zniszczenie nieumar³ych}
+{Poziom eksperta}
+
+Zadaje wszystkim nieumar³ym znajduj¹cym siê na polu bitwy (50 + 10 x moc) punktów obra¿eñ.
+"	 COMBAT_SPELL
+Armagedon	Armagedon	4	 	 	x	 	22	18	18	18	40	30	30	60	120	0	0	0	10	5	10	0	0	0	100	100	100	100	"{Armagedon}
+
+Zrzuca deszcz ognia i siarki na pole bitwy zadaj¹c (30 + 40 x moc) punktów obra¿eñ wszystkim jednostkom.
+"	"{Armagedon}
+{Poziom podstawowy}
+
+Zrzuca deszcz ognia i siarki na pole bitwy zadaj¹c (30 + 40 x moc) punktów obra¿eñ wszystkim jednostkom.
+"	"{Armagedon}
+{Poziom zaawansowany}
+
+Zrzuca deszcz ognia i siarki na pole bitwy zadaj¹c (60 + 40 x moc) punktów obra¿eñ wszystkim jednostkom.
+"	"{Armagedon}
+{Poziom eksperta}
+
+Zrzuca deszcz ognia i siarki na pole bitwy zadaj¹c (120 + 40 x moc) punktów obra¿eñ wszystkim jednostkom.
+"	 COMBAT_SPELL
+Tarcza	Tarcza	2	x	 	 	 	5	4	4	7	0	85	85	70	70	10	5	5	5	10	5	5	7	5	10	10	20	20	"{Tarcza}
+
+Zmniejsza obra¿enia zadawane w walce wrêcz wybranemu przyjaznemu oddzia³owi o 15%. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Tarcza}
+{Poziom podstawowy}
+
+Zmniejsza obra¿enia zadawane w walce wrêcz wybranemu przyjaznemu oddzia³owi o 15%. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Tarcza}
+{Poziom zaawansowany}
+
+Zmniejsza obra¿enia zadawane w walce wrêcz wybranemu przyjaznemu oddzia³owi o 30%. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Tarcza}
+{Poziom eksperta}
+
+Zmniejsza obra¿enia zadawane w walce wrêcz wszystkim przyjaznym oddzia³om o 30%. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET_2
+Tarcza powietrza	Tarcza powietrza	3	 	 	 	x	5	4	4	7	0	75	75	50	50	7	5	5	5	8	5	5	5	7	20	20	50	50	"{Tarcza powietrza}
+
+Zmniejsza obra¿enia zadawane na odleg³oœæ wybranemu przyjaznemu oddzia³owi o 25%. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Tarcza powietrza}
+{Poziom podstawowy}
+
+Zmniejsza obra¿enia zadawane na odleg³oœæ wybranemu przyjaznemu oddzia³owi o 25%. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Tarcza powietrza}
+{Poziom zaawansowany}
+
+Zmniejsza obra¿enia zadawane na odleg³oœæ wybranemu przyjaznemu oddzia³owi o 50%. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Tarcza powietrza}
+{Poziom eksperta}
+
+Zmniejsza obra¿enia zadawane na odleg³oœæ wszystkim przyjaznym oddzia³om o 50%. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET_2
+Tarcza ognia	Tarcza ognia	1	 	 	x	 	4	3	3	3	0	20	20	25	30	5	5	10	10	5	10	5	5	5	10	10	12	15	"{Tarcza ognia}
+
+Wybrany oddzia³ zostaje objêty tarcz¹ ognia, która odbija 20% otrzymanych obra¿eñ zadanych w zwarciu. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Tarcza ognia}
+{Poziom podstawowy}
+
+Wybrany oddzia³ zostaje objêty tarcz¹ ognia, która odbija 20% otrzymanych obra¿eñ zadanych w zwarciu. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Tarcza ognia}
+{Poziom zaawansowany}
+
+Wybrany oddzia³ zostaje objêty tarcz¹ ognia, która odbija 25% otrzymanych obra¿eñ zadanych w zwarciu. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Tarcza ognia}
+{Poziom eksperta}
+
+Wybrany oddzia³ zostaje objêty tarcz¹ ognia, która odbija 30% otrzymanych obra¿eñ zadanych w zwarciu. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET
+Ochr. przed powiet.	Ochr. powietrze	1		 	 	x	3	2	2	2	0	50	50	25	25	5	5	7	5	5	7	5	5	10	2	2	4	4	"{Ochrona przed powietrzem}
+
+Chroni wybrany oddzia³ zmniejszaj¹c obra¿enia zadawane przez zaklêcia oparte na magii powietrza. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+
+Redukcja obra¿eñ wynosi 50%."	"{Ochrona przed powietrzem}
+{Poziom podstawowy}
+
+Chroni wybrany oddzia³ zmniejszaj¹c obra¿enia zadawane przez zaklêcia oparte na magii powietrza. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+
+Redukcja obra¿eñ wynosi 50%."	"{Ochrona przed powietrzem}
+{Poziom zaawansowany}
+
+Chroni wybrany oddzia³ zmniejszaj¹c obra¿enia zadawane przez zaklêcia oparte na magii powietrza. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+
+Redukcja obra¿eñ wynosi 75%."	"{Ochrona przed powietrzem}
+{Poziom eksperta}
+
+Chroni wszystkie sojusznicze oddzia³y zmniejszaj¹c obra¿enia zadawane przez zaklêcia oparte na magii powietrza. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+
+Redukcja obra¿eñ wynosi 75%."	 COMBAT_SPELL|CREATURE_TARGET_2
+Ochr. przed ogniem	Ochr. ogieñ	1	 		x	 	3	2	2	2	0	50	50	25	25	5	5	7	10	5	7	5	5	10	2	2	4	4	"{Ochrona przed ogniem}
+
+Chroni wybrany oddzia³ zmniejszaj¹c obra¿enia zadawane przez zaklêcia oparte na magii ognia. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+
+Redukcja obra¿eñ wynosi 50%."	"{Ochrona przed ogniem}
+{Poziom podstawowy}
+
+Chroni wybrany oddzia³ zmniejszaj¹c obra¿enia zadawane przez zaklêcia oparte na magii ognia. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+
+Redukcja obra¿eñ wynosi 50%."	"{Ochrona przed ogniem}
+{Poziom zaawansowany}
+
+Chroni wybrany oddzia³ zmniejszaj¹c obra¿enia zadawane przez zaklêcia oparte na magii ognia. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+
+Redukcja obra¿eñ wynosi 75%."	"{Ochrona przed ogniem}
+{Poziom eksperta}
+
+Chroni wszystkie sojusznicze oddzia³y zmniejszaj¹c obra¿enia zadawane przez zaklêcia oparte na magii ognia. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+
+Redukcja obra¿eñ wynosi 75%."	 COMBAT_SPELL|CREATURE_TARGET_2
+Ochrona przed wod¹	Ochr. woda	1	 	x		 	3	2	2	2	0	50	50	25	25	5	5	7	5	5	7	5	5	10	2	2	4	4	"{Ochrona przed wod¹}
+
+Chroni wybrany oddzia³ zmniejszaj¹c obra¿enia zadawane przez zaklêcia oparte na magii wody. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+
+Redukcja obra¿eñ wynosi 50%."	"{Ochrona przed wod¹}
+{Poziom podstawowy}
+
+Chroni wybrany oddzia³ zmniejszaj¹c obra¿enia zadawane przez zaklêcia oparte na magii wody. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+
+Redukcja obra¿eñ wynosi 50%."	"{Ochrona przed wod¹}
+{Poziom zaawansowany}
+
+Chroni wybrany oddzia³ zmniejszaj¹c obra¿enia zadawane przez zaklêcia oparte na magii wody. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+
+Redukcja obra¿eñ wynosi 75%."	"{Ochrona przed wod¹}
+{Poziom eksperta}
+
+Chroni wszystkie sojusznicze oddzia³y zmniejszaj¹c obra¿enia zadawane przez zaklêcia oparte na magii wody. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+
+Redukcja obra¿eñ wynosi 75%."	 COMBAT_SPELL|CREATURE_TARGET_2
+Ochrona przed ziemi¹	Ochr. ziemia	1	x	 	 		3	2	2	2	0	50	50	25	25	5	5	7	5	5	7	5	5	10	2	2	4	4	"{Ochrona przed ziemi¹}
+
+Chroni wybrany oddzia³ zmniejszaj¹c obra¿enia zadawane przez zaklêcia oparte na magii ziemi. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+
+Redukcja obra¿eñ wynosi 50%."	"{Ochrona przed ziemi¹}
+{Poziom podstawowy}
+
+Chroni wybrany oddzia³ zmniejszaj¹c obra¿enia zadawane przez zaklêcia oparte na magii ziemi. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+
+Redukcja obra¿eñ wynosi 50%."	"{Ochrona przed ziemi¹}
+{Poziom zaawansowany}
+
+Chroni wybrany oddzia³ zmniejszaj¹c obra¿enia zadawane przez zaklêcia oparte na magii ziemi. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+
+Redukcja obra¿eñ wynosi 75%."	"{Ochrona przed ziemi¹}
+{Poziom eksperta}
+
+Chroni wszystkie sojusznicze oddzia³y zmniejszaj¹c obra¿enia zadawane przez zaklêcia oparte na magii ziemi. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+
+Redukcja obra¿eñ wynosi 75%."	 COMBAT_SPELL|CREATURE_TARGET_2
+Antymagia	Antymagia	3	x	 	 	 	15	12	12	12	0	4	4	5	6	5	10	5	5	8	2	15	5	5	10	10	15	20	"{Antymagia}
+
+Wybrany sojuszniczy oddzia³ zostaje poddany ochronie przed czarami poziomów 1-3. Czar rozprasza równie¿ wszelkie negatywne efekty magiczne. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Antymagia}
+{Poziom podstawowy}
+
+Wybrany sojuszniczy oddzia³ zostaje poddany ochronie przed czarami poziomów 1-3. Czar rozprasza równie¿ wszelkie negatywne efekty magiczne. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Antymagia}
+{Poziom zaawansowany}
+
+Wybrany sojuszniczy oddzia³ zostaje poddany ochronie przed czarami poziomów 1-4. Czar rozprasza równie¿ wszelkie negatywne efekty magiczne. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Antymagia}
+{Poziom eksperta}
+
+Wybrany sojuszniczy oddzia³ staje siê niepodatny na magiê. Czar rozprasza równie¿ wszelkie negatywne efekty magiczne. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET
+Rozproszenie	Rozproszenie	1	 	x	 	 	3	2	2	3	0	0	0	0	0	5	5	7	5	10	5	5	5	5	3	3	3	3	"{Rozproszenie}
+
+Usuwa dzia³anie wszystkich czarów, pod których wp³ywem znajduje siê wybrany sojuszniczy oddzia³.
+"	"{Rozproszenie}
+{Poziom podstawowy}
+
+Usuwa dzia³anie wszystkich czarów, pod których wp³ywem znajduje siê wybrany sojuszniczy oddzia³.
+"	"{Rozproszenie}
+{Poziom zaawansowany}
+
+Usuwa dzia³anie wszystkich czarów, pod których wp³ywem znajduje siê wybrany oddzia³.
+"	"{Rozproszenie}
+{Poziom eksperta}
+
+Usuwa wszystkie efekty wp³ywaj¹ce na wszystkie oddzia³y, a tak¿e na pole bitwy.
+"	 COMBAT_SPELL|CREATURE_TARGET_1
+Magiczne zwierciad³o	Mag. zwierciad³o	1	 	 	 	x	4	3	3	3	0	40	40	60	80	5	10	5	0	0	7	5	5	5	3	3	4	4	"{Magiczne zwierciad³o}
+
+Wybrany oddzia³ ma 40% szans na odbicie rzuconego przez wroga zaklêcia na losow¹ wrog¹ jednostkê. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Magiczne zwierciad³o}
+{Poziom podstawowy}
+
+Wybrany oddzia³ ma 40% szans na odbicie rzuconego przez wroga zaklêcia na losow¹ wrog¹ jednostkê. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Magiczne zwierciad³o}
+{Poziom zaawansowany}
+
+Wybrany oddzia³ ma 60% szans na odbicie rzuconego przez wroga zaklêcia na losow¹ wrog¹ jednostkê. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Magiczne zwierciad³o}
+{Poziom eksperta}
+
+Wybrany oddzia³ ma 80% szans na odbicie rzuconego przez wroga zaklêcia na losow¹ wrog¹ jednostkê. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET
+Uleczenie	Uleczenie	2	 	x	 	 	5	4	4	5	7	10	10	20	30	10	10	5	2	5	5	3	7	5	4	4	4	4	"{Uleczenie}
+
+Usuwa dzia³anie wszystkich negatywnych zaklêæ oraz regeneruje (10 + 7 x moc) punktów ¿ycia wybranego oddzia³u.
+"	"{Uleczenie}
+{Poziom podstawowy}
+
+Usuwa dzia³anie wszystkich negatywnych zaklêæ oraz regeneruje (10 + 7 x moc) punktów ¿ycia wybranego oddzia³u.
+"	"{Uleczenie}
+{Poziom zaawansowany}
+
+Usuwa dzia³anie wszystkich negatywnych zaklêæ oraz regeneruje (20 + 7 x moc) punktów ¿ycia wybranego oddzia³u.
+"	"{Uleczenie}
+{Poziom eksperta}
+
+Usuwa dzia³anie wszystkich negatywnych zaklêæ oraz regeneruje (30 + 7 x moc) punktów ¿ycia wybranego oddzia³u.
+"	 COMBAT_SPELL|CREATURE_TARGET_1
+Wskrzeszenie	Wskrzeszenie	5	x	 	 	 	22	20	20	20	50	40	40	80	160	0	20	15	15	0	10	0	0	5	50	50	60	120	"{Wskrzeszenie}
+
+Tymczasowo wskrzesza (40 + 50 x moc) punktów ¿ycia ¿yj¹cych oddzia³ów poleglych w bitwie.
+"	"{Wskrzeszenie}
+{Poziom podstawowy}
+
+Tymczasowo wskrzesza (40 + 50 x moc) punktów ¿ycia ¿yj¹cych oddzia³ów poleglych w bitwie.
+"	"{Wskrzeszenie}
+{Poziom zaawansowany}
+
+Wskrzesza (80 + 50 x moc) punktów ¿ycia ¿yj¹cych oddzia³ów poleglych w bitwie.
+"	"{Wskrzeszenie}
+{Poziom eksperta}
+
+Wskrzesza (160 + 50 x moc) punktów ¿ycia ¿yj¹cych oddzia³ów poleglych w bitwie.
+"	 COMBAT_SPELL|CREATURE_TARGET
+O¿ywienie	O¿ywienie	5	x	 	 	 	24	20	20	20	50	30	30	60	160	0	0	0	0	40	0	0	0	0	60	60	60	120	"{O¿ywienie}
+
+O¿ywia (30 + 50 x moc) punktów ¿ycia nieumar³ych oddzia³ów poleglych w bitwie.
+"	"{O¿ywienie}
+{Poziom podstawowy}
+
+O¿ywia (30 + 50 x moc) punktów ¿ycia nieumar³ych oddzia³ów poleglych w bitwie.
+"	"{O¿ywienie}
+{Poziom zaawansowany}
+
+O¿ywia (60 + 50 x moc) punktów ¿ycia nieumar³ych oddzia³ów poleglych w bitwie.
+"	"{O¿ywienie}
+{Poziom eksperta}
+
+O¿ywia (160 + 50 x moc) punktów ¿ycia nieumar³ych oddzia³ów poleglych w bitwie.
+"	 COMBAT_SPELL|CREATURE_TARGET
+Ofiara	Ofiara	2	 	 	x	 	8	6	6	6	1	3	3	6	10	0	0	0	15	4	10	5	5	0	1	1	1	1	"{Ofiara}
+
+Wskazany oddzia³ zostanie wskrzeszony a kolejny wybrany - unicestwiony. Iloœæ wskrzeszonych punktów ¿ycia wynosi ((3 + moc + iloœæ punktów ¿ycia poœwiêconej istoty) x iloœæ poœwiêconych istot).
+"	"{Ofiara}
+{Poziom podstawowy}
+
+Wskazany oddzia³ zostanie wskrzeszony a kolejny wybrany - unicestwiony. Iloœæ wskrzeszonych punktów ¿ycia wynosi ((3 + moc + iloœæ punktów ¿ycia poœwiêconej istoty) x iloœæ poœwiêconych istot).
+"	"{Ofiara}
+{Poziom zaawansowany}
+
+Wskazany oddzia³ zostanie wskrzeszony a kolejny wybrany - unicestwiony. Iloœæ wskrzeszonych punktów ¿ycia wynosi ((6 + moc + iloœæ punktów ¿ycia poœwiêconej istoty) x iloœæ poœwiêconych istot).
+"	"{Ofiara}
+{Poziom eksperta}
+
+Wskazany oddzia³ zostanie wskrzeszony a kolejny wybrany - unicestwiony. Iloœæ wskrzeszonych punktów ¿ycia wynosi ((10 + moc + iloœæ punktów ¿ycia poœwiêconej istoty) x iloœæ poœwiêconych istot).
+"	 COMBAT_SPELL|CREATURE_TARGET
+B³ogos³awieñstwo	B³ogos³awieñstwo	2	 	x	 	 	5	4	4	6	0	0	0	1	1	5	5	5	0	0	3	5	5	5	10	10	11	11	"{B³ogos³awieñstwo}
+
+Wskazany sojuszniczy oddzia³ zadaje maksymaln¹ iloœæ obra¿eñ. Usuwa efekt kl¹twy. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{B³ogos³awieñstwo}
+{Poziom podstawowy}
+
+Wskazany sojuszniczy oddzia³ zadaje maksymaln¹ iloœæ obra¿eñ. Usuwa efekt kl¹twy. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{B³ogos³awieñstwo}
+{Poziom zaawansowany}
+
+Obra¿enia bazowe wskazanego sojuszniczego oddzia³u zostaj¹ zwiêkszone o 1, a obra¿enia zadawane zostaj¹ zmaksymalizowane. Usuwa efekt kl¹twy. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{B³ogos³awieñstwo}
+{Poziom eksperta}
+
+Obra¿enia bazowe wszystkich sojuszniczych oddzia³ów zostaj¹ zwiêkszone o 1, a obra¿enia zadawane zostaj¹ zmaksymalizowane. Usuwa efekt kl¹twy. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET_2
+Kl¹twa	Kl¹twa	2	 		x	 	5	4	4	6	0	0	0	1	1	0	0	5	8	5	5	0	0	0	10	10	11	11	"{Kl¹twa}
+
+Wskazany wrogi oddzia³ zadaje minimaln¹ iloœæ obra¿eñ. Usuwa efekt b³ogos³awieñstwa. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Kl¹twa}
+{Poziom podstawowy}
+
+Wskazany wrogi oddzia³ zadaje minimaln¹ iloœæ obra¿eñ. Usuwa efekt b³ogos³awieñstwa. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Kl¹twa}
+{Poziom zaawansowany}
+
+Obra¿enia bazowe wskazanego wrogiego oddzia³u zostaj¹ obni¿one o 1, a obra¿enia zadawane zredukowane s¹ do minimum. Usuwa efekt b³ogos³awieñstwa. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Kl¹twa}
+{Poziom eksperta}
+
+Obra¿enia bazowe wszystkich wrogich oddzia³ów zostaj¹ obni¿one o 1, a obra¿enia zadawane zredukowane s¹ do minimum. Usuwa efekt b³ogos³awieñstwa. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET_2
+¯¹dza krwi	¯¹dza krwi	2	 	 	x	 	5	4	4	5	0	4	4	6	6	0	0	0	10	0	3	15	3	0	7	7	15	15	"{¯¹dza krwi}
+
+Czar umys³u. Zwiêksza parametr ataku wybranego przyjaznego oddzia³u o 4 punkty (dotyczy tylko walki w zwarciu). Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{¯¹dza krwi}
+{Poziom podstawowy}
+
+Czar umys³u. Zwiêksza parametr ataku wybranego przyjaznego oddzia³u o 4 punkty (dotyczy tylko walki w zwarciu). Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{¯¹dza krwi}
+{Poziom zaawansowany}
+
+Czar umys³u. Zwiêksza parametr ataku wybranego przyjaznego oddzia³u o 6 punktów (dotyczy tylko walki w zwarciu). Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{¯¹dza krwi}
+{Poziom eksperta}
+
+Czar umys³u. Zwiêksza parametr ataku wszystkich przyjaznych oddzia³ów o 6 punktów (dotyczy tylko walki w zwarciu). Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET_2
+Precyzja	Precyzja	2	 	 	 	x	5	4	4	4	0	4	4	6	6	5	5	5	3	3	3	3	4	5	7	7	15	15	"{Precyzja}
+
+Zwiêksza parametr ataku wybranego przyjaznego oddzia³u ³uczniczego o 4 punkty (dotyczy tylko ataków dystansowych). Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Precyzja}
+{Poziom podstawowy}
+
+Zwiêksza parametr ataku wybranego przyjaznego oddzia³u ³uczniczego o 4 punkty (dotyczy tylko ataków dystansowych). Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Precyzja}
+{Poziom zaawansowany}
+
+Zwiêksza parametr ataku wybranego przyjaznego oddzia³u ³uczniczego o 6 punktów (dotyczy tylko ataków dystansowych). Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Precyzja}
+{Poziom eksperta}
+
+Zwiêksza parametr ataku wszystkich przyjaznych oddzia³ów ³uczniczych o 6 punktów (dotyczy tylko ataków dystansowych). Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET_2
+Os³abienie	Os³abienie	2	 	x	 	 	5	4	4	6	0	4	4	6	6	5	5	5	3	3	3	5	4	5	7	7	15	15	"{Os³abienie}
+
+Zmniejsza parametr ataku wskazanego wrogiego oddzia³u o 4 punkty. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Os³abienie}
+{Poziom podstawowy}
+
+Zmniejsza parametr ataku wskazanego wrogiego oddzia³u o 4 punkty. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Os³abienie}
+{Poziom zaawansowany}
+
+Zmniejsza parametr ataku wskazanego wrogiego oddzia³u o 6 punktów. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Os³abienie}
+{Poziom eksperta}
+
+Zmniejsza parametr ataku wszystkich wrogich oddzia³ów o 6 punktów. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET_2
+Kamienna skóra	Kamienna skóra	2	x	 	 	 	5	4	4	5	0	4	4	6	6	5	10	5	3	3	3	5	5	5	7	7	15	15	"{Kamienna skóra}
+
+Zwiêksza parametr obrony wybranego przyjaznego oddzia³u o 4 punkty. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Kamienna skóra}
+{Poziom podstawowy}
+
+Zwiêksza parametr obrony wybranego przyjaznego oddzia³u o 4 punkty. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Kamienna skóra}
+{Poziom zaawansowany}
+
+Zwiêksza parametr obrony wybranego przyjaznego oddzia³u o 6 punktów. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Kamienna skóra}
+{Poziom eksperta}
+
+Zwiêksza parametr obrony wszystkich przyjaznych oddzia³ów o 6 punktów. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET_2
+Promieñ os³abienia	Prom. Os³abienia	2	 	 	 	x	6	5	5	5	0	4	4	5	6	5	5	5	3	3	3	4	4	5	7	7	15	15	"{Promieñ os³abienia}
+
+Zmniejsza parametr obrony wybranego wrogiego oddzia³u o 4 punkty. Czar mo¿e byæ rzucany wielokrotnie na ten sam oddzia³ - efekt kumuluje siê i trwa do koñca bitwy."	"{Promieñ os³abienia}
+{Poziom podstawowy}
+
+Zmniejsza parametr obrony wybranego wrogiego oddzia³u o 4 punkty. Czar mo¿e byæ rzucany wielokrotnie na ten sam oddzia³ - efekt kumuluje siê i trwa do koñca bitwy.
+"	"{Promieñ os³abienia}
+{Poziom zaawansowany}
+
+Zmniejsza parametr obrony wybranego wrogiego oddzia³u o 5 punkty. Czar mo¿e byæ rzucany wielokrotnie na ten sam oddzia³ - efekt kumuluje siê i trwa do koñca bitwy.
+"	"{Promieñ os³abienia}
+{Poziom eksperta}
+
+Zmniejsza parametr obrony wybranego wrogiego oddzia³u o 5 punktów. Czar mo¿e byæ rzucany wielokrotnie na ten sam oddzia³ - efekt kumuluje siê i trwa do koñca bitwy.
+"	 COMBAT_SPELL|CREATURE_TARGET_2
+Modlitwa	Modlitwa	4	 	x	 	 	8	6	6	10	0	2	2	4	4	10	5	5	0	0	0	0	0	4	8	8	16	16	"{Modlitwa}
+
+Zwiêksza atak, obronê i szybkoœæ wybranego sojuszniczego oddzia³u o 2 punkty. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Modlitwa}
+{Poziom podstawowy}
+
+Zwiêksza atak, obronê i szybkoœæ wybranego sojuszniczego oddzia³u o 2 punkty. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Modlitwa}
+{Poziom zaawansowany}
+
+Zwiêksza atak, obronê i szybkoœæ wybranego sojuszniczego oddzia³u o 4 punkty. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Modlitwa}
+{Poziom eksperta}
+
+Zwiêksza atak, obronê i szybkoœæ wszystkich sojuszniczych oddzia³ów o 4 punkty. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET_2
+Radoœæ	Radoœæ	1	 	x	 	 	3	2	2	4	0	2	2	3	3	10	10	5	5	0	5	15	5	0	1	1	2	2	"{Radoœæ}
+
+Czar umys³u. Zwiêksza morale wskazanego przyjaznego oddzia³u o 1. 
+"	"{Radoœæ}
+{Poziom podstawowy}
+
+Czar umys³u. Zwiêksza morale wskazanego przyjaznego oddzia³u o 2. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Radoœæ}
+{Poziom zaawansowany}
+
+Czar umys³u. Zwiêksza morale wskazanego przyjaznego oddzia³u o 3. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Radoœæ}
+{Poziom eksperta}
+
+Czar umys³u. Zwiêksza morale wszystkich przyjaznych oddzia³ów o 3. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET_2|MIND_SPELL
+Przygnêbienie	Przygnêbienie	2	x	 	 	 	4	3	3	6	0	2	3	3	3	5	5	5	5	5	3	5	5	5	1	1	2	2	"{Przygnêbienie}
+
+Czar umys³u. Zmniejsza morale wrogiego oddzia³u o 2. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Przygnêbienie}
+{Poziom podstawowy}
+
+Czar umys³u. Zmniejsza morale wrogiego oddzia³u o 2. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Przygnêbienie}
+{Poziom zaawansowany}
+
+Czar umys³u. Zmniejsza morale wrogiego oddzia³u o 3. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Przygnêbienie}
+{Poziom eksperta}
+
+Czar umys³u. Zmniejsza morale wszystkich wrogich oddzia³ów o 3. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET_2|MIND_SPELL
+Fortuna	Fortuna	1	 	 	 	x	2	1	1	2	0	2	2	3	3	5	10	5	5	5	5	5	5	5	1	1	2	2	"{Fortuna}
+
+Zwiêksza szczêœcie wskazanego przyjaznego oddzia³u o 2. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Fortuna}
+{Poziom podstawowy}
+
+Zwiêksza szczêœcie wskazanego przyjaznego oddzia³u o 2. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Fortuna}
+{Poziom zaawansowany}
+
+Zwiêksza szczêœcie wskazanego przyjaznego oddzia³u o 3. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Fortuna}
+{Poziom eksperta}
+
+Zwiêksza szczêœcie wszystkich przyjaznych oddzia³ów o 3. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET_2
+Pech	Pech	1	 	 	x	 	3	2	2	3	0	2	2	3	3	5	5	5	15	10	5	5	5	5	1	1	2	2	"{Pech}
+
+Zmniejsza szczêœcie wrogiego oddzia³u o 2. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Pech}
+{Poziom podstawowy}
+
+Zmniejsza szczêœcie wrogiego oddzia³u o 2. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Pech}
+{Poziom zaawansowany}
+
+Zmniejsza szczêœcie wrogiego oddzia³u o 3. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Pech}
+{Poziom eksperta}
+
+Zmniejsza szczêœcie wszystkich wrogich oddzia³ów o 3. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET_2
+Przyœpieszenie	Przyœpieszenie	3		 	 	x	6	4	4	8	0	3	3	5	5	7	5	5	5	8	5	10	5	5	5	5	10	10	"{Przyœpieszenie}
+
+Zwiêksza szybkoœæ wskazanego sojuszniczego oddzia³u o 3 punkty. Usuwa efekt spowolnienia. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Przyœpieszenie}
+{Poziom podstawowy}
+
+Zwiêksza szybkoœæ wskazanego sojuszniczego oddzia³u o 3 punkty. Usuwa efekt spowolnienia. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Przyœpieszenie}
+{Poziom zaawansowany}
+
+Zwiêksza szybkoœæ wskazanego sojuszniczego oddzia³u o 5 punktów. Usuwa efekt spowolnienia. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Przyœpieszenie}
+{Poziom eksperta}
+
+Zwiêksza szybkoœæ wszystkich sojuszniczych oddzia³ów o 5 punktów. Usuwa efekt spowolnienia. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET_2
+Spowolnienie	Spowolnienie	3	x	 	 	 	6	5	5	10	0	75	75	50	50	5	10	5	5	8	5	7	15	5	5	5	15	15	"{Spowolnienie}
+
+Zmniejsza szybkoœæ wskazanego wrogiego oddzia³u wed³ug formu³y (szybkoœæ oddzia³u x 0.75) z zaokr¹gleniem w dó³. Usuwa efekt przyœpieszenia. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Spowolnienie}
+{Poziom podstawowy}
+
+Zmniejsza szybkoœæ wskazanego wrogiego oddzia³u wed³ug formu³y (szybkoœæ oddzia³u x 0.75) z zaokr¹gleniem w dó³. Usuwa efekt przyœpieszenia. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Spowolnienie}
+{Poziom zaawansowany}
+
+Zmniejsza szybkoœæ wskazanego wrogiego oddzia³u wed³ug formu³y (szybkoœæ oddzia³u x 0.5 + 1) z zaokr¹gleniem w dó³. Usuwa efekt przyœpieszenia. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Spowolnienie}
+{Poziom eksperta}
+
+Zmniejsza szybkoœæ wszystkich wrogich oddzia³ów wed³ug formu³y (szybkoœæ oddzia³u x 0.5 + 1) z zaokr¹gleniem w dó³. Usuwa efekt przyœpieszenia. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET_2
+Pogromca	Pogromca	2	 		x	 	6	4	4	4	0	8	8	8	8	10	5	5	5	0	5	5	3	5	1	1	1	1	"{Pogromca}
+
+Zwiêksza parametr ataku wybranego oddzia³u w walce przeciwko smokom, hydrom,  behemotom, haspidom i couatlom o 8 punktów. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera."	"{Pogromca}
+{Poziom podstawowy}
+
+Zwiêksza parametr ataku wybranego oddzia³u w walce przeciwko smokom, hydrom, behemotom, haspidom i couatlom o 8 punktów. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Pogromca}
+{Poziom zaawansowany}
+
+Zwiêksza parametr ataku wybranego oddzia³u w walce przeciwko smokom, hydrom, behemotom, haspidom, couatlom, anio³om i diab³om o 8 punktów. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Pogromca}
+{Poziom eksperta}
+
+Zwiêksza parametr ataku wybranego oddzia³u w walce przeciwko smokom, hydrom, behemotom, haspidom, couatlom, anio³om, diab³om, gigantom i dreadnotom o 8 punktów. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET
+Sza³	Sza³	3	 	 	x	 	10	8	8	8	0	100	100	150	200	3	5	5	10	0	8	10	5	0	10	10	20	30	"{Sza³}
+
+Czar umys³u. Parametr ataku wybranego oddzia³u zostaje podwojony. Obrona oddzia³u zostaje zredukowana do 0. Czar trwa do momentu, a¿ cel wykona jak¹œ akcjê.
+"	"{Sza³}
+{Poziom podstawowy}
+
+Czar umys³u. Parametr ataku wybranego oddzia³u zostaje podwojony. Obrona oddzia³u zostaje zredukowana do 0. Czar trwa do momentu, a¿ cel wykona jak¹œ akcjê.
+"	"{Sza³}
+{Poziom zaawansowany}
+
+Czar umys³u. Parametr ataku wybranego oddzia³u zostaje zwiêkszony o 150%. Obrona oddzia³u zostaje zredukowana do 0. Czar trwa do momentu, a¿ cel wykona jak¹œ akcjê.
+"	"{Sza³}
+{Poziom eksperta}
+
+Czar umys³u. Parametr ataku wybranego oddzia³u zostaje potrojony. Obrona oddzia³u zostaje zredukowana do 0. Czar trwa do momentu, a¿ cel wykona jak¹œ akcjê.
+"	 COMBAT_SPELL|CREATURE_TARGET|MIND_SPELL
+B³yskawica tytana	B³yskawica tytana	5				x	0	0	0	0	60	600	600	600	600	0	0	0	0	0	0	0	0	0	150	150	150	150	"{B³yskawica tytana}
+
+Œci¹ga uderzenie pioruna na oddzia³ wroga, zadaj¹c mu 600 + (60 x moc) punktów obra¿eñ.
+"	"{B³yskawica tytana}
+
+Œci¹ga uderzenie pioruna na oddzia³ wroga, zadaj¹c mu 600 + (60 x moc) punktów obra¿eñ.
+"	"{B³yskawica tytana}
+
+Œci¹ga uderzenie pioruna na oddzia³ wroga, zadaj¹c mu 600 + (60 x moc) punktów obra¿eñ.
+"	"{B³yskawica tytana}
+
+Œci¹ga uderzenie pioruna na oddzia³ wroga, zadaj¹c mu 600 + (60 x moc) punktów obra¿eñ.
+"	
+Kontratak	Kontratak	1	 	 	 	x	2	1	1	1	0	2	2	3	3	10	5	5	5	5	5	10	5	5	20	20	30	30	"{Kontratak}
+
+Wybrany sojuszniczy oddzia³ otrzymuje dodatkowy kontrataku na turê. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Kontratak}
+{Poziom podstawowy}
+
+Wybrany sojuszniczy oddzia³ otrzymuje dodatkowy kontrataku na turê. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Kontratak}
+{Poziom zaawansowany}
+
+Wybrany sojuszniczy oddzia³ otrzymuje trzy dodatkowe kontrataki na turê. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Kontratak}
+{Poziom eksperta}
+
+Wszystkie sojusznicze oddzia³y otrzymuj¹ dwa dodatkowe kontrataki na turê. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET_2
+Berserk	Berserk	4	 	 	x	 	18	16	16	16	0	0	0	1	2	5	5	5	10	10	5	0	0	5	60	60	60	60	"{Berserk}
+
+Czar umys³u. Wybrany oddzia³ zatakuje najbli¿sz¹ sobie jednostkê. Usuwa efekt hipnozy. Dzia³anie zaklêcia trwa do momentu, a¿ jednostka zaatakuje inny oddzia³.
+"	"{Berserk}
+{Poziom podstawowy}
+
+Czar umys³u. Wybrany oddzia³ zatakuje najbli¿sz¹ sobie jednostkê. Usuwa efekt hipnozy. Dzia³anie zaklêcia trwa do momentu, a¿ jednostka zaatakuje inny oddzia³.
+"	"{Berserk}
+{Poziom zaawansowany}
+
+Czar umys³u. Wybrane oddzia³y w polu dzia³ania czaru zatakuj¹ najbli¿sze sobie jednostki. Usuwa efekt hipnozy. Dzia³anie zaklêcia trwa do momentu, a¿ jednostka zaatakuje inny oddzia³.
+"	"{Berserk}
+{Poziom eksperta}
+
+Czar umys³u. Wybrane oddzia³y w polu dzia³ania czaru zatakuj¹ najbli¿sze sobie jednostki. Usuwa efekt hipnozy. Dzia³anie zaklêcia trwa do momentu, a¿ jednostka zaatakuje inny oddzia³.
+"	 COMBAT_SPELL|CREATURE_TARGET|MIND_SPELL
+Hipnoza	Hipnoza	4	 	 	 	x	18	15	15	15	30	10	10	20	50	5	5	10	5	10	10	0	0	5	15	15	25	50	"{Hipnoza}
+
+Czar umys³u. Gracz przejmuje kontrolê nad wybranym wrogim oddzia³em, o ³¹cznej liczbie punktów ¿ycia równej (10 + 30 x moc). Usuwa efekt berserkera. Oddzia³y sojusznicze mog¹ atakowaæ zahipnotyzowany cel bez obawy o kontratak. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Hipnoza}
+{Poziom podstawowy}
+
+Czar umys³u. Gracz przejmuje kontrolê nad wybranym wrogim oddzia³em, o ³¹cznej liczbie punktów ¿ycia równej (10 + 30 x moc). Usuwa efekt berserkera. Oddzia³y sojusznicze mog¹ atakowaæ zahipnotyzowany cel bez obawy o kontratak. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Hipnoza}
+{Poziom zaawansowany}
+
+Czar umys³u. Gracz przejmuje kontrolê nad wybranym wrogim oddzia³em, o ³¹cznej liczbie punktów ¿ycia równej (20 + 30 x moc). Usuwa efekt berserkera. Oddzia³y sojusznicze mog¹ atakowaæ zahipnotyzowany cel bez obawy o kontratak. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Hipnoza}
+{Poziom eksperta}
+
+Czar umys³u. Gracz przejmuje kontrolê nad wybranym wrogim oddzia³em, o ³¹cznej liczbie punktów ¿ycia równej (50 + 30 x moc). Usuwa efekt berserkera. Oddzia³y sojusznicze mog¹ atakowaæ zahipnotyzowany cel bez obawy o kontratak. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET|MIND_SPELL
+Zapomnienie	Zapomnienie	3	 	x	 	 	7	5	5	9	0	0	0	0	0	5	8	5	5	8	5	5	10	10	1	1	1	1	"{Zapomnienie}
+
+Czar umys³u. Po³owa jednostek we wrogim oddziale zapomina o ataku na odleg³oœæ. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+
+Redukcja obra¿eñ od ataków dystansowych wynosi 50%."	"{Zapomnienie}
+{Poziom podstawowy}
+
+Czar umys³u. Po³owa jednostek we wrogim oddziale zapomina o ataku na odleg³oœæ. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+
+Redukcja obra¿eñ od ataków dystansowych wynosi 50%.
+"	"{Zapomnienie}
+{Poziom zaawansowany}
+
+Czar umys³u. Wszystkie jednostki we wrogim oddziale strzelniczym trac¹ mo¿liwoœæ ataku na odleg³oœæ. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Zapomnienie}
+{Poziom eksperta}
+
+Czar umys³u. Wszystkie wrogie oddzia³y strzelnicze trac¹ mo¿liwoœæ ataku na odleg³oœæ. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET|MIND_SPELL
+Oœlepienie	Oœlepienie	3	 	 	x	 	9	7	7	7	0	50	50	25	0	5	10	5	10	8	10	5	5	5	50	50	50	50	"{Oœlepienie}
+
+Czar umys³u. Oœlepia wybrany oddzia³. Nie mo¿e siê on ruszaæ, a kontratak w jego wykonaniu zadaje 50% mniej obra¿eñ. Oœlepienie trwa, a¿ oddzia³ zostanie zaatakowany b¹dŸ zaklêcie zostanie rozproszone. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Oœlepienie}
+{Poziom podstawowy}
+
+Czar umys³u. Oœlepia wybrany oddzia³. Nie mo¿e siê on ruszaæ, a kontratak w jego wykonaniu zadaje 50% mniej obra¿eñ. Oœlepienie trwa, a¿ oddzia³ zostanie zaatakowany b¹dŸ zaklêcie zostanie rozproszone. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Oœlepienie}
+{Poziom zaawansowany}
+
+Czar umys³u. Oœlepia wybrany oddzia³. Nie mo¿e siê on ruszaæ, a kontratak w jego wykonaniu zadaje 75% mniej obra¿eñ. Oœlepienie trwa, a¿ oddzia³ zostanie zaatakowany b¹dŸ zaklêcie zostanie rozproszone. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	"{Oœlepienie}
+{Poziom eksperta}
+
+Czar umys³u. Oœlepia wybrany oddzia³. Nie mo¿e siê on ruszaæ ani kontratakowaæ. Oœlepienie trwa, a¿ oddzia³ zostanie zaatakowany b¹dŸ zaklêcie zostanie rozproszone. Czas trwania czaru (w turach) odpowiada liczbie posiadanych punktów mocy zaklêæ bohatera.
+"	 COMBAT_SPELL|CREATURE_TARGET
+Teleportacja	Teleportacja	3	 	x	 	 	9	7	5	3	0	0	0	0	0	5	5	15	5	8	5	5	10	5	20	20	20	20	"{Teleport}
+
+Przenosi wybrany przyjazny oddzia³ na dowolne niezajête pole na polu bitwy. Nie mo¿e teleportowaæ za fortyfikacje i fosy.
+"	"{Teleport}
+{Poziom podstawowy}
+
+Przenosi wybrany przyjazny oddzia³ na dowolne niezajête pole na polu bitwy. Nie mo¿e teleportowaæ za fortyfikacje i fosy.
+"	"{Teleport}
+{Poziom zaawansowany}
+
+Przenosi wybrany przyjazny oddzia³ na dowolne niezajête pole na polu bitwy. Nie mo¿e teleportowaæ za fortyfikacje. 
+"	"{Teleport}
+{Poziom eksperta}
+
+Przenosi wybrany przyjazny oddzia³ na dowolne niezajête pole na polu bitwy.
+"	 COMBAT_SPELL|CREATURE_TARGET
+Usuniêcie przeszkody	Usuniêcie przeszkody	1		x	 	 	6	4	4	4	0	0	0	0	0	5	5	5	5	10	5	5	15	5	1	1	1	1	"{Usuniêcie przeszkody}
+
+Usuwa normaln¹ przeszkodê (drzewo, ska³ê, itd.) z pola bitwy zgodnie z wyborem rzucaj¹cego czar.
+"	"{Usuniêcie przeszkody}
+{Poziom podstawowy}
+
+Usuwa normaln¹ przeszkodê (drzewo, ska³ê, itd.) z pola bitwy zgodnie z wyborem rzucaj¹cego czar.
+"	"{Usuniêcie przeszkody}
+{Poziom zaawansowany}
+
+Usuwa normaln¹ przeszkodê (drzewo, ska³ê, itd.) lub œcianê ognia z pola bitwy zgodnie z wyborem rzucaj¹cego czar.
+"	"{Usuniêcie przeszkody}
+{Poziom eksperta}
+
+Usuwa normaln¹ lub magiczn¹ przeszkodê z pola bitwy zgodnie z wyborem rzucaj¹cego czar.
+"	 COMBAT_SPELL|OBSTACLE_TARGET
+Klonowanie	Klonowanie	4	 	x	 	 	18	15	15	15	0	5	5	6	7	5	10	12	5	10	5	0	0	5	20	20	40	50	"{Klonowanie}
+
+Tworzy lustrzane odbicie dowolnego przyjaznego oddzia³u poziomów 1-5, który ma te same w³aœciwoœci co orygina³, ale zostaje zniszczony po pierwszym ataku.
+"	"{Klonowanie}
+{Poziom podstawowy}
+
+Tworzy lustrzane odbicie dowolnego przyjaznego oddzia³u poziomów 1-5, który ma te same w³aœciwoœci co orygina³, ale zostaje zniszczony po pierwszym ataku.
+"	"{Klonowanie}
+{Poziom zaawansowany}
+
+Tworzy lustrzane odbicie dowolnego przyjaznego oddzia³u poziomów 1-6, który ma te same w³aœciwoœci co orygina³, ale zostaje zniszczony po pierwszym ataku.
+"	"{Klonowanie}
+{Poziom eksperta}
+
+Tworzy lustrzane odbicie dowolnego przyjaznego oddzia³u, który ma te same w³aœciwoœci co orygina³, ale zostaje zniszczony po pierwszym ataku.
+"	 COMBAT_SPELL|CREATURE_TARGET
+¯ywio³ak ognia	¯ywio³ak ognia	4			x		23	20	16	16	0	2	2	3	4	0	0	7	10	0	10	0	0	11	40	50	60	70	"{Przyzwanie ¿ywio³aka ognia}
+
+Przyzywa oddzia³ ¿ywio³aków ognia po stronie bohatera rzucaj¹cego czar. 
+"	"{Przyzwanie ¿ywio³aka ognia}
+{Poziom podstawowy}
+
+Przyzywa oddzia³ ¿ywio³aków ognia po stronie bohatera rzucaj¹cego czar.
+"	"{Przyzwanie ¿ywio³aka ognia}
+{Poziom zaawansowany}
+
+Przyzywa oddzia³ ¿ywio³aków ognia po stronie bohatera rzucaj¹cego czar. 
+"	"{Przyzwanie ¿ywio³aka ognia}
+{Poziom eksperta}
+
+Przyzywa oddzia³ ¿ywio³aków ognia po stronie bohatera rzucaj¹cego czar. 
+"	 COMBAT_SPELL
+¯ywio³ak ziemi	¯ywio³ak ziemi	4	x				24	21	17	17	0	2	2	3	4	10	10	7	10	10	10	0	0	11	40	50	60	70	"{Przyzwanie ¿ywio³aka ziemi}
+
+Przyzywa oddzia³ ¿ywio³aków ziemi po stronie bohatera rzucaj¹cego czar. 
+"	"{Przyzwanie ¿ywio³aka ziemi}
+{Poziom podstawowy}
+
+Przyzywa oddzia³ ¿ywio³aków ziemi po stronie bohatera rzucaj¹cego czar. 
+"	"{Przyzwanie ¿ywio³aka ziemi}
+{Poziom zaawansowany}
+
+Przyzywa oddzia³ ¿ywio³aków ziemi po stronie bohatera rzucaj¹cego czar. 
+"	"{Przyzwanie ¿ywio³aka ziemi}
+{Poziom eksperta}
+
+Przyzywa oddzia³ ¿ywio³aków ziemi po stronie bohatera rzucaj¹cego czar. 
+"	 COMBAT_SPELL
+¯ywio³ak wody	¯ywio³ak wody	4		x			22	19	19	19	0	2	2	3	4	10	10	7	0	10	10	0	0	11	40	50	60	70	"{Przyzwanie ¿ywio³aka wody}
+
+Przyzywa oddzia³ ¿ywio³aków wody po stronie bohatera rzucaj¹cego czar. 
+"	"{Przyzwanie ¿ywio³aka wody}
+{Poziom podstawowy}
+
+Przyzywa oddzia³ ¿ywio³aków wody po stronie bohatera rzucaj¹cego czar. 
+"	"{Przyzwanie ¿ywio³aka wody}
+{Poziom zaawansowany}
+
+Przyzywa oddzia³ ¿ywio³aków wody po stronie bohatera rzucaj¹cego czar. 
+"	"{Przyzwanie ¿ywio³aka wody}
+{Poziom eksperta}
+
+Przyzywa oddzia³ ¿ywio³aków wody po stronie bohatera rzucaj¹cego czar. 
+"	 COMBAT_SPELL
+¯ywio³ak powietrza	¯ywio³ak powietrza	4				x	22	19	19	19	0	2	2	3	4	10	10	7	10	10	0	0	0	11	40	50	60	70	"{Przyzwanie ¿ywio³aka powietrza}
+
+Przyzywa oddzia³ ¿ywio³aków powietrza po stronie bohatera rzucaj¹cego czar. 
+"	"{Przyzwanie ¿ywio³aka powietrza}
+{Poziom podstawowy}
+
+Przyzywa oddzia³ ¿ywio³aków powietrza po stronie bohatera rzucaj¹cego czar. 
+"	"{Przyzwanie ¿ywio³aka powietrza}
+{Poziom zaawansowany}
+
+Przyzywa oddzia³ ¿ywio³aków powietrza po stronie bohatera rzucaj¹cego czar. 
+"	"{Przyzwanie ¿ywio³aka powietrza}
+{Poziom eksperta}
+
+Przyzywa oddzia³ ¿ywio³aków powietrza po stronie bohatera rzucaj¹cego czar. 
+"	 COMBAT_SPELL
+																																	
+Creature Abilities																																	
+																																	
+Kamienne spojrzenie	Kamienne spojrzenie	3					0	0	0	0	0	0	0	0	0	12	13	12	13	12	13	12	13	13	1	1	1	1					 CREATURE_SPELL
+Trucizna	Trucizna	0					0	0	0	0	0	0	0	0	0	12	13	12	13	12	13	12	13	13	1	1	1	1					 CREATURE_SPELL
+Spêtanie	Spêtanie	0					0	0	0	0	0	0	0	0	0	12	13	12	13	12	13	12	13	13	1	1	1	1					 CREATURE_SPELL
+Choroba	Choroba	2					0	0	0	0	0	0	0	0	0	12	13	12	13	12	13	12	13	13	1	1	1	1					 CREATURE_SPELL
+Parali¿	Parali¿	4					0	0	0	0	0	0	0	0	0	12	13	12	13	12	13	12	13	13	1	1	1	1					 CREATURE_SPELL
+Staroœæ	Staroœæ	0					0	0	0	0	0	0	0	0	0	12	13	12	13	12	13	12	13	13	1	1	1	1					 CREATURE_SPELL
+Œmiertelny ob³ok	Œmiertelny ob³ok	0					0	0	0	0	0	0	0	0	0	12	13	12	13	12	13	12	13	13	1	1	1	1					 CREATURE_SPELL
+Piorun	Piorun	2					0	0	0	0	0	0	0	0	0	12	13	12	13	12	13	12	13	13	1	1	1	1					 CREATURE_SPELL
+Pomocne zaklêcia	Pomocne zaklêcia	0					0	0	0	0	0	0	0	0	0	1	1	1	1	1	1	1	1	1	1	1	1	1					
+Spojrzenie œmierci	Spojrzenie œmierci	0					0	0	0	0	0	0	0	0	0	1	1	1	1	1	1	1	1	1	1	1	1	1					
+Zioniêcie kwasem	Zioniêcie kwasem	0					0	0	0	0	0	0	0	0	0	1	1	1	1	1	1	1	1	1	1	1	1	1					
+																
